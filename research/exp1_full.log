@@ -1,0 +1,57 @@
+[exp1] 60/840 cells  12s
+[exp1] 120/840 cells  22s
+[exp1] 180/840 cells  33s
+[exp1] 240/840 cells  55s
+[exp1] 300/840 cells  90s
+[exp1] 360/840 cells  143s
+[exp1] 420/840 cells  196s
+[exp1] 480/840 cells  196s
+[exp1] 540/840 cells  197s
+[exp1] 600/840 cells  211s
+[exp1] 660/840 cells  234s
+[exp1] 720/840 cells  272s
+[exp1] 780/840 cells  321s
+[exp1] 840/840 cells  355s
+[exp1] all done in 446s
+{
+ "n_cells": 840,
+ "optimal": {
+  "B": 336,
+  "C": 342,
+  "A": 162
+ },
+ "regret_D": {
+  "mean": 0.85068,
+  "min": 0.0,
+  "max": 18.67248
+ },
+ "regret_CBO": {
+  "mean": 0.26148,
+  "min": 0.0,
+  "max": 0.99676
+ },
+ "d_vs_cbo": {
+  "n": 840,
+  "strictly_better": 72,
+  "equal": 609,
+  "strictly_worse": 159,
+  "mean_ratio": 1.39609
+ },
+ "C_over_A": {
+  "mean": 0.61319,
+  "min": 0.0082,
+  "max": 1.0
+ },
+ "C_over_B": {
+  "mean": 0.49018,
+  "min": 0.01,
+  "max": 1.0042
+ },
+ "plan_hist": {
+  "EAGER": 22,
+  "LATE_PERSIST": 4973,
+  "PER_QUERY": 1445
+ },
+ "traces": 38640,
+ "runtime_s": 446.2
+}

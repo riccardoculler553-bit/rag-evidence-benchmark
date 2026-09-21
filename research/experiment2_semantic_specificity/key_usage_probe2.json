@@ -1,0 +1,61 @@
+{
+ "using_fallback": false,
+ "switches": 0,
+ "rate_limit_events": 0,
+ "fallback_failures": 0,
+ "total_tokens": 78536,
+ "per_backend": {
+  "glm_key0": {
+   "eq": "glm_key0",
+   "calls": 528,
+   "prompt_tokens": 65820,
+   "completion_tokens": 12716,
+   "cached_tokens": 32433,
+   "cost": 0.057330880000000035,
+   "errors": 0,
+   "rate_limits": 0,
+   "latency_ms_sum": 702670.4695224762
+  },
+  "glm_key1": {
+   "eq": "glm_key1",
+   "calls": 0,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "cached_tokens": 0,
+   "cost": 0.0,
+   "errors": 0,
+   "rate_limits": 0,
+   "latency_ms_sum": 0.0
+  },
+  "free_fallback": {
+   "eq": "free_fallback",
+   "calls": 0,
+   "prompt_tokens": 0,
+   "completion_tokens": 0,
+   "cached_tokens": 0,
+   "cost": 0.0,
+   "errors": 0,
+   "rate_limits": 0,
+   "latency_ms_sum": 0.0,
+   "provider": "siliconflow",
+   "model": "Qwen/Qwen2.5-7B-Instruct"
+  }
+ },
+ "total_cost_yuan": 0.057331,
+ "pricing": {
+  "glm": {
+   "input_per_m": 0.8,
+   "output_short_per_m": 2.0,
+   "output_long_per_m": 6.0,
+   "cache_hit_per_m": 0.16,
+   "output_short_limit": 200,
+   "version": "bigmodel-2026.09"
+  },
+  "fallback": {
+   "input_per_m": 0.35,
+   "output_per_m": 0.35,
+   "cache_hit_per_m": 0.0,
+   "version": "siliconflow-public-approx"
+  }
+ }
+}

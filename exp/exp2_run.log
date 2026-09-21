@@ -1,0 +1,25 @@
+== key 轮换 / 兜底演练 ==
+  drill done
+  cell ecom|s1|r1: B_pt=3840 C_pt=384 tot=76275 q=1.00/1.00/1.00
+  cell ecom|s1|r10: B_pt=3840 C_pt=384 tot=81269 q=1.00/1.00/1.00
+  cell ecom|s1|r50: B_pt=3840 C_pt=384 tot=86263 q=1.00/1.00/1.00
+  cell ecom|s10|r1: B_pt=62260 C_pt=6226 tot=166983 q=1.00/1.00/1.00
+  cell ecom|s10|r10: B_pt=62260 C_pt=6226 tot=247711 q=1.00/1.00/1.00
+  cell ecom|s10|r50: B_pt=62260 C_pt=6226 tot=328447 q=1.00/1.00/1.00
+  cell ecom|s50|r1: B_pt=113520 C_pt=28380 tot=495837 q=1.00/1.00/1.00
+  cell ecom|s50|r10: B_pt=113520 C_pt=28380 tot=663227 q=1.00/1.00/1.00
+  cell ecom|s50|r50: B_pt=113520 C_pt=28380 tot=830597 q=1.00/1.00/1.00
+  cell ecom|s100|r1: B_pt=120780 C_pt=60390 tot=1044361 q=1.00/1.00/1.00
+  cell ecom|s100|r10: B_pt=120780 C_pt=60390 tot=1258125 q=1.00/1.00/1.00
+  cell ecom|s100|r50: B_pt=120780 C_pt=60390 tot=1471881 q=1.00/1.00/1.00
+  cell finproc|s1|r1: B_pt=7160 C_pt=716 tot=1547366 q=1.00/1.00/1.00
+  cell finproc|s1|r10: B_pt=7160 C_pt=716 tot=1556826 q=1.00/1.00/1.00
+  cell finproc|s1|r50: B_pt=7160 C_pt=716 tot=1566286 q=1.00/1.00/1.00
+  cell finproc|s10|r1: B_pt=50100 C_pt=5010 tot=1631937 q=1.00/1.00/1.00
+  cell finproc|s10|r10: B_pt=50100 C_pt=5010 tot=1697588 q=1.00/1.00/1.00
+  cell finproc|s10|r50: B_pt=50100 C_pt=5010 tot=1763248 q=1.00/1.00/1.00
+  cell finproc|s50|r1: B_pt=111088 C_pt=27772 tot=1928540 q=1.00/1.00/1.00
+  cell finproc|s50|r10: B_pt=136756 C_pt=36318 tot=2124203 q=1.00/1.00/1.00
+  cell finproc|s50|r50: B_pt=145272 C_pt=36318 tot=2327418 q=1.00/1.00/1.00
+  cell finproc|s100|r1: B_pt=144916 C_pt=72458 tot=2570568 q=1.00/1.00/1.00
+  cell finproc|s100|r10: B_pt=144916 C_pt=72458 tot=2813718 q=1.00/1.00/1.00

@@ -1,0 +1,18 @@
+{
+ "rule": "UpperCI_(1-δ) ≤ ε，Clopper–Pearson 精确单侧上界",
+ "summary": {
+  "n_capabilities": 4,
+  "legacy_set": {
+   "n_pass_new": 0,
+   "n_pass_old": 4
+  },
+  "group_stratified_set": {
+   "n_pass_new": 1,
+   "n_pass_old": 4
+  },
+  "required_n_zero_failure": 149,
+  "interpretation": "① 判据修复：PASS 现在唯一定义为 Clopper–Pearson 单侧上界 ≤ ε(=2%)（δ=5%），取代旧的 Wilson 上界 ≤ 20%。② 旧判据过宽（等价于容忍 20% 错误率），不能作为生产门禁；新判据下 mock capability 全部 FAIL —— 这是正确结论：在 n=300 下若要断言总体误差 ≤2%，最多只允许 1 次错误（见 max_errors_allowed_for_pass）。③ 因此 mock 能力只能用于因果实验（同源误差对 A/B 无偏），不可用于生产部署；生产部署需要更高精度 capability 或更大 n。"
+ },
+ "required_n_zero_failure": 149,
+ "note": "ε=2%（Clopper–Pearson 单侧上界，δ=5%）；mock capability 未全部通过，故不得宣称生产级可靠性。"
+}

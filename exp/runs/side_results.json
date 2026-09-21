@@ -1,0 +1,120 @@
+{
+ "snapshot": "7da34d5f450ee09f0f1cba46c5bd4661",
+ "S1_multi_use": {
+  "ecom_reuse10": {
+   "domain": "ecom",
+   "reuse": 10,
+   "survivors": 531,
+   "build_once_cost": 0.137234,
+   "amortized_cost_once_reuse": 0.0151513,
+   "amortized_cost_repeated_operator": 0.1386088,
+   "amortized_reduction": 0.89069,
+   "amortized_cost_once_reuse_cacheOFF": 0.1509574,
+   "amortized_reduction_cacheOFF": -0.08909
+  },
+  "ecom_reuse50": {
+   "domain": "ecom",
+   "reuse": 50,
+   "survivors": 531,
+   "build_once_cost": 0.137234,
+   "amortized_cost_once_reuse": 0.00417258,
+   "amortized_cost_repeated_operator": 0.1386088,
+   "amortized_reduction": 0.9699,
+   "amortized_cost_once_reuse_cacheOFF": 0.13997868,
+   "amortized_reduction_cacheOFF": -0.00988
+  },
+  "ecom_reuse100": {
+   "domain": "ecom",
+   "reuse": 100,
+   "survivors": 531,
+   "build_once_cost": 0.137234,
+   "amortized_cost_once_reuse": 0.00280024,
+   "amortized_cost_repeated_operator": 0.1386088,
+   "amortized_reduction": 0.9798,
+   "amortized_cost_once_reuse_cacheOFF": 0.13860634,
+   "amortized_reduction_cacheOFF": 2e-05
+  },
+  "finproc_reuse10": {
+   "domain": "finproc",
+   "reuse": 10,
+   "survivors": 533,
+   "build_once_cost": 0.101592,
+   "amortized_cost_once_reuse": 0.0115889,
+   "amortized_cost_repeated_operator": 0.1029684,
+   "amortized_reduction": 0.88745,
+   "amortized_cost_once_reuse_cacheOFF": 0.1117512,
+   "amortized_reduction_cacheOFF": -0.0853
+  },
+  "finproc_reuse50": {
+   "domain": "finproc",
+   "reuse": 50,
+   "survivors": 533,
+   "build_once_cost": 0.101592,
+   "amortized_cost_once_reuse": 0.00346154,
+   "amortized_cost_repeated_operator": 0.1029684,
+   "amortized_reduction": 0.96638,
+   "amortized_cost_once_reuse_cacheOFF": 0.10362384,
+   "amortized_reduction_cacheOFF": -0.00637
+  },
+  "finproc_reuse100": {
+   "domain": "finproc",
+   "reuse": 100,
+   "survivors": 533,
+   "build_once_cost": 0.101592,
+   "amortized_cost_once_reuse": 0.00244562,
+   "amortized_cost_repeated_operator": 0.1029684,
+   "amortized_reduction": 0.97625,
+   "amortized_cost_once_reuse_cacheOFF": 0.10260792,
+   "amortized_reduction_cacheOFF": 0.0035
+  }
+ },
+ "S2_tada_matched": {
+  "T1_native_tada_tagging_only": {
+   "n": 300,
+   "cost_A": 2.25923869,
+   "cost_B": 0.8334277,
+   "cost_reduction": 0.63159,
+   "work_reduction": 0.63216,
+   "quality_delta": 0.0
+  },
+  "T2_matched_representation_all": {
+   "n": 600,
+   "cost_A": 2.42334967,
+   "cost_B": 0.89277046,
+   "cost_reduction": 0.63181,
+   "work_reduction": 0.63216,
+   "quality_delta": 0.0
+  },
+  "note": "T2 使用与 T1 完全相同的 model/prompt/schema/row payload，仅改 Build Position；若 T2 仍显示收益，则收益来自 Build Position 而非 representation design。"
+ },
+ "S3_validation_cost": {
+  "validation_cost_mean": 0.00294221,
+  "validation_share_of_total_B": 0.00326,
+  "validation_over_semantic_saving": 0.00192,
+  "total_A": 2.42334967,
+  "total_B": 0.89277046,
+  "semantic_saving_abs": 1.53057921,
+  "budget_total_limit": 0.1,
+  "protocol": {
+   "mode": "V1_CACHED_CERTIFICATE",
+   "sequential_sampling": [
+    30,
+    60,
+    120,
+    240,
+    300
+   ],
+   "epsilon": 0.02,
+   "delta": 0.05,
+   "certificate_ttl_queries": 10000
+  }
+ },
+ "S4_low_selectivity_safety": {
+  "n": 160,
+  "cost_ratio": 0.8749,
+  "quality_delta": 0.0,
+  "p95_ratio": 1.0,
+  "limit": 1.1,
+  "safe": true
+ }
+}

@@ -1,0 +1,2298 @@
+{
+ "probe": "E2_real_micro_probe",
+ "model": "glm-4.5-air",
+ "temperature": 0,
+ "thinking": "disabled",
+ "snapshot": "7da34d5f450ee09f0f1cba46c5bd4661",
+ "n_calls": 280,
+ "usage": {
+  "using_fallback": false,
+  "switches": 0,
+  "rate_limit_events": 0,
+  "fallback_failures": 0,
+  "total_tokens": 29825,
+  "per_backend": {
+   "glm_key0": {
+    "eq": "glm_key0",
+    "calls": 280,
+    "prompt_tokens": 24822,
+    "completion_tokens": 5003,
+    "cached_tokens": 15029,
+    "cost": 0.020245039999999985,
+    "errors": 0,
+    "rate_limits": 0,
+    "latency_ms_sum": 304656.59070014954
+   },
+   "glm_key1": {
+    "eq": "glm_key1",
+    "calls": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cached_tokens": 0,
+    "cost": 0.0,
+    "errors": 0,
+    "rate_limits": 0,
+    "latency_ms_sum": 0.0
+   },
+   "free_fallback": {
+    "eq": "free_fallback",
+    "calls": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cached_tokens": 0,
+    "cost": 0.0,
+    "errors": 0,
+    "rate_limits": 0,
+    "latency_ms_sum": 0.0,
+    "provider": "siliconflow",
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+   }
+  },
+  "total_cost_yuan": 0.020245,
+  "pricing": {
+   "glm": {
+    "input_per_m": 0.8,
+    "output_short_per_m": 2.0,
+    "output_long_per_m": 6.0,
+    "cache_hit_per_m": 0.16,
+    "output_short_limit": 200,
+    "version": "bigmodel-2026.09"
+   },
+   "fallback": {
+    "input_per_m": 0.35,
+    "output_per_m": 0.35,
+    "cache_hit_per_m": 0.0,
+    "version": "siliconflow-public-approx"
+   }
+  }
+ },
+ "used_tokens": 29825,
+ "cost_yuan": 0.020245,
+ "wall_clock_sec": 40.6,
+ "all_primary_model_only": true,
+ "P1_cost_vs_length": {
+  "n": 24,
+  "payload_len_range": [
+   38,
+   50
+  ],
+  "prompt_tokens_range": [
+   79,
+   87
+  ],
+  "mean_prompt_tokens": 83.42,
+  "pearson_len_pt": 0.9533,
+  "pt_per_char": 1.80523,
+  "label_accuracy": 1,
+  "rows": [
+   {
+    "row_id": "ECOM-00486",
+    "payload_len": 38,
+    "pt": 79,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 1822.3,
+    "pred": "refund_request",
+    "oracle": "refund_request",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-08184",
+    "payload_len": 39,
+    "pt": 79,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 1827.9,
+    "pred": "refund_request",
+    "oracle": "refund_request",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-04068",
+    "payload_len": 40,
+    "pt": 81,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 1821.5,
+    "pred": "refund_request",
+    "oracle": "refund_request",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-08818",
+    "payload_len": 40,
+    "pt": 79,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 1821.8,
+    "pred": "refund_request",
+    "oracle": "refund_request",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-04852",
+    "payload_len": 41,
+    "pt": 79,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 1822.0,
+    "pred": "refund_request",
+    "oracle": "refund_request",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-00718",
+    "payload_len": 42,
+    "pt": 80,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 1822.6,
+    "pred": "refund_request",
+    "oracle": "refund_request",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-06634",
+    "payload_len": 42,
+    "pt": 79,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 1822.0,
+    "pred": "refund_request",
+    "oracle": "refund_request",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-07036",
+    "payload_len": 43,
+    "pt": 80,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 1834.0,
+    "pred": "refund_request",
+    "oracle": "refund_request",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-05384",
+    "payload_len": 46,
+    "pt": 82,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 388.6,
+    "pred": "refund_request",
+    "oracle": "refund_request",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-03918",
+    "payload_len": 48,
+    "pt": 85,
+    "ct": 12,
+    "backend": "glm_key0",
+    "latency_ms": 444.1,
+    "pred": "refund_request",
+    "oracle": "refund_request",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-00766",
+    "payload_len": 49,
+    "pt": 85,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 358.5,
+    "pred": "address_change",
+    "oracle": "address_change",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-01741",
+    "payload_len": 49,
+    "pt": 86,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 404.7,
+    "pred": "address_change",
+    "oracle": "address_change",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-02741",
+    "payload_len": 49,
+    "pt": 86,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 395.7,
+    "pred": "address_change",
+    "oracle": "address_change",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-03705",
+    "payload_len": 49,
+    "pt": 86,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 397.6,
+    "pred": "address_change",
+    "oracle": "address_change",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-04698",
+    "payload_len": 49,
+    "pt": 86,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 395.7,
+    "pred": "address_change",
+    "oracle": "address_change",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-05707",
+    "payload_len": 49,
+    "pt": 85,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 373.6,
+    "pred": "address_change",
+    "oracle": "address_change",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-06691",
+    "payload_len": 49,
+    "pt": 85,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 412.4,
+    "pred": "address_change",
+    "oracle": "address_change",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-07714",
+    "payload_len": 49,
+    "pt": 86,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 453.2,
+    "pred": "address_change",
+    "oracle": "address_change",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-08764",
+    "payload_len": 49,
+    "pt": 84,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 365.2,
+    "pred": "address_change",
+    "oracle": "address_change",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-09780",
+    "payload_len": 49,
+    "pt": 85,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 386.8,
+    "pred": "address_change",
+    "oracle": "address_change",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-00716",
+    "payload_len": 50,
+    "pt": 86,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 438.0,
+    "pred": "address_change",
+    "oracle": "address_change",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-01816",
+    "payload_len": 50,
+    "pt": 87,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 387.1,
+    "pred": "address_change",
+    "oracle": "address_change",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-02905",
+    "payload_len": 50,
+    "pt": 85,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 406.6,
+    "pred": "address_change",
+    "oracle": "address_change",
+    "correct": 1
+   },
+   {
+    "row_id": "ECOM-03939",
+    "payload_len": 50,
+    "pt": 87,
+    "ct": 8,
+    "backend": "glm_key0",
+    "latency_ms": 369.1,
+    "pred": "address_change",
+    "oracle": "address_change",
+    "correct": 1
+   }
+  ]
+ },
+ "P2_bundling": {
+  "n": 24,
+  "mean_prompt_tokens": {
+   "V1_1field": 83.417,
+   "V2_2fields": 110.417,
+   "V4_4fields": 142.417,
+   "V4SEP_4separate_calls": 299.67
+  },
+  "mean_completion_tokens": {
+   "V4_4fields": 62.542,
+   "V4SEP_4separate_calls": 72.71
+  },
+  "marginal_prompt_token_per_field": {
+   "f2_minus_f1": 27.0,
+   "f4_minus_f2_over2": 16.0,
+   "separate_per_field": 74.92
+  },
+  "sub_additive_cost": true,
+  "cost_ratio_4fields_vs_4calls": 0.4752,
+  "accuracy": {
+   "V1_label": 1,
+   "V2_label": 1,
+   "V4_label": 1,
+   "V2_amount": 1,
+   "V4_amount": 1,
+   "V4_parse_ok": 1
+  },
+  "rows": [
+   {
+    "row_id": "ECOM-00486",
+    "payload_len": 38,
+    "sep": [
+     {
+      "pt": 79,
+      "ct": 8
+     },
+     {
+      "pt": 70,
+      "ct": 12
+     },
+     {
+      "pt": 70,
+      "ct": 12
+     },
+     {
+      "pt": 63,
+      "ct": 37
+     }
+    ],
+    "V1": {
+     "pt": 79,
+     "ct": 8,
+     "label": "refund_request",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 106,
+     "ct": 19,
+     "label": "refund_request",
+     "amount": 398,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 138,
+     "ct": 58,
+     "label": "refund_request",
+     "amount": 398,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "refund_request",
+    "oracle_amount": 398,
+    "sep_pt_total": 282,
+    "sep_ct_total": 69
+   },
+   {
+    "row_id": "ECOM-08184",
+    "payload_len": 39,
+    "sep": [
+     {
+      "pt": 79,
+      "ct": 8
+     },
+     {
+      "pt": 70,
+      "ct": 12
+     },
+     {
+      "pt": 70,
+      "ct": 12
+     },
+     {
+      "pt": 63,
+      "ct": 37
+     }
+    ],
+    "V1": {
+     "pt": 79,
+     "ct": 8,
+     "label": "refund_request",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 106,
+     "ct": 19,
+     "label": "refund_request",
+     "amount": 1598,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 138,
+     "ct": 58,
+     "label": "refund_request",
+     "amount": 1598,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "refund_request",
+    "oracle_amount": 1598,
+    "sep_pt_total": 282,
+    "sep_ct_total": 69
+   },
+   {
+    "row_id": "ECOM-04068",
+    "payload_len": 40,
+    "sep": [
+     {
+      "pt": 81,
+      "ct": 8
+     },
+     {
+      "pt": 72,
+      "ct": 8
+     },
+     {
+      "pt": 72,
+      "ct": 12
+     },
+     {
+      "pt": 65,
+      "ct": 39
+     }
+    ],
+    "V1": {
+     "pt": 81,
+     "ct": 8,
+     "label": "refund_request",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 108,
+     "ct": 19,
+     "label": "refund_request",
+     "amount": 638,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 140,
+     "ct": 60,
+     "label": "refund_request",
+     "amount": 638,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "refund_request",
+    "oracle_amount": 638,
+    "sep_pt_total": 290,
+    "sep_ct_total": 67
+   },
+   {
+    "row_id": "ECOM-08818",
+    "payload_len": 40,
+    "sep": [
+     {
+      "pt": 79,
+      "ct": 8
+     },
+     {
+      "pt": 70,
+      "ct": 12
+     },
+     {
+      "pt": 70,
+      "ct": 12
+     },
+     {
+      "pt": 63,
+      "ct": 37
+     }
+    ],
+    "V1": {
+     "pt": 79,
+     "ct": 8,
+     "label": "refund_request",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 106,
+     "ct": 19,
+     "label": "refund_request",
+     "amount": 1478,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 138,
+     "ct": 58,
+     "label": "refund_request",
+     "amount": 1478,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "refund_request",
+    "oracle_amount": 1478,
+    "sep_pt_total": 282,
+    "sep_ct_total": 69
+   },
+   {
+    "row_id": "ECOM-04852",
+    "payload_len": 41,
+    "sep": [
+     {
+      "pt": 79,
+      "ct": 8
+     },
+     {
+      "pt": 70,
+      "ct": 13
+     },
+     {
+      "pt": 70,
+      "ct": 12
+     },
+     {
+      "pt": 63,
+      "ct": 37
+     }
+    ],
+    "V1": {
+     "pt": 79,
+     "ct": 8,
+     "label": "refund_request",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 106,
+     "ct": 20,
+     "label": "refund_request",
+     "amount": 2577,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 138,
+     "ct": 59,
+     "label": "refund_request",
+     "amount": 2577,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "refund_request",
+    "oracle_amount": 2577,
+    "sep_pt_total": 282,
+    "sep_ct_total": 70
+   },
+   {
+    "row_id": "ECOM-00718",
+    "payload_len": 42,
+    "sep": [
+     {
+      "pt": 80,
+      "ct": 8
+     },
+     {
+      "pt": 71,
+      "ct": 13
+     },
+     {
+      "pt": 71,
+      "ct": 12
+     },
+     {
+      "pt": 64,
+      "ct": 38
+     }
+    ],
+    "V1": {
+     "pt": 80,
+     "ct": 8,
+     "label": "refund_request",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 107,
+     "ct": 20,
+     "label": "refund_request",
+     "amount": 2937,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 139,
+     "ct": 60,
+     "label": "refund_request",
+     "amount": 2937,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "refund_request",
+    "oracle_amount": 2937,
+    "sep_pt_total": 286,
+    "sep_ct_total": 71
+   },
+   {
+    "row_id": "ECOM-06634",
+    "payload_len": 42,
+    "sep": [
+     {
+      "pt": 79,
+      "ct": 8
+     },
+     {
+      "pt": 70,
+      "ct": 8
+     },
+     {
+      "pt": 70,
+      "ct": 12
+     },
+     {
+      "pt": 63,
+      "ct": 37
+     }
+    ],
+    "V1": {
+     "pt": 79,
+     "ct": 8,
+     "label": "refund_request",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 106,
+     "ct": 19,
+     "label": "refund_request",
+     "amount": 816,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 138,
+     "ct": 58,
+     "label": "refund_request",
+     "amount": 816,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "refund_request",
+    "oracle_amount": 816,
+    "sep_pt_total": 282,
+    "sep_ct_total": 65
+   },
+   {
+    "row_id": "ECOM-07036",
+    "payload_len": 43,
+    "sep": [
+     {
+      "pt": 80,
+      "ct": 8
+     },
+     {
+      "pt": 71,
+      "ct": 8
+     },
+     {
+      "pt": 71,
+      "ct": 12
+     },
+     {
+      "pt": 64,
+      "ct": 38
+     }
+    ],
+    "V1": {
+     "pt": 80,
+     "ct": 8,
+     "label": "refund_request",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 107,
+     "ct": 19,
+     "label": "refund_request",
+     "amount": 702,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 139,
+     "ct": 59,
+     "label": "refund_request",
+     "amount": 702,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "refund_request",
+    "oracle_amount": 702,
+    "sep_pt_total": 286,
+    "sep_ct_total": 66
+   },
+   {
+    "row_id": "ECOM-05384",
+    "payload_len": 46,
+    "sep": [
+     {
+      "pt": 82,
+      "ct": 8
+     },
+     {
+      "pt": 73,
+      "ct": 7
+     },
+     {
+      "pt": 73,
+      "ct": 12
+     },
+     {
+      "pt": 66,
+      "ct": 40
+     }
+    ],
+    "V1": {
+     "pt": 82,
+     "ct": 8,
+     "label": "refund_request",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 109,
+     "ct": 18,
+     "label": "refund_request",
+     "amount": 360,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 141,
+     "ct": 60,
+     "label": "refund_request",
+     "amount": 360,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "refund_request",
+    "oracle_amount": 360,
+    "sep_pt_total": 294,
+    "sep_ct_total": 67
+   },
+   {
+    "row_id": "ECOM-03918",
+    "payload_len": 48,
+    "sep": [
+     {
+      "pt": 85,
+      "ct": 12
+     },
+     {
+      "pt": 76,
+      "ct": 12
+     },
+     {
+      "pt": 76,
+      "ct": 12
+     },
+     {
+      "pt": 69,
+      "ct": 43
+     }
+    ],
+    "V1": {
+     "pt": 85,
+     "ct": 12,
+     "label": "refund_request",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 112,
+     "ct": 19,
+     "label": "refund_request",
+     "amount": 878,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 144,
+     "ct": 64,
+     "label": "refund_request",
+     "amount": 878,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "refund_request",
+    "oracle_amount": 878,
+    "sep_pt_total": 306,
+    "sep_ct_total": 79
+   },
+   {
+    "row_id": "ECOM-00766",
+    "payload_len": 49,
+    "sep": [
+     {
+      "pt": 85,
+      "ct": 8
+     },
+     {
+      "pt": 76,
+      "ct": 12
+     },
+     {
+      "pt": 76,
+      "ct": 12
+     },
+     {
+      "pt": 69,
+      "ct": 43
+     }
+    ],
+    "V1": {
+     "pt": 85,
+     "ct": 8,
+     "label": "address_change",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 112,
+     "ct": 19,
+     "label": "address_change",
+     "amount": 417,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 144,
+     "ct": 64,
+     "label": "address_change",
+     "amount": 417,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "address_change",
+    "oracle_amount": 417,
+    "sep_pt_total": 306,
+    "sep_ct_total": 75
+   },
+   {
+    "row_id": "ECOM-01741",
+    "payload_len": 49,
+    "sep": [
+     {
+      "pt": 86,
+      "ct": 8
+     },
+     {
+      "pt": 77,
+      "ct": 8
+     },
+     {
+      "pt": 77,
+      "ct": 12
+     },
+     {
+      "pt": 70,
+      "ct": 44
+     }
+    ],
+    "V1": {
+     "pt": 86,
+     "ct": 8,
+     "label": "address_change",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 113,
+     "ct": 19,
+     "label": "address_change",
+     "amount": 878,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 145,
+     "ct": 65,
+     "label": "address_change",
+     "amount": 878,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "address_change",
+    "oracle_amount": 878,
+    "sep_pt_total": 310,
+    "sep_ct_total": 72
+   },
+   {
+    "row_id": "ECOM-02741",
+    "payload_len": 49,
+    "sep": [
+     {
+      "pt": 86,
+      "ct": 8
+     },
+     {
+      "pt": 77,
+      "ct": 12
+     },
+     {
+      "pt": 77,
+      "ct": 12
+     },
+     {
+      "pt": 70,
+      "ct": 44
+     }
+    ],
+    "V1": {
+     "pt": 86,
+     "ct": 8,
+     "label": "address_change",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 113,
+     "ct": 19,
+     "label": "address_change",
+     "amount": 702,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 145,
+     "ct": 65,
+     "label": "address_change",
+     "amount": 702,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "address_change",
+    "oracle_amount": 702,
+    "sep_pt_total": 310,
+    "sep_ct_total": 76
+   },
+   {
+    "row_id": "ECOM-03705",
+    "payload_len": 49,
+    "sep": [
+     {
+      "pt": 86,
+      "ct": 8
+     },
+     {
+      "pt": 77,
+      "ct": 12
+     },
+     {
+      "pt": 77,
+      "ct": 12
+     },
+     {
+      "pt": 70,
+      "ct": 44
+     }
+    ],
+    "V1": {
+     "pt": 86,
+     "ct": 8,
+     "label": "address_change",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 113,
+     "ct": 19,
+     "label": "address_change",
+     "amount": 597,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 145,
+     "ct": 65,
+     "label": "address_change",
+     "amount": 597,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "address_change",
+    "oracle_amount": 597,
+    "sep_pt_total": 310,
+    "sep_ct_total": 76
+   },
+   {
+    "row_id": "ECOM-04698",
+    "payload_len": 49,
+    "sep": [
+     {
+      "pt": 86,
+      "ct": 8
+     },
+     {
+      "pt": 77,
+      "ct": 12
+     },
+     {
+      "pt": 77,
+      "ct": 12
+     },
+     {
+      "pt": 70,
+      "ct": 44
+     }
+    ],
+    "V1": {
+     "pt": 86,
+     "ct": 8,
+     "label": "address_change",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 113,
+     "ct": 19,
+     "label": "address_change",
+     "amount": 588,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 145,
+     "ct": 65,
+     "label": "address_change",
+     "amount": 588,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "address_change",
+    "oracle_amount": 588,
+    "sep_pt_total": 310,
+    "sep_ct_total": 76
+   },
+   {
+    "row_id": "ECOM-05707",
+    "payload_len": 49,
+    "sep": [
+     {
+      "pt": 85,
+      "ct": 8
+     },
+     {
+      "pt": 76,
+      "ct": 12
+     },
+     {
+      "pt": 76,
+      "ct": 12
+     },
+     {
+      "pt": 69,
+      "ct": 43
+     }
+    ],
+    "V1": {
+     "pt": 85,
+     "ct": 8,
+     "label": "address_change",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 112,
+     "ct": 19,
+     "label": "address_change",
+     "amount": 379,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 144,
+     "ct": 64,
+     "label": "address_change",
+     "amount": 379,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "address_change",
+    "oracle_amount": 379,
+    "sep_pt_total": 306,
+    "sep_ct_total": 75
+   },
+   {
+    "row_id": "ECOM-06691",
+    "payload_len": 49,
+    "sep": [
+     {
+      "pt": 85,
+      "ct": 8
+     },
+     {
+      "pt": 76,
+      "ct": 12
+     },
+     {
+      "pt": 76,
+      "ct": 12
+     },
+     {
+      "pt": 69,
+      "ct": 43
+     }
+    ],
+    "V1": {
+     "pt": 85,
+     "ct": 8,
+     "label": "address_change",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 112,
+     "ct": 19,
+     "label": "address_change",
+     "amount": 998,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 144,
+     "ct": 64,
+     "label": "address_change",
+     "amount": 998,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "address_change",
+    "oracle_amount": 998,
+    "sep_pt_total": 306,
+    "sep_ct_total": 75
+   },
+   {
+    "row_id": "ECOM-07714",
+    "payload_len": 49,
+    "sep": [
+     {
+      "pt": 86,
+      "ct": 8
+     },
+     {
+      "pt": 77,
+      "ct": 8
+     },
+     {
+      "pt": 77,
+      "ct": 12
+     },
+     {
+      "pt": 70,
+      "ct": 44
+     }
+    ],
+    "V1": {
+     "pt": 86,
+     "ct": 8,
+     "label": "address_change",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 113,
+     "ct": 19,
+     "label": "address_change",
+     "amount": 474,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 145,
+     "ct": 65,
+     "label": "address_change",
+     "amount": 474,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "address_change",
+    "oracle_amount": 474,
+    "sep_pt_total": 310,
+    "sep_ct_total": 72
+   },
+   {
+    "row_id": "ECOM-08764",
+    "payload_len": 49,
+    "sep": [
+     {
+      "pt": 84,
+      "ct": 8
+     },
+     {
+      "pt": 75,
+      "ct": 8
+     },
+     {
+      "pt": 75,
+      "ct": 12
+     },
+     {
+      "pt": 68,
+      "ct": 42
+     }
+    ],
+    "V1": {
+     "pt": 84,
+     "ct": 8,
+     "label": "address_change",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 111,
+     "ct": 19,
+     "label": "address_change",
+     "amount": 759,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 143,
+     "ct": 63,
+     "label": "address_change",
+     "amount": 759,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "address_change",
+    "oracle_amount": 759,
+    "sep_pt_total": 302,
+    "sep_ct_total": 70
+   },
+   {
+    "row_id": "ECOM-09780",
+    "payload_len": 49,
+    "sep": [
+     {
+      "pt": 85,
+      "ct": 8
+     },
+     {
+      "pt": 76,
+      "ct": 12
+     },
+     {
+      "pt": 76,
+      "ct": 12
+     },
+     {
+      "pt": 69,
+      "ct": 43
+     }
+    ],
+    "V1": {
+     "pt": 85,
+     "ct": 8,
+     "label": "address_change",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 112,
+     "ct": 19,
+     "label": "address_change",
+     "amount": 758,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 144,
+     "ct": 64,
+     "label": "address_change",
+     "amount": 758,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "address_change",
+    "oracle_amount": 758,
+    "sep_pt_total": 306,
+    "sep_ct_total": 75
+   },
+   {
+    "row_id": "ECOM-00716",
+    "payload_len": 50,
+    "sep": [
+     {
+      "pt": 86,
+      "ct": 8
+     },
+     {
+      "pt": 77,
+      "ct": 12
+     },
+     {
+      "pt": 77,
+      "ct": 12
+     },
+     {
+      "pt": 70,
+      "ct": 44
+     }
+    ],
+    "V1": {
+     "pt": 86,
+     "ct": 8,
+     "label": "address_change",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 113,
+     "ct": 19,
+     "label": "address_change",
+     "amount": 1101,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 145,
+     "ct": 65,
+     "label": "address_change",
+     "amount": 1101,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "address_change",
+    "oracle_amount": 1101,
+    "sep_pt_total": 310,
+    "sep_ct_total": 76
+   },
+   {
+    "row_id": "ECOM-01816",
+    "payload_len": 50,
+    "sep": [
+     {
+      "pt": 87,
+      "ct": 8
+     },
+     {
+      "pt": 78,
+      "ct": 13
+     },
+     {
+      "pt": 78,
+      "ct": 12
+     },
+     {
+      "pt": 71,
+      "ct": 45
+     }
+    ],
+    "V1": {
+     "pt": 87,
+     "ct": 8,
+     "label": "address_change",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 114,
+     "ct": 20,
+     "label": "address_change",
+     "amount": 3117,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 146,
+     "ct": 67,
+     "label": "address_change",
+     "amount": 3117,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "address_change",
+    "oracle_amount": 3117,
+    "sep_pt_total": 314,
+    "sep_ct_total": 78
+   },
+   {
+    "row_id": "ECOM-02905",
+    "payload_len": 50,
+    "sep": [
+     {
+      "pt": 85,
+      "ct": 8
+     },
+     {
+      "pt": 76,
+      "ct": 12
+     },
+     {
+      "pt": 76,
+      "ct": 12
+     },
+     {
+      "pt": 69,
+      "ct": 43
+     }
+    ],
+    "V1": {
+     "pt": 85,
+     "ct": 8,
+     "label": "address_change",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 112,
+     "ct": 19,
+     "label": "address_change",
+     "amount": 1044,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 144,
+     "ct": 64,
+     "label": "address_change",
+     "amount": 1044,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "address_change",
+    "oracle_amount": 1044,
+    "sep_pt_total": 306,
+    "sep_ct_total": 75
+   },
+   {
+    "row_id": "ECOM-03939",
+    "payload_len": 50,
+    "sep": [
+     {
+      "pt": 87,
+      "ct": 12
+     },
+     {
+      "pt": 78,
+      "ct": 13
+     },
+     {
+      "pt": 78,
+      "ct": 12
+     },
+     {
+      "pt": 71,
+      "ct": 45
+     }
+    ],
+    "V1": {
+     "pt": 87,
+     "ct": 12,
+     "label": "address_change",
+     "amount": null,
+     "keys": [
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 0
+    },
+    "V2": {
+     "pt": 114,
+     "ct": 20,
+     "label": "address_change",
+     "amount": 2198,
+     "keys": [
+      "amount",
+      "label"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "V4": {
+     "pt": 146,
+     "ct": 67,
+     "label": "address_change",
+     "amount": 2198,
+     "keys": [
+      "amount",
+      "evidence",
+      "label",
+      "urgency"
+     ],
+     "parse_ok": 1,
+     "label_ok": 1,
+     "amount_ok": 1
+    },
+    "oracle_label": "address_change",
+    "oracle_amount": 2198,
+    "sep_pt_total": 314,
+    "sep_ct_total": 82
+   }
+  ]
+ },
+ "P3_perturbation": {
+  "n": 20,
+  "label_stability": 1,
+  "syntactic_key_stability": 0,
+  "mean_pt_delta": 8.75,
+  "rows": [
+   {
+    "row_id": "ECOM-00486",
+    "label_orig": "refund_request",
+    "label_pert": "refund_request",
+    "same_label": 1,
+    "hash_same": 0,
+    "pt_delta": 8
+   },
+   {
+    "row_id": "ECOM-08184",
+    "label_orig": "refund_request",
+    "label_pert": "refund_request",
+    "same_label": 1,
+    "hash_same": 0,
+    "pt_delta": 8
+   },
+   {
+    "row_id": "ECOM-04068",
+    "label_orig": "refund_request",
+    "label_pert": "refund_request",
+    "same_label": 1,
+    "hash_same": 0,
+    "pt_delta": 8
+   },
+   {
+    "row_id": "ECOM-08818",
+    "label_orig": "refund_request",
+    "label_pert": "refund_request",
+    "same_label": 1,
+    "hash_same": 0,
+    "pt_delta": 8
+   },
+   {
+    "row_id": "ECOM-04852",
+    "label_orig": "refund_request",
+    "label_pert": "refund_request",
+    "same_label": 1,
+    "hash_same": 0,
+    "pt_delta": 8
+   },
+   {
+    "row_id": "ECOM-00718",
+    "label_orig": "refund_request",
+    "label_pert": "refund_request",
+    "same_label": 1,
+    "hash_same": 0,
+    "pt_delta": 8
+   },
+   {
+    "row_id": "ECOM-06634",
+    "label_orig": "refund_request",
+    "label_pert": "refund_request",
+    "same_label": 1,
+    "hash_same": 0,
+    "pt_delta": 8
+   },
+   {
+    "row_id": "ECOM-07036",
+    "label_orig": "refund_request",
+    "label_pert": "refund_request",
+    "same_label": 1,
+    "hash_same": 0,
+    "pt_delta": 9
+   },
+   {
+    "row_id": "ECOM-05384",
+    "label_orig": "refund_request",
+    "label_pert": "refund_request",
+    "same_label": 1,
+    "hash_same": 0,
+    "pt_delta": 10
+   },
+   {
+    "row_id": "ECOM-03918",
+    "label_orig": "refund_request",
+    "label_pert": "refund_request",
+    "same_label": 1,
+    "hash_same": 0,
+    "pt_delta": 10
+   },
+   {
+    "row_id": "ECOM-00766",
+    "label_orig": "address_change",
+    "label_pert": "address_change",
+    "same_label": 1,
+    "hash_same": 0,
+    "pt_delta": 9
+   },
+   {
+    "row_id": "ECOM-01741",
+    "label_orig": "address_change",
+    "label_pert": "address_change",
+    "same_label": 1,
+    "hash_same": 0,
+    "pt_delta": 9
+   },
+   {
+    "row_id": "ECOM-02741",
+    "label_orig": "address_change",
+    "label_pert": "address_change",
+    "same_label": 1,
+    "hash_same": 0,
+    "pt_delta": 9
+   },
+   {
+    "row_id": "ECOM-03705",
+    "label_orig": "address_change",
+    "label_pert": "address_change",
+    "same_label": 1,
+    "hash_same": 0,
+    "pt_delta": 9
+   },
+   {
+    "row_id": "ECOM-04698",
+    "label_orig": "address_change",
+    "label_pert": "address_change",
+    "same_label": 1,
+    "hash_same": 0,
+    "pt_delta": 9
+   },
+   {
+    "row_id": "ECOM-05707",
+    "label_orig": "address_change",
+    "label_pert": "address_change",
+    "same_label": 1,
+    "hash_same": 0,
+    "pt_delta": 9
+   },
+   {
+    "row_id": "ECOM-06691",
+    "label_orig": "address_change",
+    "label_pert": "address_change",
+    "same_label": 1,
+    "hash_same": 0,
+    "pt_delta": 9
+   },
+   {
+    "row_id": "ECOM-07714",
+    "label_orig": "address_change",
+    "label_pert": "address_change",
+    "same_label": 1,
+    "hash_same": 0,
+    "pt_delta": 9
+   },
+   {
+    "row_id": "ECOM-08764",
+    "label_orig": "address_change",
+    "label_pert": "address_change",
+    "same_label": 1,
+    "hash_same": 0,
+    "pt_delta": 9
+   },
+   {
+    "row_id": "ECOM-09780",
+    "label_orig": "address_change",
+    "label_pert": "address_change",
+    "same_label": 1,
+    "hash_same": 0,
+    "pt_delta": 9
+   }
+  ]
+ },
+ "P4_dependency_context": {
+  "n": 24,
+  "mean_pt_plain": 74.42,
+  "mean_pt_with_context": 95.12,
+  "mean_delta": 20.71,
+  "delta_ratio": 0.2783,
+  "rows": [
+   {
+    "row_id": "ECOM-00486",
+    "pt_plain": 70,
+    "pt_ctx": 92,
+    "delta": 22
+   },
+   {
+    "row_id": "ECOM-08184",
+    "pt_plain": 70,
+    "pt_ctx": 90,
+    "delta": 20
+   },
+   {
+    "row_id": "ECOM-04068",
+    "pt_plain": 72,
+    "pt_ctx": 92,
+    "delta": 20
+   },
+   {
+    "row_id": "ECOM-08818",
+    "pt_plain": 70,
+    "pt_ctx": 90,
+    "delta": 20
+   },
+   {
+    "row_id": "ECOM-04852",
+    "pt_plain": 70,
+    "pt_ctx": 90,
+    "delta": 20
+   },
+   {
+    "row_id": "ECOM-00718",
+    "pt_plain": 71,
+    "pt_ctx": 91,
+    "delta": 20
+   },
+   {
+    "row_id": "ECOM-06634",
+    "pt_plain": 70,
+    "pt_ctx": 90,
+    "delta": 20
+   },
+   {
+    "row_id": "ECOM-07036",
+    "pt_plain": 71,
+    "pt_ctx": 91,
+    "delta": 20
+   },
+   {
+    "row_id": "ECOM-05384",
+    "pt_plain": 73,
+    "pt_ctx": 95,
+    "delta": 22
+   },
+   {
+    "row_id": "ECOM-03918",
+    "pt_plain": 76,
+    "pt_ctx": 97,
+    "delta": 21
+   },
+   {
+    "row_id": "ECOM-00766",
+    "pt_plain": 76,
+    "pt_ctx": 96,
+    "delta": 20
+   },
+   {
+    "row_id": "ECOM-01741",
+    "pt_plain": 77,
+    "pt_ctx": 98,
+    "delta": 21
+   },
+   {
+    "row_id": "ECOM-02741",
+    "pt_plain": 77,
+    "pt_ctx": 98,
+    "delta": 21
+   },
+   {
+    "row_id": "ECOM-03705",
+    "pt_plain": 77,
+    "pt_ctx": 99,
+    "delta": 22
+   },
+   {
+    "row_id": "ECOM-04698",
+    "pt_plain": 77,
+    "pt_ctx": 98,
+    "delta": 21
+   },
+   {
+    "row_id": "ECOM-05707",
+    "pt_plain": 76,
+    "pt_ctx": 97,
+    "delta": 21
+   },
+   {
+    "row_id": "ECOM-06691",
+    "pt_plain": 76,
+    "pt_ctx": 98,
+    "delta": 22
+   },
+   {
+    "row_id": "ECOM-07714",
+    "pt_plain": 77,
+    "pt_ctx": 97,
+    "delta": 20
+   },
+   {
+    "row_id": "ECOM-08764",
+    "pt_plain": 75,
+    "pt_ctx": 96,
+    "delta": 21
+   },
+   {
+    "row_id": "ECOM-09780",
+    "pt_plain": 76,
+    "pt_ctx": 96,
+    "delta": 20
+   },
+   {
+    "row_id": "ECOM-00716",
+    "pt_plain": 77,
+    "pt_ctx": 98,
+    "delta": 21
+   },
+   {
+    "row_id": "ECOM-01816",
+    "pt_plain": 78,
+    "pt_ctx": 100,
+    "delta": 22
+   },
+   {
+    "row_id": "ECOM-02905",
+    "pt_plain": 76,
+    "pt_ctx": 96,
+    "delta": 20
+   },
+   {
+    "row_id": "ECOM-03939",
+    "pt_plain": 78,
+    "pt_ctx": 98,
+    "delta": 20
+   }
+  ]
+ },
+ "pricing": {
+  "input_per_m": 0.8,
+  "output_short_per_m": 2.0,
+  "output_long_per_m": 6.0,
+  "cache_hit_per_m": 0.16,
+  "output_short_limit": 200,
+  "version": "bigmodel-2026.09"
+ },
+ "note": "辅助探针（auxiliary），不参与主因果对照；用于检验 semantic-specific 机制是否存在。P2 的捆绑 prompt 为探针专用，不用于任何策略对比。"
+}

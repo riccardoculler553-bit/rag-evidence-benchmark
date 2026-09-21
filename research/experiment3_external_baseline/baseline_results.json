@@ -1,0 +1,81 @@
+{
+ "baselines": {
+  "B0_naive_per_query": {
+   "strategy": "B",
+   "cost": {
+    "mean": 63.86151,
+    "min": 0.0181,
+    "max": 969.9362
+   },
+   "regret": {
+    "mean": 17.26166,
+    "min": 0.0,
+    "max": 98.58809
+   },
+   "win_rate_over_cells": 0.4
+  },
+  "B1_eager_persistent": {
+   "strategy": "A",
+   "cost": {
+    "mean": 5.58111,
+    "min": 1.91524,
+    "max": 9.73948
+   },
+   "regret": {
+    "mean": 9.03769,
+    "min": 0.0,
+    "max": 120.81864
+   },
+   "win_rate_over_cells": 0.1929
+  },
+  "B2_late_persistent": {
+   "strategy": "C",
+   "cost": {
+    "mean": 3.42234,
+    "min": 0.01817,
+    "max": 9.73948
+   },
+   "regret": {
+    "mean": 0.00137,
+    "min": 0.0,
+    "max": 0.0042
+   },
+   "win_rate_over_cells": 0.4071
+  },
+  "B3_simple_cbo": {
+   "strategy": "CBO",
+   "cost": {
+    "mean": 4.33326,
+    "min": 0.0181,
+    "max": 19.43876
+   },
+   "regret": {
+    "mean": 0.26148,
+    "min": 0.0,
+    "max": 0.99676
+   },
+   "win_rate_over_cells": 0.0
+  },
+  "B4_adaptive": {
+   "strategy": "D",
+   "cost": {
+    "mean": 4.41727,
+    "min": 0.0181,
+    "max": 16.92821
+   },
+   "regret": {
+    "mean": 0.85068,
+    "min": 0.0,
+    "max": 18.67248
+   },
+   "win_rate_over_cells": 0.0
+  },
+  "O_oracle": {
+   "strategy": "O",
+   "win_rate_over_cells": 0.0
+  },
+  "C_equals_oracle_share": 0.6,
+  "n_cells": 840
+ },
+ "note": "Baseline-0..4 与 Oracle 在实验 1 全矩阵（840 cell）上的聚合"
+}

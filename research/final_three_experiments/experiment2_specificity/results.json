@@ -1,0 +1,674 @@
+{
+ "experiment": "E2_semantic_specificity_and_cost_structure",
+ "snapshot": "7da34d5f450ee09f0f1cba46c5bd4661",
+ "fixed_items": {
+  "model_id": "deterministic-mock-semantic",
+  "model_revision": "mock-det-v1",
+  "model_hash": "e96217acdf756b13",
+  "temperature": 0.0,
+  "tokenizer": "char4-bpe-proxy",
+  "batch_size": 1,
+  "capability_impl_revision": "cap-impl-v1.2",
+  "prompt_hashes": {
+   "issue_classification": "d86497291a2ae783",
+   "clause_classification": "2b5f4f299dac7217",
+   "amount_extraction": "1d353b9345ea0e2e"
+  },
+  "schema_hashes": {
+   "issue_classification": "bfc919f20f0101a4",
+   "clause_classification": "bfc919f20f0101a4",
+   "amount_extraction": "bcad0a9f16eed0ec"
+  },
+  "pricing_version": "mock-2026.09",
+  "pricing": {
+   "pricing_version": "mock-2026.09",
+   "input_per_1k": 0.002,
+   "output_per_1k": 0.006,
+   "per_call_overhead": 2e-05,
+   "retrieval_per_row": 5e-07,
+   "validation_per_row": 8e-07,
+   "synthesis_input_per_1k": 0.002,
+   "synthesis_output_per_1k": 0.006
+  }
+ },
+ "tier1_matched_udf": {
+  "block": "matched_udf",
+  "n_cells": 15,
+  "max_abs_delta_cost": 0.0,
+  "statement": "成本结构严格匹配时，semantic capability 与 generic expensive UDF 的 total_cost 完全相同（delta = 0）→ 收益机制不含语义成分；语义只带来**额外**的认证成本。",
+  "capability_quality_mock": {
+   "issue_classification": 0.9704,
+   "amount_extraction_ecom": 0.9833
+  },
+  "udf_quality": 1.0,
+  "n_cert_rows_zero_failure": 149,
+  "certification_cost": 0.07707,
+  "oracle_cost": 4.0092388,
+  "certification_share_of_oracle": 0.019223
+ },
+ "tier1_matched_udf_cells": [
+  {
+   "block": "matched_udf",
+   "s": 1,
+   "reuse": 10,
+   "strategy": "A",
+   "capability_total_cost": 5.195016,
+   "udf_total_cost": 5.195016,
+   "delta_cost": 0.0,
+   "cost_ratio": 1.0,
+   "capability_rows_built": 20000,
+   "udf_rows_built": 20000,
+   "capability_tokens": 2011724,
+   "udf_tokens": 2011724,
+   "capability_validation": 0.016,
+   "udf_validation": 0.0,
+   "oracle": 0.283751
+  },
+  {
+   "block": "matched_udf",
+   "s": 1,
+   "reuse": 10,
+   "strategy": "B",
+   "capability_total_cost": 0.521239,
+   "udf_total_cost": 0.521239,
+   "delta_cost": 0.0,
+   "cost_ratio": 1.0,
+   "capability_rows_built": 2010,
+   "udf_rows_built": 2010,
+   "capability_tokens": 202091,
+   "udf_tokens": 202091,
+   "capability_validation": 0.0,
+   "udf_validation": 0.0,
+   "oracle": 0.283751
+  },
+  {
+   "block": "matched_udf",
+   "s": 1,
+   "reuse": 10,
+   "strategy": "C",
+   "capability_total_cost": 0.283751,
+   "udf_total_cost": 0.283751,
+   "delta_cost": 0.0,
+   "cost_ratio": 1.0,
+   "capability_rows_built": 1090,
+   "udf_rows_built": 1090,
+   "capability_tokens": 109569,
+   "udf_tokens": 109569,
+   "capability_validation": 0.000872,
+   "udf_validation": 0.0,
+   "oracle": 0.283751
+  },
+  {
+   "block": "matched_udf",
+   "s": 5,
+   "reuse": 10,
+   "strategy": "A",
+   "capability_total_cost": 5.195016,
+   "udf_total_cost": 5.195016,
+   "delta_cost": 0.0,
+   "cost_ratio": 1.0,
+   "capability_rows_built": 20000,
+   "udf_rows_built": 20000,
+   "capability_tokens": 2011724,
+   "udf_tokens": 2011724,
+   "capability_validation": 0.016,
+   "udf_validation": 0.0,
+   "oracle": 1.2774902
+  },
+  {
+   "block": "matched_udf",
+   "s": 5,
+   "reuse": 10,
+   "strategy": "B",
+   "capability_total_cost": 2.663882,
+   "udf_total_cost": 2.663882,
+   "delta_cost": 0.0,
+   "cost_ratio": 1.0,
+   "capability_rows_built": 10284,
+   "udf_rows_built": 10284,
+   "capability_tokens": 1034430,
+   "udf_tokens": 1034430,
+   "capability_validation": 0.0,
+   "udf_validation": 0.0,
+   "oracle": 1.2774902
+  },
+  {
+   "block": "matched_udf",
+   "s": 5,
+   "reuse": 10,
+   "strategy": "C",
+   "capability_total_cost": 1.2774902,
+   "udf_total_cost": 1.2774902,
+   "delta_cost": 0.0,
+   "cost_ratio": 1.0,
+   "capability_rows_built": 4914,
+   "udf_rows_built": 4914,
+   "capability_tokens": 494473,
+   "udf_tokens": 494473,
+   "capability_validation": 0.0039312,
+   "udf_validation": 0.0,
+   "oracle": 1.2774902
+  },
+  {
+   "block": "matched_udf",
+   "s": 10,
+   "reuse": 25,
+   "strategy": "A",
+   "capability_total_cost": 5.196216,
+   "udf_total_cost": 5.196216,
+   "delta_cost": 0.0,
+   "cost_ratio": 1.0,
+   "capability_rows_built": 20000,
+   "udf_rows_built": 20000,
+   "capability_tokens": 2011724,
+   "udf_tokens": 2011724,
+   "capability_validation": 0.016,
+   "udf_validation": 0.0,
+   "oracle": 3.7898586
+  },
+  {
+   "block": "matched_udf",
+   "s": 10,
+   "reuse": 25,
+   "strategy": "B",
+   "capability_total_cost": 12.829208,
+   "udf_total_cost": 12.829208,
+   "delta_cost": 0.0,
+   "cost_ratio": 1.0,
+   "capability_rows_built": 49520,
+   "udf_rows_built": 49520,
+   "capability_tokens": 4983944,
+   "udf_tokens": 4983944,
+   "capability_validation": 0.0,
+   "udf_validation": 0.0,
+   "oracle": 3.7898586
+  },
+  {
+   "block": "matched_udf",
+   "s": 10,
+   "reuse": 25,
+   "strategy": "C",
+   "capability_total_cost": 3.7898586,
+   "udf_total_cost": 3.7898586,
+   "delta_cost": 0.0,
+   "cost_ratio": 1.0,
+   "capability_rows_built": 14582,
+   "udf_rows_built": 14582,
+   "capability_tokens": 1467109,
+   "udf_tokens": 1467109,
+   "capability_validation": 0.0116656,
+   "udf_validation": 0.0,
+   "oracle": 3.7898586
+  },
+  {
+   "block": "matched_udf",
+   "s": 25,
+   "reuse": 50,
+   "strategy": "A",
+   "capability_total_cost": 5.198216,
+   "udf_total_cost": 5.198216,
+   "delta_cost": 0.0,
+   "cost_ratio": 1.0,
+   "capability_rows_built": 20000,
+   "udf_rows_built": 20000,
+   "capability_tokens": 2011724,
+   "udf_tokens": 2011724,
+   "capability_validation": 0.016,
+   "udf_validation": 0.0,
+   "oracle": 5.1914402
+  },
+  {
+   "block": "matched_udf",
+   "s": 25,
+   "reuse": 50,
+   "strategy": "B",
+   "capability_total_cost": 61.70572,
+   "udf_total_cost": 61.70572,
+   "delta_cost": 0.0,
+   "cost_ratio": 1.0,
+   "capability_rows_built": 238328,
+   "udf_rows_built": 238328,
+   "capability_tokens": 23972758,
+   "udf_tokens": 23972758,
+   "capability_validation": 0.0,
+   "udf_validation": 0.0,
+   "oracle": 5.1914402
+  },
+  {
+   "block": "matched_udf",
+   "s": 25,
+   "reuse": 50,
+   "strategy": "C",
+   "capability_total_cost": 5.1914402,
+   "udf_total_cost": 5.1914402,
+   "delta_cost": 0.0,
+   "cost_ratio": 1.0,
+   "capability_rows_built": 19974,
+   "udf_rows_built": 19974,
+   "capability_tokens": 2009091,
+   "udf_tokens": 2009091,
+   "capability_validation": 0.0159792,
+   "udf_validation": 0.0,
+   "oracle": 5.1914402
+  },
+  {
+   "block": "matched_udf",
+   "s": 50,
+   "reuse": 100,
+   "strategy": "A",
+   "capability_total_cost": 5.202216,
+   "udf_total_cost": 5.202216,
+   "delta_cost": 0.0,
+   "cost_ratio": 1.0,
+   "capability_rows_built": 20000,
+   "udf_rows_built": 20000,
+   "capability_tokens": 2011724,
+   "udf_tokens": 2011724,
+   "capability_validation": 0.016,
+   "udf_validation": 0.0,
+   "oracle": 5.202216
+  },
+  {
+   "block": "matched_udf",
+   "s": 50,
+   "reuse": 100,
+   "strategy": "B",
+   "capability_total_cost": 227.098742,
+   "udf_total_cost": 227.098742,
+   "delta_cost": 0.0,
+   "cost_ratio": 1.0,
+   "capability_rows_built": 877172,
+   "udf_rows_built": 877172,
+   "capability_tokens": 88229878,
+   "udf_tokens": 88229878,
+   "capability_validation": 0.0,
+   "udf_validation": 0.0,
+   "oracle": 5.202216
+  },
+  {
+   "block": "matched_udf",
+   "s": 50,
+   "reuse": 100,
+   "strategy": "C",
+   "capability_total_cost": 5.202216,
+   "udf_total_cost": 5.202216,
+   "delta_cost": 0.0,
+   "cost_ratio": 1.0,
+   "capability_rows_built": 20000,
+   "udf_rows_built": 20000,
+   "capability_tokens": 2011724,
+   "udf_tokens": 2011724,
+   "capability_validation": 0.016,
+   "udf_validation": 0.0,
+   "oracle": 5.202216
+  }
+ ],
+ "tier0_real_glm": {
+  "experiment_id": "v1.3-final-three-experiments:e2:76599bcb",
+  "budget_plan": {
+   "experiment": "E2_real_glm_bundle+length",
+   "cells": 2,
+   "rows_per_cell": 64,
+   "strategies": 1,
+   "calls_per_row": 13,
+   "repeats": 1,
+   "estimated_calls": 1664,
+   "estimated_tokens": 482560,
+   "estimated_cost_yuan": 0.5308,
+   "already_used": 0,
+   "cumulative_estimate": 482560,
+   "within_internal_budget": true,
+   "allowed": true
+  },
+  "bundle": {
+   "ecom": {
+    "mean_prompt_tokens": {
+     "V1": 93.2031,
+     "V2": 107.2031,
+     "V4": 136.2031,
+     "V8": 200.2031,
+     "SEP8": 691.62
+    },
+    "mean_completion_tokens": {
+     "V1": 12,
+     "V2": 19.125,
+     "V4": 31.2188,
+     "V8": 102.0781,
+     "SEP8": 120.48
+    },
+    "mean_field_accuracy": {
+     "V1": 1,
+     "V2": 1,
+     "V4": 1,
+     "V8": 0.9129,
+     "SEP8": 0.8973
+    },
+    "cost_ratio_V8_vs_SEP8": 0.3722,
+    "marginal_prompt_token_per_field": {
+     "f2_minus_f1": 14.0,
+     "f4_minus_f2_over2": 14.5,
+     "f8_minus_f4_over4": 16.0,
+     "separate_per_field": 86.45
+    },
+    "accuracy_drop_V8_minus_V1": -0.0871,
+    "per_field_accuracy": {
+     "label": {
+      "V1": 1,
+      "V2": 1,
+      "V4": 1,
+      "V8": 1
+     },
+     "amount": {
+      "V1": null,
+      "V2": 1,
+      "V4": 1,
+      "V8": 1
+     },
+     "currency": {
+      "V1": null,
+      "V2": null,
+      "V4": 1,
+      "V8": 1
+     },
+     "has_discount": {
+      "V1": null,
+      "V2": null,
+      "V4": 1,
+      "V8": 1
+     },
+     "has_defect": {
+      "V1": null,
+      "V2": null,
+      "V4": null,
+      "V8": 1
+     },
+     "product": {
+      "V1": null,
+      "V2": null,
+      "V4": null,
+      "V8": 0.3906
+     },
+     "order_id": {
+      "V1": null,
+      "V2": null,
+      "V4": null,
+      "V8": 1
+     },
+     "summary": {
+      "V1": null,
+      "V2": null,
+      "V4": null,
+      "V8": null
+     }
+    }
+   },
+   "finproc": {
+    "mean_prompt_tokens": {
+     "V1": 89.6875,
+     "V2": 109.6875,
+     "V4": 155.6875,
+     "V8": 211.6875,
+     "SEP8": 706.5
+    },
+    "mean_completion_tokens": {
+     "V1": 10.6406,
+     "V2": 21.2344,
+     "V4": 42.25,
+     "V8": 78.7656,
+     "SEP8": 100.17
+    },
+    "mean_field_accuracy": {
+     "V1": 1,
+     "V2": 0.9141,
+     "V4": 0.8594,
+     "V8": 0.8848,
+     "SEP8": 0.8496
+    },
+    "cost_ratio_V8_vs_SEP8": 0.3601,
+    "marginal_prompt_token_per_field": {
+     "f2_minus_f1": 20.0,
+     "f4_minus_f2_over2": 23.0,
+     "f8_minus_f4_over4": 14.0,
+     "separate_per_field": 88.31
+    },
+    "accuracy_drop_V8_minus_V1": -0.1152,
+    "per_field_accuracy": {
+     "clause_kind": {
+      "V1": 1,
+      "V2": 0.8438,
+      "V4": 1,
+      "V8": 1
+     },
+     "governing_value": {
+      "V1": null,
+      "V2": 0.9844,
+      "V4": 0.8438,
+      "V8": 0.875
+     },
+     "has_exception_pointer": {
+      "V1": null,
+      "V2": null,
+      "V4": 0.5938,
+      "V8": 0.7812
+     },
+     "unit_is_wan": {
+      "V1": null,
+      "V2": null,
+      "V4": 1,
+      "V8": 1
+     },
+     "policy_id": {
+      "V1": null,
+      "V2": null,
+      "V4": null,
+      "V8": 1
+     },
+     "city": {
+      "V1": null,
+      "V2": null,
+      "V4": null,
+      "V8": 1
+     },
+     "role": {
+      "V1": null,
+      "V2": null,
+      "V4": null,
+      "V8": 0.4219
+     },
+     "mentions_2026": {
+      "V1": null,
+      "V2": null,
+      "V4": null,
+      "V8": 1
+     }
+    }
+   },
+   "difficulty_types": {
+    "TypeA_independent_short_classification": {
+     "finproc_clause_kind_bundled": 1
+    },
+    "TypeB_numeric_extraction": {
+     "ecom_amount_bundled": 1
+    },
+    "TypeC_context_dependent": {
+     "finproc_effective_limit_single_call": 0.9844
+    },
+    "TypeD_inter_field_dependency": {
+     "finproc_governing_value_bundled": 0.9844,
+     "finproc_governing_value_separate": 0.9844
+    },
+    "interpretation": "TypeC/TypeD 需要先判定条款类型才能解释金额；若其边际 token 成本显著高于 TypeA/B 而准确率不同，则提示 prompt bundling 存在成本-质量权衡。"
+   }
+  },
+  "length_summary": {
+   "native_P10": {
+    "n": 12,
+    "mean_chars": 50.4,
+    "mean_input_tokens": 86.33,
+    "mean_output_tokens": 8.5,
+    "mean_cost": 3.145e-05,
+    "accuracy": 1
+   },
+   "native_P25": {
+    "n": 12,
+    "mean_chars": 53,
+    "mean_input_tokens": 87.08,
+    "mean_output_tokens": 9.42,
+    "mean_cost": 3.341e-05,
+    "accuracy": 1
+   },
+   "native_P50": {
+    "n": 12,
+    "mean_chars": 56.8,
+    "mean_input_tokens": 89.33,
+    "mean_output_tokens": 9.58,
+    "mean_cost": 3.41e-05,
+    "accuracy": 1
+   },
+   "native_P75": {
+    "n": 12,
+    "mean_chars": 59.4,
+    "mean_input_tokens": 90.67,
+    "mean_output_tokens": 9.75,
+    "mean_cost": 3.465e-05,
+    "accuracy": 1
+   },
+   "native_P90": {
+    "n": 12,
+    "mean_chars": 64.9,
+    "mean_input_tokens": 95.17,
+    "mean_output_tokens": 10.58,
+    "mean_cost": 3.703e-05,
+    "accuracy": 1
+   },
+   "native_P99": {
+    "n": 12,
+    "mean_chars": 70.8,
+    "mean_input_tokens": 98.33,
+    "mean_output_tokens": 11.67,
+    "mean_cost": 3.971e-05,
+    "accuracy": 1
+   },
+   "augmented_P10": {
+    "n": 12,
+    "mean_chars": 136.4,
+    "mean_input_tokens": 142.33,
+    "mean_output_tokens": 8.83,
+    "mean_cost": 4.108e-05,
+    "accuracy": 1
+   },
+   "augmented_P25": {
+    "n": 12,
+    "mean_chars": 225,
+    "mean_input_tokens": 199.08,
+    "mean_output_tokens": 9.42,
+    "mean_cost": 5.133e-05,
+    "accuracy": 1
+   },
+   "augmented_P50": {
+    "n": 12,
+    "mean_chars": 354.2,
+    "mean_input_tokens": 283,
+    "mean_output_tokens": 10.58,
+    "mean_cost": 6.709e-05,
+    "accuracy": 1
+   },
+   "augmented_P75": {
+    "n": 12,
+    "mean_chars": 489.4,
+    "mean_input_tokens": 370.67,
+    "mean_output_tokens": 11.75,
+    "mean_cost": 8.345e-05,
+    "accuracy": 1
+   },
+   "augmented_P90": {
+    "n": 12,
+    "mean_chars": 709.9,
+    "mean_input_tokens": 515.17,
+    "mean_output_tokens": 12.25,
+    "mean_cost": 0.00010757,
+    "accuracy": 1
+   },
+   "augmented_P99": {
+    "n": 12,
+    "mean_chars": 1102.8,
+    "mean_input_tokens": 770.33,
+    "mean_output_tokens": 13,
+    "mean_cost": 0.00014989,
+    "accuracy": 1
+   },
+   "tokens_per_char_slope": 0.65079,
+   "proportionality_R2": 1.0,
+   "native_length_range": [
+    43,
+    79
+   ],
+   "augmented_length_range": [
+    129,
+    1111
+   ]
+  },
+  "usage": {
+   "experiment_id": "v1.3-final-three-experiments:e2:76599bcb",
+   "per_key": {
+    "glm_key0": {
+     "key_id": "glm_key0",
+     "tokens_used": 119782,
+     "request_count": 882,
+     "success_count": 882,
+     "retry_count": 0,
+     "rate_limit_count": 0,
+     "auth_error_count": 0,
+     "quota_error_count": 0,
+     "consecutive_failures": 0
+    },
+    "glm_key1": {
+     "key_id": "glm_key1",
+     "tokens_used": 117798,
+     "request_count": 862,
+     "success_count": 862,
+     "retry_count": 0,
+     "rate_limit_count": 0,
+     "auth_error_count": 0,
+     "quota_error_count": 0,
+     "consecutive_failures": 0
+    }
+   },
+   "switches": 0,
+   "rate_limit_events": 0,
+   "fallback_used": false,
+   "non_confirmatory_requests": 0,
+   "total_tokens": 237580,
+   "total_cost_yuan": 0.106683,
+   "all_primary_model_only": true,
+   "budget": {
+    "total": 64000000,
+    "internal": 60000000,
+    "reserve": 4000000,
+    "remaining": 59762420
+   },
+   "glm_pricing": {
+    "input_per_m": 0.8,
+    "output_short_per_m": 2.0,
+    "output_long_per_m": 6.0,
+    "cache_hit_per_m": 0.16,
+    "output_short_limit": 200,
+    "version": "bigmodel-2026.09"
+   }
+  },
+  "wall_clock_sec": 100.5
+ },
+ "multi_use": {
+  "accounting": "cache ON = 一次性构建 + 每次命中付 artifact lookup+storage；cache OFF = 每次重复调用语义算子；两者均含 validation。**cache hit 不计零成本**（§31）。",
+  "per_call_cost_real": {
+   "V1": 9.856e-05,
+   "V2": 0.00012401,
+   "V4": 0.0001714,
+   "V8": 0.00036432,
+   "SEP8": 0.00079426
+  },
+  "note": "若摊销优势在 cache OFF 时消失，则收益来源是 artifact reuse，不能写成 Late Materialization 的独立算法收益。",
+  "max_saving_cache_on": 0.98905,
+  "saving_when_cache_off": 0.0
+ }
+}

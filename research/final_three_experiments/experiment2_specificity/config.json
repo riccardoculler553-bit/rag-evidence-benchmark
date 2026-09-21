@@ -1,0 +1,47 @@
+{
+ "experiment_id": "v1.3-final-three-experiments:e2:76599bcb",
+ "model": "glm-4.5-air",
+ "temperature": 0,
+ "decoding": "greedy",
+ "thinking": "disabled",
+ "batch_size": 1,
+ "max_tokens": 512,
+ "difficulty_types": {
+  "A": "独立短分类（issue_label / clause_kind）",
+  "B": "数值抽取（order_amount）",
+  "C": "上下文依赖（effective_limit：需先判断条款类型）",
+  "D": "字段间依赖（clause_kind 决定 governing_value 的解释）"
+ },
+ "bundle_variants": {
+  "ECOM": [
+   "V1",
+   "V2",
+   "V4",
+   "V8"
+  ],
+  "FIN": [
+   "V1",
+   "V2",
+   "V4",
+   "V8",
+   "C_only"
+  ]
+ },
+ "length_quantiles": [
+  10,
+  25,
+  50,
+  75,
+  90,
+  99
+ ],
+ "augmented_targets": {
+  "10": 120,
+  "25": 200,
+  "50": 320,
+  "75": 480,
+  "90": 700,
+  "99": 1100
+ },
+ "note": "augmented 变体为**受控加长**（追加中性归档元数据），oracle 不变；native 变体为真实长度。"
+}

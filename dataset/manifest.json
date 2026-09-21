@@ -1,0 +1,36 @@
+{
+ "name": "NebulaCore Evidence-Native RAG Benchmark",
+ "world_model": {
+  "company": "星环科技集团 / NebulaCore Holdings",
+  "regions": [
+   "集团总部",
+   "中国大陆",
+   "华南区",
+   "华东区",
+   "华北区",
+   "中国香港",
+   "东南亚",
+   "欧洲",
+   "北美"
+  ],
+  "departments": [
+   "财务部",
+   "采购部",
+   "人力资源部",
+   "法务部",
+   "销售部",
+   "运营部",
+   "客服部",
+   "信息技术部",
+   "合规部"
+  ],
+  "entities": 587,
+  "relationships": 1666
+ },
+ "knowledge_files": 107,
+ "documents_registered": 79,
+ "structured_tables": 10,
+ "questions": 300,
+ "gold_records": 300,
+ "generated_at": "2026-09-19"
+}

@@ -1,0 +1,86 @@
+{
+ "matrix": {
+  "domains": [
+   "ecom",
+   "finproc"
+  ],
+  "selectivity": [
+   1,
+   5,
+   10,
+   25,
+   50,
+   75,
+   100
+  ],
+  "reuse": [
+   1,
+   10,
+   50,
+   100
+  ],
+  "patterns": [
+   "PRED_SHARED",
+   "PRED_DISTINCT",
+   "PRED_NESTED",
+   "PRED_OVERLAP",
+   "PRED_MUTEX"
+  ],
+  "breadth": [
+   1,
+   2,
+   4
+  ],
+  "strategies": [
+   "A",
+   "B",
+   "C",
+   "CBO",
+   "D",
+   "O",
+   "D_plus"
+  ],
+  "n_cells": 840,
+  "workers": 6
+ },
+ "fixed_items": {
+  "model_id": "deterministic-mock-semantic",
+  "model_revision": "mock-det-v1",
+  "model_hash": "e96217acdf756b13",
+  "temperature": 0.0,
+  "tokenizer": "char4-bpe-proxy",
+  "batch_size": 1,
+  "capability_impl_revision": "cap-impl-v1.2",
+  "prompt_hashes": {
+   "issue_classification": "d86497291a2ae783",
+   "clause_classification": "2b5f4f299dac7217",
+   "amount_extraction": "1d353b9345ea0e2e"
+  },
+  "schema_hashes": {
+   "issue_classification": "bfc919f20f0101a4",
+   "clause_classification": "bfc919f20f0101a4",
+   "amount_extraction": "bcad0a9f16eed0ec"
+  },
+  "pricing_version": "mock-2026.09",
+  "pricing": {
+   "pricing_version": "mock-2026.09",
+   "input_per_1k": 0.002,
+   "output_per_1k": 0.006,
+   "per_call_overhead": 2e-05,
+   "retrieval_per_row": 5e-07,
+   "validation_per_row": 8e-07,
+   "synthesis_input_per_1k": 0.002,
+   "synthesis_output_per_1k": 0.006
+  }
+ },
+ "note": "策略均为调度决策；prompt/schema/parser/价格/快照/模型全部固定。",
+ "strategy_defs": {
+  "A": "Eager-Persistent：t=0 全表×全部能力构建并持久化",
+  "B": "Late-Per-Query：过滤后构建 survivor，不持久化",
+  "C": "Late-Persistent：过滤后仅构建存储中缺失的行并持久化",
+  "CBO": "Simple CBO：点估计期望成本最小化（规划空间仅 {PER_QUERY, LATE_PERSIST}）",
+  "D": "Adaptive：CBO 估计器 + 覆盖度感知 EAGER 分支 + 滞后",
+  "D_plus": "诊断组：额外知道真实 R（视界），仅用于分离「未知视界」与「估计误差」，不作为方法主张",
+  "O": "离线 clairvoyant oracle：逐能力在 {EAGER, 并集一次, 每查询重建} 中取 min"
+ }
+}

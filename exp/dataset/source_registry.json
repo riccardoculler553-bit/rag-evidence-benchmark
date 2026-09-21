@@ -1,0 +1,65 @@
+{
+ "ecom_orders_2026": {
+  "source_id": "ecom_orders_2026",
+  "path": "dataset/knowledge/structured/orders_2026.csv",
+  "revision_id": "c604c0174cd9c56f",
+  "revision_hash": "c604c0174cd9c56ffc0a620ae58983911ae31368d5e2c71091211a7884bb5604",
+  "exists": true
+ },
+ "ecom_orders_2025": {
+  "source_id": "ecom_orders_2025",
+  "path": "dataset/knowledge/structured/orders_2025.json",
+  "revision_id": "d9004e4bf0530ac6",
+  "revision_hash": "d9004e4bf0530ac6aaa97bf0a402735e465798a22f5e59bb39a238123aba0def",
+  "exists": true
+ },
+ "ecom_sku_registry": {
+  "source_id": "ecom_sku_registry",
+  "path": "dataset/knowledge/structured/sku_registry.csv",
+  "revision_id": "1db413108b89cf32",
+  "revision_hash": "1db413108b89cf32fad66a1257bcab328ce22a8e8a2f89ba51428a022b7f8bff",
+  "exists": true
+ },
+ "fin_supplier_registry": {
+  "source_id": "fin_supplier_registry",
+  "path": "dataset/knowledge/structured/supplier_registry.csv",
+  "revision_id": "b976f6cd84f3182c",
+  "revision_hash": "b976f6cd84f3182ce5cafead400535de4df01bb8a019884ba7e2831a31f95212",
+  "exists": true
+ },
+ "fin_po_records": {
+  "source_id": "fin_po_records",
+  "path": "dataset/knowledge/structured/po_records.csv",
+  "revision_id": "58530a208ca80b9d",
+  "revision_hash": "58530a208ca80b9d08fc58b1adf449abf4a9cd80864202dd20b49530d2984f3d",
+  "exists": true
+ },
+ "policy_trv_v3": {
+  "source_id": "policy_trv_v3",
+  "path": "dataset/knowledge/policies/TRV-001-v3.md",
+  "revision_id": "a6807aa401c2804b",
+  "revision_hash": "a6807aa401c2804bec5f3158b75c92ff928fad2d6e7f7785bfd84c0550a48883",
+  "exists": true
+ },
+ "policy_proc_v3": {
+  "source_id": "policy_proc_v3",
+  "path": "dataset/knowledge/policies/PROC-001-v3.md",
+  "revision_id": "0a2c25cbff48d054",
+  "revision_hash": "0a2c25cbff48d0547c4f00c91ad132e14d08da382a9a24f302bf5edb37368bf0",
+  "exists": true
+ },
+ "policy_rma": {
+  "source_id": "policy_rma",
+  "path": "dataset/knowledge/policies/RMA-001.md",
+  "revision_id": "7742f4407c6d8bdc",
+  "revision_hash": "7742f4407c6d8bdc7922422bf4779d14d71b25b5585217f23928209d33cfa885",
+  "exists": true
+ },
+ "fin_budget": {
+  "source_id": "fin_budget",
+  "path": "dataset/knowledge/finance/FIN-BUDGET-2026.md",
+  "revision_id": "9cc18e27a408bfbb",
+  "revision_hash": "9cc18e27a408bfbb292a626a758a63f99cb7b5ea81d0ecf47c7194cfc4297969",
+  "exists": true
+ }
+}

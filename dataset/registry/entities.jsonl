@@ -1,0 +1,587 @@
+{"entity_id": "ORG-GROUP", "entity_type": "company", "name": "星环科技集团", "attributes": {"en": "NebulaCore Holdings", "hq": "中国大陆"}}
+{"entity_id": "RG-GROUP", "entity_type": "region", "name": "集团总部", "attributes": {}}
+{"entity_id": "RG-CN", "entity_type": "region", "name": "中国大陆", "attributes": {}}
+{"entity_id": "RG-SOUTH", "entity_type": "region", "name": "华南区", "attributes": {}}
+{"entity_id": "RG-EAST", "entity_type": "region", "name": "华东区", "attributes": {}}
+{"entity_id": "RG-NORTH", "entity_type": "region", "name": "华北区", "attributes": {}}
+{"entity_id": "RG-HK", "entity_type": "region", "name": "中国香港", "attributes": {}}
+{"entity_id": "RG-SEA", "entity_type": "region", "name": "东南亚", "attributes": {}}
+{"entity_id": "RG-EU", "entity_type": "region", "name": "欧洲", "attributes": {}}
+{"entity_id": "RG-NA", "entity_type": "region", "name": "北美", "attributes": {}}
+{"entity_id": "DEPT-财务部", "entity_type": "department", "name": "财务部", "attributes": {"head": "E001"}}
+{"entity_id": "DEPT-采购部", "entity_type": "department", "name": "采购部", "attributes": {"head": "E002"}}
+{"entity_id": "DEPT-人力资源部", "entity_type": "department", "name": "人力资源部", "attributes": {"head": "E003"}}
+{"entity_id": "DEPT-法务部", "entity_type": "department", "name": "法务部", "attributes": {"head": "E004"}}
+{"entity_id": "DEPT-销售部", "entity_type": "department", "name": "销售部", "attributes": {"head": "E005"}}
+{"entity_id": "DEPT-运营部", "entity_type": "department", "name": "运营部", "attributes": {"head": "E006"}}
+{"entity_id": "DEPT-客服部", "entity_type": "department", "name": "客服部", "attributes": {"head": "E007"}}
+{"entity_id": "DEPT-信息技术部", "entity_type": "department", "name": "信息技术部", "attributes": {"head": "E008"}}
+{"entity_id": "DEPT-合规部", "entity_type": "department", "name": "合规部", "attributes": {"head": "E009"}}
+{"entity_id": "E001", "entity_type": "employee", "name": "陈明远", "attributes": {"department": "财务部", "region": "RG-CN", "role": "管理人员", "grade": "M5", "employment_type": "正式", "status": "在职", "manager": null, "office_city": "上海"}}
+{"entity_id": "E002", "entity_type": "employee", "name": "赵国强", "attributes": {"department": "采购部", "region": "RG-CN", "role": "管理人员", "grade": "M4", "employment_type": "正式", "status": "在职", "manager": null, "office_city": "上海"}}
+{"entity_id": "E003", "entity_type": "employee", "name": "孙丽华", "attributes": {"department": "人力资源部", "region": "RG-CN", "role": "管理人员", "grade": "M4", "employment_type": "正式", "status": "在职", "manager": null, "office_city": "上海"}}
+{"entity_id": "E004", "entity_type": "employee", "name": "周正", "attributes": {"department": "法务部", "region": "RG-CN", "role": "管理人员", "grade": "M4", "employment_type": "正式", "status": "在职", "manager": null, "office_city": "上海"}}
+{"entity_id": "E005", "entity_type": "employee", "name": "马俊", "attributes": {"department": "销售部", "region": "RG-CN", "role": "管理人员", "grade": "M5", "employment_type": "正式", "status": "在职", "manager": null, "office_city": "上海"}}
+{"entity_id": "E006", "entity_type": "employee", "name": "吴敏", "attributes": {"department": "运营部", "region": "RG-CN", "role": "管理人员", "grade": "M4", "employment_type": "正式", "status": "在职", "manager": null, "office_city": "上海"}}
+{"entity_id": "E007", "entity_type": "employee", "name": "郑洁", "attributes": {"department": "客服部", "region": "RG-CN", "role": "管理人员", "grade": "M3", "employment_type": "正式", "status": "在职", "manager": null, "office_city": "上海"}}
+{"entity_id": "E008", "entity_type": "employee", "name": "冯军", "attributes": {"department": "信息技术部", "region": "RG-CN", "role": "管理人员", "grade": "M5", "employment_type": "正式", "status": "在职", "manager": null, "office_city": "上海"}}
+{"entity_id": "E009", "entity_type": "employee", "name": "许静", "attributes": {"department": "合规部", "region": "RG-CN", "role": "管理人员", "grade": "M4", "employment_type": "正式", "status": "在职", "manager": null, "office_city": "上海"}}
+{"entity_id": "E010", "entity_type": "employee", "name": "罗志成", "attributes": {"department": "销售部", "region": "RG-SOUTH", "role": "区域负责人", "grade": "M4", "employment_type": "正式", "status": "在职", "manager": "E005", "office_city": "广州"}}
+{"entity_id": "E011", "entity_type": "employee", "name": "梁诗琪", "attributes": {"department": "运营部", "region": "RG-EAST", "role": "区域负责人", "grade": "M4", "employment_type": "正式", "status": "在职", "manager": "E006", "office_city": "上海"}}
+{"entity_id": "E012", "entity_type": "employee", "name": "林晓芳", "attributes": {"department": "财务部", "region": "RG-SOUTH", "role": "财务人员", "grade": "P5", "employment_type": "正式", "status": "在职", "manager": "E001", "office_city": "广州"}}
+{"entity_id": "E013", "entity_type": "employee", "name": "穆勒", "attributes": {"department": "销售部", "region": "RG-EU", "role": "区域负责人", "grade": "M4", "employment_type": "正式", "status": "在职", "manager": "E005", "office_city": "柏林"}}
+{"entity_id": "E014", "entity_type": "employee", "name": "约翰逊", "attributes": {"department": "销售部", "region": "RG-NA", "role": "区域负责人", "grade": "M4", "employment_type": "正式", "status": "在职", "manager": "E005", "office_city": "纽约"}}
+{"entity_id": "E015", "entity_type": "employee", "name": "周凯", "attributes": {"department": "运营部", "region": "RG-EAST", "role": "管理人员", "grade": "M3", "employment_type": "正式", "status": "在职", "manager": "E011", "office_city": "上海"}}
+{"entity_id": "E020", "entity_type": "employee", "name": "刘洋", "attributes": {"department": "运营部", "region": "RG-CN", "role": "管理人员", "grade": "M2", "employment_type": "正式", "status": "在职", "manager": "E006", "office_city": "上海"}}
+{"entity_id": "E023", "entity_type": "employee", "name": "王磊", "attributes": {"department": "财务部", "region": "RG-CN", "role": "财务人员", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E001", "office_city": "上海"}}
+{"entity_id": "E037", "entity_type": "employee", "name": "张伟", "attributes": {"department": "销售部", "region": "RG-SOUTH", "role": "普通员工", "grade": "P3", "employment_type": "正式", "status": "在职", "manager": "E010", "office_city": "广州"}}
+{"entity_id": "E044", "entity_type": "employee", "name": "杜鹏", "attributes": {"department": "运营部", "region": "RG-SOUTH", "role": "普通员工", "grade": "P3", "employment_type": "正式", "status": "离职", "manager": "E006", "office_city": "广州"}}
+{"entity_id": "E052", "entity_type": "employee", "name": "高翔", "attributes": {"department": "运营部", "region": "RG-EAST", "role": "普通员工", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E015", "office_city": "上海"}}
+{"entity_id": "E058", "entity_type": "employee", "name": "李静", "attributes": {"department": "财务部", "region": "RG-CN", "role": "管理人员", "grade": "M5", "employment_type": "正式", "status": "在职", "manager": null, "office_city": "上海"}}
+{"entity_id": "E060", "entity_type": "employee", "name": "艾米丽", "attributes": {"department": "客服部", "region": "RG-EAST", "role": "外包人员", "grade": "P1", "employment_type": "外包", "status": "在职", "manager": "E007", "office_city": "上海"}}
+{"entity_id": "E061", "entity_type": "employee", "name": "韩梅", "attributes": {"department": "人力资源部", "region": "RG-CN", "role": "实习生", "grade": "I1", "employment_type": "实习", "status": "在职", "manager": "E003", "office_city": "上海"}}
+{"entity_id": "E016", "entity_type": "employee", "name": "林海燕", "attributes": {"department": "采购部", "region": "RG-EAST", "role": "普通员工", "grade": "P2", "employment_type": "正式", "status": "在职", "manager": "E002", "office_city": "上海"}}
+{"entity_id": "E017", "entity_type": "employee", "name": "黄浩然", "attributes": {"department": "人力资源部", "region": "RG-NORTH", "role": "普通员工", "grade": "P3", "employment_type": "正式", "status": "在职", "manager": "E003", "office_city": "北京"}}
+{"entity_id": "E018", "entity_type": "employee", "name": "张丽娜", "attributes": {"department": "法务部", "region": "RG-CN", "role": "普通员工", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E004", "office_city": "上海"}}
+{"entity_id": "E019", "entity_type": "employee", "name": "吴勇军", "attributes": {"department": "销售部", "region": "RG-HK", "role": "普通员工", "grade": "P5", "employment_type": "正式", "status": "在职", "manager": "E005", "office_city": "香港"}}
+{"entity_id": "E021", "entity_type": "employee", "name": "李凤英", "attributes": {"department": "运营部", "region": "RG-SEA", "role": "普通员工", "grade": "P1", "employment_type": "正式", "status": "在职", "manager": "E006", "office_city": "新加坡"}}
+{"entity_id": "E022", "entity_type": "employee", "name": "王国强", "attributes": {"department": "客服部", "region": "RG-EU", "role": "管理人员", "grade": "M3", "employment_type": "正式", "status": "在职", "manager": "E007", "office_city": "柏林"}}
+{"entity_id": "E024", "entity_type": "employee", "name": "刘静怡", "attributes": {"department": "信息技术部", "region": "RG-SOUTH", "role": "采购人员", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E008", "office_city": "广州"}}
+{"entity_id": "E025", "entity_type": "employee", "name": "杨天宇", "attributes": {"department": "合规部", "region": "RG-EAST", "role": "外包人员", "grade": "P2", "employment_type": "外包", "status": "在职", "manager": "E009", "office_city": "上海"}}
+{"entity_id": "E026", "entity_type": "employee", "name": "赵桂英", "attributes": {"department": "财务部", "region": "RG-NORTH", "role": "实习生", "grade": "I1", "employment_type": "实习", "status": "在职", "manager": "E001", "office_city": "北京"}}
+{"entity_id": "E027", "entity_type": "employee", "name": "周德海", "attributes": {"department": "采购部", "region": "RG-CN", "role": "普通员工", "grade": "P1", "employment_type": "正式", "status": "在职", "manager": "E002", "office_city": "上海"}}
+{"entity_id": "E028", "entity_type": "employee", "name": "徐秀英", "attributes": {"department": "人力资源部", "region": "RG-HK", "role": "普通员工", "grade": "P2", "employment_type": "正式", "status": "在职", "manager": "E003", "office_city": "香港"}}
+{"entity_id": "E029", "entity_type": "employee", "name": "孙俊杰", "attributes": {"department": "法务部", "region": "RG-SEA", "role": "普通员工", "grade": "P3", "employment_type": "正式", "status": "在职", "manager": "E004", "office_city": "新加坡"}}
+{"entity_id": "E030", "entity_type": "employee", "name": "马淑芬", "attributes": {"department": "销售部", "region": "RG-EU", "role": "普通员工", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E005", "office_city": "柏林"}}
+{"entity_id": "E031", "entity_type": "employee", "name": "朱子轩", "attributes": {"department": "运营部", "region": "RG-SOUTH", "role": "普通员工", "grade": "P5", "employment_type": "正式", "status": "在职", "manager": "E006", "office_city": "广州"}}
+{"entity_id": "E032", "entity_type": "employee", "name": "胡秀兰", "attributes": {"department": "客服部", "region": "RG-EAST", "role": "普通员工", "grade": "P1", "employment_type": "正式", "status": "在职", "manager": "E007", "office_city": "上海"}}
+{"entity_id": "E033", "entity_type": "employee", "name": "郭志刚", "attributes": {"department": "信息技术部", "region": "RG-NORTH", "role": "管理人员", "grade": "M1", "employment_type": "正式", "status": "在职", "manager": "E008", "office_city": "北京"}}
+{"entity_id": "E034", "entity_type": "employee", "name": "何玉华", "attributes": {"department": "合规部", "region": "RG-CN", "role": "采购人员", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E009", "office_city": "上海"}}
+{"entity_id": "E035", "entity_type": "employee", "name": "高志强", "attributes": {"department": "财务部", "region": "RG-HK", "role": "外包人员", "grade": "P2", "employment_type": "外包", "status": "在职", "manager": "E001", "office_city": "香港"}}
+{"entity_id": "E036", "entity_type": "employee", "name": "罗雪梅", "attributes": {"department": "采购部", "region": "RG-SEA", "role": "实习生", "grade": "I1", "employment_type": "实习", "status": "在职", "manager": "E002", "office_city": "新加坡"}}
+{"entity_id": "E038", "entity_type": "employee", "name": "郑志远", "attributes": {"department": "人力资源部", "region": "RG-EU", "role": "普通员工", "grade": "P1", "employment_type": "正式", "status": "在职", "manager": "E003", "office_city": "柏林"}}
+{"entity_id": "E039", "entity_type": "employee", "name": "梁玉梅", "attributes": {"department": "法务部", "region": "RG-SOUTH", "role": "普通员工", "grade": "P2", "employment_type": "正式", "status": "在职", "manager": "E004", "office_city": "广州"}}
+{"entity_id": "E040", "entity_type": "employee", "name": "谢立新", "attributes": {"department": "销售部", "region": "RG-EAST", "role": "普通员工", "grade": "P3", "employment_type": "正式", "status": "在职", "manager": "E005", "office_city": "上海"}}
+{"entity_id": "E041", "entity_type": "employee", "name": "宋晓芳", "attributes": {"department": "运营部", "region": "RG-NORTH", "role": "普通员工", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E006", "office_city": "北京"}}
+{"entity_id": "E042", "entity_type": "employee", "name": "唐文博", "attributes": {"department": "客服部", "region": "RG-CN", "role": "普通员工", "grade": "P5", "employment_type": "正式", "status": "在职", "manager": "E007", "office_city": "上海"}}
+{"entity_id": "E043", "entity_type": "employee", "name": "许玉兰", "attributes": {"department": "信息技术部", "region": "RG-HK", "role": "普通员工", "grade": "P1", "employment_type": "正式", "status": "在职", "manager": "E008", "office_city": "香港"}}
+{"entity_id": "E045", "entity_type": "employee", "name": "韩伟东", "attributes": {"department": "合规部", "region": "RG-SEA", "role": "管理人员", "grade": "M3", "employment_type": "正式", "status": "在职", "manager": "E009", "office_city": "新加坡"}}
+{"entity_id": "E046", "entity_type": "employee", "name": "冯红梅", "attributes": {"department": "财务部", "region": "RG-EU", "role": "财务人员", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E001", "office_city": "柏林"}}
+{"entity_id": "E047", "entity_type": "employee", "name": "邓永强", "attributes": {"department": "采购部", "region": "RG-SOUTH", "role": "外包人员", "grade": "P2", "employment_type": "外包", "status": "在职", "manager": "E002", "office_city": "广州"}}
+{"entity_id": "E048", "entity_type": "employee", "name": "曹丽华", "attributes": {"department": "人力资源部", "region": "RG-EAST", "role": "实习生", "grade": "I1", "employment_type": "实习", "status": "在职", "manager": "E003", "office_city": "上海"}}
+{"entity_id": "E049", "entity_type": "employee", "name": "彭嘉豪", "attributes": {"department": "法务部", "region": "RG-NORTH", "role": "普通员工", "grade": "P1", "employment_type": "正式", "status": "在职", "manager": "E004", "office_city": "北京"}}
+{"entity_id": "E050", "entity_type": "employee", "name": "陈春兰", "attributes": {"department": "销售部", "region": "RG-CN", "role": "普通员工", "grade": "P2", "employment_type": "正式", "status": "在职", "manager": "E005", "office_city": "上海"}}
+{"entity_id": "E051", "entity_type": "employee", "name": "林鑫磊", "attributes": {"department": "运营部", "region": "RG-HK", "role": "普通员工", "grade": "P3", "employment_type": "正式", "status": "在职", "manager": "E006", "office_city": "香港"}}
+{"entity_id": "E053", "entity_type": "employee", "name": "黄银花", "attributes": {"department": "客服部", "region": "RG-SEA", "role": "普通员工", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E007", "office_city": "新加坡"}}
+{"entity_id": "E054", "entity_type": "employee", "name": "张建军", "attributes": {"department": "信息技术部", "region": "RG-EU", "role": "普通员工", "grade": "P5", "employment_type": "正式", "status": "在职", "manager": "E008", "office_city": "柏林"}}
+{"entity_id": "E055", "entity_type": "employee", "name": "吴雅琴", "attributes": {"department": "合规部", "region": "RG-SOUTH", "role": "普通员工", "grade": "P1", "employment_type": "正式", "status": "在职", "manager": "E009", "office_city": "广州"}}
+{"entity_id": "E056", "entity_type": "employee", "name": "李建国", "attributes": {"department": "财务部", "region": "RG-EAST", "role": "管理人员", "grade": "M1", "employment_type": "正式", "status": "在职", "manager": "E001", "office_city": "上海"}}
+{"entity_id": "E057", "entity_type": "employee", "name": "王慧敏", "attributes": {"department": "采购部", "region": "RG-NORTH", "role": "采购人员", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E002", "office_city": "北京"}}
+{"entity_id": "E059", "entity_type": "employee", "name": "刘俊杰", "attributes": {"department": "人力资源部", "region": "RG-CN", "role": "外包人员", "grade": "P2", "employment_type": "外包", "status": "在职", "manager": "E003", "office_city": "上海"}}
+{"entity_id": "E062", "entity_type": "employee", "name": "杨桂花", "attributes": {"department": "法务部", "region": "RG-HK", "role": "实习生", "grade": "I1", "employment_type": "实习", "status": "在职", "manager": "E004", "office_city": "香港"}}
+{"entity_id": "E063", "entity_type": "employee", "name": "赵明远", "attributes": {"department": "销售部", "region": "RG-SEA", "role": "普通员工", "grade": "P1", "employment_type": "正式", "status": "在职", "manager": "E005", "office_city": "新加坡"}}
+{"entity_id": "E064", "entity_type": "employee", "name": "周海燕", "attributes": {"department": "运营部", "region": "RG-EU", "role": "普通员工", "grade": "P2", "employment_type": "正式", "status": "在职", "manager": "E006", "office_city": "柏林"}}
+{"entity_id": "E065", "entity_type": "employee", "name": "徐浩然", "attributes": {"department": "客服部", "region": "RG-SOUTH", "role": "普通员工", "grade": "P3", "employment_type": "正式", "status": "在职", "manager": "E007", "office_city": "广州"}}
+{"entity_id": "E066", "entity_type": "employee", "name": "孙丽娜", "attributes": {"department": "信息技术部", "region": "RG-EAST", "role": "普通员工", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E008", "office_city": "上海"}}
+{"entity_id": "E067", "entity_type": "employee", "name": "马勇军", "attributes": {"department": "合规部", "region": "RG-NORTH", "role": "普通员工", "grade": "P5", "employment_type": "正式", "status": "在职", "manager": "E009", "office_city": "北京"}}
+{"entity_id": "E068", "entity_type": "employee", "name": "朱凤英", "attributes": {"department": "财务部", "region": "RG-CN", "role": "普通员工", "grade": "P1", "employment_type": "正式", "status": "在职", "manager": "E001", "office_city": "上海"}}
+{"entity_id": "E069", "entity_type": "employee", "name": "胡国强", "attributes": {"department": "采购部", "region": "RG-HK", "role": "管理人员", "grade": "M3", "employment_type": "正式", "status": "在职", "manager": "E002", "office_city": "香港"}}
+{"entity_id": "E070", "entity_type": "employee", "name": "郭静怡", "attributes": {"department": "人力资源部", "region": "RG-SEA", "role": "采购人员", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E003", "office_city": "新加坡"}}
+{"entity_id": "E071", "entity_type": "employee", "name": "何天宇", "attributes": {"department": "法务部", "region": "RG-EU", "role": "外包人员", "grade": "P2", "employment_type": "外包", "status": "在职", "manager": "E004", "office_city": "柏林"}}
+{"entity_id": "E072", "entity_type": "employee", "name": "高桂英", "attributes": {"department": "销售部", "region": "RG-SOUTH", "role": "实习生", "grade": "I1", "employment_type": "实习", "status": "在职", "manager": "E005", "office_city": "广州"}}
+{"entity_id": "E073", "entity_type": "employee", "name": "罗德海", "attributes": {"department": "运营部", "region": "RG-EAST", "role": "普通员工", "grade": "P1", "employment_type": "正式", "status": "在职", "manager": "E006", "office_city": "上海"}}
+{"entity_id": "E074", "entity_type": "employee", "name": "郑秀英", "attributes": {"department": "客服部", "region": "RG-NORTH", "role": "普通员工", "grade": "P2", "employment_type": "正式", "status": "在职", "manager": "E007", "office_city": "北京"}}
+{"entity_id": "E075", "entity_type": "employee", "name": "梁俊杰", "attributes": {"department": "信息技术部", "region": "RG-CN", "role": "普通员工", "grade": "P3", "employment_type": "正式", "status": "在职", "manager": "E008", "office_city": "上海"}}
+{"entity_id": "E076", "entity_type": "employee", "name": "谢淑芬", "attributes": {"department": "合规部", "region": "RG-HK", "role": "普通员工", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E009", "office_city": "香港"}}
+{"entity_id": "E077", "entity_type": "employee", "name": "宋子轩", "attributes": {"department": "财务部", "region": "RG-SEA", "role": "普通员工", "grade": "P5", "employment_type": "正式", "status": "在职", "manager": "E001", "office_city": "新加坡"}}
+{"entity_id": "E078", "entity_type": "employee", "name": "唐秀兰", "attributes": {"department": "采购部", "region": "RG-EU", "role": "普通员工", "grade": "P1", "employment_type": "正式", "status": "在职", "manager": "E002", "office_city": "柏林"}}
+{"entity_id": "E079", "entity_type": "employee", "name": "许志刚", "attributes": {"department": "人力资源部", "region": "RG-SOUTH", "role": "管理人员", "grade": "M1", "employment_type": "正式", "status": "在职", "manager": "E003", "office_city": "广州"}}
+{"entity_id": "E080", "entity_type": "employee", "name": "韩玉华", "attributes": {"department": "法务部", "region": "RG-EAST", "role": "采购人员", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E004", "office_city": "上海"}}
+{"entity_id": "E081", "entity_type": "employee", "name": "冯志强", "attributes": {"department": "销售部", "region": "RG-NORTH", "role": "外包人员", "grade": "P2", "employment_type": "外包", "status": "在职", "manager": "E005", "office_city": "北京"}}
+{"entity_id": "E082", "entity_type": "employee", "name": "邓雪梅", "attributes": {"department": "运营部", "region": "RG-CN", "role": "实习生", "grade": "I1", "employment_type": "实习", "status": "在职", "manager": "E006", "office_city": "上海"}}
+{"entity_id": "E083", "entity_type": "employee", "name": "曹志远", "attributes": {"department": "客服部", "region": "RG-HK", "role": "普通员工", "grade": "P1", "employment_type": "正式", "status": "在职", "manager": "E007", "office_city": "香港"}}
+{"entity_id": "E084", "entity_type": "employee", "name": "彭玉梅", "attributes": {"department": "信息技术部", "region": "RG-SEA", "role": "普通员工", "grade": "P2", "employment_type": "正式", "status": "在职", "manager": "E008", "office_city": "新加坡"}}
+{"entity_id": "E085", "entity_type": "employee", "name": "陈立新", "attributes": {"department": "合规部", "region": "RG-EU", "role": "普通员工", "grade": "P3", "employment_type": "正式", "status": "在职", "manager": "E009", "office_city": "柏林"}}
+{"entity_id": "E086", "entity_type": "employee", "name": "林晓芳", "attributes": {"department": "财务部", "region": "RG-SOUTH", "role": "普通员工", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E001", "office_city": "广州"}}
+{"entity_id": "E087", "entity_type": "employee", "name": "黄文博", "attributes": {"department": "采购部", "region": "RG-EAST", "role": "普通员工", "grade": "P5", "employment_type": "正式", "status": "在职", "manager": "E002", "office_city": "上海"}}
+{"entity_id": "E088", "entity_type": "employee", "name": "张玉兰", "attributes": {"department": "人力资源部", "region": "RG-NORTH", "role": "普通员工", "grade": "P1", "employment_type": "正式", "status": "在职", "manager": "E003", "office_city": "北京"}}
+{"entity_id": "E089", "entity_type": "employee", "name": "吴伟东", "attributes": {"department": "法务部", "region": "RG-CN", "role": "管理人员", "grade": "M3", "employment_type": "正式", "status": "在职", "manager": "E004", "office_city": "上海"}}
+{"entity_id": "E090", "entity_type": "employee", "name": "李红梅", "attributes": {"department": "销售部", "region": "RG-HK", "role": "采购人员", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E005", "office_city": "香港"}}
+{"entity_id": "E091", "entity_type": "employee", "name": "王永强", "attributes": {"department": "运营部", "region": "RG-SEA", "role": "外包人员", "grade": "P2", "employment_type": "外包", "status": "在职", "manager": "E006", "office_city": "新加坡"}}
+{"entity_id": "E092", "entity_type": "employee", "name": "刘丽华", "attributes": {"department": "客服部", "region": "RG-EU", "role": "实习生", "grade": "I1", "employment_type": "实习", "status": "在职", "manager": "E007", "office_city": "柏林"}}
+{"entity_id": "E093", "entity_type": "employee", "name": "杨嘉豪", "attributes": {"department": "信息技术部", "region": "RG-SOUTH", "role": "普通员工", "grade": "P1", "employment_type": "正式", "status": "在职", "manager": "E008", "office_city": "广州"}}
+{"entity_id": "E094", "entity_type": "employee", "name": "赵春兰", "attributes": {"department": "合规部", "region": "RG-EAST", "role": "普通员工", "grade": "P2", "employment_type": "正式", "status": "在职", "manager": "E009", "office_city": "上海"}}
+{"entity_id": "E095", "entity_type": "employee", "name": "周鑫磊", "attributes": {"department": "财务部", "region": "RG-NORTH", "role": "普通员工", "grade": "P3", "employment_type": "正式", "status": "在职", "manager": "E001", "office_city": "北京"}}
+{"entity_id": "E096", "entity_type": "employee", "name": "徐银花", "attributes": {"department": "采购部", "region": "RG-CN", "role": "普通员工", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E002", "office_city": "上海"}}
+{"entity_id": "E097", "entity_type": "employee", "name": "孙建军", "attributes": {"department": "人力资源部", "region": "RG-HK", "role": "普通员工", "grade": "P5", "employment_type": "正式", "status": "在职", "manager": "E003", "office_city": "香港"}}
+{"entity_id": "E098", "entity_type": "employee", "name": "马雅琴", "attributes": {"department": "法务部", "region": "RG-SEA", "role": "普通员工", "grade": "P1", "employment_type": "正式", "status": "在职", "manager": "E004", "office_city": "新加坡"}}
+{"entity_id": "E099", "entity_type": "employee", "name": "朱建国", "attributes": {"department": "销售部", "region": "RG-EU", "role": "管理人员", "grade": "M1", "employment_type": "正式", "status": "在职", "manager": "E005", "office_city": "柏林"}}
+{"entity_id": "E100", "entity_type": "employee", "name": "胡慧敏", "attributes": {"department": "运营部", "region": "RG-SOUTH", "role": "采购人员", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E006", "office_city": "广州"}}
+{"entity_id": "E101", "entity_type": "employee", "name": "郭俊杰", "attributes": {"department": "客服部", "region": "RG-EAST", "role": "外包人员", "grade": "P2", "employment_type": "外包", "status": "在职", "manager": "E007", "office_city": "上海"}}
+{"entity_id": "E102", "entity_type": "employee", "name": "何桂花", "attributes": {"department": "信息技术部", "region": "RG-NORTH", "role": "实习生", "grade": "I1", "employment_type": "实习", "status": "在职", "manager": "E008", "office_city": "北京"}}
+{"entity_id": "E103", "entity_type": "employee", "name": "高明远", "attributes": {"department": "合规部", "region": "RG-CN", "role": "普通员工", "grade": "P1", "employment_type": "正式", "status": "在职", "manager": "E009", "office_city": "上海"}}
+{"entity_id": "E104", "entity_type": "employee", "name": "罗海燕", "attributes": {"department": "财务部", "region": "RG-HK", "role": "普通员工", "grade": "P2", "employment_type": "正式", "status": "在职", "manager": "E001", "office_city": "香港"}}
+{"entity_id": "E105", "entity_type": "employee", "name": "郑浩然", "attributes": {"department": "采购部", "region": "RG-SEA", "role": "普通员工", "grade": "P3", "employment_type": "正式", "status": "在职", "manager": "E002", "office_city": "新加坡"}}
+{"entity_id": "E106", "entity_type": "employee", "name": "梁丽娜", "attributes": {"department": "人力资源部", "region": "RG-EU", "role": "普通员工", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E003", "office_city": "柏林"}}
+{"entity_id": "E107", "entity_type": "employee", "name": "谢勇军", "attributes": {"department": "法务部", "region": "RG-SOUTH", "role": "普通员工", "grade": "P5", "employment_type": "正式", "status": "在职", "manager": "E004", "office_city": "广州"}}
+{"entity_id": "E108", "entity_type": "employee", "name": "宋凤英", "attributes": {"department": "销售部", "region": "RG-EAST", "role": "普通员工", "grade": "P1", "employment_type": "正式", "status": "在职", "manager": "E005", "office_city": "上海"}}
+{"entity_id": "E109", "entity_type": "employee", "name": "唐国强", "attributes": {"department": "运营部", "region": "RG-NORTH", "role": "管理人员", "grade": "M3", "employment_type": "正式", "status": "在职", "manager": "E006", "office_city": "北京"}}
+{"entity_id": "E110", "entity_type": "employee", "name": "许静怡", "attributes": {"department": "客服部", "region": "RG-CN", "role": "采购人员", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E007", "office_city": "上海"}}
+{"entity_id": "E111", "entity_type": "employee", "name": "韩天宇", "attributes": {"department": "信息技术部", "region": "RG-HK", "role": "外包人员", "grade": "P2", "employment_type": "外包", "status": "在职", "manager": "E008", "office_city": "香港"}}
+{"entity_id": "E112", "entity_type": "employee", "name": "冯桂英", "attributes": {"department": "合规部", "region": "RG-SEA", "role": "实习生", "grade": "I1", "employment_type": "实习", "status": "在职", "manager": "E009", "office_city": "新加坡"}}
+{"entity_id": "E113", "entity_type": "employee", "name": "邓德海", "attributes": {"department": "财务部", "region": "RG-EU", "role": "普通员工", "grade": "P1", "employment_type": "正式", "status": "在职", "manager": "E001", "office_city": "柏林"}}
+{"entity_id": "E114", "entity_type": "employee", "name": "曹秀英", "attributes": {"department": "采购部", "region": "RG-SOUTH", "role": "普通员工", "grade": "P2", "employment_type": "正式", "status": "在职", "manager": "E002", "office_city": "广州"}}
+{"entity_id": "E115", "entity_type": "employee", "name": "彭俊杰", "attributes": {"department": "人力资源部", "region": "RG-EAST", "role": "普通员工", "grade": "P3", "employment_type": "正式", "status": "在职", "manager": "E003", "office_city": "上海"}}
+{"entity_id": "E116", "entity_type": "employee", "name": "陈淑芬", "attributes": {"department": "法务部", "region": "RG-NORTH", "role": "普通员工", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E004", "office_city": "北京"}}
+{"entity_id": "E117", "entity_type": "employee", "name": "林子轩", "attributes": {"department": "销售部", "region": "RG-CN", "role": "普通员工", "grade": "P5", "employment_type": "正式", "status": "在职", "manager": "E005", "office_city": "上海"}}
+{"entity_id": "E118", "entity_type": "employee", "name": "黄秀兰", "attributes": {"department": "运营部", "region": "RG-HK", "role": "普通员工", "grade": "P1", "employment_type": "正式", "status": "在职", "manager": "E006", "office_city": "香港"}}
+{"entity_id": "E119", "entity_type": "employee", "name": "张志刚", "attributes": {"department": "客服部", "region": "RG-SEA", "role": "管理人员", "grade": "M1", "employment_type": "正式", "status": "在职", "manager": "E007", "office_city": "新加坡"}}
+{"entity_id": "E120", "entity_type": "employee", "name": "吴玉华", "attributes": {"department": "信息技术部", "region": "RG-EU", "role": "采购人员", "grade": "P4", "employment_type": "正式", "status": "在职", "manager": "E008", "office_city": "柏林"}}
+{"entity_id": "S001", "entity_type": "supplier", "name": "星辰物流有限公司", "attributes": {"rating": "A", "country": "中国", "payment_terms": "60天", "lead_time_days": 5, "contract_start": "2025-01-01", "contract_end": "2027-12-31", "sensitivity": "常规", "delay_rate_pct": 8}}
+{"entity_id": "S001C", "entity_type": "supplier", "name": "星辰物流(广州)有限公司", "attributes": {"rating": "B", "country": "中国", "payment_terms": "45天", "lead_time_days": 7, "contract_start": "2025-06-01", "contract_end": "2027-05-31", "sensitivity": "常规", "delay_rate_pct": 6}}
+{"entity_id": "S002", "entity_type": "supplier", "name": "云图信息技术有限公司", "attributes": {"rating": "B", "country": "中国", "payment_terms": "30天", "lead_time_days": 15, "contract_start": "2025-03-01", "contract_end": "2026-12-31", "sensitivity": "常规", "delay_rate_pct": 4}}
+{"entity_id": "S003", "entity_type": "supplier", "name": "恒远电子科技有限公司", "attributes": {"rating": "A", "country": "中国", "payment_terms": "45天", "lead_time_days": 10, "contract_start": "2025-10-01", "contract_end": "2027-09-30", "sensitivity": "常规", "delay_rate_pct": 3}}
+{"entity_id": "S004", "entity_type": "supplier", "name": "蓝海包装制品有限公司", "attributes": {"rating": "C", "country": "中国", "payment_terms": "30天", "lead_time_days": 8, "contract_start": "2024-06-01", "contract_end": "2026-11-30", "sensitivity": "常规", "delay_rate_pct": 12}}
+{"entity_id": "S005", "entity_type": "supplier", "name": "中科软件股份有限公司", "attributes": {"rating": "A", "country": "中国", "payment_terms": "30天", "lead_time_days": 20, "contract_start": "2025-02-01", "contract_end": "2027-01-31", "sensitivity": "常规", "delay_rate_pct": 2}}
+{"entity_id": "S006", "entity_type": "supplier", "name": "环宇办公用品有限公司", "attributes": {"rating": "B", "country": "中国", "payment_terms": "30天", "lead_time_days": 3, "contract_start": "2024-01-01", "contract_end": "2026-12-31", "sensitivity": "低敏级", "delay_rate_pct": 2}}
+{"entity_id": "S007", "entity_type": "supplier", "name": "Global Parts GmbH", "attributes": {"rating": "A", "country": "德国", "payment_terms": "45天", "lead_time_days": 25, "contract_start": "2025-04-01", "contract_end": "2027-03-31", "sensitivity": "常规", "delay_rate_pct": 4}}
+{"entity_id": "S008", "entity_type": "supplier", "name": "ABC Logistics Singapore Pte Ltd", "attributes": {"rating": "B", "country": "新加坡", "payment_terms": "30天", "lead_time_days": 6, "contract_start": "2025-05-01", "contract_end": "2026-10-31", "sensitivity": "常规", "delay_rate_pct": 5}}
+{"entity_id": "S009", "entity_type": "supplier", "name": "ABC Logistics Holding Ltd", "attributes": {"rating": "A", "country": "中国香港", "payment_terms": "45天", "lead_time_days": 9, "contract_start": "2024-11-01", "contract_end": "2027-06-30", "sensitivity": "常规", "delay_rate_pct": 6}}
+{"entity_id": "S017", "entity_type": "supplier", "name": "迅捷耗材供应链有限公司", "attributes": {"rating": "B", "country": "中国", "payment_terms": "15天", "lead_time_days": 2, "contract_start": "2025-07-01", "contract_end": "2027-06-30", "sensitivity": "低敏级", "delay_rate_pct": 3}}
+{"entity_id": "S020", "entity_type": "supplier", "name": "华信电线有限公司", "attributes": {"rating": "A", "country": "中国", "payment_terms": "30天", "lead_time_days": 3, "contract_start": "2025-01-01", "contract_end": "2026-12-31", "sensitivity": "常规", "delay_rate_pct": 1}}
+{"entity_id": "S021", "entity_type": "supplier", "name": "锐驰机械有限公司", "attributes": {"rating": "B", "country": "中国", "payment_terms": "45天", "lead_time_days": 4, "contract_start": "2025-01-01", "contract_end": "2026-12-31", "sensitivity": "常规", "delay_rate_pct": 2}}
+{"entity_id": "S022", "entity_type": "supplier", "name": "蓝天化工有限公司", "attributes": {"rating": "C", "country": "中国", "payment_terms": "60天", "lead_time_days": 5, "contract_start": "2025-01-01", "contract_end": "2026-12-31", "sensitivity": "常规", "delay_rate_pct": 3}}
+{"entity_id": "S023", "entity_type": "supplier", "name": "优选面料有限公司", "attributes": {"rating": "A", "country": "中国", "payment_terms": "30天", "lead_time_days": 6, "contract_start": "2025-01-01", "contract_end": "2026-12-31", "sensitivity": "常规", "delay_rate_pct": 4}}
+{"entity_id": "S024", "entity_type": "supplier", "name": "恒信模具有限公司", "attributes": {"rating": "B", "country": "中国", "payment_terms": "45天", "lead_time_days": 7, "contract_start": "2025-01-01", "contract_end": "2026-12-31", "sensitivity": "常规", "delay_rate_pct": 5}}
+{"entity_id": "S025", "entity_type": "supplier", "name": "捷达运输有限公司", "attributes": {"rating": "C", "country": "中国", "payment_terms": "60天", "lead_time_days": 8, "contract_start": "2025-01-01", "contract_end": "2026-12-31", "sensitivity": "常规", "delay_rate_pct": 6}}
+{"entity_id": "S026", "entity_type": "supplier", "name": "明达光电有限公司", "attributes": {"rating": "A", "country": "中国", "payment_terms": "30天", "lead_time_days": 9, "contract_start": "2025-01-01", "contract_end": "2026-12-31", "sensitivity": "常规", "delay_rate_pct": 7}}
+{"entity_id": "S027", "entity_type": "supplier", "name": "泰和金属有限公司", "attributes": {"rating": "B", "country": "中国", "payment_terms": "45天", "lead_time_days": 10, "contract_start": "2025-01-01", "contract_end": "2026-12-31", "sensitivity": "常规", "delay_rate_pct": 8}}
+{"entity_id": "S028", "entity_type": "supplier", "name": "新绿环保有限公司", "attributes": {"rating": "C", "country": "中国", "payment_terms": "60天", "lead_time_days": 11, "contract_start": "2025-01-01", "contract_end": "2026-12-31", "sensitivity": "常规", "delay_rate_pct": 9}}
+{"entity_id": "S029", "entity_type": "supplier", "name": "卓越标识有限公司", "attributes": {"rating": "A", "country": "中国", "payment_terms": "30天", "lead_time_days": 12, "contract_start": "2025-01-01", "contract_end": "2026-12-31", "sensitivity": "常规", "delay_rate_pct": 10}}
+{"entity_id": "S030", "entity_type": "supplier", "name": "瑞丰纸业有限公司", "attributes": {"rating": "B", "country": "中国", "payment_terms": "45天", "lead_time_days": 13, "contract_start": "2025-01-01", "contract_end": "2026-12-31", "sensitivity": "常规", "delay_rate_pct": 11}}
+{"entity_id": "S031", "entity_type": "supplier", "name": "腾飞五金有限公司", "attributes": {"rating": "C", "country": "中国", "payment_terms": "60天", "lead_time_days": 14, "contract_start": "2025-01-01", "contract_end": "2026-12-31", "sensitivity": "常规", "delay_rate_pct": 12}}
+{"entity_id": "S032", "entity_type": "supplier", "name": "康泰医疗器械有限公司", "attributes": {"rating": "A", "country": "中国", "payment_terms": "30天", "lead_time_days": 15, "contract_start": "2025-01-01", "contract_end": "2026-12-31", "sensitivity": "常规", "delay_rate_pct": 13}}
+{"entity_id": "S033", "entity_type": "supplier", "name": "慧联通信有限公司", "attributes": {"rating": "B", "country": "中国", "payment_terms": "45天", "lead_time_days": 16, "contract_start": "2025-01-01", "contract_end": "2026-12-31", "sensitivity": "常规", "delay_rate_pct": 14}}
+{"entity_id": "S034", "entity_type": "supplier", "name": "源创能源有限公司", "attributes": {"rating": "C", "country": "中国", "payment_terms": "60天", "lead_time_days": 17, "contract_start": "2025-01-01", "contract_end": "2026-12-31", "sensitivity": "常规", "delay_rate_pct": 1}}
+{"entity_id": "S035", "entity_type": "supplier", "name": "百川数据有限公司", "attributes": {"rating": "A", "country": "中国", "payment_terms": "30天", "lead_time_days": 18, "contract_start": "2025-01-01", "contract_end": "2026-12-31", "sensitivity": "常规", "delay_rate_pct": 2}}
+{"entity_id": "S036", "entity_type": "supplier", "name": "安捷检测有限公司", "attributes": {"rating": "B", "country": "中国", "payment_terms": "45天", "lead_time_days": 19, "contract_start": "2025-01-01", "contract_end": "2026-12-31", "sensitivity": "常规", "delay_rate_pct": 3}}
+{"entity_id": "S037", "entity_type": "supplier", "name": "正大咨询有限公司", "attributes": {"rating": "C", "country": "中国", "payment_terms": "60天", "lead_time_days": 20, "contract_start": "2025-01-01", "contract_end": "2026-12-31", "sensitivity": "常规", "delay_rate_pct": 4}}
+{"entity_id": "M10001", "entity_type": "product", "name": "NebulaPhone 12", "attributes": {"brand": "星环", "is_digital": false}}
+{"entity_id": "TM-88001", "entity_type": "platform_sku", "name": "TM-88001", "attributes": {"platform": "天猫"}}
+{"entity_id": "BRAND-星环", "entity_type": "brand", "name": "星环", "attributes": {}}
+{"entity_id": "M10005", "entity_type": "product", "name": "NebulaPad 8", "attributes": {"brand": "星环", "is_digital": false}}
+{"entity_id": "JD-50005", "entity_type": "platform_sku", "name": "JD-50005", "attributes": {"platform": "京东"}}
+{"entity_id": "BRAND-星环", "entity_type": "brand", "name": "星环", "attributes": {}}
+{"entity_id": "M10010", "entity_type": "product", "name": "AeroBuds Air", "attributes": {"brand": "声科", "is_digital": false}}
+{"entity_id": "TM-88010", "entity_type": "platform_sku", "name": "TM-88010", "attributes": {"platform": "天猫"}}
+{"entity_id": "BRAND-声科", "entity_type": "brand", "name": "声科", "attributes": {}}
+{"entity_id": "M10028", "entity_type": "product", "name": "AeroBuds Pro X2", "attributes": {"brand": "声科", "is_digital": false}}
+{"entity_id": "TM-88231", "entity_type": "platform_sku", "name": "TM-88231", "attributes": {"platform": "天猫"}}
+{"entity_id": "BRAND-声科", "entity_type": "brand", "name": "声科", "attributes": {}}
+{"entity_id": "M10029", "entity_type": "product", "name": "AeroBuds 充电盒", "attributes": {"brand": "声科", "is_digital": false}}
+{"entity_id": "JD-55210", "entity_type": "platform_sku", "name": "JD-55210", "attributes": {"platform": "京东"}}
+{"entity_id": "BRAND-声科", "entity_type": "brand", "name": "声科", "attributes": {}}
+{"entity_id": "M10030", "entity_type": "product", "name": "FitOne 智能手环", "attributes": {"brand": "声科", "is_digital": false}}
+{"entity_id": "DY-70030", "entity_type": "platform_sku", "name": "DY-70030", "attributes": {"platform": "抖音"}}
+{"entity_id": "BRAND-声科", "entity_type": "brand", "name": "声科", "attributes": {}}
+{"entity_id": "M10031", "entity_type": "product", "name": "AeroBuds Pro X2 海外版", "attributes": {"brand": "声科", "is_digital": false}}
+{"entity_id": "SP-33001", "entity_type": "platform_sku", "name": "SP-33001", "attributes": {"platform": "Shopee"}}
+{"entity_id": "BRAND-声科", "entity_type": "brand", "name": "声科", "attributes": {}}
+{"entity_id": "M10028S", "entity_type": "product", "name": "AeroBuds Pro X2S 升级版", "attributes": {"brand": "声科", "is_digital": false}}
+{"entity_id": "TM-88232", "entity_type": "platform_sku", "name": "TM-88232", "attributes": {"platform": "天猫"}}
+{"entity_id": "BRAND-声科", "entity_type": "brand", "name": "声科", "attributes": {}}
+{"entity_id": "M10032", "entity_type": "product", "name": "NebulaBook 14 笔记本", "attributes": {"brand": "星环", "is_digital": false}}
+{"entity_id": "JD-51032", "entity_type": "platform_sku", "name": "JD-51032", "attributes": {"platform": "京东"}}
+{"entity_id": "BRAND-星环", "entity_type": "brand", "name": "星环", "attributes": {}}
+{"entity_id": "M10033", "entity_type": "product", "name": "智能音箱 EchoNeb", "attributes": {"brand": "星环", "is_digital": false}}
+{"entity_id": "TM-88033", "entity_type": "platform_sku", "name": "TM-88033", "attributes": {"platform": "天猫"}}
+{"entity_id": "BRAND-星环", "entity_type": "brand", "name": "星环", "attributes": {}}
+{"entity_id": "M10034", "entity_type": "product", "name": "车载充电器 CarVolt", "attributes": {"brand": "星环", "is_digital": false}}
+{"entity_id": "DY-70034", "entity_type": "platform_sku", "name": "DY-70034", "attributes": {"platform": "抖音"}}
+{"entity_id": "BRAND-星环", "entity_type": "brand", "name": "星环", "attributes": {}}
+{"entity_id": "M10035", "entity_type": "product", "name": "NebulaWatch 3", "attributes": {"brand": "星环", "is_digital": false}}
+{"entity_id": "SP-33035", "entity_type": "platform_sku", "name": "SP-33035", "attributes": {"platform": "Shopee"}}
+{"entity_id": "BRAND-星环", "entity_type": "brand", "name": "星环", "attributes": {}}
+{"entity_id": "M10036", "entity_type": "product", "name": "电子书《企业数字化转型指南》", "attributes": {"brand": "星环", "is_digital": true}}
+{"entity_id": "EB-90001", "entity_type": "platform_sku", "name": "EB-90001", "attributes": {"platform": "天猫"}}
+{"entity_id": "BRAND-星环", "entity_type": "brand", "name": "星环", "attributes": {}}
+{"entity_id": "M10037", "entity_type": "product", "name": "智能办公软件激活码(年卡)", "attributes": {"brand": "星环", "is_digital": true}}
+{"entity_id": "EB-90002", "entity_type": "platform_sku", "name": "EB-90002", "attributes": {"platform": "京东"}}
+{"entity_id": "BRAND-星环", "entity_type": "brand", "name": "星环", "attributes": {}}
+{"entity_id": "M10038", "entity_type": "product", "name": "云端存储套餐(100GB/年)", "attributes": {"brand": "星环", "is_digital": true}}
+{"entity_id": "EB-90003", "entity_type": "platform_sku", "name": "EB-90003", "attributes": {"platform": "官网"}}
+{"entity_id": "BRAND-星环", "entity_type": "brand", "name": "星环", "attributes": {}}
+{"entity_id": "B2001", "entity_type": "bundle", "name": "AeroBuds Pro X2 无线套装", "attributes": {}}
+{"entity_id": "B2002", "entity_type": "bundle", "name": "手机+音箱家庭套装", "attributes": {}}
+{"entity_id": "SK-10028", "entity_type": "legacy_sku_alias", "name": "SK-10028", "attributes": {}}
+{"entity_id": "TM-10028", "entity_type": "legacy_sku_alias", "name": "TM-10028", "attributes": {}}
+{"entity_id": "广州仓", "entity_type": "warehouse", "name": "广州仓", "attributes": {}}
+{"entity_id": "上海仓", "entity_type": "warehouse", "name": "上海仓", "attributes": {}}
+{"entity_id": "欧洲仓", "entity_type": "warehouse", "name": "欧洲仓", "attributes": {}}
+{"entity_id": "新加坡仓", "entity_type": "warehouse", "name": "新加坡仓", "attributes": {}}
+{"entity_id": "PLAT-天猫", "entity_type": "platform", "name": "天猫", "attributes": {}}
+{"entity_id": "PLAT-京东", "entity_type": "platform", "name": "京东", "attributes": {}}
+{"entity_id": "PLAT-抖音", "entity_type": "platform", "name": "抖音", "attributes": {}}
+{"entity_id": "PLAT-Shopify", "entity_type": "platform", "name": "Shopify", "attributes": {}}
+{"entity_id": "PLAT-Shopee", "entity_type": "platform", "name": "Shopee", "attributes": {}}
+{"entity_id": "PLAT-官网", "entity_type": "platform", "name": "官网", "attributes": {}}
+{"entity_id": "C001", "entity_type": "customer", "name": "张氏贸易有限公司", "attributes": {"tier": "VIP", "vip": true}}
+{"entity_id": "C002", "entity_type": "customer", "name": "李记食品有限公司", "attributes": {"tier": "普通会员", "vip": false}}
+{"entity_id": "C003", "entity_type": "customer", "name": "华远科技有限公司", "attributes": {"tier": "VIP", "vip": true}}
+{"entity_id": "C004", "entity_type": "customer", "name": "恒达建材有限公司", "attributes": {"tier": "普通会员", "vip": false}}
+{"entity_id": "C005", "entity_type": "customer", "name": "锦绣服装有限公司", "attributes": {"tier": "普通会员", "vip": false}}
+{"entity_id": "C006", "entity_type": "customer", "name": "优品电器有限公司", "attributes": {"tier": "VIP", "vip": true}}
+{"entity_id": "C007", "entity_type": "customer", "name": "四季酒店管理公司", "attributes": {"tier": "VIP", "vip": true}}
+{"entity_id": "C008", "entity_type": "customer", "name": "蓝湾文旅有限公司", "attributes": {"tier": "普通会员", "vip": false}}
+{"entity_id": "C009", "entity_type": "customer", "name": "宏图教育集团", "attributes": {"tier": "普通会员", "vip": false}}
+{"entity_id": "C010", "entity_type": "customer", "name": "锐力体育用品公司", "attributes": {"tier": "VIP", "vip": true}}
+{"entity_id": "C011", "entity_type": "customer", "name": "天籁音响设备公司", "attributes": {"tier": "普通会员", "vip": false}}
+{"entity_id": "C012", "entity_type": "customer", "name": "绿源农业合作社", "attributes": {"tier": "普通会员", "vip": false}}
+{"entity_id": "C013", "entity_type": "customer", "name": "迅达物流集团", "attributes": {"tier": "VIP", "vip": true}}
+{"entity_id": "C014", "entity_type": "customer", "name": "晨光文具贸易公司", "attributes": {"tier": "普通会员", "vip": false}}
+{"entity_id": "C015", "entity_type": "customer", "name": "奥体健身连锁", "attributes": {"tier": "普通会员", "vip": false}}
+{"entity_id": "C016", "entity_type": "customer", "name": "康桥医疗集团", "attributes": {"tier": "VIP", "vip": true}}
+{"entity_id": "C017", "entity_type": "customer", "name": "远洋电子科技公司", "attributes": {"tier": "普通会员", "vip": false}}
+{"entity_id": "C018", "entity_type": "customer", "name": "明珠百货公司", "attributes": {"tier": "普通会员", "vip": false}}
+{"entity_id": "C019", "entity_type": "customer", "name": "光合传媒有限公司", "attributes": {"tier": "普通会员", "vip": false}}
+{"entity_id": "C020", "entity_type": "customer", "name": "国润投资集团", "attributes": {"tier": "VIP", "vip": true}}
+{"entity_id": "O-2025-0001", "entity_type": "order", "name": "O-2025-0001", "attributes": {"platform": "京东", "sku": "M10005", "amount_excl_tax": 518, "refund_amount": 518, "order_date": "2025-01-02"}}
+{"entity_id": "O-2025-0002", "entity_type": "order", "name": "O-2025-0002", "attributes": {"platform": "抖音", "sku": "M10010", "amount_excl_tax": 957, "refund_amount": 957, "order_date": "2025-01-03"}}
+{"entity_id": "O-2025-0003", "entity_type": "order", "name": "O-2025-0003", "attributes": {"platform": "Shopify", "sku": "M10028", "amount_excl_tax": 360, "refund_amount": 0, "order_date": "2025-01-04"}}
+{"entity_id": "O-2025-0004", "entity_type": "order", "name": "O-2025-0004", "attributes": {"platform": "Shopee", "sku": "M10029", "amount_excl_tax": 878, "refund_amount": 0, "order_date": "2025-01-05"}}
+{"entity_id": "O-2025-0005", "entity_type": "order", "name": "O-2025-0005", "attributes": {"platform": "天猫", "sku": "M10030", "amount_excl_tax": 1497, "refund_amount": 0, "order_date": "2025-01-06"}}
+{"entity_id": "O-2025-0006", "entity_type": "order", "name": "O-2025-0006", "attributes": {"platform": "京东", "sku": "M10031", "amount_excl_tax": 531, "refund_amount": 0, "order_date": "2025-01-07"}}
+{"entity_id": "O-2025-0007", "entity_type": "order", "name": "O-2025-0007", "attributes": {"platform": "抖音", "sku": "M10028S", "amount_excl_tax": 1238, "refund_amount": 0, "order_date": "2025-01-08"}}
+{"entity_id": "O-2025-0008", "entity_type": "order", "name": "O-2025-0008", "attributes": {"platform": "Shopify", "sku": "M10032", "amount_excl_tax": 2037, "refund_amount": 0, "order_date": "2025-01-09"}}
+{"entity_id": "O-2025-0009", "entity_type": "order", "name": "O-2025-0009", "attributes": {"platform": "Shopee", "sku": "M10033", "amount_excl_tax": 702, "refund_amount": 0, "order_date": "2025-01-10"}}
+{"entity_id": "O-2025-0010", "entity_type": "order", "name": "O-2025-0010", "attributes": {"platform": "天猫", "sku": "M10034", "amount_excl_tax": 1598, "refund_amount": 0, "order_date": "2025-01-11"}}
+{"entity_id": "O-2025-0011", "entity_type": "order", "name": "O-2025-0011", "attributes": {"platform": "京东", "sku": "M10035", "amount_excl_tax": 2577, "refund_amount": 0, "order_date": "2025-01-12"}}
+{"entity_id": "O-2025-0012", "entity_type": "order", "name": "O-2025-0012", "attributes": {"platform": "抖音", "sku": "M10001", "amount_excl_tax": 873, "refund_amount": 0, "order_date": "2025-01-13"}}
+{"entity_id": "O-2025-0013", "entity_type": "order", "name": "O-2025-0013", "attributes": {"platform": "Shopify", "sku": "M10005", "amount_excl_tax": 1958, "refund_amount": 0, "order_date": "2025-01-14"}}
+{"entity_id": "O-2025-0014", "entity_type": "order", "name": "O-2025-0014", "attributes": {"platform": "Shopee", "sku": "M10010", "amount_excl_tax": 3117, "refund_amount": 0, "order_date": "2025-01-15"}}
+{"entity_id": "O-2025-0015", "entity_type": "order", "name": "O-2025-0015", "attributes": {"platform": "天猫", "sku": "M10028", "amount_excl_tax": 1044, "refund_amount": 1044, "order_date": "2025-01-16"}}
+{"entity_id": "O-2025-0016", "entity_type": "order", "name": "O-2025-0016", "attributes": {"platform": "京东", "sku": "M10029", "amount_excl_tax": 2318, "refund_amount": 0, "order_date": "2025-02-17"}}
+{"entity_id": "O-2025-0017", "entity_type": "order", "name": "O-2025-0017", "attributes": {"platform": "抖音", "sku": "M10030", "amount_excl_tax": 597, "refund_amount": 597, "order_date": "2025-02-18"}}
+{"entity_id": "O-2025-0018", "entity_type": "order", "name": "O-2025-0018", "attributes": {"platform": "Shopify", "sku": "M10031", "amount_excl_tax": 246, "refund_amount": 0, "order_date": "2025-02-19"}}
+{"entity_id": "O-2025-0019", "entity_type": "order", "name": "O-2025-0019", "attributes": {"platform": "Shopee", "sku": "M10028S", "amount_excl_tax": 638, "refund_amount": 0, "order_date": "2025-02-20"}}
+{"entity_id": "O-2025-0020", "entity_type": "order", "name": "O-2025-0020", "attributes": {"platform": "天猫", "sku": "M10032", "amount_excl_tax": 1137, "refund_amount": 0, "order_date": "2025-02-21"}}
+{"entity_id": "O-2025-0021", "entity_type": "order", "name": "O-2025-0021", "attributes": {"platform": "京东", "sku": "M10033", "amount_excl_tax": 417, "refund_amount": 0, "order_date": "2025-02-22"}}
+{"entity_id": "O-2025-0022", "entity_type": "order", "name": "O-2025-0022", "attributes": {"platform": "抖音", "sku": "M10034", "amount_excl_tax": 998, "refund_amount": 0, "order_date": "2025-02-23"}}
+{"entity_id": "O-2025-0023", "entity_type": "order", "name": "O-2025-0023", "attributes": {"platform": "Shopify", "sku": "M10038", "amount_excl_tax": 1197, "refund_amount": 0, "order_date": "2025-02-24"}}
+{"entity_id": "O-2025-0024", "entity_type": "order", "name": "O-2025-0024", "attributes": {"platform": "Shopee", "sku": "M10001", "amount_excl_tax": 588, "refund_amount": 0, "order_date": "2025-02-25"}}
+{"entity_id": "O-2025-0025", "entity_type": "order", "name": "O-2025-0025", "attributes": {"platform": "天猫", "sku": "M10005", "amount_excl_tax": 1358, "refund_amount": 0, "order_date": "2025-02-26"}}
+{"entity_id": "O-2025-0026", "entity_type": "order", "name": "O-2025-0026", "attributes": {"platform": "京东", "sku": "M10010", "amount_excl_tax": 2217, "refund_amount": 0, "order_date": "2025-02-27"}}
+{"entity_id": "O-2025-0027", "entity_type": "order", "name": "O-2025-0027", "attributes": {"platform": "抖音", "sku": "M10028", "amount_excl_tax": 759, "refund_amount": 0, "order_date": "2025-02-01"}}
+{"entity_id": "O-2025-0028", "entity_type": "order", "name": "O-2025-0028", "attributes": {"platform": "Shopify", "sku": "M10029", "amount_excl_tax": 1718, "refund_amount": 0, "order_date": "2025-02-02"}}
+{"entity_id": "O-2025-0029", "entity_type": "order", "name": "O-2025-0029", "attributes": {"platform": "Shopee", "sku": "M10030", "amount_excl_tax": 2757, "refund_amount": 2757, "order_date": "2025-02-03"}}
+{"entity_id": "O-2025-0030", "entity_type": "order", "name": "O-2025-0030", "attributes": {"platform": "天猫", "sku": "M10031", "amount_excl_tax": 930, "refund_amount": 0, "order_date": "2025-02-04"}}
+{"entity_id": "O-2025-0031", "entity_type": "order", "name": "O-2025-0031", "attributes": {"platform": "京东", "sku": "M10028S", "amount_excl_tax": 2078, "refund_amount": 0, "order_date": "2025-02-05"}}
+{"entity_id": "O-2025-0032", "entity_type": "order", "name": "O-2025-0032", "attributes": {"platform": "抖音", "sku": "M10032", "amount_excl_tax": 3297, "refund_amount": 0, "order_date": "2025-03-06"}}
+{"entity_id": "O-2025-0033", "entity_type": "order", "name": "O-2025-0033", "attributes": {"platform": "Shopify", "sku": "M10033", "amount_excl_tax": 1101, "refund_amount": 0, "order_date": "2025-03-07"}}
+{"entity_id": "O-2025-0034", "entity_type": "order", "name": "O-2025-0034", "attributes": {"platform": "Shopee", "sku": "M10034", "amount_excl_tax": 398, "refund_amount": 0, "order_date": "2025-03-08"}}
+{"entity_id": "O-2025-0035", "entity_type": "order", "name": "O-2025-0035", "attributes": {"platform": "天猫", "sku": "M10035", "amount_excl_tax": 777, "refund_amount": 0, "order_date": "2025-03-09"}}
+{"entity_id": "O-2025-0036", "entity_type": "order", "name": "O-2025-0036", "attributes": {"platform": "京东", "sku": "M10001", "amount_excl_tax": 303, "refund_amount": 0, "order_date": "2025-03-10"}}
+{"entity_id": "O-2025-0037", "entity_type": "order", "name": "O-2025-0037", "attributes": {"platform": "抖音", "sku": "M10005", "amount_excl_tax": 758, "refund_amount": 0, "order_date": "2025-03-11"}}
+{"entity_id": "O-2025-0038", "entity_type": "order", "name": "O-2025-0038", "attributes": {"platform": "Shopify", "sku": "M10010", "amount_excl_tax": 1317, "refund_amount": 0, "order_date": "2025-03-12"}}
+{"entity_id": "O-2025-0039", "entity_type": "order", "name": "O-2025-0039", "attributes": {"platform": "Shopee", "sku": "M10028", "amount_excl_tax": 474, "refund_amount": 0, "order_date": "2025-03-13"}}
+{"entity_id": "O-2025-0040", "entity_type": "order", "name": "O-2025-0040", "attributes": {"platform": "天猫", "sku": "M10029", "amount_excl_tax": 1118, "refund_amount": 0, "order_date": "2025-03-14"}}
+{"entity_id": "O-2025-0041", "entity_type": "order", "name": "O-2025-0041", "attributes": {"platform": "京东", "sku": "M10030", "amount_excl_tax": 1857, "refund_amount": 0, "order_date": "2025-03-15"}}
+{"entity_id": "O-2025-0042", "entity_type": "order", "name": "O-2025-0042", "attributes": {"platform": "抖音", "sku": "M10031", "amount_excl_tax": 645, "refund_amount": 0, "order_date": "2025-03-16"}}
+{"entity_id": "O-2025-0043", "entity_type": "order", "name": "O-2025-0043", "attributes": {"platform": "Shopify", "sku": "M10028S", "amount_excl_tax": 1478, "refund_amount": 1478, "order_date": "2025-03-17"}}
+{"entity_id": "O-2025-0044", "entity_type": "order", "name": "O-2025-0044", "attributes": {"platform": "Shopee", "sku": "M10032", "amount_excl_tax": 2397, "refund_amount": 0, "order_date": "2025-03-18"}}
+{"entity_id": "O-2025-0045", "entity_type": "order", "name": "O-2025-0045", "attributes": {"platform": "天猫", "sku": "M10033", "amount_excl_tax": 816, "refund_amount": 0, "order_date": "2025-03-19"}}
+{"entity_id": "O-2025-0046", "entity_type": "order", "name": "O-2025-0046", "attributes": {"platform": "京东", "sku": "M10037", "amount_excl_tax": 398, "refund_amount": 0, "order_date": "2025-03-20"}}
+{"entity_id": "O-2025-0047", "entity_type": "order", "name": "O-2025-0047", "attributes": {"platform": "抖音", "sku": "M10035", "amount_excl_tax": 2937, "refund_amount": 0, "order_date": "2025-03-21"}}
+{"entity_id": "O-2025-0048", "entity_type": "order", "name": "O-2025-0048", "attributes": {"platform": "Shopify", "sku": "M10001", "amount_excl_tax": 987, "refund_amount": 0, "order_date": "2025-03-22"}}
+{"entity_id": "O-2025-0049", "entity_type": "order", "name": "O-2025-0049", "attributes": {"platform": "Shopee", "sku": "M10005", "amount_excl_tax": 2198, "refund_amount": 0, "order_date": "2025-04-23"}}
+{"entity_id": "O-2025-0050", "entity_type": "order", "name": "O-2025-0050", "attributes": {"platform": "天猫", "sku": "M10010", "amount_excl_tax": 3477, "refund_amount": 0, "order_date": "2025-04-24"}}
+{"entity_id": "O-2025-0051", "entity_type": "order", "name": "O-2025-0051", "attributes": {"platform": "京东", "sku": "M10028", "amount_excl_tax": 189, "refund_amount": 0, "order_date": "2025-04-25"}}
+{"entity_id": "O-2025-0052", "entity_type": "order", "name": "O-2025-0052", "attributes": {"platform": "抖音", "sku": "M10029", "amount_excl_tax": 518, "refund_amount": 0, "order_date": "2025-04-26"}}
+{"entity_id": "O-2025-0053", "entity_type": "order", "name": "O-2025-0053", "attributes": {"platform": "Shopify", "sku": "M10030", "amount_excl_tax": 957, "refund_amount": 0, "order_date": "2025-04-27"}}
+{"entity_id": "O-2025-0054", "entity_type": "order", "name": "O-2025-0054", "attributes": {"platform": "Shopee", "sku": "M10031", "amount_excl_tax": 360, "refund_amount": 0, "order_date": "2025-04-01"}}
+{"entity_id": "O-2025-0055", "entity_type": "order", "name": "O-2025-0055", "attributes": {"platform": "天猫", "sku": "M10028S", "amount_excl_tax": 878, "refund_amount": 0, "order_date": "2025-04-02"}}
+{"entity_id": "O-2025-0056", "entity_type": "order", "name": "O-2025-0056", "attributes": {"platform": "京东", "sku": "M10032", "amount_excl_tax": 1497, "refund_amount": 0, "order_date": "2025-04-03"}}
+{"entity_id": "O-2025-0057", "entity_type": "order", "name": "O-2025-0057", "attributes": {"platform": "抖音", "sku": "M10033", "amount_excl_tax": 531, "refund_amount": 0, "order_date": "2025-04-04"}}
+{"entity_id": "O-2025-0058", "entity_type": "order", "name": "O-2025-0058", "attributes": {"platform": "Shopify", "sku": "M10034", "amount_excl_tax": 1238, "refund_amount": 0, "order_date": "2025-04-05"}}
+{"entity_id": "O-2025-0059", "entity_type": "order", "name": "O-2025-0059", "attributes": {"platform": "Shopee", "sku": "M10035", "amount_excl_tax": 2037, "refund_amount": 0, "order_date": "2025-04-06"}}
+{"entity_id": "O-2025-0060", "entity_type": "order", "name": "O-2025-0060", "attributes": {"platform": "天猫", "sku": "M10001", "amount_excl_tax": 702, "refund_amount": 0, "order_date": "2025-04-07"}}
+{"entity_id": "O-2025-0061", "entity_type": "order", "name": "O-2025-0061", "attributes": {"platform": "京东", "sku": "M10005", "amount_excl_tax": 1598, "refund_amount": 0, "order_date": "2025-04-08"}}
+{"entity_id": "O-2025-0062", "entity_type": "order", "name": "O-2025-0062", "attributes": {"platform": "抖音", "sku": "M10010", "amount_excl_tax": 2577, "refund_amount": 0, "order_date": "2025-04-09"}}
+{"entity_id": "O-2025-0063", "entity_type": "order", "name": "O-2025-0063", "attributes": {"platform": "Shopify", "sku": "M10028", "amount_excl_tax": 873, "refund_amount": 0, "order_date": "2025-05-10"}}
+{"entity_id": "O-2025-0064", "entity_type": "order", "name": "O-2025-0064", "attributes": {"platform": "Shopee", "sku": "M10029", "amount_excl_tax": 1958, "refund_amount": 0, "order_date": "2025-05-11"}}
+{"entity_id": "O-2025-0065", "entity_type": "order", "name": "O-2025-0065", "attributes": {"platform": "天猫", "sku": "M10030", "amount_excl_tax": 3117, "refund_amount": 0, "order_date": "2025-05-12"}}
+{"entity_id": "O-2025-0066", "entity_type": "order", "name": "O-2025-0066", "attributes": {"platform": "京东", "sku": "M10031", "amount_excl_tax": 1044, "refund_amount": 0, "order_date": "2025-05-13"}}
+{"entity_id": "O-2025-0067", "entity_type": "order", "name": "O-2025-0067", "attributes": {"platform": "抖音", "sku": "M10028S", "amount_excl_tax": 2318, "refund_amount": 0, "order_date": "2025-05-14"}}
+{"entity_id": "O-2025-0068", "entity_type": "order", "name": "O-2025-0068", "attributes": {"platform": "Shopify", "sku": "M10032", "amount_excl_tax": 597, "refund_amount": 0, "order_date": "2025-05-15"}}
+{"entity_id": "O-2025-0069", "entity_type": "order", "name": "O-2025-0069", "attributes": {"platform": "Shopee", "sku": "M10036", "amount_excl_tax": 474, "refund_amount": 0, "order_date": "2025-05-16"}}
+{"entity_id": "O-2025-0070", "entity_type": "order", "name": "O-2025-0070", "attributes": {"platform": "天猫", "sku": "M10034", "amount_excl_tax": 638, "refund_amount": 0, "order_date": "2025-05-17"}}
+{"entity_id": "O-2025-0071", "entity_type": "order", "name": "O-2025-0071", "attributes": {"platform": "京东", "sku": "M10035", "amount_excl_tax": 1137, "refund_amount": 0, "order_date": "2025-05-18"}}
+{"entity_id": "O-2025-0072", "entity_type": "order", "name": "O-2025-0072", "attributes": {"platform": "抖音", "sku": "M10001", "amount_excl_tax": 417, "refund_amount": 417, "order_date": "2025-05-19"}}
+{"entity_id": "O-2025-0073", "entity_type": "order", "name": "O-2025-0073", "attributes": {"platform": "Shopify", "sku": "M10005", "amount_excl_tax": 998, "refund_amount": 0, "order_date": "2025-05-20"}}
+{"entity_id": "O-2025-0074", "entity_type": "order", "name": "O-2025-0074", "attributes": {"platform": "Shopee", "sku": "M10010", "amount_excl_tax": 1677, "refund_amount": 0, "order_date": "2025-05-21"}}
+{"entity_id": "O-2025-0075", "entity_type": "order", "name": "O-2025-0075", "attributes": {"platform": "天猫", "sku": "M10028", "amount_excl_tax": 588, "refund_amount": 0, "order_date": "2025-05-22"}}
+{"entity_id": "O-2025-0076", "entity_type": "order", "name": "O-2025-0076", "attributes": {"platform": "京东", "sku": "M10029", "amount_excl_tax": 1358, "refund_amount": 0, "order_date": "2025-05-23"}}
+{"entity_id": "O-2025-0077", "entity_type": "order", "name": "O-2025-0077", "attributes": {"platform": "抖音", "sku": "M10030", "amount_excl_tax": 2217, "refund_amount": 0, "order_date": "2025-05-24"}}
+{"entity_id": "O-2025-0078", "entity_type": "order", "name": "O-2025-0078", "attributes": {"platform": "Shopify", "sku": "M10031", "amount_excl_tax": 759, "refund_amount": 0, "order_date": "2025-06-25"}}
+{"entity_id": "O-2025-0079", "entity_type": "order", "name": "O-2025-0079", "attributes": {"platform": "Shopee", "sku": "M10028S", "amount_excl_tax": 1718, "refund_amount": 0, "order_date": "2025-06-26"}}
+{"entity_id": "O-2025-0080", "entity_type": "order", "name": "O-2025-0080", "attributes": {"platform": "天猫", "sku": "M10032", "amount_excl_tax": 2757, "refund_amount": 0, "order_date": "2025-06-27"}}
+{"entity_id": "O-2025-0081", "entity_type": "order", "name": "O-2025-0081", "attributes": {"platform": "京东", "sku": "M10033", "amount_excl_tax": 930, "refund_amount": 0, "order_date": "2025-06-01"}}
+{"entity_id": "O-2025-0082", "entity_type": "order", "name": "O-2025-0082", "attributes": {"platform": "抖音", "sku": "M10034", "amount_excl_tax": 2078, "refund_amount": 0, "order_date": "2025-06-02"}}
+{"entity_id": "O-2025-0083", "entity_type": "order", "name": "O-2025-0083", "attributes": {"platform": "Shopify", "sku": "M10035", "amount_excl_tax": 3297, "refund_amount": 0, "order_date": "2025-06-03"}}
+{"entity_id": "O-2025-0084", "entity_type": "order", "name": "O-2025-0084", "attributes": {"platform": "Shopee", "sku": "M10001", "amount_excl_tax": 1101, "refund_amount": 0, "order_date": "2025-06-04"}}
+{"entity_id": "O-2025-0085", "entity_type": "order", "name": "O-2025-0085", "attributes": {"platform": "天猫", "sku": "M10005", "amount_excl_tax": 398, "refund_amount": 0, "order_date": "2025-06-05"}}
+{"entity_id": "O-2025-0086", "entity_type": "order", "name": "O-2025-0086", "attributes": {"platform": "京东", "sku": "M10010", "amount_excl_tax": 777, "refund_amount": 777, "order_date": "2025-06-06"}}
+{"entity_id": "O-2025-0087", "entity_type": "order", "name": "O-2025-0087", "attributes": {"platform": "抖音", "sku": "M10028", "amount_excl_tax": 303, "refund_amount": 303, "order_date": "2025-06-07"}}
+{"entity_id": "O-2025-0088", "entity_type": "order", "name": "O-2025-0088", "attributes": {"platform": "Shopify", "sku": "M10029", "amount_excl_tax": 758, "refund_amount": 0, "order_date": "2025-06-08"}}
+{"entity_id": "O-2025-0089", "entity_type": "order", "name": "O-2025-0089", "attributes": {"platform": "Shopee", "sku": "M10030", "amount_excl_tax": 1317, "refund_amount": 0, "order_date": "2025-06-09"}}
+{"entity_id": "O-2025-0090", "entity_type": "order", "name": "O-2025-0090", "attributes": {"platform": "天猫", "sku": "M10031", "amount_excl_tax": 474, "refund_amount": 0, "order_date": "2025-06-10"}}
+{"entity_id": "O-2025-0091", "entity_type": "order", "name": "O-2025-0091", "attributes": {"platform": "京东", "sku": "M10028S", "amount_excl_tax": 1118, "refund_amount": 0, "order_date": "2025-06-11"}}
+{"entity_id": "O-2025-0092", "entity_type": "order", "name": "O-2025-0092", "attributes": {"platform": "抖音", "sku": "M10038", "amount_excl_tax": 897, "refund_amount": 0, "order_date": "2025-06-12"}}
+{"entity_id": "O-2025-0093", "entity_type": "order", "name": "O-2025-0093", "attributes": {"platform": "Shopify", "sku": "M10033", "amount_excl_tax": 645, "refund_amount": 0, "order_date": "2025-06-13"}}
+{"entity_id": "O-2025-0094", "entity_type": "order", "name": "O-2025-0094", "attributes": {"platform": "Shopee", "sku": "M10034", "amount_excl_tax": 1478, "refund_amount": 0, "order_date": "2025-07-14"}}
+{"entity_id": "O-2025-0095", "entity_type": "order", "name": "O-2025-0095", "attributes": {"platform": "天猫", "sku": "M10035", "amount_excl_tax": 2397, "refund_amount": 0, "order_date": "2025-07-15"}}
+{"entity_id": "O-2025-0096", "entity_type": "order", "name": "O-2025-0096", "attributes": {"platform": "京东", "sku": "M10001", "amount_excl_tax": 816, "refund_amount": 0, "order_date": "2025-07-16"}}
+{"entity_id": "O-2025-0097", "entity_type": "order", "name": "O-2025-0097", "attributes": {"platform": "抖音", "sku": "M10005", "amount_excl_tax": 1838, "refund_amount": 0, "order_date": "2025-07-17"}}
+{"entity_id": "O-2025-0098", "entity_type": "order", "name": "O-2025-0098", "attributes": {"platform": "Shopify", "sku": "M10010", "amount_excl_tax": 2937, "refund_amount": 0, "order_date": "2025-07-18"}}
+{"entity_id": "O-2025-0099", "entity_type": "order", "name": "O-2025-0099", "attributes": {"platform": "Shopee", "sku": "M10028", "amount_excl_tax": 987, "refund_amount": 0, "order_date": "2025-07-19"}}
+{"entity_id": "O-2025-0100", "entity_type": "order", "name": "O-2025-0100", "attributes": {"platform": "天猫", "sku": "M10029", "amount_excl_tax": 2198, "refund_amount": 2198, "order_date": "2025-07-20"}}
+{"entity_id": "O-2025-0101", "entity_type": "order", "name": "O-2025-0101", "attributes": {"platform": "京东", "sku": "M10030", "amount_excl_tax": 3477, "refund_amount": 3477, "order_date": "2025-07-21"}}
+{"entity_id": "O-2025-0102", "entity_type": "order", "name": "O-2025-0102", "attributes": {"platform": "抖音", "sku": "M10031", "amount_excl_tax": 189, "refund_amount": 189, "order_date": "2025-07-22"}}
+{"entity_id": "O-2025-0103", "entity_type": "order", "name": "O-2025-0103", "attributes": {"platform": "Shopify", "sku": "M10028S", "amount_excl_tax": 518, "refund_amount": 0, "order_date": "2025-07-23"}}
+{"entity_id": "O-2025-0104", "entity_type": "order", "name": "O-2025-0104", "attributes": {"platform": "Shopee", "sku": "M10032", "amount_excl_tax": 957, "refund_amount": 0, "order_date": "2025-07-24"}}
+{"entity_id": "O-2025-0105", "entity_type": "order", "name": "O-2025-0105", "attributes": {"platform": "天猫", "sku": "M10033", "amount_excl_tax": 360, "refund_amount": 0, "order_date": "2025-07-25"}}
+{"entity_id": "O-2025-0106", "entity_type": "order", "name": "O-2025-0106", "attributes": {"platform": "京东", "sku": "M10034", "amount_excl_tax": 878, "refund_amount": 0, "order_date": "2025-07-26"}}
+{"entity_id": "O-2025-0107", "entity_type": "order", "name": "O-2025-0107", "attributes": {"platform": "抖音", "sku": "M10035", "amount_excl_tax": 1497, "refund_amount": 0, "order_date": "2025-07-27"}}
+{"entity_id": "O-2025-0108", "entity_type": "order", "name": "O-2025-0108", "attributes": {"platform": "Shopify", "sku": "M10001", "amount_excl_tax": 531, "refund_amount": 0, "order_date": "2025-07-01"}}
+{"entity_id": "O-2025-0109", "entity_type": "order", "name": "O-2025-0109", "attributes": {"platform": "Shopee", "sku": "M10005", "amount_excl_tax": 1238, "refund_amount": 0, "order_date": "2025-07-02"}}
+{"entity_id": "O-2025-0110", "entity_type": "order", "name": "O-2025-0110", "attributes": {"platform": "天猫", "sku": "M10010", "amount_excl_tax": 2037, "refund_amount": 0, "order_date": "2025-07-03"}}
+{"entity_id": "O-2025-0111", "entity_type": "order", "name": "O-2025-0111", "attributes": {"platform": "京东", "sku": "M10028", "amount_excl_tax": 702, "refund_amount": 0, "order_date": "2025-08-04"}}
+{"entity_id": "O-2025-0112", "entity_type": "order", "name": "O-2025-0112", "attributes": {"platform": "抖音", "sku": "M10029", "amount_excl_tax": 1598, "refund_amount": 0, "order_date": "2025-08-05"}}
+{"entity_id": "O-2025-0113", "entity_type": "order", "name": "O-2025-0113", "attributes": {"platform": "Shopify", "sku": "M10030", "amount_excl_tax": 2577, "refund_amount": 0, "order_date": "2025-08-06"}}
+{"entity_id": "O-2025-0114", "entity_type": "order", "name": "O-2025-0114", "attributes": {"platform": "Shopee", "sku": "M10031", "amount_excl_tax": 873, "refund_amount": 0, "order_date": "2025-08-07"}}
+{"entity_id": "O-2025-0115", "entity_type": "order", "name": "O-2025-0115", "attributes": {"platform": "天猫", "sku": "M10037", "amount_excl_tax": 198, "refund_amount": 198, "order_date": "2025-08-08"}}
+{"entity_id": "O-2025-0116", "entity_type": "order", "name": "O-2025-0116", "attributes": {"platform": "京东", "sku": "M10032", "amount_excl_tax": 3117, "refund_amount": 0, "order_date": "2025-08-09"}}
+{"entity_id": "O-2025-0117", "entity_type": "order", "name": "O-2025-0117", "attributes": {"platform": "抖音", "sku": "M10033", "amount_excl_tax": 1044, "refund_amount": 1044, "order_date": "2025-08-10"}}
+{"entity_id": "O-2025-0118", "entity_type": "order", "name": "O-2025-0118", "attributes": {"platform": "Shopify", "sku": "M10034", "amount_excl_tax": 2318, "refund_amount": 0, "order_date": "2025-08-11"}}
+{"entity_id": "O-2025-0119", "entity_type": "order", "name": "O-2025-0119", "attributes": {"platform": "Shopee", "sku": "M10035", "amount_excl_tax": 597, "refund_amount": 0, "order_date": "2025-08-12"}}
+{"entity_id": "O-2025-0120", "entity_type": "order", "name": "O-2025-0120", "attributes": {"platform": "天猫", "sku": "M10001", "amount_excl_tax": 246, "refund_amount": 0, "order_date": "2025-08-13"}}
+{"entity_id": "O-2025-0121", "entity_type": "order", "name": "O-2025-0121", "attributes": {"platform": "京东", "sku": "M10005", "amount_excl_tax": 638, "refund_amount": 0, "order_date": "2025-08-14"}}
+{"entity_id": "O-2025-0122", "entity_type": "order", "name": "O-2025-0122", "attributes": {"platform": "抖音", "sku": "M10010", "amount_excl_tax": 1137, "refund_amount": 0, "order_date": "2025-08-15"}}
+{"entity_id": "O-2025-0123", "entity_type": "order", "name": "O-2025-0123", "attributes": {"platform": "Shopify", "sku": "M10028", "amount_excl_tax": 417, "refund_amount": 0, "order_date": "2025-08-16"}}
+{"entity_id": "O-2025-0124", "entity_type": "order", "name": "O-2025-0124", "attributes": {"platform": "Shopee", "sku": "M10029", "amount_excl_tax": 998, "refund_amount": 0, "order_date": "2025-08-17"}}
+{"entity_id": "O-2025-0125", "entity_type": "order", "name": "O-2025-0125", "attributes": {"platform": "天猫", "sku": "M10030", "amount_excl_tax": 1677, "refund_amount": 0, "order_date": "2025-09-18"}}
+{"entity_id": "O-2025-0126", "entity_type": "order", "name": "O-2025-0126", "attributes": {"platform": "京东", "sku": "M10031", "amount_excl_tax": 588, "refund_amount": 0, "order_date": "2025-09-19"}}
+{"entity_id": "O-2025-0127", "entity_type": "order", "name": "O-2025-0127", "attributes": {"platform": "抖音", "sku": "M10028S", "amount_excl_tax": 1358, "refund_amount": 0, "order_date": "2025-09-20"}}
+{"entity_id": "O-2025-0128", "entity_type": "order", "name": "O-2025-0128", "attributes": {"platform": "Shopify", "sku": "M10032", "amount_excl_tax": 2217, "refund_amount": 0, "order_date": "2025-09-21"}}
+{"entity_id": "O-2025-0129", "entity_type": "order", "name": "O-2025-0129", "attributes": {"platform": "Shopee", "sku": "M10033", "amount_excl_tax": 759, "refund_amount": 759, "order_date": "2025-09-22"}}
+{"entity_id": "O-2025-0130", "entity_type": "order", "name": "O-2025-0130", "attributes": {"platform": "天猫", "sku": "M10034", "amount_excl_tax": 1718, "refund_amount": 0, "order_date": "2025-09-23"}}
+{"entity_id": "O-2025-0131", "entity_type": "order", "name": "O-2025-0131", "attributes": {"platform": "京东", "sku": "M10035", "amount_excl_tax": 2757, "refund_amount": 0, "order_date": "2025-09-24"}}
+{"entity_id": "O-2025-0132", "entity_type": "order", "name": "O-2025-0132", "attributes": {"platform": "抖音", "sku": "M10001", "amount_excl_tax": 930, "refund_amount": 0, "order_date": "2025-09-25"}}
+{"entity_id": "O-2025-0133", "entity_type": "order", "name": "O-2025-0133", "attributes": {"platform": "Shopify", "sku": "M10005", "amount_excl_tax": 2078, "refund_amount": 0, "order_date": "2025-09-26"}}
+{"entity_id": "O-2025-0134", "entity_type": "order", "name": "O-2025-0134", "attributes": {"platform": "Shopee", "sku": "M10010", "amount_excl_tax": 3297, "refund_amount": 0, "order_date": "2025-09-27"}}
+{"entity_id": "O-2025-0135", "entity_type": "order", "name": "O-2025-0135", "attributes": {"platform": "天猫", "sku": "M10028", "amount_excl_tax": 1101, "refund_amount": 0, "order_date": "2025-09-01"}}
+{"entity_id": "O-2025-0136", "entity_type": "order", "name": "O-2025-0136", "attributes": {"platform": "京东", "sku": "M10029", "amount_excl_tax": 398, "refund_amount": 0, "order_date": "2025-09-02"}}
+{"entity_id": "O-2025-0137", "entity_type": "order", "name": "O-2025-0137", "attributes": {"platform": "抖音", "sku": "M10030", "amount_excl_tax": 777, "refund_amount": 0, "order_date": "2025-09-03"}}
+{"entity_id": "O-2025-0138", "entity_type": "order", "name": "O-2025-0138", "attributes": {"platform": "Shopify", "sku": "M10036", "amount_excl_tax": 379, "refund_amount": 0, "order_date": "2025-09-04"}}
+{"entity_id": "O-2025-0139", "entity_type": "order", "name": "O-2025-0139", "attributes": {"platform": "Shopee", "sku": "M10028S", "amount_excl_tax": 758, "refund_amount": 0, "order_date": "2025-09-05"}}
+{"entity_id": "O-2025-0140", "entity_type": "order", "name": "O-2025-0140", "attributes": {"platform": "天猫", "sku": "M10032", "amount_excl_tax": 1317, "refund_amount": 0, "order_date": "2025-10-06"}}
+{"entity_id": "O-2025-0141", "entity_type": "order", "name": "O-2025-0141", "attributes": {"platform": "京东", "sku": "M10033", "amount_excl_tax": 474, "refund_amount": 0, "order_date": "2025-10-07"}}
+{"entity_id": "O-2025-0142", "entity_type": "order", "name": "O-2025-0142", "attributes": {"platform": "抖音", "sku": "M10034", "amount_excl_tax": 1118, "refund_amount": 0, "order_date": "2025-10-08"}}
+{"entity_id": "O-2025-0143", "entity_type": "order", "name": "O-2025-0143", "attributes": {"platform": "Shopify", "sku": "M10035", "amount_excl_tax": 1857, "refund_amount": 1857, "order_date": "2025-10-09"}}
+{"entity_id": "O-2025-0144", "entity_type": "order", "name": "O-2025-0144", "attributes": {"platform": "Shopee", "sku": "M10001", "amount_excl_tax": 645, "refund_amount": 0, "order_date": "2025-10-10"}}
+{"entity_id": "O-2025-0145", "entity_type": "order", "name": "O-2025-0145", "attributes": {"platform": "天猫", "sku": "M10005", "amount_excl_tax": 1478, "refund_amount": 0, "order_date": "2025-10-11"}}
+{"entity_id": "O-2025-0146", "entity_type": "order", "name": "O-2025-0146", "attributes": {"platform": "京东", "sku": "M10010", "amount_excl_tax": 2397, "refund_amount": 0, "order_date": "2025-10-12"}}
+{"entity_id": "O-2025-0147", "entity_type": "order", "name": "O-2025-0147", "attributes": {"platform": "抖音", "sku": "M10028", "amount_excl_tax": 816, "refund_amount": 0, "order_date": "2025-10-13"}}
+{"entity_id": "O-2025-0148", "entity_type": "order", "name": "O-2025-0148", "attributes": {"platform": "Shopify", "sku": "M10029", "amount_excl_tax": 1838, "refund_amount": 0, "order_date": "2025-10-14"}}
+{"entity_id": "O-2025-0149", "entity_type": "order", "name": "O-2025-0149", "attributes": {"platform": "Shopee", "sku": "M10030", "amount_excl_tax": 2937, "refund_amount": 0, "order_date": "2025-10-15"}}
+{"entity_id": "O-2025-0150", "entity_type": "order", "name": "O-2025-0150", "attributes": {"platform": "天猫", "sku": "M10031", "amount_excl_tax": 987, "refund_amount": 0, "order_date": "2025-10-16"}}
+{"entity_id": "O-2025-0151", "entity_type": "order", "name": "O-2025-0151", "attributes": {"platform": "京东", "sku": "M10028S", "amount_excl_tax": 2198, "refund_amount": 0, "order_date": "2025-10-17"}}
+{"entity_id": "O-2025-0152", "entity_type": "order", "name": "O-2025-0152", "attributes": {"platform": "抖音", "sku": "M10032", "amount_excl_tax": 3477, "refund_amount": 0, "order_date": "2025-10-18"}}
+{"entity_id": "O-2025-0153", "entity_type": "order", "name": "O-2025-0153", "attributes": {"platform": "Shopify", "sku": "M10033", "amount_excl_tax": 189, "refund_amount": 0, "order_date": "2025-10-19"}}
+{"entity_id": "O-2025-0154", "entity_type": "order", "name": "O-2025-0154", "attributes": {"platform": "Shopee", "sku": "M10034", "amount_excl_tax": 518, "refund_amount": 0, "order_date": "2025-10-20"}}
+{"entity_id": "O-2025-0155", "entity_type": "order", "name": "O-2025-0155", "attributes": {"platform": "天猫", "sku": "M10035", "amount_excl_tax": 957, "refund_amount": 0, "order_date": "2025-10-21"}}
+{"entity_id": "O-2025-0156", "entity_type": "order", "name": "O-2025-0156", "attributes": {"platform": "京东", "sku": "M10001", "amount_excl_tax": 360, "refund_amount": 0, "order_date": "2025-11-22"}}
+{"entity_id": "O-2025-0157", "entity_type": "order", "name": "O-2025-0157", "attributes": {"platform": "抖音", "sku": "M10005", "amount_excl_tax": 878, "refund_amount": 0, "order_date": "2025-11-23"}}
+{"entity_id": "O-2025-0158", "entity_type": "order", "name": "O-2025-0158", "attributes": {"platform": "Shopify", "sku": "M10010", "amount_excl_tax": 1497, "refund_amount": 0, "order_date": "2025-11-24"}}
+{"entity_id": "O-2025-0159", "entity_type": "order", "name": "O-2025-0159", "attributes": {"platform": "Shopee", "sku": "M10028", "amount_excl_tax": 531, "refund_amount": 0, "order_date": "2025-11-25"}}
+{"entity_id": "O-2025-0160", "entity_type": "order", "name": "O-2025-0160", "attributes": {"platform": "天猫", "sku": "M10029", "amount_excl_tax": 1238, "refund_amount": 0, "order_date": "2025-11-26"}}
+{"entity_id": "O-2025-0161", "entity_type": "order", "name": "O-2025-0161", "attributes": {"platform": "京东", "sku": "M10038", "amount_excl_tax": 597, "refund_amount": 0, "order_date": "2025-11-27"}}
+{"entity_id": "O-2025-0162", "entity_type": "order", "name": "O-2025-0162", "attributes": {"platform": "抖音", "sku": "M10031", "amount_excl_tax": 702, "refund_amount": 0, "order_date": "2025-11-01"}}
+{"entity_id": "O-2025-0163", "entity_type": "order", "name": "O-2025-0163", "attributes": {"platform": "Shopify", "sku": "M10028S", "amount_excl_tax": 1598, "refund_amount": 0, "order_date": "2025-11-02"}}
+{"entity_id": "O-2025-0164", "entity_type": "order", "name": "O-2025-0164", "attributes": {"platform": "Shopee", "sku": "M10032", "amount_excl_tax": 2577, "refund_amount": 0, "order_date": "2025-11-03"}}
+{"entity_id": "O-2025-0165", "entity_type": "order", "name": "O-2025-0165", "attributes": {"platform": "天猫", "sku": "M10033", "amount_excl_tax": 873, "refund_amount": 0, "order_date": "2025-11-04"}}
+{"entity_id": "O-2025-0166", "entity_type": "order", "name": "O-2025-0166", "attributes": {"platform": "京东", "sku": "M10034", "amount_excl_tax": 1958, "refund_amount": 0, "order_date": "2025-11-05"}}
+{"entity_id": "O-2025-0167", "entity_type": "order", "name": "O-2025-0167", "attributes": {"platform": "抖音", "sku": "M10035", "amount_excl_tax": 3117, "refund_amount": 0, "order_date": "2025-11-06"}}
+{"entity_id": "O-2025-0168", "entity_type": "order", "name": "O-2025-0168", "attributes": {"platform": "Shopify", "sku": "M10001", "amount_excl_tax": 1044, "refund_amount": 0, "order_date": "2025-11-07"}}
+{"entity_id": "O-2025-0169", "entity_type": "order", "name": "O-2025-0169", "attributes": {"platform": "Shopee", "sku": "M10005", "amount_excl_tax": 2318, "refund_amount": 0, "order_date": "2025-11-08"}}
+{"entity_id": "O-2025-0170", "entity_type": "order", "name": "O-2025-0170", "attributes": {"platform": "天猫", "sku": "M10010", "amount_excl_tax": 597, "refund_amount": 0, "order_date": "2025-11-09"}}
+{"entity_id": "O-2025-0171", "entity_type": "order", "name": "O-2025-0171", "attributes": {"platform": "京东", "sku": "M10028", "amount_excl_tax": 246, "refund_amount": 0, "order_date": "2025-11-10"}}
+{"entity_id": "O-2025-0172", "entity_type": "order", "name": "O-2025-0172", "attributes": {"platform": "抖音", "sku": "M10029", "amount_excl_tax": 638, "refund_amount": 638, "order_date": "2025-11-11"}}
+{"entity_id": "O-2025-0173", "entity_type": "order", "name": "O-2025-0173", "attributes": {"platform": "Shopify", "sku": "M10030", "amount_excl_tax": 1137, "refund_amount": 0, "order_date": "2025-12-12"}}
+{"entity_id": "O-2025-0174", "entity_type": "order", "name": "O-2025-0174", "attributes": {"platform": "Shopee", "sku": "M10031", "amount_excl_tax": 417, "refund_amount": 0, "order_date": "2025-12-13"}}
+{"entity_id": "O-2025-0175", "entity_type": "order", "name": "O-2025-0175", "attributes": {"platform": "天猫", "sku": "M10028S", "amount_excl_tax": 998, "refund_amount": 0, "order_date": "2025-12-14"}}
+{"entity_id": "O-2025-0176", "entity_type": "order", "name": "O-2025-0176", "attributes": {"platform": "京东", "sku": "M10032", "amount_excl_tax": 1677, "refund_amount": 0, "order_date": "2025-12-15"}}
+{"entity_id": "O-2025-0177", "entity_type": "order", "name": "O-2025-0177", "attributes": {"platform": "抖音", "sku": "M10033", "amount_excl_tax": 588, "refund_amount": 0, "order_date": "2025-12-16"}}
+{"entity_id": "O-2025-0178", "entity_type": "order", "name": "O-2025-0178", "attributes": {"platform": "Shopify", "sku": "M10034", "amount_excl_tax": 1358, "refund_amount": 0, "order_date": "2025-12-17"}}
+{"entity_id": "O-2025-0179", "entity_type": "order", "name": "O-2025-0179", "attributes": {"platform": "Shopee", "sku": "M10035", "amount_excl_tax": 2217, "refund_amount": 0, "order_date": "2025-12-18"}}
+{"entity_id": "O-2025-0180", "entity_type": "order", "name": "O-2025-0180", "attributes": {"platform": "天猫", "sku": "M10001", "amount_excl_tax": 759, "refund_amount": 0, "order_date": "2025-12-19"}}
+{"entity_id": "O-2025-0181", "entity_type": "order", "name": "O-2025-0181", "attributes": {"platform": "京东", "sku": "M10005", "amount_excl_tax": 1718, "refund_amount": 0, "order_date": "2025-12-20"}}
+{"entity_id": "O-2025-0182", "entity_type": "order", "name": "O-2025-0182", "attributes": {"platform": "抖音", "sku": "M10010", "amount_excl_tax": 2757, "refund_amount": 0, "order_date": "2025-12-21"}}
+{"entity_id": "O-2025-0183", "entity_type": "order", "name": "O-2025-0183", "attributes": {"platform": "Shopify", "sku": "M10028", "amount_excl_tax": 930, "refund_amount": 0, "order_date": "2025-12-22"}}
+{"entity_id": "O-2025-0184", "entity_type": "order", "name": "O-2025-0184", "attributes": {"platform": "Shopee", "sku": "M10037", "amount_excl_tax": 998, "refund_amount": 0, "order_date": "2025-12-23"}}
+{"entity_id": "O-2025-0185", "entity_type": "order", "name": "O-2025-0185", "attributes": {"platform": "天猫", "sku": "M10030", "amount_excl_tax": 3297, "refund_amount": 0, "order_date": "2025-12-24"}}
+{"entity_id": "O-2025-0186", "entity_type": "order", "name": "O-2025-0186", "attributes": {"platform": "京东", "sku": "M10031", "amount_excl_tax": 1101, "refund_amount": 1101, "order_date": "2025-12-25"}}
+{"entity_id": "O-2026-0187", "entity_type": "order", "name": "O-2026-0187", "attributes": {"platform": "抖音", "sku": "M10028S", "amount_excl_tax": 398, "refund_amount": 398, "order_date": "2026-01-26"}}
+{"entity_id": "O-2026-0188", "entity_type": "order", "name": "O-2026-0188", "attributes": {"platform": "Shopify", "sku": "M10032", "amount_excl_tax": 777, "refund_amount": 0, "order_date": "2026-01-27"}}
+{"entity_id": "O-2026-0189", "entity_type": "order", "name": "O-2026-0189", "attributes": {"platform": "Shopee", "sku": "M10033", "amount_excl_tax": 303, "refund_amount": 0, "order_date": "2026-01-01"}}
+{"entity_id": "O-2026-0190", "entity_type": "order", "name": "O-2026-0190", "attributes": {"platform": "天猫", "sku": "M10034", "amount_excl_tax": 758, "refund_amount": 0, "order_date": "2026-01-02"}}
+{"entity_id": "O-2026-0191", "entity_type": "order", "name": "O-2026-0191", "attributes": {"platform": "京东", "sku": "M10035", "amount_excl_tax": 1317, "refund_amount": 0, "order_date": "2026-01-03"}}
+{"entity_id": "O-2026-0192", "entity_type": "order", "name": "O-2026-0192", "attributes": {"platform": "抖音", "sku": "M10001", "amount_excl_tax": 474, "refund_amount": 0, "order_date": "2026-01-04"}}
+{"entity_id": "O-2026-0193", "entity_type": "order", "name": "O-2026-0193", "attributes": {"platform": "Shopify", "sku": "M10005", "amount_excl_tax": 1118, "refund_amount": 0, "order_date": "2026-01-05"}}
+{"entity_id": "O-2026-0194", "entity_type": "order", "name": "O-2026-0194", "attributes": {"platform": "Shopee", "sku": "M10010", "amount_excl_tax": 1857, "refund_amount": 0, "order_date": "2026-01-06"}}
+{"entity_id": "O-2026-0195", "entity_type": "order", "name": "O-2026-0195", "attributes": {"platform": "天猫", "sku": "M10028", "amount_excl_tax": 645, "refund_amount": 0, "order_date": "2026-01-07"}}
+{"entity_id": "O-2026-0196", "entity_type": "order", "name": "O-2026-0196", "attributes": {"platform": "京东", "sku": "M10029", "amount_excl_tax": 1478, "refund_amount": 0, "order_date": "2026-01-08"}}
+{"entity_id": "O-2026-0197", "entity_type": "order", "name": "O-2026-0197", "attributes": {"platform": "抖音", "sku": "M10030", "amount_excl_tax": 2397, "refund_amount": 0, "order_date": "2026-01-09"}}
+{"entity_id": "O-2026-0198", "entity_type": "order", "name": "O-2026-0198", "attributes": {"platform": "Shopify", "sku": "M10031", "amount_excl_tax": 816, "refund_amount": 0, "order_date": "2026-01-10"}}
+{"entity_id": "O-2026-0199", "entity_type": "order", "name": "O-2026-0199", "attributes": {"platform": "Shopee", "sku": "M10028S", "amount_excl_tax": 1838, "refund_amount": 0, "order_date": "2026-01-11"}}
+{"entity_id": "O-2026-0200", "entity_type": "order", "name": "O-2026-0200", "attributes": {"platform": "天猫", "sku": "M10032", "amount_excl_tax": 2937, "refund_amount": 2937, "order_date": "2026-01-12"}}
+{"entity_id": "O-2026-0201", "entity_type": "order", "name": "O-2026-0201", "attributes": {"platform": "京东", "sku": "M10033", "amount_excl_tax": 987, "refund_amount": 987, "order_date": "2026-01-13"}}
+{"entity_id": "O-2026-0202", "entity_type": "order", "name": "O-2026-0202", "attributes": {"platform": "抖音", "sku": "M10034", "amount_excl_tax": 2198, "refund_amount": 2198, "order_date": "2026-02-14"}}
+{"entity_id": "O-2026-0203", "entity_type": "order", "name": "O-2026-0203", "attributes": {"platform": "Shopify", "sku": "M10035", "amount_excl_tax": 3477, "refund_amount": 0, "order_date": "2026-02-15"}}
+{"entity_id": "O-2026-0204", "entity_type": "order", "name": "O-2026-0204", "attributes": {"platform": "Shopee", "sku": "M10001", "amount_excl_tax": 189, "refund_amount": 0, "order_date": "2026-02-16"}}
+{"entity_id": "O-2026-0205", "entity_type": "order", "name": "O-2026-0205", "attributes": {"platform": "天猫", "sku": "M10005", "amount_excl_tax": 518, "refund_amount": 0, "order_date": "2026-02-17"}}
+{"entity_id": "O-2026-0206", "entity_type": "order", "name": "O-2026-0206", "attributes": {"platform": "京东", "sku": "M10010", "amount_excl_tax": 957, "refund_amount": 0, "order_date": "2026-02-18"}}
+{"entity_id": "O-2026-0207", "entity_type": "order", "name": "O-2026-0207", "attributes": {"platform": "抖音", "sku": "M10036", "amount_excl_tax": 284, "refund_amount": 0, "order_date": "2026-02-19"}}
+{"entity_id": "O-2026-0208", "entity_type": "order", "name": "O-2026-0208", "attributes": {"platform": "Shopify", "sku": "M10029", "amount_excl_tax": 878, "refund_amount": 0, "order_date": "2026-02-20"}}
+{"entity_id": "O-2026-0209", "entity_type": "order", "name": "O-2026-0209", "attributes": {"platform": "Shopee", "sku": "M10030", "amount_excl_tax": 1497, "refund_amount": 0, "order_date": "2026-02-21"}}
+{"entity_id": "O-2026-0210", "entity_type": "order", "name": "O-2026-0210", "attributes": {"platform": "天猫", "sku": "M10031", "amount_excl_tax": 531, "refund_amount": 0, "order_date": "2026-02-22"}}
+{"entity_id": "O-2026-0211", "entity_type": "order", "name": "O-2026-0211", "attributes": {"platform": "京东", "sku": "M10028S", "amount_excl_tax": 1238, "refund_amount": 0, "order_date": "2026-02-23"}}
+{"entity_id": "O-2026-0212", "entity_type": "order", "name": "O-2026-0212", "attributes": {"platform": "抖音", "sku": "M10032", "amount_excl_tax": 2037, "refund_amount": 0, "order_date": "2026-02-24"}}
+{"entity_id": "O-2026-0213", "entity_type": "order", "name": "O-2026-0213", "attributes": {"platform": "Shopify", "sku": "M10033", "amount_excl_tax": 702, "refund_amount": 0, "order_date": "2026-02-25"}}
+{"entity_id": "O-2026-0214", "entity_type": "order", "name": "O-2026-0214", "attributes": {"platform": "Shopee", "sku": "M10034", "amount_excl_tax": 1598, "refund_amount": 0, "order_date": "2026-02-26"}}
+{"entity_id": "O-2026-0215", "entity_type": "order", "name": "O-2026-0215", "attributes": {"platform": "天猫", "sku": "M10035", "amount_excl_tax": 2577, "refund_amount": 2577, "order_date": "2026-02-27"}}
+{"entity_id": "O-2026-0216", "entity_type": "order", "name": "O-2026-0216", "attributes": {"platform": "京东", "sku": "M10001", "amount_excl_tax": 873, "refund_amount": 0, "order_date": "2026-02-01"}}
+{"entity_id": "O-2026-0217", "entity_type": "order", "name": "O-2026-0217", "attributes": {"platform": "抖音", "sku": "M10005", "amount_excl_tax": 1958, "refund_amount": 1958, "order_date": "2026-02-02"}}
+{"entity_id": "O-2026-0218", "entity_type": "order", "name": "O-2026-0218", "attributes": {"platform": "Shopify", "sku": "M10010", "amount_excl_tax": 3117, "refund_amount": 0, "order_date": "2026-03-03"}}
+{"entity_id": "O-2026-0219", "entity_type": "order", "name": "O-2026-0219", "attributes": {"platform": "Shopee", "sku": "M10028", "amount_excl_tax": 1044, "refund_amount": 0, "order_date": "2026-03-04"}}
+{"entity_id": "O-2026-0220", "entity_type": "order", "name": "O-2026-0220", "attributes": {"platform": "天猫", "sku": "M10029", "amount_excl_tax": 2318, "refund_amount": 0, "order_date": "2026-03-05"}}
+{"entity_id": "O-2026-0221", "entity_type": "order", "name": "O-2026-0221", "attributes": {"platform": "京东", "sku": "M10030", "amount_excl_tax": 597, "refund_amount": 0, "order_date": "2026-03-06"}}
+{"entity_id": "O-2026-0222", "entity_type": "order", "name": "O-2026-0222", "attributes": {"platform": "抖音", "sku": "M10031", "amount_excl_tax": 246, "refund_amount": 0, "order_date": "2026-03-07"}}
+{"entity_id": "O-2026-0223", "entity_type": "order", "name": "O-2026-0223", "attributes": {"platform": "Shopify", "sku": "M10028S", "amount_excl_tax": 638, "refund_amount": 0, "order_date": "2026-03-08"}}
+{"entity_id": "O-2026-0224", "entity_type": "order", "name": "O-2026-0224", "attributes": {"platform": "Shopee", "sku": "M10032", "amount_excl_tax": 1137, "refund_amount": 0, "order_date": "2026-03-09"}}
+{"entity_id": "O-2026-0225", "entity_type": "order", "name": "O-2026-0225", "attributes": {"platform": "天猫", "sku": "M10033", "amount_excl_tax": 417, "refund_amount": 0, "order_date": "2026-03-10"}}
+{"entity_id": "O-2026-0226", "entity_type": "order", "name": "O-2026-0226", "attributes": {"platform": "京东", "sku": "M10034", "amount_excl_tax": 998, "refund_amount": 0, "order_date": "2026-03-11"}}
+{"entity_id": "O-2026-0227", "entity_type": "order", "name": "O-2026-0227", "attributes": {"platform": "抖音", "sku": "M10035", "amount_excl_tax": 1677, "refund_amount": 0, "order_date": "2026-03-12"}}
+{"entity_id": "O-2026-0228", "entity_type": "order", "name": "O-2026-0228", "attributes": {"platform": "Shopify", "sku": "M10001", "amount_excl_tax": 588, "refund_amount": 0, "order_date": "2026-03-13"}}
+{"entity_id": "O-2026-0229", "entity_type": "order", "name": "O-2026-0229", "attributes": {"platform": "Shopee", "sku": "M10005", "amount_excl_tax": 1358, "refund_amount": 1358, "order_date": "2026-03-14"}}
+{"entity_id": "O-2026-0230", "entity_type": "order", "name": "O-2026-0230", "attributes": {"platform": "天猫", "sku": "M10038", "amount_excl_tax": 297, "refund_amount": 0, "order_date": "2026-03-15"}}
+{"entity_id": "O-2026-0231", "entity_type": "order", "name": "O-2026-0231", "attributes": {"platform": "京东", "sku": "M10028", "amount_excl_tax": 759, "refund_amount": 0, "order_date": "2026-03-16"}}
+{"entity_id": "O-2026-0232", "entity_type": "order", "name": "O-2026-0232", "attributes": {"platform": "抖音", "sku": "M10029", "amount_excl_tax": 1718, "refund_amount": 0, "order_date": "2026-03-17"}}
+{"entity_id": "O-2026-0233", "entity_type": "order", "name": "O-2026-0233", "attributes": {"platform": "Shopify", "sku": "M10030", "amount_excl_tax": 2757, "refund_amount": 0, "order_date": "2026-03-18"}}
+{"entity_id": "O-2026-0234", "entity_type": "order", "name": "O-2026-0234", "attributes": {"platform": "Shopee", "sku": "M10031", "amount_excl_tax": 930, "refund_amount": 0, "order_date": "2026-03-19"}}
+{"entity_id": "O-2026-0235", "entity_type": "order", "name": "O-2026-0235", "attributes": {"platform": "天猫", "sku": "M10028S", "amount_excl_tax": 2078, "refund_amount": 0, "order_date": "2026-04-20"}}
+{"entity_id": "O-2026-0236", "entity_type": "order", "name": "O-2026-0236", "attributes": {"platform": "京东", "sku": "M10032", "amount_excl_tax": 3297, "refund_amount": 0, "order_date": "2026-04-21"}}
+{"entity_id": "O-2026-0237", "entity_type": "order", "name": "O-2026-0237", "attributes": {"platform": "抖音", "sku": "M10033", "amount_excl_tax": 1101, "refund_amount": 0, "order_date": "2026-04-22"}}
+{"entity_id": "O-2026-0238", "entity_type": "order", "name": "O-2026-0238", "attributes": {"platform": "Shopify", "sku": "M10034", "amount_excl_tax": 398, "refund_amount": 0, "order_date": "2026-04-23"}}
+{"entity_id": "O-2026-0239", "entity_type": "order", "name": "O-2026-0239", "attributes": {"platform": "Shopee", "sku": "M10035", "amount_excl_tax": 777, "refund_amount": 0, "order_date": "2026-04-24"}}
+{"entity_id": "O-2026-0240", "entity_type": "order", "name": "O-2026-0240", "attributes": {"platform": "天猫", "sku": "M10001", "amount_excl_tax": 303, "refund_amount": 0, "order_date": "2026-04-25"}}
+{"entity_id": "O-2026-0241", "entity_type": "order", "name": "O-2026-0241", "attributes": {"platform": "京东", "sku": "M10005", "amount_excl_tax": 758, "refund_amount": 0, "order_date": "2026-04-26"}}
+{"entity_id": "O-2026-0242", "entity_type": "order", "name": "O-2026-0242", "attributes": {"platform": "抖音", "sku": "M10010", "amount_excl_tax": 1317, "refund_amount": 0, "order_date": "2026-04-27"}}
+{"entity_id": "O-2026-0243", "entity_type": "order", "name": "O-2026-0243", "attributes": {"platform": "Shopify", "sku": "M10028", "amount_excl_tax": 474, "refund_amount": 474, "order_date": "2026-04-01"}}
+{"entity_id": "O-2026-0244", "entity_type": "order", "name": "O-2026-0244", "attributes": {"platform": "Shopee", "sku": "M10029", "amount_excl_tax": 1118, "refund_amount": 0, "order_date": "2026-04-02"}}
+{"entity_id": "O-2026-0245", "entity_type": "order", "name": "O-2026-0245", "attributes": {"platform": "天猫", "sku": "M10030", "amount_excl_tax": 1857, "refund_amount": 0, "order_date": "2026-04-03"}}
+{"entity_id": "O-2026-0246", "entity_type": "order", "name": "O-2026-0246", "attributes": {"platform": "京东", "sku": "M10031", "amount_excl_tax": 645, "refund_amount": 0, "order_date": "2026-04-04"}}
+{"entity_id": "O-2026-0247", "entity_type": "order", "name": "O-2026-0247", "attributes": {"platform": "抖音", "sku": "M10028S", "amount_excl_tax": 1478, "refund_amount": 0, "order_date": "2026-04-05"}}
+{"entity_id": "O-2026-0248", "entity_type": "order", "name": "O-2026-0248", "attributes": {"platform": "Shopify", "sku": "M10032", "amount_excl_tax": 2397, "refund_amount": 0, "order_date": "2026-04-06"}}
+{"entity_id": "O-2026-0249", "entity_type": "order", "name": "O-2026-0249", "attributes": {"platform": "Shopee", "sku": "M10033", "amount_excl_tax": 816, "refund_amount": 0, "order_date": "2026-05-07"}}
+{"entity_id": "O-2026-0250", "entity_type": "order", "name": "O-2026-0250", "attributes": {"platform": "天猫", "sku": "M10034", "amount_excl_tax": 1838, "refund_amount": 0, "order_date": "2026-05-08"}}
+{"entity_id": "O-2026-0251", "entity_type": "order", "name": "O-2026-0251", "attributes": {"platform": "京东", "sku": "M10035", "amount_excl_tax": 2937, "refund_amount": 0, "order_date": "2026-05-09"}}
+{"entity_id": "O-2026-0252", "entity_type": "order", "name": "O-2026-0252", "attributes": {"platform": "抖音", "sku": "M10001", "amount_excl_tax": 987, "refund_amount": 0, "order_date": "2026-05-10"}}
+{"entity_id": "O-2026-0253", "entity_type": "order", "name": "O-2026-0253", "attributes": {"platform": "Shopify", "sku": "M10037", "amount_excl_tax": 798, "refund_amount": 0, "order_date": "2026-05-11"}}
+{"entity_id": "O-2026-0254", "entity_type": "order", "name": "O-2026-0254", "attributes": {"platform": "Shopee", "sku": "M10010", "amount_excl_tax": 3477, "refund_amount": 0, "order_date": "2026-05-12"}}
+{"entity_id": "O-2026-0255", "entity_type": "order", "name": "O-2026-0255", "attributes": {"platform": "天猫", "sku": "M10028", "amount_excl_tax": 189, "refund_amount": 0, "order_date": "2026-05-13"}}
+{"entity_id": "O-2026-0256", "entity_type": "order", "name": "O-2026-0256", "attributes": {"platform": "京东", "sku": "M10029", "amount_excl_tax": 518, "refund_amount": 0, "order_date": "2026-05-14"}}
+{"entity_id": "O-2026-0257", "entity_type": "order", "name": "O-2026-0257", "attributes": {"platform": "抖音", "sku": "M10030", "amount_excl_tax": 957, "refund_amount": 0, "order_date": "2026-05-15"}}
+{"entity_id": "O-2026-0258", "entity_type": "order", "name": "O-2026-0258", "attributes": {"platform": "Shopify", "sku": "M10031", "amount_excl_tax": 360, "refund_amount": 0, "order_date": "2026-05-16"}}
+{"entity_id": "O-2026-0259", "entity_type": "order", "name": "O-2026-0259", "attributes": {"platform": "Shopee", "sku": "M10028S", "amount_excl_tax": 878, "refund_amount": 0, "order_date": "2026-05-17"}}
+{"entity_id": "O-2026-0260", "entity_type": "order", "name": "O-2026-0260", "attributes": {"platform": "天猫", "sku": "M10032", "amount_excl_tax": 1497, "refund_amount": 0, "order_date": "2026-05-18"}}
+{"entity_id": "O-2026-0261", "entity_type": "order", "name": "O-2026-0261", "attributes": {"platform": "京东", "sku": "M10033", "amount_excl_tax": 531, "refund_amount": 0, "order_date": "2026-05-19"}}
+{"entity_id": "O-2026-0262", "entity_type": "order", "name": "O-2026-0262", "attributes": {"platform": "抖音", "sku": "M10034", "amount_excl_tax": 1238, "refund_amount": 0, "order_date": "2026-05-20"}}
+{"entity_id": "O-2026-0263", "entity_type": "order", "name": "O-2026-0263", "attributes": {"platform": "Shopify", "sku": "M10035", "amount_excl_tax": 2037, "refund_amount": 0, "order_date": "2026-05-21"}}
+{"entity_id": "O-2026-0264", "entity_type": "order", "name": "O-2026-0264", "attributes": {"platform": "Shopee", "sku": "M10001", "amount_excl_tax": 702, "refund_amount": 0, "order_date": "2026-06-22"}}
+{"entity_id": "O-2026-0265", "entity_type": "order", "name": "O-2026-0265", "attributes": {"platform": "天猫", "sku": "M10005", "amount_excl_tax": 1598, "refund_amount": 0, "order_date": "2026-06-23"}}
+{"entity_id": "O-2026-0266", "entity_type": "order", "name": "O-2026-0266", "attributes": {"platform": "京东", "sku": "M10010", "amount_excl_tax": 2577, "refund_amount": 0, "order_date": "2026-06-24"}}
+{"entity_id": "O-2026-0267", "entity_type": "order", "name": "O-2026-0267", "attributes": {"platform": "抖音", "sku": "M10028", "amount_excl_tax": 873, "refund_amount": 0, "order_date": "2026-06-25"}}
+{"entity_id": "O-2026-0268", "entity_type": "order", "name": "O-2026-0268", "attributes": {"platform": "Shopify", "sku": "M10029", "amount_excl_tax": 1958, "refund_amount": 0, "order_date": "2026-06-26"}}
+{"entity_id": "O-2026-0269", "entity_type": "order", "name": "O-2026-0269", "attributes": {"platform": "Shopee", "sku": "M10030", "amount_excl_tax": 3117, "refund_amount": 0, "order_date": "2026-06-27"}}
+{"entity_id": "O-2026-0270", "entity_type": "order", "name": "O-2026-0270", "attributes": {"platform": "天猫", "sku": "M10031", "amount_excl_tax": 1044, "refund_amount": 0, "order_date": "2026-06-01"}}
+{"entity_id": "O-2026-0271", "entity_type": "order", "name": "O-2026-0271", "attributes": {"platform": "京东", "sku": "M10028S", "amount_excl_tax": 2318, "refund_amount": 0, "order_date": "2026-06-02"}}
+{"entity_id": "O-2026-0272", "entity_type": "order", "name": "O-2026-0272", "attributes": {"platform": "抖音", "sku": "M10032", "amount_excl_tax": 597, "refund_amount": 597, "order_date": "2026-06-03"}}
+{"entity_id": "O-2026-0273", "entity_type": "order", "name": "O-2026-0273", "attributes": {"platform": "Shopify", "sku": "M10033", "amount_excl_tax": 246, "refund_amount": 0, "order_date": "2026-06-04"}}
+{"entity_id": "O-2026-0274", "entity_type": "order", "name": "O-2026-0274", "attributes": {"platform": "Shopee", "sku": "M10034", "amount_excl_tax": 638, "refund_amount": 0, "order_date": "2026-06-05"}}
+{"entity_id": "O-2026-0275", "entity_type": "order", "name": "O-2026-0275", "attributes": {"platform": "天猫", "sku": "M10035", "amount_excl_tax": 1137, "refund_amount": 0, "order_date": "2026-06-06"}}
+{"entity_id": "O-2026-0276", "entity_type": "order", "name": "O-2026-0276", "attributes": {"platform": "京东", "sku": "M10036", "amount_excl_tax": 189, "refund_amount": 0, "order_date": "2026-06-07"}}
+{"entity_id": "O-2026-0277", "entity_type": "order", "name": "O-2026-0277", "attributes": {"platform": "抖音", "sku": "M10005", "amount_excl_tax": 998, "refund_amount": 0, "order_date": "2026-06-08"}}
+{"entity_id": "O-2026-0278", "entity_type": "order", "name": "O-2026-0278", "attributes": {"platform": "Shopify", "sku": "M10010", "amount_excl_tax": 1677, "refund_amount": 0, "order_date": "2026-06-09"}}
+{"entity_id": "O-2026-0279", "entity_type": "order", "name": "O-2026-0279", "attributes": {"platform": "Shopee", "sku": "M10028", "amount_excl_tax": 588, "refund_amount": 0, "order_date": "2026-06-10"}}
+{"entity_id": "O-2026-0280", "entity_type": "order", "name": "O-2026-0280", "attributes": {"platform": "天猫", "sku": "M10029", "amount_excl_tax": 1358, "refund_amount": 0, "order_date": "2026-07-11"}}
+{"entity_id": "O-2026-0281", "entity_type": "order", "name": "O-2026-0281", "attributes": {"platform": "京东", "sku": "M10030", "amount_excl_tax": 2217, "refund_amount": 0, "order_date": "2026-07-12"}}
+{"entity_id": "O-2026-0282", "entity_type": "order", "name": "O-2026-0282", "attributes": {"platform": "抖音", "sku": "M10031", "amount_excl_tax": 759, "refund_amount": 0, "order_date": "2026-07-13"}}
+{"entity_id": "O-2026-0283", "entity_type": "order", "name": "O-2026-0283", "attributes": {"platform": "Shopify", "sku": "M10028S", "amount_excl_tax": 1718, "refund_amount": 0, "order_date": "2026-07-14"}}
+{"entity_id": "O-2026-0284", "entity_type": "order", "name": "O-2026-0284", "attributes": {"platform": "Shopee", "sku": "M10032", "amount_excl_tax": 2757, "refund_amount": 0, "order_date": "2026-07-15"}}
+{"entity_id": "O-2026-0285", "entity_type": "order", "name": "O-2026-0285", "attributes": {"platform": "天猫", "sku": "M10033", "amount_excl_tax": 930, "refund_amount": 0, "order_date": "2026-07-16"}}
+{"entity_id": "O-2026-0286", "entity_type": "order", "name": "O-2026-0286", "attributes": {"platform": "京东", "sku": "M10034", "amount_excl_tax": 2078, "refund_amount": 2078, "order_date": "2026-07-17"}}
+{"entity_id": "O-2026-0287", "entity_type": "order", "name": "O-2026-0287", "attributes": {"platform": "抖音", "sku": "M10035", "amount_excl_tax": 3297, "refund_amount": 3297, "order_date": "2026-07-18"}}
+{"entity_id": "O-2026-0288", "entity_type": "order", "name": "O-2026-0288", "attributes": {"platform": "Shopify", "sku": "M10001", "amount_excl_tax": 1101, "refund_amount": 0, "order_date": "2026-07-19"}}
+{"entity_id": "O-2026-0289", "entity_type": "order", "name": "O-2026-0289", "attributes": {"platform": "Shopee", "sku": "M10005", "amount_excl_tax": 398, "refund_amount": 0, "order_date": "2026-07-20"}}
+{"entity_id": "O-2026-0290", "entity_type": "order", "name": "O-2026-0290", "attributes": {"platform": "天猫", "sku": "M10010", "amount_excl_tax": 777, "refund_amount": 0, "order_date": "2026-07-21"}}
+{"entity_id": "O-2026-0291", "entity_type": "order", "name": "O-2026-0291", "attributes": {"platform": "京东", "sku": "M10028", "amount_excl_tax": 303, "refund_amount": 0, "order_date": "2026-07-22"}}
+{"entity_id": "O-2026-0292", "entity_type": "order", "name": "O-2026-0292", "attributes": {"platform": "抖音", "sku": "M10029", "amount_excl_tax": 758, "refund_amount": 0, "order_date": "2026-07-23"}}
+{"entity_id": "O-2026-0293", "entity_type": "order", "name": "O-2026-0293", "attributes": {"platform": "Shopify", "sku": "M10030", "amount_excl_tax": 1317, "refund_amount": 0, "order_date": "2026-07-24"}}
+{"entity_id": "O-2026-0294", "entity_type": "order", "name": "O-2026-0294", "attributes": {"platform": "Shopee", "sku": "M10031", "amount_excl_tax": 474, "refund_amount": 0, "order_date": "2026-07-25"}}
+{"entity_id": "O-2026-0295", "entity_type": "order", "name": "O-2026-0295", "attributes": {"platform": "天猫", "sku": "M10028S", "amount_excl_tax": 1118, "refund_amount": 0, "order_date": "2026-07-26"}}
+{"entity_id": "O-2026-0296", "entity_type": "order", "name": "O-2026-0296", "attributes": {"platform": "京东", "sku": "M10032", "amount_excl_tax": 1857, "refund_amount": 0, "order_date": "2026-07-27"}}
+{"entity_id": "O-2026-0297", "entity_type": "order", "name": "O-2026-0297", "attributes": {"platform": "抖音", "sku": "M10033", "amount_excl_tax": 645, "refund_amount": 0, "order_date": "2026-08-01"}}
+{"entity_id": "O-2026-0298", "entity_type": "order", "name": "O-2026-0298", "attributes": {"platform": "Shopify", "sku": "M10034", "amount_excl_tax": 1478, "refund_amount": 0, "order_date": "2026-08-02"}}
+{"entity_id": "O-2026-0299", "entity_type": "order", "name": "O-2026-0299", "attributes": {"platform": "Shopee", "sku": "M10038", "amount_excl_tax": 1497, "refund_amount": 0, "order_date": "2026-08-03"}}
+{"entity_id": "O-2026-0300", "entity_type": "order", "name": "O-2026-0300", "attributes": {"platform": "天猫", "sku": "M10001", "amount_excl_tax": 816, "refund_amount": 816, "order_date": "2026-08-04"}}
+{"entity_id": "O-2026-0301", "entity_type": "order", "name": "O-2026-0301", "attributes": {"platform": "京东", "sku": "M10005", "amount_excl_tax": 1838, "refund_amount": 1838, "order_date": "2026-08-05"}}
+{"entity_id": "O-2026-0302", "entity_type": "order", "name": "O-2026-0302", "attributes": {"platform": "抖音", "sku": "M10010", "amount_excl_tax": 2937, "refund_amount": 2937, "order_date": "2026-08-06"}}
+{"entity_id": "O-2026-0303", "entity_type": "order", "name": "O-2026-0303", "attributes": {"platform": "Shopify", "sku": "M10028", "amount_excl_tax": 987, "refund_amount": 0, "order_date": "2026-08-07"}}
+{"entity_id": "O-2026-0304", "entity_type": "order", "name": "O-2026-0304", "attributes": {"platform": "Shopee", "sku": "M10029", "amount_excl_tax": 2198, "refund_amount": 0, "order_date": "2026-08-08"}}
+{"entity_id": "O-2026-0305", "entity_type": "order", "name": "O-2026-0305", "attributes": {"platform": "天猫", "sku": "M10030", "amount_excl_tax": 3477, "refund_amount": 0, "order_date": "2026-08-09"}}
+{"entity_id": "O-2026-0306", "entity_type": "order", "name": "O-2026-0306", "attributes": {"platform": "京东", "sku": "M10031", "amount_excl_tax": 189, "refund_amount": 0, "order_date": "2026-08-10"}}
+{"entity_id": "O-2026-0307", "entity_type": "order", "name": "O-2026-0307", "attributes": {"platform": "抖音", "sku": "M10028S", "amount_excl_tax": 518, "refund_amount": 0, "order_date": "2026-08-11"}}
+{"entity_id": "O-2026-0308", "entity_type": "order", "name": "O-2026-0308", "attributes": {"platform": "Shopify", "sku": "M10032", "amount_excl_tax": 957, "refund_amount": 0, "order_date": "2026-08-12"}}
+{"entity_id": "O-2026-0309", "entity_type": "order", "name": "O-2026-0309", "attributes": {"platform": "Shopee", "sku": "M10033", "amount_excl_tax": 360, "refund_amount": 0, "order_date": "2026-08-13"}}
+{"entity_id": "O-2026-0310", "entity_type": "order", "name": "O-2026-0310", "attributes": {"platform": "天猫", "sku": "M10034", "amount_excl_tax": 878, "refund_amount": 0, "order_date": "2026-08-14"}}
+{"entity_id": "O-2026-0512", "entity_type": "order", "name": "O-2026-0512", "attributes": {"platform": "天猫", "sku": "M10036", "amount_excl_tax": 199, "refund_amount": 199, "order_date": "2026-05-12"}}
+{"entity_id": "SYS-OMS", "entity_type": "system", "name": "订单中台(OMS)", "attributes": {}}
+{"entity_id": "order-api", "entity_type": "service", "name": "order-api", "attributes": {}}
+{"entity_id": "oms_db", "entity_type": "database", "name": "oms_db", "attributes": {}}
+{"entity_id": "oms_db.order_info", "entity_type": "table", "name": "order_info", "attributes": {"columns": ["order_id", "status", "cancel_reason", "updated_at", "amount"]}}
+{"entity_id": "oms_db.refund_order", "entity_type": "table", "name": "refund_order", "attributes": {"columns": ["refund_id", "order_id", "amount", "state"]}}
+{"entity_id": "refund-api", "entity_type": "service", "name": "refund-api", "attributes": {}}
+{"entity_id": "oms_db", "entity_type": "database", "name": "oms_db", "attributes": {}}
+{"entity_id": "oms_db.order_info", "entity_type": "table", "name": "order_info", "attributes": {"columns": ["order_id", "status", "cancel_reason", "updated_at", "amount"]}}
+{"entity_id": "oms_db.refund_order", "entity_type": "table", "name": "refund_order", "attributes": {"columns": ["refund_id", "order_id", "amount", "state"]}}
+{"entity_id": "inventory-api", "entity_type": "service", "name": "inventory-api", "attributes": {}}
+{"entity_id": "wms_db", "entity_type": "database", "name": "wms_db", "attributes": {}}
+{"entity_id": "wms_db.inventory", "entity_type": "table", "name": "inventory", "attributes": {"columns": ["sku", "warehouse", "qty"]}}
+{"entity_id": "SYS-PAY", "entity_type": "system", "name": "支付平台", "attributes": {}}
+{"entity_id": "pay-api", "entity_type": "service", "name": "pay-api", "attributes": {}}
+{"entity_id": "pay_db", "entity_type": "database", "name": "pay_db", "attributes": {}}
+{"entity_id": "pay_db.payment", "entity_type": "table", "name": "payment", "attributes": {"columns": ["pay_id", "order_id", "channel", "state"]}}
+{"entity_id": "settle-api", "entity_type": "service", "name": "settle-api", "attributes": {}}
+{"entity_id": "pay_db", "entity_type": "database", "name": "pay_db", "attributes": {}}
+{"entity_id": "pay_db.payment", "entity_type": "table", "name": "payment", "attributes": {"columns": ["pay_id", "order_id", "channel", "state"]}}
+{"entity_id": "SYS-WMS", "entity_type": "system", "name": "仓务系统", "attributes": {}}
+{"entity_id": "stock-api", "entity_type": "service", "name": "stock-api", "attributes": {}}
+{"entity_id": "pick-api", "entity_type": "service", "name": "pick-api", "attributes": {}}
+{"entity_id": "SYS-CRM", "entity_type": "system", "name": "客户关系系统", "attributes": {}}
+{"entity_id": "customer-api", "entity_type": "service", "name": "customer-api", "attributes": {}}
+{"entity_id": "SYS-DATA", "entity_type": "system", "name": "数据仓库", "attributes": {}}
+{"entity_id": "etl-job", "entity_type": "service", "name": "etl-job", "attributes": {}}
+{"entity_id": "report-api", "entity_type": "service", "name": "report-api", "attributes": {}}
+{"entity_id": "PRJ-001", "entity_type": "project", "name": "星链智能客服项目", "attributes": {"region": "RG-CN", "budget": 4800000}}
+{"entity_id": "PRJ-002", "entity_type": "project", "name": "华东仓自动化项目", "attributes": {"region": "RG-EAST", "budget": 12000000}}

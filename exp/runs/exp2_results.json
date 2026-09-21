@@ -1,0 +1,1961 @@
+{
+ "snapshot": "7da34d5f450ee09f0f1cba46c5bd4661",
+ "model": "glm-4.5-air",
+ "keys": [
+  "glm_key0",
+  "glm_key1"
+ ],
+ "rows_per_domain": 300,
+ "batch_size": 1,
+ "temperature": 0,
+ "thinking": "disabled",
+ "cells": {
+  "ecom|s1|r1": {
+   "B": {
+    "stats": {
+     "rows": 60,
+     "pt": 6040,
+     "ct": 1070,
+     "calls": 60,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 60
+     },
+     "pt_by_backend": {
+      "glm_key0": 6040
+     },
+     "ct_by_backend": {
+      "glm_key0": 1070
+     },
+     "latency_ms": 26815.3,
+     "wall_s": 9.530316591262817
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.011252,
+    "amortized_cost": 0.000563
+   },
+   "C": {
+    "stats": {
+     "rows": 6,
+     "pt": 604,
+     "ct": 107,
+     "calls": 6,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 6
+     },
+     "pt_by_backend": {
+      "glm_key0": 604
+     },
+     "ct_by_backend": {
+      "glm_key0": 107
+     },
+     "latency_ms": 2578.0,
+     "wall_s": 0.8867859840393066
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.000697,
+    "amortized_cost": 3.5e-05
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 387.11538461538464,
+     "ct": 69.57692307692308,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 387.11538461538464
+     },
+     "ct_by_backend": {
+      "glm_key0": 69.57692307692308
+     },
+     "latency_ms": 2555.9108974358983,
+     "wall_s": 0.17431846337440687
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000449,
+    "amortized_cost": 0.000449
+   },
+   "n_queries": 20,
+   "mock_quality": 1.0,
+   "wall_s": 10.42,
+   "C_over_B": 0.0622,
+   "C_over_A": 0.078,
+   "all_glm": true
+  },
+  "ecom|s1|r10": {
+   "B": {
+    "stats": {
+     "rows": 60,
+     "pt": 6040,
+     "ct": 1070,
+     "calls": 60,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 60
+     },
+     "pt_by_backend": {
+      "glm_key0": 6040
+     },
+     "ct_by_backend": {
+      "glm_key0": 1070
+     },
+     "latency_ms": 26666.800000000003,
+     "wall_s": 9.393817901611328
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.011252,
+    "amortized_cost": 0.000563
+   },
+   "C": {
+    "stats": {
+     "rows": 6,
+     "pt": 604,
+     "ct": 107,
+     "calls": 6,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 6
+     },
+     "pt_by_backend": {
+      "glm_key0": 604
+     },
+     "ct_by_backend": {
+      "glm_key0": 107
+     },
+     "latency_ms": 2754.9,
+     "wall_s": 0.9560689926147461
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.000697,
+    "amortized_cost": 3.5e-05
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 387.11538461538464,
+     "ct": 69.57692307692308,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 387.11538461538464
+     },
+     "ct_by_backend": {
+      "glm_key0": 69.57692307692308
+     },
+     "latency_ms": 2555.9108974358983,
+     "wall_s": 0.17431846337440687
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000449,
+    "amortized_cost": 0.000449
+   },
+   "n_queries": 20,
+   "mock_quality": 1.0,
+   "wall_s": 10.35,
+   "C_over_B": 0.0622,
+   "C_over_A": 0.078,
+   "all_glm": true
+  },
+  "ecom|s1|r50": {
+   "B": {
+    "stats": {
+     "rows": 60,
+     "pt": 6040,
+     "ct": 1070,
+     "calls": 60,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 60
+     },
+     "pt_by_backend": {
+      "glm_key0": 6040
+     },
+     "ct_by_backend": {
+      "glm_key0": 1070
+     },
+     "latency_ms": 28602.999999999996,
+     "wall_s": 10.064054727554321
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.011252,
+    "amortized_cost": 0.000563
+   },
+   "C": {
+    "stats": {
+     "rows": 6,
+     "pt": 604,
+     "ct": 107,
+     "calls": 6,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 6
+     },
+     "pt_by_backend": {
+      "glm_key0": 604
+     },
+     "ct_by_backend": {
+      "glm_key0": 107
+     },
+     "latency_ms": 2809.2,
+     "wall_s": 0.9657149314880371
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.000697,
+    "amortized_cost": 3.5e-05
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 387.11538461538464,
+     "ct": 69.57692307692308,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 387.11538461538464
+     },
+     "ct_by_backend": {
+      "glm_key0": 69.57692307692308
+     },
+     "latency_ms": 2555.9108974358983,
+     "wall_s": 0.17431846337440687
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000449,
+    "amortized_cost": 0.000449
+   },
+   "n_queries": 20,
+   "mock_quality": 1.0,
+   "wall_s": 11.03,
+   "C_over_B": 0.0622,
+   "C_over_A": 0.078,
+   "all_glm": true
+  },
+  "ecom|s10|r1": {
+   "B": {
+    "stats": {
+     "rows": 700,
+     "pt": 70600,
+     "ct": 12606,
+     "calls": 700,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 700
+     },
+     "pt_by_backend": {
+      "glm_key0": 70600
+     },
+     "ct_by_backend": {
+      "glm_key0": 12606
+     },
+     "latency_ms": 416092.19999999995,
+     "wall_s": 32.49708604812622
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.132116,
+    "amortized_cost": 0.006606
+   },
+   "C": {
+    "stats": {
+     "rows": 70,
+     "pt": 7060,
+     "ct": 1257,
+     "calls": 70,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 70
+     },
+     "pt_by_backend": {
+      "glm_key0": 7060
+     },
+     "ct_by_backend": {
+      "glm_key0": 1257
+     },
+     "latency_ms": 43309.200000000004,
+     "wall_s": 3.3620338439941406
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.01319,
+    "amortized_cost": 0.00066
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 387.11538461538464,
+     "ct": 69.57692307692308,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 387.11538461538464
+     },
+     "ct_by_backend": {
+      "glm_key0": 69.57692307692308
+     },
+     "latency_ms": 2555.9108974358983,
+     "wall_s": 0.17431846337440687
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000449,
+    "amortized_cost": 0.000449
+   },
+   "n_queries": 20,
+   "mock_quality": 1.0,
+   "wall_s": 35.86,
+   "C_over_B": 0.0999,
+   "C_over_A": 1.4699,
+   "all_glm": true
+  },
+  "ecom|s10|r10": {
+   "B": {
+    "stats": {
+     "rows": 700,
+     "pt": 70600,
+     "ct": 12594,
+     "calls": 700,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 700
+     },
+     "pt_by_backend": {
+      "glm_key0": 70600
+     },
+     "ct_by_backend": {
+      "glm_key0": 12594
+     },
+     "latency_ms": 417196.0,
+     "wall_s": 32.58779239654541
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.132044,
+    "amortized_cost": 0.006602
+   },
+   "C": {
+    "stats": {
+     "rows": 70,
+     "pt": 7060,
+     "ct": 1261,
+     "calls": 70,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 70
+     },
+     "pt_by_backend": {
+      "glm_key0": 7060
+     },
+     "ct_by_backend": {
+      "glm_key0": 1261
+     },
+     "latency_ms": 46119.899999999994,
+     "wall_s": 3.3009042739868164
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.013214,
+    "amortized_cost": 0.000661
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 387.11538461538464,
+     "ct": 69.57692307692308,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 387.11538461538464
+     },
+     "ct_by_backend": {
+      "glm_key0": 69.57692307692308
+     },
+     "latency_ms": 2555.9108974358983,
+     "wall_s": 0.17431846337440687
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000449,
+    "amortized_cost": 0.000449
+   },
+   "n_queries": 20,
+   "mock_quality": 1.0,
+   "wall_s": 35.89,
+   "C_over_B": 0.1001,
+   "C_over_A": 1.4722,
+   "all_glm": true
+  },
+  "ecom|s10|r50": {
+   "B": {
+    "stats": {
+     "rows": 700,
+     "pt": 70600,
+     "ct": 12594,
+     "calls": 700,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 700
+     },
+     "pt_by_backend": {
+      "glm_key0": 70600
+     },
+     "ct_by_backend": {
+      "glm_key0": 12594
+     },
+     "latency_ms": 411113.9,
+     "wall_s": 32.05385160446167
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.132044,
+    "amortized_cost": 0.006602
+   },
+   "C": {
+    "stats": {
+     "rows": 70,
+     "pt": 7060,
+     "ct": 1257,
+     "calls": 70,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 70
+     },
+     "pt_by_backend": {
+      "glm_key0": 7060
+     },
+     "ct_by_backend": {
+      "glm_key0": 1257
+     },
+     "latency_ms": 41579.0,
+     "wall_s": 3.2793047428131104
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.01319,
+    "amortized_cost": 0.00066
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 387.11538461538464,
+     "ct": 69.57692307692308,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 387.11538461538464
+     },
+     "ct_by_backend": {
+      "glm_key0": 69.57692307692308
+     },
+     "latency_ms": 2555.9108974358983,
+     "wall_s": 0.17431846337440687
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000449,
+    "amortized_cost": 0.000449
+   },
+   "n_queries": 20,
+   "mock_quality": 1.0,
+   "wall_s": 35.34,
+   "C_over_B": 0.1,
+   "C_over_A": 1.4699,
+   "all_glm": true
+  },
+  "ecom|s50|r1": {
+   "B": {
+    "stats": {
+     "rows": 1104,
+     "pt": 111480,
+     "ct": 20076,
+     "calls": 1104,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 1104
+     },
+     "pt_by_backend": {
+      "glm_key0": 111480
+     },
+     "ct_by_backend": {
+      "glm_key0": 20076
+     },
+     "latency_ms": 617421.4999999999,
+     "wall_s": 45.99879574775696
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.20964,
+    "amortized_cost": 0.026205
+   },
+   "C": {
+    "stats": {
+     "rows": 276,
+     "pt": 27870,
+     "ct": 5019,
+     "calls": 276,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 276
+     },
+     "pt_by_backend": {
+      "glm_key0": 27870
+     },
+     "ct_by_backend": {
+      "glm_key0": 5019
+     },
+     "latency_ms": 154292.20000000004,
+     "wall_s": 11.557064771652222
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.05241,
+    "amortized_cost": 0.006551
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 387.11538461538464,
+     "ct": 69.57692307692308,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 387.11538461538464
+     },
+     "ct_by_backend": {
+      "glm_key0": 69.57692307692308
+     },
+     "latency_ms": 2555.9108974358983,
+     "wall_s": 0.17431846337440687
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000449,
+    "amortized_cost": 0.000449
+   },
+   "n_queries": 8,
+   "mock_quality": 0.5,
+   "wall_s": 57.56,
+   "C_over_B": 0.25,
+   "C_over_A": 14.5902,
+   "all_glm": true
+  },
+  "ecom|s50|r10": {
+   "B": {
+    "stats": {
+     "rows": 1104,
+     "pt": 111480,
+     "ct": 20072,
+     "calls": 1104,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 1104
+     },
+     "pt_by_backend": {
+      "glm_key0": 111480
+     },
+     "ct_by_backend": {
+      "glm_key0": 20072
+     },
+     "latency_ms": 584724.7999999999,
+     "wall_s": 45.139840602874756
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.209616,
+    "amortized_cost": 0.026202
+   },
+   "C": {
+    "stats": {
+     "rows": 276,
+     "pt": 27870,
+     "ct": 5015,
+     "calls": 276,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 276
+     },
+     "pt_by_backend": {
+      "glm_key0": 27870
+     },
+     "ct_by_backend": {
+      "glm_key0": 5015
+     },
+     "latency_ms": 159184.0,
+     "wall_s": 11.56294059753418
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.052386,
+    "amortized_cost": 0.006548
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 387.11538461538464,
+     "ct": 69.57692307692308,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 387.11538461538464
+     },
+     "ct_by_backend": {
+      "glm_key0": 69.57692307692308
+     },
+     "latency_ms": 2555.9108974358983,
+     "wall_s": 0.17431846337440687
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000449,
+    "amortized_cost": 0.000449
+   },
+   "n_queries": 8,
+   "mock_quality": 0.5,
+   "wall_s": 56.71,
+   "C_over_B": 0.2499,
+   "C_over_A": 14.5835,
+   "all_glm": true
+  },
+  "ecom|s50|r50": {
+   "B": {
+    "stats": {
+     "rows": 1104,
+     "pt": 111480,
+     "ct": 20072,
+     "calls": 1104,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 1104
+     },
+     "pt_by_backend": {
+      "glm_key0": 111480
+     },
+     "ct_by_backend": {
+      "glm_key0": 20072
+     },
+     "latency_ms": 556653.1,
+     "wall_s": 43.923768520355225
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.209616,
+    "amortized_cost": 0.026202
+   },
+   "C": {
+    "stats": {
+     "rows": 276,
+     "pt": 27870,
+     "ct": 5019,
+     "calls": 276,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 276
+     },
+     "pt_by_backend": {
+      "glm_key0": 27870
+     },
+     "ct_by_backend": {
+      "glm_key0": 5019
+     },
+     "latency_ms": 152401.69999999995,
+     "wall_s": 12.037912845611572
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.05241,
+    "amortized_cost": 0.006551
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 387.11538461538464,
+     "ct": 69.57692307692308,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 387.11538461538464
+     },
+     "ct_by_backend": {
+      "glm_key0": 69.57692307692308
+     },
+     "latency_ms": 2555.9108974358983,
+     "wall_s": 0.17431846337440687
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000449,
+    "amortized_cost": 0.000449
+   },
+   "n_queries": 8,
+   "mock_quality": 0.5,
+   "wall_s": 55.97,
+   "C_over_B": 0.25,
+   "C_over_A": 14.5902,
+   "all_glm": true
+  },
+  "ecom|s100|r1": {
+   "B": {
+    "stats": {
+     "rows": 1200,
+     "pt": 120780,
+     "ct": 21716,
+     "calls": 1200,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 1200
+     },
+     "pt_by_backend": {
+      "glm_key0": 120780
+     },
+     "ct_by_backend": {
+      "glm_key0": 21716
+     },
+     "latency_ms": 600167.9,
+     "wall_s": 47.520013093948364
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.22692,
+    "amortized_cost": 0.05673
+   },
+   "C": {
+    "stats": {
+     "rows": 600,
+     "pt": 60390,
+     "ct": 10858,
+     "calls": 600,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 600
+     },
+     "pt_by_backend": {
+      "glm_key0": 60390
+     },
+     "ct_by_backend": {
+      "glm_key0": 10858
+     },
+     "latency_ms": 293772.59999999974,
+     "wall_s": 23.99268388748169
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.11346,
+    "amortized_cost": 0.028365
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 387.11538461538464,
+     "ct": 69.57692307692308,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 387.11538461538464
+     },
+     "ct_by_backend": {
+      "glm_key0": 69.57692307692308
+     },
+     "latency_ms": 2555.9108974358983,
+     "wall_s": 0.17431846337440687
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000449,
+    "amortized_cost": 0.000449
+   },
+   "n_queries": 4,
+   "mock_quality": 0.5,
+   "wall_s": 71.52,
+   "C_over_B": 0.5,
+   "C_over_A": 63.1737,
+   "all_glm": true
+  },
+  "ecom|s100|r10": {
+   "B": {
+    "stats": {
+     "rows": 1200,
+     "pt": 120780,
+     "ct": 21708,
+     "calls": 1200,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 1200
+     },
+     "pt_by_backend": {
+      "glm_key0": 120780
+     },
+     "ct_by_backend": {
+      "glm_key0": 21708
+     },
+     "latency_ms": 616480.4,
+     "wall_s": 80.2775239944458
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.226872,
+    "amortized_cost": 0.056718
+   },
+   "C": {
+    "stats": {
+     "rows": 600,
+     "pt": 60390,
+     "ct": 10858,
+     "calls": 600,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 600
+     },
+     "pt_by_backend": {
+      "glm_key0": 60390
+     },
+     "ct_by_backend": {
+      "glm_key0": 10858
+     },
+     "latency_ms": 283524.60000000003,
+     "wall_s": 67.14916396141052
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.11346,
+    "amortized_cost": 0.028365
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 387.11538461538464,
+     "ct": 69.57692307692308,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 387.11538461538464
+     },
+     "ct_by_backend": {
+      "glm_key0": 69.57692307692308
+     },
+     "latency_ms": 2555.9108974358983,
+     "wall_s": 0.17431846337440687
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000449,
+    "amortized_cost": 0.000449
+   },
+   "n_queries": 4,
+   "mock_quality": 0.5,
+   "wall_s": 147.43,
+   "C_over_B": 0.5001,
+   "C_over_A": 63.1737,
+   "all_glm": true
+  },
+  "ecom|s100|r50": {
+   "B": {
+    "stats": {
+     "rows": 1200,
+     "pt": 120780,
+     "ct": 21716,
+     "calls": 1200,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 1200
+     },
+     "pt_by_backend": {
+      "glm_key0": 120780
+     },
+     "ct_by_backend": {
+      "glm_key0": 21716
+     },
+     "latency_ms": 620395.8,
+     "wall_s": 99.87011504173279
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.22692,
+    "amortized_cost": 0.05673
+   },
+   "C": {
+    "stats": {
+     "rows": 600,
+     "pt": 60390,
+     "ct": 10850,
+     "calls": 600,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 600
+     },
+     "pt_by_backend": {
+      "glm_key0": 60390
+     },
+     "ct_by_backend": {
+      "glm_key0": 10850
+     },
+     "latency_ms": 303486.6,
+     "wall_s": 23.530490398406982
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.113412,
+    "amortized_cost": 0.028353
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 387.11538461538464,
+     "ct": 69.57692307692308,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 387.11538461538464
+     },
+     "ct_by_backend": {
+      "glm_key0": 69.57692307692308
+     },
+     "latency_ms": 2555.9108974358983,
+     "wall_s": 0.17431846337440687
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000449,
+    "amortized_cost": 0.000449
+   },
+   "n_queries": 4,
+   "mock_quality": 0.5,
+   "wall_s": 123.41,
+   "C_over_B": 0.4998,
+   "C_over_A": 63.147,
+   "all_glm": true
+  },
+  "finproc|s1|r1": {
+   "B": {
+    "stats": {
+     "rows": 20,
+     "pt": 1920,
+     "ct": 310,
+     "calls": 20,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 20
+     },
+     "pt_by_backend": {
+      "glm_key0": 1920
+     },
+     "ct_by_backend": {
+      "glm_key0": 310
+     },
+     "latency_ms": 7414.7,
+     "wall_s": 7.422765493392944
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.003396,
+    "amortized_cost": 0.00017
+   },
+   "C": {
+    "stats": {
+     "rows": 2,
+     "pt": 192,
+     "ct": 31,
+     "calls": 2,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 2
+     },
+     "pt_by_backend": {
+      "glm_key0": 192
+     },
+     "ct_by_backend": {
+      "glm_key0": 31
+     },
+     "latency_ms": 712.9,
+     "wall_s": 0.7136001586914062
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.000216,
+    "amortized_cost": 1.1e-05
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 354.9230769230769,
+     "ct": 67.6474358974359,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 354.9230769230769
+     },
+     "ct_by_backend": {
+      "glm_key0": 67.6474358974359
+     },
+     "latency_ms": 1899.5846153846146,
+     "wall_s": 0.15352128866391304
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000419,
+    "amortized_cost": 0.000419
+   },
+   "n_queries": 20,
+   "mock_quality": 1.0,
+   "wall_s": 8.14,
+   "C_over_B": 0.0647,
+   "C_over_A": 0.0263,
+   "all_glm": true
+  },
+  "finproc|s1|r10": {
+   "B": {
+    "stats": {
+     "rows": 20,
+     "pt": 1920,
+     "ct": 310,
+     "calls": 20,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 20
+     },
+     "pt_by_backend": {
+      "glm_key0": 1920
+     },
+     "ct_by_backend": {
+      "glm_key0": 310
+     },
+     "latency_ms": 7411.899999999999,
+     "wall_s": 7.417564868927002
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.003396,
+    "amortized_cost": 0.00017
+   },
+   "C": {
+    "stats": {
+     "rows": 2,
+     "pt": 192,
+     "ct": 31,
+     "calls": 2,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 2
+     },
+     "pt_by_backend": {
+      "glm_key0": 192
+     },
+     "ct_by_backend": {
+      "glm_key0": 31
+     },
+     "latency_ms": 649.1,
+     "wall_s": 0.6495137214660645
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.000216,
+    "amortized_cost": 1.1e-05
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 354.9230769230769,
+     "ct": 67.6474358974359,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 354.9230769230769
+     },
+     "ct_by_backend": {
+      "glm_key0": 67.6474358974359
+     },
+     "latency_ms": 1899.5846153846146,
+     "wall_s": 0.15352128866391304
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000419,
+    "amortized_cost": 0.000419
+   },
+   "n_queries": 20,
+   "mock_quality": 1.0,
+   "wall_s": 8.07,
+   "C_over_B": 0.0647,
+   "C_over_A": 0.0263,
+   "all_glm": true
+  },
+  "finproc|s1|r50": {
+   "B": {
+    "stats": {
+     "rows": 20,
+     "pt": 1920,
+     "ct": 310,
+     "calls": 20,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 20
+     },
+     "pt_by_backend": {
+      "glm_key0": 1920
+     },
+     "ct_by_backend": {
+      "glm_key0": 310
+     },
+     "latency_ms": 6897.7,
+     "wall_s": 6.902913570404053
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.003396,
+    "amortized_cost": 0.00017
+   },
+   "C": {
+    "stats": {
+     "rows": 2,
+     "pt": 192,
+     "ct": 31,
+     "calls": 2,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 2
+     },
+     "pt_by_backend": {
+      "glm_key0": 192
+     },
+     "ct_by_backend": {
+      "glm_key0": 31
+     },
+     "latency_ms": 649.9,
+     "wall_s": 0.6503458023071289
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.000216,
+    "amortized_cost": 1.1e-05
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 354.9230769230769,
+     "ct": 67.6474358974359,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 354.9230769230769
+     },
+     "ct_by_backend": {
+      "glm_key0": 67.6474358974359
+     },
+     "latency_ms": 1899.5846153846146,
+     "wall_s": 0.15352128866391304
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000419,
+    "amortized_cost": 0.000419
+   },
+   "n_queries": 20,
+   "mock_quality": 1.0,
+   "wall_s": 7.55,
+   "C_over_B": 0.0647,
+   "C_over_A": 0.0263,
+   "all_glm": true
+  },
+  "finproc|s10|r1": {
+   "B": {
+    "stats": {
+     "rows": 500,
+     "pt": 45740,
+     "ct": 8732,
+     "calls": 500,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 500
+     },
+     "pt_by_backend": {
+      "glm_key0": 45740
+     },
+     "ct_by_backend": {
+      "glm_key0": 8732
+     },
+     "latency_ms": 235190.99999999997,
+     "wall_s": 19.60653328895569
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.088984,
+    "amortized_cost": 0.004449
+   },
+   "C": {
+    "stats": {
+     "rows": 50,
+     "pt": 4574,
+     "ct": 874,
+     "calls": 50,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 50
+     },
+     "pt_by_backend": {
+      "glm_key0": 4574
+     },
+     "ct_by_backend": {
+      "glm_key0": 874
+     },
+     "latency_ms": 23104.199999999997,
+     "wall_s": 1.9039759635925293
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.008903,
+    "amortized_cost": 0.000445
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 354.9230769230769,
+     "ct": 67.6474358974359,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 354.9230769230769
+     },
+     "ct_by_backend": {
+      "glm_key0": 67.6474358974359
+     },
+     "latency_ms": 1899.5846153846146,
+     "wall_s": 0.15352128866391304
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000419,
+    "amortized_cost": 0.000419
+   },
+   "n_queries": 20,
+   "mock_quality": 1.0,
+   "wall_s": 21.51,
+   "C_over_B": 0.1,
+   "C_over_A": 1.0621,
+   "all_glm": true
+  },
+  "finproc|s10|r10": {
+   "B": {
+    "stats": {
+     "rows": 500,
+     "pt": 45740,
+     "ct": 8720,
+     "calls": 500,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 500
+     },
+     "pt_by_backend": {
+      "glm_key0": 45740
+     },
+     "ct_by_backend": {
+      "glm_key0": 8720
+     },
+     "latency_ms": 241136.4,
+     "wall_s": 20.06368350982666
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.088912,
+    "amortized_cost": 0.004446
+   },
+   "C": {
+    "stats": {
+     "rows": 50,
+     "pt": 4574,
+     "ct": 870,
+     "calls": 50,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 50
+     },
+     "pt_by_backend": {
+      "glm_key0": 4574
+     },
+     "ct_by_backend": {
+      "glm_key0": 870
+     },
+     "latency_ms": 26107.5,
+     "wall_s": 2.0501062870025635
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.008879,
+    "amortized_cost": 0.000444
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 354.9230769230769,
+     "ct": 67.6474358974359,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 354.9230769230769
+     },
+     "ct_by_backend": {
+      "glm_key0": 67.6474358974359
+     },
+     "latency_ms": 1899.5846153846146,
+     "wall_s": 0.15352128866391304
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000419,
+    "amortized_cost": 0.000419
+   },
+   "n_queries": 20,
+   "mock_quality": 1.0,
+   "wall_s": 22.12,
+   "C_over_B": 0.0999,
+   "C_over_A": 1.0597,
+   "all_glm": true
+  },
+  "finproc|s10|r50": {
+   "B": {
+    "stats": {
+     "rows": 500,
+     "pt": 45740,
+     "ct": 8724,
+     "calls": 500,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 500
+     },
+     "pt_by_backend": {
+      "glm_key0": 45740
+     },
+     "ct_by_backend": {
+      "glm_key0": 8724
+     },
+     "latency_ms": 237857.19999999998,
+     "wall_s": 19.83348512649536
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.088936,
+    "amortized_cost": 0.004447
+   },
+   "C": {
+    "stats": {
+     "rows": 50,
+     "pt": 4574,
+     "ct": 870,
+     "calls": 50,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 50
+     },
+     "pt_by_backend": {
+      "glm_key0": 4574
+     },
+     "ct_by_backend": {
+      "glm_key0": 870
+     },
+     "latency_ms": 23639.9,
+     "wall_s": 2.0116586685180664
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.008879,
+    "amortized_cost": 0.000444
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 354.9230769230769,
+     "ct": 67.6474358974359,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 354.9230769230769
+     },
+     "ct_by_backend": {
+      "glm_key0": 67.6474358974359
+     },
+     "latency_ms": 1899.5846153846146,
+     "wall_s": 0.15352128866391304
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000419,
+    "amortized_cost": 0.000419
+   },
+   "n_queries": 20,
+   "mock_quality": 1.0,
+   "wall_s": 21.85,
+   "C_over_B": 0.0998,
+   "C_over_A": 1.0597,
+   "all_glm": true
+  },
+  "finproc|s50|r1": {
+   "B": {
+    "stats": {
+     "rows": 1176,
+     "pt": 108848,
+     "ct": 20533,
+     "calls": 1176,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 1176
+     },
+     "pt_by_backend": {
+      "glm_key0": 108848
+     },
+     "ct_by_backend": {
+      "glm_key0": 20533
+     },
+     "latency_ms": 600962.0999999999,
+     "wall_s": 47.4938850402832
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.210276,
+    "amortized_cost": 0.026285
+   },
+   "C": {
+    "stats": {
+     "rows": 294,
+     "pt": 27212,
+     "ct": 5132,
+     "calls": 294,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 294
+     },
+     "pt_by_backend": {
+      "glm_key0": 27212
+     },
+     "ct_by_backend": {
+      "glm_key0": 5132
+     },
+     "latency_ms": 142071.89999999997,
+     "wall_s": 11.593530416488647
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.052562,
+    "amortized_cost": 0.00657
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 354.9230769230769,
+     "ct": 67.6474358974359,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 354.9230769230769
+     },
+     "ct_by_backend": {
+      "glm_key0": 67.6474358974359
+     },
+     "latency_ms": 1899.5846153846146,
+     "wall_s": 0.15352128866391304
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000419,
+    "amortized_cost": 0.000419
+   },
+   "n_queries": 8,
+   "mock_quality": 0.5,
+   "wall_s": 59.09,
+   "C_over_B": 0.25,
+   "C_over_A": 15.6802,
+   "all_glm": true
+  },
+  "finproc|s50|r10": {
+   "B": {
+    "stats": {
+     "rows": 1176,
+     "pt": 108848,
+     "ct": 20544,
+     "calls": 1176,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 1176
+     },
+     "pt_by_backend": {
+      "glm_key0": 108848
+     },
+     "ct_by_backend": {
+      "glm_key0": 20544
+     },
+     "latency_ms": 571882.3,
+     "wall_s": 47.09179496765137
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.210342,
+    "amortized_cost": 0.026293
+   },
+   "C": {
+    "stats": {
+     "rows": 294,
+     "pt": 27212,
+     "ct": 5136,
+     "calls": 294,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 294
+     },
+     "pt_by_backend": {
+      "glm_key0": 27212
+     },
+     "ct_by_backend": {
+      "glm_key0": 5136
+     },
+     "latency_ms": 147513.99999999994,
+     "wall_s": 12.018584251403809
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.052586,
+    "amortized_cost": 0.006573
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 354.9230769230769,
+     "ct": 67.6474358974359,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 354.9230769230769
+     },
+     "ct_by_backend": {
+      "glm_key0": 67.6474358974359
+     },
+     "latency_ms": 1899.5846153846146,
+     "wall_s": 0.15352128866391304
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000419,
+    "amortized_cost": 0.000419
+   },
+   "n_queries": 8,
+   "mock_quality": 0.5,
+   "wall_s": 59.11,
+   "C_over_B": 0.25,
+   "C_over_A": 15.6874,
+   "all_glm": true
+  },
+  "finproc|s50|r50": {
+   "B": {
+    "stats": {
+     "rows": 1176,
+     "pt": 108848,
+     "ct": 20545,
+     "calls": 1176,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 1176
+     },
+     "pt_by_backend": {
+      "glm_key0": 108848
+     },
+     "ct_by_backend": {
+      "glm_key0": 20545
+     },
+     "latency_ms": 582847.9,
+     "wall_s": 47.74416208267212
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.210348,
+    "amortized_cost": 0.026294
+   },
+   "C": {
+    "stats": {
+     "rows": 294,
+     "pt": 27212,
+     "ct": 5136,
+     "calls": 294,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 294
+     },
+     "pt_by_backend": {
+      "glm_key0": 27212
+     },
+     "ct_by_backend": {
+      "glm_key0": 5136
+     },
+     "latency_ms": 145196.90000000005,
+     "wall_s": 11.214757442474365
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.052586,
+    "amortized_cost": 0.006573
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 354.9230769230769,
+     "ct": 67.6474358974359,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 354.9230769230769
+     },
+     "ct_by_backend": {
+      "glm_key0": 67.6474358974359
+     },
+     "latency_ms": 1899.5846153846146,
+     "wall_s": 0.15352128866391304
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000419,
+    "amortized_cost": 0.000419
+   },
+   "n_queries": 8,
+   "mock_quality": 0.5,
+   "wall_s": 58.96,
+   "C_over_B": 0.25,
+   "C_over_A": 15.6874,
+   "all_glm": true
+  },
+  "finproc|s100|r1": {
+   "B": {
+    "stats": {
+     "rows": 1200,
+     "pt": 110736,
+     "ct": 20970,
+     "calls": 1200,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 1200
+     },
+     "pt_by_backend": {
+      "glm_key0": 110736
+     },
+     "ct_by_backend": {
+      "glm_key0": 20970
+     },
+     "latency_ms": 576773.7000000001,
+     "wall_s": 49.37459111213684
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.214409,
+    "amortized_cost": 0.053602
+   },
+   "C": {
+    "stats": {
+     "rows": 600,
+     "pt": 55368,
+     "ct": 10485,
+     "calls": 600,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 600
+     },
+     "pt_by_backend": {
+      "glm_key0": 55368
+     },
+     "ct_by_backend": {
+      "glm_key0": 10485
+     },
+     "latency_ms": 270065.2000000001,
+     "wall_s": 66.9694344997406
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.107204,
+    "amortized_cost": 0.026801
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 354.9230769230769,
+     "ct": 67.6474358974359,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 354.9230769230769
+     },
+     "ct_by_backend": {
+      "glm_key0": 67.6474358974359
+     },
+     "latency_ms": 1899.5846153846146,
+     "wall_s": 0.15352128866391304
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000419,
+    "amortized_cost": 0.000419
+   },
+   "n_queries": 4,
+   "mock_quality": 0.5,
+   "wall_s": 116.35,
+   "C_over_B": 0.5,
+   "C_over_A": 63.9642,
+   "all_glm": true
+  },
+  "finproc|s100|r10": {
+   "B": {
+    "stats": {
+     "rows": 1200,
+     "pt": 110736,
+     "ct": 20965,
+     "calls": 1200,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 1200
+     },
+     "pt_by_backend": {
+      "glm_key0": 110736
+     },
+     "ct_by_backend": {
+      "glm_key0": 20965
+     },
+     "latency_ms": 572340.1000000001,
+     "wall_s": 162.62892317771912
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.214379,
+    "amortized_cost": 0.053595
+   },
+   "C": {
+    "stats": {
+     "rows": 600,
+     "pt": 55368,
+     "ct": 10477,
+     "calls": 600,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 600
+     },
+     "pt_by_backend": {
+      "glm_key0": 55368
+     },
+     "ct_by_backend": {
+      "glm_key0": 10477
+     },
+     "latency_ms": 277709.1000000001,
+     "wall_s": 74.90167880058289
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.107156,
+    "amortized_cost": 0.026789
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 354.9230769230769,
+     "ct": 67.6474358974359,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 354.9230769230769
+     },
+     "ct_by_backend": {
+      "glm_key0": 67.6474358974359
+     },
+     "latency_ms": 1899.5846153846146,
+     "wall_s": 0.15352128866391304
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000419,
+    "amortized_cost": 0.000419
+   },
+   "n_queries": 4,
+   "mock_quality": 0.5,
+   "wall_s": 237.53,
+   "C_over_B": 0.4998,
+   "C_over_A": 63.9356,
+   "all_glm": true
+  },
+  "finproc|s100|r50": {
+   "B": {
+    "stats": {
+     "rows": 1200,
+     "pt": 110736,
+     "ct": 20973,
+     "calls": 1200,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 1200
+     },
+     "pt_by_backend": {
+      "glm_key0": 110736
+     },
+     "ct_by_backend": {
+      "glm_key0": 20973
+     },
+     "latency_ms": 537770.8000000002,
+     "wall_s": 169.09978604316711
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.214427,
+    "amortized_cost": 0.053607
+   },
+   "C": {
+    "stats": {
+     "rows": 600,
+     "pt": 55368,
+     "ct": 10493,
+     "calls": 600,
+     "parse_fail": 0,
+     "backends": {
+      "glm_key0": 600
+     },
+     "pt_by_backend": {
+      "glm_key0": 55368
+     },
+     "ct_by_backend": {
+      "glm_key0": 10493
+     },
+     "latency_ms": 267358.6000000001,
+     "wall_s": 66.04012203216553
+    },
+    "quality": 1.0,
+    "cost_yuan": 0.107252,
+    "amortized_cost": 0.026813
+   },
+   "A": {
+    "stats": {
+     "rows": 3.8461538461538463,
+     "pt": 354.9230769230769,
+     "ct": 67.6474358974359,
+     "calls": 3.8461538461538463,
+     "parse_fail": 0.0,
+     "backends": {
+      "glm_key0": 3.8461538461538463
+     },
+     "pt_by_backend": {
+      "glm_key0": 354.9230769230769
+     },
+     "ct_by_backend": {
+      "glm_key0": 67.6474358974359
+     },
+     "latency_ms": 1899.5846153846146,
+     "wall_s": 0.15352128866391304
+    },
+    "quality": 1.0,
+    "amortized_over_queries": 156,
+    "cost_yuan": 0.000419,
+    "amortized_cost": 0.000419
+   },
+   "n_queries": 4,
+   "mock_quality": 0.5,
+   "wall_s": 235.14,
+   "C_over_B": 0.5002,
+   "C_over_A": 63.9928,
+   "all_glm": true
+  }
+ },
+ "key_usage": {
+  "using_fallback": false,
+  "switches": 0,
+  "rate_limit_events": 1985,
+  "fallback_failures": 0,
+  "total_tokens": 2834705,
+  "per_backend": {
+   "glm_key0": {
+    "eq": "glm_key0",
+    "calls": 24775,
+    "prompt_tokens": 2394015,
+    "completion_tokens": 440690,
+    "cached_tokens": 2319654,
+    "cost": 1.3120134399999481,
+    "errors": 1985,
+    "rate_limits": 1985,
+    "latency_ms_sum": 12606851.436138153
+   },
+   "glm_key1": {
+    "eq": "glm_key1",
+    "calls": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cached_tokens": 0,
+    "cost": 0.0,
+    "errors": 0,
+    "rate_limits": 0,
+    "latency_ms_sum": 0.0
+   },
+   "free_fallback": {
+    "eq": "free_fallback",
+    "calls": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cached_tokens": 0,
+    "cost": 0.0,
+    "errors": 0,
+    "rate_limits": 0,
+    "latency_ms_sum": 0.0,
+    "provider": "siliconflow",
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+   }
+  },
+  "total_cost_yuan": 1.312013,
+  "pricing": {
+   "glm": {
+    "input_per_m": 0.8,
+    "output_short_per_m": 2.0,
+    "output_long_per_m": 6.0,
+    "cache_hit_per_m": 0.16,
+    "output_short_limit": 200,
+    "version": "bigmodel-2026.09"
+   },
+   "fallback": {
+    "input_per_m": 0.35,
+    "output_per_m": 0.35,
+    "cache_hit_per_m": 0.0,
+    "version": "siliconflow-public-approx"
+   }
+  }
+ },
+ "wall_clock_sec": 1559.3,
+ "max_tokens_limit": 18000000,
+ "used_tokens": 2834705,
+ "engine": {
+  "version": "v2",
+  "transport": "keep-alive(thread-local)",
+  "workers": 16,
+  "max_qps": 25.0,
+  "rate_limit_events": 1985,
+  "switches": 0,
+  "fallback_used": false
+ },
+ "all_cells_glm_only": true,
+ "note": "预算受限的精简矩阵：同一 Source Snapshot/Plan/Capability/Prompt/Schema，仅将关系规模降为确定性子关系（M 行/域）以遵守 token 预算。v2 引擎：keep-alive + 令牌桶限流；429 走退避重试而非误切兜底。"
+}

@@ -1,0 +1,300 @@
+{"chosen": "TRV-001-v1", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v2", "TRV-001-v3"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0001", "question": "2025年03月广州普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v2", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v3"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0002", "question": "2025年12月北京普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v2", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v3"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0003", "question": "2025年10月深圳普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v2"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0004", "question": "2026年03月上海普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v2"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0005", "question": "2026年06月上海普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v2"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0006", "question": "2026年08月上海普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v2"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0007", "question": "2026年05月广州普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v2"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0008", "question": "2026年01月杭州普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v2", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v3"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0009", "question": "2025年09月成都普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v2", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v3"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0010", "question": "2025年11月武汉普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v2"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0011", "question": "2026年04月苏州普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v2"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0012", "question": "2026年02月西安普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v2"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0013", "question": "2026年06月南京普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v2", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v3"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0014", "question": "2025年08月杭州普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v2"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0015", "question": "2026年07月成都普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v2"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0016", "question": "2026年04月北京普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v2"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0017", "question": "2026年01月深圳普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v2"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0018", "question": "2026年03月武汉普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v2", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v3"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0019", "question": "2025年10月西安普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v2", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v3"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0020", "question": "2025年11月苏州普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v2", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v3"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0021", "question": "2025年09月南京普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v2"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0022", "question": "2026年05月合肥普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v2"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0023", "question": "2026年02月郑州普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "该日期落在该版本的生效区间", "superseded": ["TRV-001-v1", "TRV-001-v2"], "distractors": ["TRV-002", "TRV-003", "TRV-004"], "question_id": "Q-0024", "question": "2026年07月佛山普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "current 版本", "superseded": ["TRV-001-v1", "TRV-001-v2"], "question_id": "Q-0025", "question": "目前上海普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "current 版本", "superseded": ["TRV-001-v1", "TRV-001-v2"], "question_id": "Q-0026", "question": "目前广州普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "current 版本", "superseded": ["TRV-001-v1", "TRV-001-v2"], "question_id": "Q-0027", "question": "目前杭州普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "current 版本", "superseded": ["TRV-001-v1", "TRV-001-v2"], "question_id": "Q-0028", "question": "目前北京普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "current 版本", "superseded": ["TRV-001-v1", "TRV-001-v2"], "question_id": "Q-0029", "question": "目前深圳普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "current 版本", "superseded": ["TRV-001-v1", "TRV-001-v2"], "question_id": "Q-0030", "question": "目前成都普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "current 版本", "superseded": ["TRV-001-v1", "TRV-001-v2"], "question_id": "Q-0031", "question": "目前南京普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "current 版本", "superseded": ["TRV-001-v1", "TRV-001-v2"], "question_id": "Q-0032", "question": "目前西安普通员工差旅住宿上限是多少？"}
+{"question_id": "Q-0033", "question": "《关于上海地区住宿标准调整的通知》（TRV-001-CN1）何时发布、何时生效？"}
+{"question_id": "Q-0034", "question": "2026年6月20日出差上海，普通员工住宿上限是多少？"}
+{"question_id": "Q-0035", "question": "2026年7月10日出差上海，普通员工住宿上限是多少？"}
+{"why": "同 scope 不同时间 → superseded 演化，不得判为真冲突", "question_id": "Q-0036", "question": "2025年版本的住宿标准与2026年版本相比变化了什么？"}
+{"question_id": "Q-0037", "question": "若查询时间从2025年12月改为2026年6月，上海普通员工住宿标准是否变化？"}
+{"question_id": "Q-0038", "question": "截至 2025-05-20（As-of 查询），上海普通员工差旅住宿上限是多少？"}
+{"question_id": "Q-0039", "question": "截至 2025-07-10（As-of 查询），上海普通员工差旅住宿上限是多少？"}
+{"question_id": "Q-0040", "question": "截至 2025-12-31（As-of 查询），广州普通员工差旅住宿上限是多少？"}
+{"question_id": "Q-0041", "question": "截至 2026-01-05（As-of 查询），广州普通员工差旅住宿上限是多少？"}
+{"question_id": "Q-0042", "question": "截至 2026-06-30（As-of 查询），上海普通员工差旅住宿上限是多少？"}
+{"question_id": "Q-0043", "question": "截至 2026-07-02（As-of 查询），上海普通员工差旅住宿上限是多少？"}
+{"question_id": "Q-0044", "question": "截至 2025-06-30（As-of 查询），杭州普通员工差旅住宿上限是多少？"}
+{"question_id": "Q-0045", "question": "截至 2025-07-02（As-of 查询），杭州普通员工差旅住宿上限是多少？"}
+{"question_id": "Q-0046", "question": "2026年广交会期间（2026-04-20）出差广州，普通员工住宿上限是多少？"}
+{"question_id": "Q-0047", "question": "2026年春节假期（2026-02-18）出差北京，普通员工住宿上限是多少？"}
+{"question_id": "Q-0048", "question": "2025年12月（春节条款已生效版本）若春节期间出差上海，普通员工住宿上限是多少？"}
+{"question_id": "Q-0049", "question": "客户指定酒店导致房价超出住宿标准，能否报销？"}
+{"question_id": "Q-0050", "question": "2026年8月出差上海，客户指定酒店实付 845 元/晚，最多可报销多少住宿费？"}
+{"question_id": "Q-0051", "question": "差旅申请是否必须提前 3 个工作日提交？"}
+{"question_id": "Q-0052", "question": "紧急客户事件出差是否允许当天提交申请？"}
+{"question_id": "Q-0053", "question": "有供应商人员全程陪同出差时，员工住宿标准如何执行？"}
+{"question_id": "Q-0054", "question": "2026年8月（上海特殊城市标准下）供应商陪同出差，住宿上限是多少？"}
+{"question_id": "Q-0055", "question": "所有供应商都必须签署 NDA 吗？"}
+{"question_id": "Q-0056", "question": "向环宇办公用品（S006，低敏级）单笔采购 8,000 元，是否必须先签 NDA？"}
+{"distractors": ["S006 案例同款金额，物料等级不同"], "question_id": "Q-0057", "question": "向恒远电子（S003，常规级）单笔采购 8,000 元，是否可以豁免 NDA？"}
+{"distractors": ["TRV-001 普通标准 500/650", "FAQ 480"], "question_id": "Q-0058", "question": "2026年8月上海 VP 住宿上限是多少？"}
+{"question_id": "Q-0059", "question": "李静（E058，VP）2026年8月出差上海，住宿上限是多少？若她以普通员工身份执行差旅标准呢？"}
+{"question_id": "Q-0060", "question": "欧洲区普通员工住宿上限是多少？"}
+{"question_id": "Q-0061", "question": "北美区普通员工住宿上限是多少？"}
+{"question_id": "Q-0062", "question": "VP 到欧洲区出差，住宿上限是多少？"}
+{"question_id": "Q-0063", "question": "欧洲区普通员工也适用 500 元的住宿上限吗？"}
+{"question_id": "Q-0064", "question": "VP 是否也适用 500 元的普通员工住宿标准？"}
+{"question_id": "Q-0065", "question": "公司对实习生出差的住宿标准是多少？"}
+{"question_id": "Q-0066", "question": "外包人员适用《差旅费管理办法》吗？"}
+{"question_id": "Q-0067", "question": "中国香港普通员工差旅住宿上限是多少？"}
+{"chosen": "TRV-001-v3#sec-2-1", "why": "L5 正式制度 + 区域调节权限规则裁决", "conflict": ["CON-001 (L3, 700元)"], "conflict_resolution": "超出10%授权且未备案 → 无效", "distractors": ["CON-002a", "CON-002b"], "question_id": "Q-0068", "question": "华东区销售部 2026年8月一线城市住宿上限是多少？"}
+{"conflict": ["CON-002a(520)", "CON-002b(530)"], "why": "真冲突：同 L3、同 scope 交叠、同时间、均已备案 → surface", "question_id": "Q-0069", "question": "2026年4月20日运营部员工出差广州，住宿报销上限是多少？"}
+{"chosen": "TRV-001-v3", "why": "L5 > L2", "distractors": ["FAQ-001 480 元：语义相近但权威级低"], "question_id": "Q-0070", "question": "FAQ 里说住宿一般 500 元、有时 480 元封顶，以哪个为准？"}
+{"question_id": "Q-0071", "question": "退款多久到账？"}
+{"question_id": "Q-0072", "question": "截至 2026-06-30，上海普通员工住宿标准是多少？"}
+{"question_id": "Q-0073", "question": "华南区市内交通补贴上浮 10% 是否合规有效？"}
+{"question_id": "Q-0074", "question": "公司是否规定周末可以提交报销？"}
+{"why": "福利制度全集已检索，无该条目 → ABSENT", "question_id": "Q-0075", "question": "公司有没有员工宠物保险福利？"}
+{"question_id": "Q-0076", "question": "北美区员工是否有额外的特殊住房补贴？"}
+{"question_id": "Q-0077", "question": "华北区区域负责人是谁？"}
+{"why": "第4项只在附录C → almost-complete 陷阱：漏读附录则少 1 项", "question_id": "Q-0078", "question": "《采购管理办法》（v3）规定了哪些免于逐单审批的情形？"}
+{"question_id": "Q-0079", "question": "正文第六章列出的免审批情形有哪些？"}
+{"question_id": "Q-0080", "question": "《差旅费管理办法》中普通员工住宿标准可以上浮的情形有哪些？"}
+{"question_id": "Q-0081", "question": "哪些情形需要董事会批准？"}
+{"question_id": "Q-0082", "question": "哪些采购情形可以免于采购总监审批？"}
+{"question_id": "Q-0083", "question": "报销制度说员工“一般应”在 30 天内提交报销。员工在 35 天后提交，是否一定不被接受？"}
+{"question_id": "Q-0084", "question": "市内交通费“每人每天上限 80 元”，80 元是定额还是上限？"}
+{"question_id": "Q-0085", "question": "餐费补贴“一线城市 110 元/天”，这是上限还是定额？"}
+{"question_id": "Q-0086", "question": "客服 FAQ 说住宿“一般每晚上限 500 元”，能否据此断定所有员工所有城市都是恰好 500 元？"}
+{"question_id": "Q-0087", "question": "S001 星辰物流“连续两个考核期延期率高于 5%”，能否断定其下一期延期率一定高于 5%？"}
+{"question_id": "Q-0088", "question": "差旅费管理办法“未尽事宜由财务部解释”，能否据此断定财务部可以修改住宿标准？"}
+{"distractors": ["表内“800”若不带单位会误读为 800 元"], "question_id": "Q-0089", "question": "2026年6月华南区收入是多少？"}
+{"question_id": "Q-0090", "question": "欧洲区 2026年6月本地报表收入是多少欧元？"}
+{"question_id": "Q-0091", "question": "北美区普通员工住宿上限是 120 吗？单位是什么？"}
+{"question_id": "Q-0092", "question": "订单明细表中的金额字段是含税还是不含税？含税金额如何换算？"}
+{"question_id": "Q-0093", "question": "星辰物流 2026 年运输报价是否包含运费？"}
+{"why": "答案不在任何文本中，必须 Evidence→Arithmetic→Claim", "question_id": "Q-0094", "question": "2026年6月华东区毛利率是多少？（百分比，保留一位小数）"}
+{"question_id": "Q-0095", "question": "2026年01月华南区的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0096", "question": "2026年02月华东区的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0097", "question": "2026年03月华北区的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0098", "question": "2026年04月华南区的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0099", "question": "2026年05月欧洲的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0100", "question": "2026年06月华北区的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0101", "question": "2026年07月中国香港的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0102", "question": "2026年08月东南亚的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0103", "question": "2025年12月华南区的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0104", "question": "2025年11月华东区的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0105", "question": "2026年03月欧洲的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0106", "question": "2026年08月华南区的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0107", "question": "2026年02月华南区的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0108", "question": "2026年04月华东区的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0109", "question": "2026年05月华北区的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0110", "question": "2026年06月欧洲的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0111", "question": "2026年07月华东区的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0112", "question": "2026年08月欧洲的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0113", "question": "2026年01月欧洲的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0114", "question": "2026年02月东南亚的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0115", "question": "2025年10月华南区的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0116", "question": "2025年09月华东区的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0117", "question": "2026年05月中国香港的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0118", "question": "2026年07月华北区的毛利率是多少？（保留一位小数）"}
+{"question_id": "Q-0119", "question": "2026年上半年集团总收入是多少？较2025年上半年同比增长百分之多少？（保留一位小数）"}
+{"question_id": "Q-0120", "question": "销售部2026年预算执行率是多少？（保留一位小数）"}
+{"question_id": "Q-0121", "question": "运营部2026年预算执行率是多少？（保留一位小数）"}
+{"question_id": "Q-0122", "question": "信息技术部2026年预算执行率是多少？（保留一位小数）"}
+{"question_id": "Q-0123", "question": "采购部2026年预算执行率是多少？（保留一位小数）"}
+{"question_id": "Q-0124", "question": "客服部2026年预算执行率是多少？（保留一位小数）"}
+{"question_id": "Q-0125", "question": "2026年上半年毛利率最高的事业部是哪个？"}
+{"why": "B=25% C=25% 平手 → 检验 tie 处理与排序稳定性", "question_id": "Q-0126", "question": "2026年上半年毛利率最高的前三个事业部是哪些？（需正确处理平手）"}
+{"question_id": "Q-0127", "question": "2026年全平台订单总金额（不含税）是多少？"}
+{"question_id": "Q-0128", "question": "公司目前有多少名在职员工？"}
+{"question_id": "Q-0129", "question": "2026年哪个平台订单退款率最高？"}
+{"question_id": "Q-0130", "question": "2026年天猫平台订单退款率是多少？（保留一位小数）"}
+{"question_id": "Q-0131", "question": "采购申请单 PR-2026-0218 的金额是多少？属于哪个部门？"}
+{"question_id": "Q-0132", "question": "采购申请单 PR-2026-0340 的金额是多少？属于哪个部门？"}
+{"why": "PlatformSKU → InternalSKU → Product → Brand", "question_id": "Q-0133", "question": "平台 SKU TM-88231 对应什么商品？属于什么品牌？"}
+{"distractors": ["M10028 数字相近"], "question_id": "Q-0134", "question": "旧编号 SK-10028 对应什么商品？"}
+{"question_id": "Q-0135", "question": "M10028S 和 M10028 是同一款商品吗？"}
+{"question_id": "Q-0136", "question": "组合装 B2001 包含哪些商品？"}
+{"question_id": "Q-0137", "question": "M10036 是什么类型的商品？可以无理由退款吗？"}
+{"question_id": "Q-0138", "question": "张伟（E037）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0139", "question": "周凯（E015）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0140", "question": "王磊（E023）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0141", "question": "高翔（E052）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0142", "question": "罗志成（E010）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0143", "question": "艾米丽（E060）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0144", "question": "韩梅（E061）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0145", "question": "杜鹏（E044）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0146", "question": "陈明远（E001）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0147", "question": "冯军（E008）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0148", "question": "刘洋（E020）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0149", "question": "穆勒（E013）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0150", "question": "赵国强（E002）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0151", "question": "孙丽华（E003）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0152", "question": "周正（E004）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0153", "question": "马俊（E005）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0154", "question": "吴敏（E006）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0155", "question": "郑洁（E007）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0156", "question": "许静（E009）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0157", "question": "梁诗琪（E011）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0158", "question": "约翰逊（E014）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0159", "question": "李静（E058）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0160", "question": "王国强（E022）属于哪个部门、哪个区域？目前是否在职？"}
+{"question_id": "Q-0161", "question": "冯红梅（E046）属于哪个部门、哪个区域？目前是否在职？"}
+{"chosen": "ORG-002#sec-3-1（2026-06-05 公告）", "superseded": ["ORG-001（2025 快照）"], "why": "异动公告时间更新", "question_id": "Q-0162", "question": "林晓芳（E012）2026年8月属于哪个部门？"}
+{"question_id": "Q-0163", "question": "林晓芳（E012）2026年3月属于哪个部门？"}
+{"question_id": "Q-0164", "question": "张伟（E037）是否属于财务部？"}
+{"question_id": "Q-0165", "question": "采购部负责人是谁？"}
+{"question_id": "Q-0166", "question": "艾米丽（E060）能享受补充商业医疗保险吗？"}
+{"question_id": "Q-0167", "question": "韩梅（E061，试用期实习生）年假按什么标准执行？"}
+{"why": "Employee→Project→Region→Budget→Execution 五跳", "question_id": "Q-0168", "question": "E037 参与的项目所在区域的预算执行率是多少？（保留一位小数）"}
+{"question_id": "Q-0169", "question": "华南区负责人是谁？其区域总经理岗位属于哪个部门？"}
+{"question_id": "Q-0170", "question": "公司组织层级中，广州位于哪个节点之下？"}
+{"chosen": "PROC-001-v3#sec-5-4 + SUP-EVAL-2026A", "why": "Supplier+Quality+Policy 三源 Join", "distractors": ["S003/S004 案例（评级或延期率不满足）"], "question_id": "Q-0171", "question": "S001 星辰物流为什么需要额外合规审批才能下单？"}
+{"question_id": "Q-0172", "question": "向 S004 蓝海包装下单是否触发额外合规审批？"}
+{"question_id": "Q-0173", "question": "S001 的付款条件是什么？其 2026 年运输报价如何计费？"}
+{"question_id": "Q-0174", "question": "S003 恒远电子的合同期到什么时候？交付延期率是多少？"}
+{"why": "PDF(审计)+CSV(PO)+Policy+税率表 四源；含税/不含税陷阱", "question_id": "Q-0175", "question": "PR-2026-0218 是否违反了采购审批规定？为什么？"}
+{"question_id": "Q-0176", "question": "PR-2026-0231（48,000 元含税）是否需要采购总监审批？是否违规？"}
+{"distractors": ["名称近邻供应商（如 S001 vs S001C、S008 vs S009）"], "question_id": "Q-0177", "question": "供应商 星辰物流有限公司（S001）的评级、付款条件和交付周期分别是多少？"}
+{"distractors": ["名称近邻供应商（如 S001 vs S001C、S008 vs S009）"], "question_id": "Q-0178", "question": "供应商 星辰物流(广州)有限公司（S001C）的评级、付款条件和交付周期分别是多少？"}
+{"distractors": ["名称近邻供应商（如 S001 vs S001C、S008 vs S009）"], "question_id": "Q-0179", "question": "供应商 云图信息技术有限公司（S002）的评级、付款条件和交付周期分别是多少？"}
+{"distractors": ["名称近邻供应商（如 S001 vs S001C、S008 vs S009）"], "question_id": "Q-0180", "question": "供应商 恒远电子科技有限公司（S003）的评级、付款条件和交付周期分别是多少？"}
+{"distractors": ["名称近邻供应商（如 S001 vs S001C、S008 vs S009）"], "question_id": "Q-0181", "question": "供应商 蓝海包装制品有限公司（S004）的评级、付款条件和交付周期分别是多少？"}
+{"distractors": ["名称近邻供应商（如 S001 vs S001C、S008 vs S009）"], "question_id": "Q-0182", "question": "供应商 中科软件股份有限公司（S005）的评级、付款条件和交付周期分别是多少？"}
+{"distractors": ["名称近邻供应商（如 S001 vs S001C、S008 vs S009）"], "question_id": "Q-0183", "question": "供应商 环宇办公用品有限公司（S006）的评级、付款条件和交付周期分别是多少？"}
+{"distractors": ["名称近邻供应商（如 S001 vs S001C、S008 vs S009）"], "question_id": "Q-0184", "question": "供应商 Global Parts GmbH（S007）的评级、付款条件和交付周期分别是多少？"}
+{"distractors": ["名称近邻供应商（如 S001 vs S001C、S008 vs S009）"], "question_id": "Q-0185", "question": "供应商 ABC Logistics Singapore Pte Ltd（S008）的评级、付款条件和交付周期分别是多少？"}
+{"distractors": ["名称近邻供应商（如 S001 vs S001C、S008 vs S009）"], "question_id": "Q-0186", "question": "供应商 ABC Logistics Holding Ltd（S009）的评级、付款条件和交付周期分别是多少？"}
+{"distractors": ["名称近邻供应商（如 S001 vs S001C、S008 vs S009）"], "question_id": "Q-0187", "question": "供应商 迅捷耗材供应链有限公司（S017）的评级、付款条件和交付周期分别是多少？"}
+{"distractors": ["名称近邻供应商（如 S001 vs S001C、S008 vs S009）"], "question_id": "Q-0188", "question": "供应商 华信电线有限公司（S020）的评级、付款条件和交付周期分别是多少？"}
+{"distractors": ["名称近邻供应商（如 S001 vs S001C、S008 vs S009）"], "question_id": "Q-0189", "question": "供应商 恒信模具有限公司（S024）的评级、付款条件和交付周期分别是多少？"}
+{"distractors": ["名称近邻供应商（如 S001 vs S001C、S008 vs S009）"], "question_id": "Q-0190", "question": "供应商 新绿环保有限公司（S028）的评级、付款条件和交付周期分别是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0191", "question": "附件《城市住宿标准汇总表》中，北京在2025年上半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0192", "question": "附件《城市住宿标准汇总表》中，上海在2025年上半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0193", "question": "附件《城市住宿标准汇总表》中，广州在2025年上半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0194", "question": "附件《城市住宿标准汇总表》中，深圳在2025年上半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0195", "question": "附件《城市住宿标准汇总表》中，杭州在2025年上半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0196", "question": "附件《城市住宿标准汇总表》中，成都在2025年上半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0197", "question": "附件《城市住宿标准汇总表》中，武汉在2025年上半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0198", "question": "附件《城市住宿标准汇总表》中，南京在2025年上半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0199", "question": "附件《城市住宿标准汇总表》中，西安在2025年上半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0200", "question": "附件《城市住宿标准汇总表》中，苏州在2025年上半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0201", "question": "附件《城市住宿标准汇总表》中，佛山在2025年上半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0202", "question": "附件《城市住宿标准汇总表》中，东莞在2025年上半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0203", "question": "附件《城市住宿标准汇总表》中，合肥在2025年上半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0204", "question": "附件《城市住宿标准汇总表》中，郑州在2025年上半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0205", "question": "附件《城市住宿标准汇总表》中，长沙在2025年上半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0206", "question": "附件《城市住宿标准汇总表》中，北京在2025年下半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0207", "question": "附件《城市住宿标准汇总表》中，上海在2025年下半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0208", "question": "附件《城市住宿标准汇总表》中，广州在2025年下半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0209", "question": "附件《城市住宿标准汇总表》中，深圳在2025年下半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0210", "question": "附件《城市住宿标准汇总表》中，杭州在2025年下半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0211", "question": "附件《城市住宿标准汇总表》中，成都在2025年下半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0212", "question": "附件《城市住宿标准汇总表》中，武汉在2025年下半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0213", "question": "附件《城市住宿标准汇总表》中，南京在2025年下半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0214", "question": "附件《城市住宿标准汇总表》中，西安在2025年下半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0215", "question": "附件《城市住宿标准汇总表》中，苏州在2025年下半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0216", "question": "附件《城市住宿标准汇总表》中，佛山在2025年下半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0217", "question": "附件《城市住宿标准汇总表》中，东莞在2025年下半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0218", "question": "附件《城市住宿标准汇总表》中，合肥在2025年下半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0219", "question": "附件《城市住宿标准汇总表》中，郑州在2025年下半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0220", "question": "附件《城市住宿标准汇总表》中，长沙在2025年下半年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0221", "question": "附件《城市住宿标准汇总表》中，北京在2026年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0222", "question": "附件《城市住宿标准汇总表》中，上海在2026年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0223", "question": "附件《城市住宿标准汇总表》中，广州在2026年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0224", "question": "附件《城市住宿标准汇总表》中，深圳在2026年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0225", "question": "附件《城市住宿标准汇总表》中，杭州在2026年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0226", "question": "附件《城市住宿标准汇总表》中，成都在2026年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0227", "question": "附件《城市住宿标准汇总表》中，武汉在2026年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0228", "question": "附件《城市住宿标准汇总表》中，南京在2026年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0229", "question": "附件《城市住宿标准汇总表》中，西安在2026年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0230", "question": "附件《城市住宿标准汇总表》中，苏州在2026年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0231", "question": "附件《城市住宿标准汇总表》中，佛山在2026年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0232", "question": "附件《城市住宿标准汇总表》中，东莞在2026年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0233", "question": "附件《城市住宿标准汇总表》中，合肥在2026年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0234", "question": "附件《城市住宿标准汇总表》中，郑州在2026年列的标准是多少？"}
+{"why": "同构表 3 个数值列，检验列选择", "question_id": "Q-0235", "question": "附件《城市住宿标准汇总表》中，长沙在2026年列的标准是多少？"}
+{"question_id": "Q-0236", "question": "2026年天猫平台订单总金额（不含税）是多少？"}
+{"question_id": "Q-0237", "question": "2026年京东平台订单总金额（不含税）是多少？"}
+{"question_id": "Q-0238", "question": "2026年抖音平台订单总金额（不含税）是多少？"}
+{"question_id": "Q-0239", "question": "2026年Shopify平台订单总金额（不含税）是多少？"}
+{"question_id": "Q-0240", "question": "2026年Shopee平台订单总金额（不含税）是多少？"}
+{"question_id": "Q-0241", "question": "2026年京东平台订单退款率是多少？（保留一位小数）"}
+{"question_id": "Q-0242", "question": "2026年Shopify平台订单退款率是多少？（保留一位小数）"}
+{"question_id": "Q-0243", "question": "2026年Shopee平台订单退款率是多少？（保留一位小数）"}
+{"question_id": "Q-0244", "question": "2026年天猫平台订单退款率是多少？（保留一位小数）"}
+{"why": "对比式问题族：与族内其他题仅一个维度不同，scope_city", "question_id": "Q-0245", "question": "上海普通员工 2026年08月住宿上限是多少？"}
+{"why": "对比式问题族：与族内其他题仅一个维度不同，scope_city", "question_id": "Q-0246", "question": "北京普通员工 2026年8月住宿上限是多少？"}
+{"why": "对比式问题族：与族内其他题仅一个维度不同，scope_role", "question_id": "Q-0247", "question": "上海 VP 2026年8月住宿上限是多少？"}
+{"why": "对比式问题族：与族内其他题仅一个维度不同，scope_time", "question_id": "Q-0248", "question": "上海普通员工 2025年8月住宿上限是多少？"}
+{"why": "对比式问题族：与族内其他题仅一个维度不同，scope_region", "question_id": "Q-0249", "question": "欧洲区普通员工 2026年8月住宿上限是多少？"}
+{"why": "对比式问题族：与族内其他题仅一个维度不同，scope_role", "question_id": "Q-0250", "question": "上海 M3 级管理人员 2026年8月住宿上限是多少？"}
+{"why": "对比式问题族：与族内其他题仅一个维度不同，scope_time", "question_id": "Q-0251", "question": "上海普通员工 2026年6月住宿上限是多少？"}
+{"why": "对比式问题族：与族内其他题仅一个维度不同，scope_exception", "question_id": "Q-0252", "question": "广交会期间（2026-04-20）上海普通员工住宿上限是多少？"}
+{"chosen": "CT-001-S1#sec-1", "superseded": ["CT-001#sec-3（付款条款）"], "why": "补充协议效力优先于主合同被变更条款", "question_id": "Q-0253", "question": "2026年4月15日验收的恒远电子订单，付款期限是多少天？"}
+{"question_id": "Q-0254", "question": "2026年2月20日验收的恒远电子订单，付款期限是多少天？"}
+{"question_id": "Q-0255", "question": "2026年6月10日之后，恒远电子的供货单价如何变化？付款期限是否也因该通知改变？"}
+{"question_id": "Q-0256", "question": "恒远电子主合同、补充协议与变更通知中，付款条款最终以哪份文件为准？"}
+{"question_id": "Q-0257", "question": "法务意见书对 NDA 豁免的口径是什么？与采购制度是否一致？"}
+{"why": "API文档→架构文档(服务-库映射)→Schema文档→表字段，跨 3 层引用", "question_id": "Q-0258", "question": "订单取消 API（POST /orders/{id}/cancel）最终会修改哪个数据库表的哪些字段？"}
+{"question_id": "Q-0259", "question": "取消订单时会先执行什么动作？"}
+{"question_id": "Q-0260", "question": "INC-2026-018 故障涉及哪些服务？根因层面属于哪条链路？"}
+{"question_id": "Q-0261", "question": "order-api v2.3 变更是什么时候执行的？什么时候记录的？什么时候公告的？"}
+{"question_id": "Q-0262", "question": "广州仓 2026 年 3 月发货超时异常的根因是什么？"}
+{"chosen": "DEC-001+SOL-001+MTG-001", "why": "需求→候选→会议→决策 链路；Gold 允许多因素不排他", "question_id": "Q-0263", "question": "星链智能客服项目为什么最终采用方案B？"}
+{"question_id": "Q-0264", "question": "星链项目的验收结论是什么？分流率是否达到 PRD 目标？"}
+{"question_id": "Q-0265", "question": "华东仓自动化项目的目标是什么？由谁负责？"}
+{"question_id": "Q-0266", "question": "星链项目评审会上，财务部通报了什么信息？"}
+{"why": "订单→客户(VIP)→90天规则→商品(数字)→例外条款 五跳 + 例外收窄", "question_id": "Q-0267", "question": "订单 O-2026-0512 的客户可以按 90 天申请无理由退款吗？"}
+{"question_id": "Q-0268", "question": "VIP 客户的无理由退款期限是多少天？需要满足什么条件？"}
+{"question_id": "Q-0269", "question": "普通客户的退款期限和到账时效分别是多少？"}
+{"question_id": "Q-0270", "question": "货到付款订单退款到账时间是多久？与普通支付一样吗？"}
+{"question_id": "Q-0271", "question": "VIP 客户投诉应该走什么流程？"}
+{"superseded": ["TRV-001-v2"], "why": "Gold 记录 A superseded / C current", "question_id": "Q-0272", "question": "（证据增量·超旁）阶段1仅给出《差旅费管理办法》v2，2025年10月上海普通员工住宿上限是多少？阶段2补充 v3 后，2026年6月的答案又是多少？两者是否冲突？"}
+{"question_id": "Q-0273", "question": "（证据增量·成冲突）阶段1仅有运营部通知（520元），阶段2再补充行政部通知（530元），运营部 2026-04-20 的住宿报销上限应如何判定？"}
+{"question_id": "Q-0274", "question": "（证据增量·收窄）阶段1仅知普通客户退款 30 天；阶段2加入 VIP 条款；阶段3加入数字商品条款。请给出三个阶段的退款适用范围变化。"}
+{"question_id": "Q-0275", "question": "（证据增量·权威裁决）阶段1仅有客服 FAQ（住宿一般 480 元封顶）；阶段2补充正式制度 v3。2026年8月广州普通员工住宿上限应如何判定？"}
+{"why": "权限必须在 Evidence 层生效", "question_id": "Q-0276", "question": "（以普通员工身份提问）恒远电子（S003）2026 年的真实报价是多少？"}
+{"question_id": "Q-0277", "question": "（以系统管理员身份提问）恒远电子（S003）2026 年 A 型连接器的含税报价是多少？"}
+{"question_id": "Q-0278", "question": "王磊（E023）在 2026 年 8 月能否访问财务机密类文档？"}
+{"question_id": "Q-0279", "question": "王磊（E023）在 2026 年 5 月能否访问财务机密类文档？"}
+{"question_id": "Q-0280", "question": "杜鹏（E044）离职后其系统权限状态如何？"}
+{"question_id": "Q-0281", "question": "候选答案：“中国所有员工的住宿上限为 500 元”（引用 TRV-001-v3#sec-2-1）。该 Claim 是否成立？"}
+{"question_id": "Q-0282", "question": "候选答案：“当前上海普通员工住宿上限为 500 元”（引用 TRV-001-v3#tbl-a）。该 Claim 是否成立？"}
+{"question_id": "Q-0283", "question": "候选答案：“住宿上限恰好 500 元”（引用 FAQ-001“一般每晚上限 500 元”）。该 Claim 是否成立？"}
+{"question_id": "Q-0284", "question": "候选答案：“S004 蓝海包装需要额外合规审批，因为其延期率 12% > 5%”（引用 SUP-EVAL-2026A#tbl-eval）。该 Claim 是否成立？"}
+{"question_id": "Q-0285", "question": "候选答案：“退款 3-5 天到账”（引用 FAQ-002）。该 Claim 是否成立？"}
+{"question_id": "Q-0286", "question": "候选答案：“差旅住宿补贴标准为每月 3,000 元”（引用 TRV-004）。该 Claim 是否成立？"}
+{"question_id": "Q-0287", "question": "PARSER-001 对账单中，星辰物流 2025 年 11 月的应付金额是多少？"}
+{"question_id": "Q-0288", "question": "PARSER-001 对账单中，星辰物流 2025 年 10 月的应付金额是多少？"}
+{"distractors": ["TRV-004 外派住宿补贴：语义高度相近但概念不同"], "gold_irrelevant": ["TRV-004"], "question_id": "Q-0289", "question": "员工临时出差的“住宿补贴”标准是多少？"}
+{"distractors": ["EXP-002 与提问名称高度相似但内容不含限额"], "question_id": "Q-0290", "question": "《差旅住宿管理办法》的报销标准是多少？"}
+{"why": "Relevance ≠ Answerability：多个高相似候选，唯一正确项为 TRV-002 的 800", "question_id": "Q-0291", "question": "上海 VIP 客户的住宿报销标准是多少？"}
+{"gold_irrelevant": ["上海 VP 800 元（中国区标准）"], "question_id": "Q-0292", "question": "欧洲 VIP 员工的住宿标准是多少？"}
+{"why": "近邻实体：星辰物流 / 星辰物流(广州) / ABC Logistics 双主体", "question_id": "Q-0293", "question": "星辰物流(广州)（S001C）与星辰物流（S001）是同一家供应商吗？S001C 的付款条件是什么？"}
+{"question_id": "Q-0294", "question": "ABC Logistics Holding 和 ABC Logistics Singapore 是一家吗？"}
+{"question_id": "Q-0295", "question": "抖音平台的服务费率是多少？"}
+{"question_id": "Q-0296", "question": "天猫的平台扣费（平台手续费）比例是多少？"}
+{"question_id": "Q-0297", "question": "按照公司统一口径，毛利率和“毛利润率”是同一个指标吗？净GMV怎么算？"}
+{"question_id": "Q-0298", "question": "按公司统一口径，2026 年 6 月华东区的净收入口径应如何确认？"}
+{"question_id": "Q-0299", "question": "订单明细（CSV）、销售口径说明与平台费用规则三个来源中，计算天猫 2026 年 6 月订单的平台费用应使用什么金额口径与费率？"}
+{"why": "同一事实多源：structured(newer) vs document(older)", "question_id": "Q-0300", "question": "员工主数据同时存在于 SQL 表（快照 2026-08-31）与 2025 年度组织手册，两处信息以哪个为准？"}

@@ -1,0 +1,126 @@
+{
+ "issue_classification": {
+  "capability_id": "cap.issue_classification",
+  "version": "509066539dce0cfc",
+  "capability_impl_revision": "cap-impl-v1.2",
+  "operator_family": "classification",
+  "source_family": "ecom",
+  "model_hash": "e96217acdf756b13",
+  "prompt_hash": "d86497291a2ae783",
+  "schema_hash": "bfc919f20f0101a4",
+  "validation_set_hash": "57683319c8e016999584a555ea442868",
+  "n": 300,
+  "metric": "macro_f1",
+  "observed_error": 0.0262,
+  "confidence_interval": [
+   0.0132,
+   0.0511
+  ],
+  "status": "PASS",
+  "validation_protocol": {
+   "mode": "V1_CACHED_CERTIFICATE",
+   "sequential_sampling": [
+    30,
+    60,
+    120,
+    240,
+    300
+   ],
+   "epsilon": 0.02,
+   "delta": 0.05
+  }
+ },
+ "amount_extraction_ecom": {
+  "capability_id": "cap.amount_extraction_ecom",
+  "version": "c26b3ec40742374e",
+  "capability_impl_revision": "cap-impl-v1.2",
+  "operator_family": "extraction",
+  "source_family": "ecom",
+  "model_hash": "e96217acdf756b13",
+  "prompt_hash": "1d353b9345ea0e2e",
+  "schema_hash": "bcad0a9f16eed0ec",
+  "validation_set_hash": "57683319c8e016999584a555ea442868",
+  "n": 300,
+  "metric": "field_f1",
+  "observed_error": 0.0169,
+  "confidence_interval": [
+   0.0073,
+   0.0388
+  ],
+  "status": "PASS",
+  "validation_protocol": {
+   "mode": "V1_CACHED_CERTIFICATE",
+   "sequential_sampling": [
+    30,
+    60,
+    120,
+    240,
+    300
+   ],
+   "epsilon": 0.02,
+   "delta": 0.05
+  }
+ },
+ "clause_classification": {
+  "capability_id": "cap.clause_classification",
+  "version": "198f329f5247f991",
+  "capability_impl_revision": "cap-impl-v1.2",
+  "operator_family": "classification",
+  "source_family": "finproc",
+  "model_hash": "e96217acdf756b13",
+  "prompt_hash": "2b5f4f299dac7217",
+  "schema_hash": "bfc919f20f0101a4",
+  "validation_set_hash": "92269c12e76c19264fc2c7a236127032",
+  "n": 300,
+  "metric": "macro_f1",
+  "observed_error": 0.0529,
+  "confidence_interval": [
+   0.0327,
+   0.0843
+  ],
+  "status": "PASS",
+  "validation_protocol": {
+   "mode": "V1_CACHED_CERTIFICATE",
+   "sequential_sampling": [
+    30,
+    60,
+    120,
+    240,
+    300
+   ],
+   "epsilon": 0.02,
+   "delta": 0.05
+  }
+ },
+ "amount_extraction_fin": {
+  "capability_id": "cap.amount_extraction_fin",
+  "version": "32b60069094ce65b",
+  "capability_impl_revision": "cap-impl-v1.2",
+  "operator_family": "extraction",
+  "source_family": "finproc",
+  "model_hash": "e96217acdf756b13",
+  "prompt_hash": "1d353b9345ea0e2e",
+  "schema_hash": "bcad0a9f16eed0ec",
+  "validation_set_hash": "92269c12e76c19264fc2c7a236127032",
+  "n": 300,
+  "metric": "field_f1",
+  "observed_error": 0.0118,
+  "confidence_interval": [
+   0.0044,
+   0.0316
+  ],
+  "status": "PASS",
+  "validation_protocol": {
+   "mode": "V1_CACHED_CERTIFICATE",
+   "sequential_sampling": [
+    30,
+    60,
+    120,
+    240,
+    300
+   ],
+   "epsilon": 0.02,
+   "delta": 0.05
+  }
+ }
+}

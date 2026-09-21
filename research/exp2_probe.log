@@ -1,0 +1,6 @@
+[probe] rows=24  len range 38..50
+[probe] P1 done: pearson=0.9533 acc=1
+[probe] P2 done: V4 pt=142.417 vs 4calls pt=299.67 ratio=0.4752 acc4=1
+[probe] P3 done: label_stability=1 hash_stability=0
+[probe] P4 done: delta=20.71 ratio=0.2783
+{"tokens": 29797, "cost": 0.020254, "calls": 280, "all_primary": true, "switches": 0, "wall_s": 21.0}

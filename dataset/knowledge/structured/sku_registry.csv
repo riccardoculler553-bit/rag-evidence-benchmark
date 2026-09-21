@@ -1,0 +1,18 @@
+internal_sku,product_name,brand,platform_sku,platform,is_digital
+M10001,NebulaPhone 12,星环,TM-88001,天猫,否
+M10005,NebulaPad 8,星环,JD-50005,京东,否
+M10010,AeroBuds Air,声科,TM-88010,天猫,否
+M10028,AeroBuds Pro X2,声科,TM-88231,天猫,否
+M10029,AeroBuds 充电盒,声科,JD-55210,京东,否
+M10030,FitOne 智能手环,声科,DY-70030,抖音,否
+M10031,AeroBuds Pro X2 海外版,声科,SP-33001,Shopee,否
+M10028S,AeroBuds Pro X2S 升级版,声科,TM-88232,天猫,否
+M10032,NebulaBook 14 笔记本,星环,JD-51032,京东,否
+M10033,智能音箱 EchoNeb,星环,TM-88033,天猫,否
+M10034,车载充电器 CarVolt,星环,DY-70034,抖音,否
+M10035,NebulaWatch 3,星环,SP-33035,Shopee,否
+M10036,电子书《企业数字化转型指南》,星环,EB-90001,天猫,是
+M10037,智能办公软件激活码(年卡),星环,EB-90002,京东,是
+M10038,云端存储套餐(100GB/年),星环,EB-90003,官网,是
+SK-10028,（旧编号，对应 M10001）,-,-,-,否
+TM-10028,（旧编号，对应 M10001）,-,-,-,否

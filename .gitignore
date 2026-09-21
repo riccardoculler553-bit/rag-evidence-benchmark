@@ -1,0 +1,30 @@
+# ---- 凭据：绝不入库 ----
+_local_credentials.py
+.env
+.env.*
+*.pem
+*.key
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ---- 运行期临时产物 ----
+# 注：exp/*.log 与 research/*.log 为实验控制台日志，属于交付物，故**不**忽略
+nohup.out
+*.tmp
+*.bak
+~$*
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

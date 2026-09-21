@@ -1,0 +1,80 @@
+{
+ "code_hash": "dd17add6cbf01c92ccca13fceb777fb1",
+ "dataset_snapshot": "7da34d5f450ee09f0f1cba46c5bd4661",
+ "experiment1": {
+  "kind": "mock",
+  "model": "deterministic-mock-semantic/mock-det-v1",
+  "matrix": {
+   "S": [
+    1,
+    5,
+    10,
+    25,
+    50,
+    75,
+    100
+   ],
+   "REUSE": [
+    1,
+    10,
+    50,
+    100
+   ],
+   "modes": [
+    "PRED_SHARED",
+    "PRED_DISTINCT"
+   ]
+  },
+  "cost": "0 real tokens"
+ },
+ "experiment2": {
+  "kind": "real",
+  "model": "glm-4.5-air",
+  "rows_per_domain": 300,
+  "batch_size": 1,
+  "temperature": 0,
+  "thinking": "disabled",
+  "keys_masked": [
+   "glm_key0",
+   "glm_key1"
+  ],
+  "used_tokens": 2834705,
+  "cost_yuan": 1.312013,
+  "switches": 0,
+  "fallback_used": false,
+  "pricing": {
+   "glm": {
+    "input_per_m": 0.8,
+    "output_short_per_m": 2.0,
+    "output_long_per_m": 6.0,
+    "cache_hit_per_m": 0.16,
+    "output_short_limit": 200,
+    "version": "bigmodel-2026.09"
+   },
+   "fallback": {
+    "input_per_m": 0.35,
+    "output_per_m": 0.35,
+    "cache_hit_per_m": 0.0,
+    "version": "siliconflow-public-approx"
+   }
+  }
+ },
+ "experiment3": {
+  "kind": "local",
+  "rule": "UpperCI_(1-δ) ≤ ε，Clopper–Pearson 精确单侧上界",
+  "epsilon": 0.02,
+  "delta": 0.05,
+  "required_n_zero_failure": 149
+ },
+ "hardware": {
+  "platform": "Windows-10-10.0.19045-SP0",
+  "python": "3.13.14"
+ },
+ "reproduce": [
+  "python exp/experiment1_matrix.py",
+  "python exp/experiment2_glm.py --rows 300 --workers 8 --drill",
+  "python exp/experiment3_certificate.py",
+  "python exp/report_v2.py"
+ ],
+ "note": "所有日志中的密钥均为掩码形式；key_switch_log.jsonl 不含明文密钥。"
+}

@@ -1,0 +1,9 @@
+python research/exp1_adaptive.py --tag full
+python research/exp2_specificity.py
+python research/exp2_real_probe.py --rows 24 --workers 8 --max-qps 20
+python research/exp2_bundle_scaling.py --rows 40 --workers 10 --max-qps 20
+python research/exp3_external.py
+python research/make_final.py
+
+# 环境变量：RAGX_MODEL_BACKEND 未设置（使用 deterministic-mock-semantic）
+# 真实模型：glm-4.5-air, temperature=0, thinking=disabled, batch_size=1

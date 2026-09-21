@@ -1,0 +1,832 @@
+{
+ "experiment": "E3_prior_art_boundary_and_lifecycle",
+ "experiment_id": "v1.3-final-three-experiments:e3:98fa60d8",
+ "tier": "Tier 2（结构性 proxy）+ Tier 1（Lifecycle 机制）",
+ "snapshot": "7da34d5f450ee09f0f1cba46c5bd4661",
+ "fixed_items": {
+  "model_id": "deterministic-mock-semantic",
+  "model_revision": "mock-det-v1",
+  "model_hash": "e96217acdf756b13",
+  "temperature": 0.0,
+  "tokenizer": "char4-bpe-proxy",
+  "batch_size": 1,
+  "capability_impl_revision": "cap-impl-v1.2",
+  "prompt_hashes": {
+   "issue_classification": "d86497291a2ae783",
+   "clause_classification": "2b5f4f299dac7217",
+   "amount_extraction": "1d353b9345ea0e2e"
+  },
+  "schema_hashes": {
+   "issue_classification": "bfc919f20f0101a4",
+   "clause_classification": "bfc919f20f0101a4",
+   "amount_extraction": "bcad0a9f16eed0ec"
+  },
+  "pricing_version": "mock-2026.09",
+  "pricing": {
+   "pricing_version": "mock-2026.09",
+   "input_per_1k": 0.002,
+   "output_per_1k": 0.006,
+   "per_call_overhead": 2e-05,
+   "retrieval_per_row": 5e-07,
+   "validation_per_row": 8e-07,
+   "synthesis_input_per_1k": 0.002,
+   "synthesis_output_per_1k": 0.006
+  }
+ },
+ "external_systems_run": [],
+ "note": "**未运行任何外部系统**。QuWARTS-like / ReDD-like / PLOP-like / DASE-like 均为结构性 proxy baseline，严禁表述为原论文系统实验。",
+ "workloads": {
+  "W1_cold_query_driven": {
+   "Eager": {
+    "total_cost": 5.184216,
+    "build_rows": 20000,
+    "first_query_cost": null,
+    "amortized_per_query": 0.129605,
+    "materialized_share": 1.0,
+    "regret_vs_oracle": 2.01539
+   },
+   "Late-Persistent": {
+    "total_cost": 1.723036,
+    "build_rows": 6612,
+    "first_query_cost": 0.106772,
+    "amortized_per_query": 0.043076,
+    "materialized_share": 0.3306,
+    "regret_vs_oracle": 0.0022
+   },
+   "Per-Query": {
+    "total_cost": 4.104544,
+    "build_rows": 15924,
+    "first_query_cost": 0.106236,
+    "amortized_per_query": 0.102614,
+    "materialized_share": 0.0,
+    "regret_vs_oracle": 1.3874
+   },
+   "QuWARTS-like": {
+    "total_cost": 1.723036,
+    "build_rows": 6612,
+    "offline_build_cost": 0.0,
+    "offline_rows": 0,
+    "history_share": 0.0,
+    "first_query_cost": 0.106772,
+    "amortized_per_query": 0.043076,
+    "materialized_share": 0.3306,
+    "is_proxy": true,
+    "note": "结构性 proxy：历史 predicate 集合由本实验构造，非真实历史日志。",
+    "regret_vs_oracle": 0.0022
+   },
+   "ReDD-like": {
+    "total_cost": 4.104544,
+    "build_rows": 15924,
+    "first_query_cost": 0.106236,
+    "amortized_per_query": 0.102614,
+    "materialized_share": 0.0,
+    "is_proxy": true,
+    "note": "结构性 proxy：query-specific schema + 只填充所需字段；未运行 ReDD 实现。",
+    "regret_vs_oracle": 1.3874
+   },
+   "PLOP-like": {
+    "chosen": "Late-Persistent",
+    "total_cost": 1.723036,
+    "amortized_per_query": 0.043076,
+    "is_proxy": true,
+    "note": "结构性 proxy：简单代价模型 argmin；未运行 PLOP 实现。",
+    "regret_vs_oracle": 0.0022
+   },
+   "DASE-like": {
+    "prefilter_false_positive_rate": 0.1,
+    "total_cost": 2.131291,
+    "amortized_per_query": 0.053282,
+    "build_rows": 7962,
+    "late_after_prefilter": 2.131291,
+    "eager_after_prefilter": 2.062672,
+    "late_minus_eager": 0.068619,
+    "extra_rows_from_prefilter": 7962,
+    "is_proxy": true,
+    "note": "结构性 proxy：确定性高召回 prefilter + CapabilityBuild。",
+    "regret_vs_oracle": 0.23966
+   },
+   "Oracle": {
+    "total_cost": 1.719252,
+    "amortized_per_query": 0.042981,
+    "regret_vs_oracle": 0.0
+   }
+  },
+  "W2_warm_high_reuse": {
+   "Eager": {
+    "total_cost": 5.184216,
+    "build_rows": 20000,
+    "first_query_cost": null,
+    "amortized_per_query": 0.051842,
+    "materialized_share": 1.0,
+    "regret_vs_oracle": 0.2668
+   },
+   "Late-Persistent": {
+    "total_cost": 4.672387,
+    "build_rows": 15726,
+    "first_query_cost": 0.038817,
+    "amortized_per_query": 0.046724,
+    "materialized_share": 0.7863,
+    "regret_vs_oracle": 0.14173
+   },
+   "Per-Query": {
+    "total_cost": 206.66454,
+    "build_rows": 799744,
+    "first_query_cost": 0.038622,
+    "amortized_per_query": 2.066645,
+    "materialized_share": 0.0,
+    "regret_vs_oracle": 49.49992
+   },
+   "QuWARTS-like": {
+    "total_cost": 4.672547,
+    "build_rows": 15726,
+    "offline_build_cost": 0.165284,
+    "offline_rows": 638,
+    "history_share": 0.0319,
+    "first_query_cost": 0.000113,
+    "amortized_per_query": 0.046725,
+    "materialized_share": 0.7863,
+    "is_proxy": true,
+    "note": "结构性 proxy：历史 predicate 集合由本实验构造，非真实历史日志。",
+    "regret_vs_oracle": 0.14177
+   },
+   "ReDD-like": {
+    "total_cost": 206.66454,
+    "build_rows": 799744,
+    "first_query_cost": 0.038622,
+    "amortized_per_query": 2.066645,
+    "materialized_share": 0.0,
+    "is_proxy": true,
+    "note": "结构性 proxy：query-specific schema + 只填充所需字段；未运行 ReDD 实现。",
+    "regret_vs_oracle": 49.49992
+   },
+   "PLOP-like": {
+    "chosen": "Late-Persistent",
+    "total_cost": 4.672387,
+    "amortized_per_query": 0.046724,
+    "is_proxy": true,
+    "note": "结构性 proxy：简单代价模型 argmin；未运行 PLOP 实现。",
+    "regret_vs_oracle": 0.14173
+   },
+   "DASE-like": {
+    "prefilter_false_positive_rate": 0.1,
+    "total_cost": 4.886404,
+    "amortized_per_query": 0.048864,
+    "build_rows": 16196,
+    "late_after_prefilter": 4.886404,
+    "eager_after_prefilter": 4.198565,
+    "late_minus_eager": 0.687839,
+    "extra_rows_from_prefilter": 16196,
+    "is_proxy": true,
+    "note": "结构性 proxy：确定性高召回 prefilter + CapabilityBuild。",
+    "regret_vs_oracle": 0.19403
+   },
+   "Oracle": {
+    "total_cost": 4.092374,
+    "amortized_per_query": 0.040924,
+    "regret_vs_oracle": 0.0
+   }
+  },
+  "W3_mixed": {
+   "Eager": {
+    "total_cost": 5.184216,
+    "build_rows": 20000,
+    "first_query_cost": null,
+    "amortized_per_query": 0.057602,
+    "materialized_share": 1.0,
+    "regret_vs_oracle": 0.4476
+   },
+   "Late-Persistent": {
+    "total_cost": 3.769492,
+    "build_rows": 13760,
+    "first_query_cost": 0.164446,
+    "amortized_per_query": 0.041883,
+    "materialized_share": 0.688,
+    "regret_vs_oracle": 0.05256
+   },
+   "Per-Query": {
+    "total_cost": 70.88482,
+    "build_rows": 274352,
+    "first_query_cost": 0.163622,
+    "amortized_per_query": 0.787609,
+    "materialized_share": 0.0,
+    "regret_vs_oracle": 18.79333
+   },
+   "QuWARTS-like": {
+    "total_cost": 3.769652,
+    "build_rows": 13760,
+    "offline_build_cost": 0.165284,
+    "offline_rows": 638,
+    "history_share": 0.0319,
+    "first_query_cost": 0.079718,
+    "amortized_per_query": 0.041885,
+    "materialized_share": 0.688,
+    "is_proxy": true,
+    "note": "结构性 proxy：历史 predicate 集合由本实验构造，非真实历史日志。",
+    "regret_vs_oracle": 0.05261
+   },
+   "ReDD-like": {
+    "total_cost": 70.88482,
+    "build_rows": 274352,
+    "first_query_cost": 0.163622,
+    "amortized_per_query": 0.787609,
+    "materialized_share": 0.0,
+    "is_proxy": true,
+    "note": "结构性 proxy：query-specific schema + 只填充所需字段；未运行 ReDD 实现。",
+    "regret_vs_oracle": 18.79333
+   },
+   "PLOP-like": {
+    "chosen": "Late-Persistent",
+    "total_cost": 3.769492,
+    "amortized_per_query": 0.041883,
+    "is_proxy": true,
+    "note": "结构性 proxy：简单代价模型 argmin；未运行 PLOP 实现。",
+    "regret_vs_oracle": 0.05256
+   },
+   "DASE-like": {
+    "prefilter_false_positive_rate": 0.1,
+    "total_cost": 4.055275,
+    "amortized_per_query": 0.045059,
+    "build_rows": 14420,
+    "late_after_prefilter": 4.055275,
+    "eager_after_prefilter": 3.73796,
+    "late_minus_eager": 0.317315,
+    "extra_rows_from_prefilter": 14420,
+    "is_proxy": true,
+    "note": "结构性 proxy：确定性高召回 prefilter + CapabilityBuild。",
+    "regret_vs_oracle": 0.13236
+   },
+   "Oracle": {
+    "total_cost": 3.581248,
+    "amortized_per_query": 0.039792,
+    "regret_vs_oracle": 0.0
+   }
+  },
+  "W4_unseen_capability": {
+   "Eager": {
+    "total_cost": 5.184216,
+    "build_rows": 20000,
+    "first_query_cost": null,
+    "amortized_per_query": 0.086404,
+    "materialized_share": 1.0,
+    "regret_vs_oracle": 1.64394
+   },
+   "Late-Persistent": {
+    "total_cost": 1.971087,
+    "build_rows": 7534,
+    "first_query_cost": 0.077159,
+    "amortized_per_query": 0.032851,
+    "materialized_share": 0.3767,
+    "regret_vs_oracle": 0.00525
+   },
+   "Per-Query": {
+    "total_cost": 7.137058,
+    "build_rows": 27660,
+    "first_query_cost": 0.076772,
+    "amortized_per_query": 0.118951,
+    "materialized_share": 0.0,
+    "regret_vs_oracle": 2.63989
+   },
+   "QuWARTS-like": {
+    "total_cost": 2.02772,
+    "build_rows": 7752,
+    "offline_build_cost": 0.165284,
+    "offline_rows": 638,
+    "history_share": 0.0319,
+    "first_query_cost": 0.035561,
+    "amortized_per_query": 0.033795,
+    "materialized_share": 0.3876,
+    "is_proxy": true,
+    "note": "结构性 proxy：历史 predicate 集合由本实验构造，非真实历史日志。",
+    "regret_vs_oracle": 0.03413
+   },
+   "ReDD-like": {
+    "total_cost": 5.948029,
+    "build_rows": 27660,
+    "first_query_cost": 0.038386,
+    "amortized_per_query": 0.099134,
+    "materialized_share": 0.0,
+    "is_proxy": true,
+    "note": "结构性 proxy：query-specific schema + 只填充所需字段；未运行 ReDD 实现。",
+    "regret_vs_oracle": 2.03348
+   },
+   "PLOP-like": {
+    "chosen": "Late-Persistent",
+    "total_cost": 1.971087,
+    "amortized_per_query": 0.032851,
+    "is_proxy": true,
+    "note": "结构性 proxy：简单代价模型 argmin；未运行 PLOP 实现。",
+    "regret_vs_oracle": 0.00525
+   },
+   "DASE-like": {
+    "prefilter_false_positive_rate": 0.1,
+    "total_cost": 2.364027,
+    "amortized_per_query": 0.0394,
+    "build_rows": 8798,
+    "late_after_prefilter": 2.364027,
+    "eager_after_prefilter": 2.280116,
+    "late_minus_eager": 0.08391,
+    "extra_rows_from_prefilter": 8798,
+    "is_proxy": true,
+    "note": "结构性 proxy：确定性高召回 prefilter + CapabilityBuild。",
+    "regret_vs_oracle": 0.20565
+   },
+   "Oracle": {
+    "total_cost": 1.960792,
+    "amortized_per_query": 0.03268,
+    "regret_vs_oracle": 0.0
+   }
+  }
+ },
+ "baseline_matrix": [
+  {
+   "workload": "W1_cold_query_driven",
+   "strategy": "Eager",
+   "native_or_proxy": "native",
+   "total_cost": 5.184216,
+   "amortized_per_query": 0.129605,
+   "build_rows": 20000,
+   "first_query_cost": null,
+   "materialized_share": 1.0,
+   "regret_vs_oracle": 2.01539,
+   "chosen": null
+  },
+  {
+   "workload": "W1_cold_query_driven",
+   "strategy": "Late-Persistent",
+   "native_or_proxy": "native",
+   "total_cost": 1.723036,
+   "amortized_per_query": 0.043076,
+   "build_rows": 6612,
+   "first_query_cost": 0.106772,
+   "materialized_share": 0.3306,
+   "regret_vs_oracle": 0.0022,
+   "chosen": null
+  },
+  {
+   "workload": "W1_cold_query_driven",
+   "strategy": "Per-Query",
+   "native_or_proxy": "native",
+   "total_cost": 4.104544,
+   "amortized_per_query": 0.102614,
+   "build_rows": 15924,
+   "first_query_cost": 0.106236,
+   "materialized_share": 0.0,
+   "regret_vs_oracle": 1.3874,
+   "chosen": null
+  },
+  {
+   "workload": "W1_cold_query_driven",
+   "strategy": "QuWARTS-like",
+   "native_or_proxy": "proxy",
+   "total_cost": 1.723036,
+   "amortized_per_query": 0.043076,
+   "build_rows": 6612,
+   "first_query_cost": 0.106772,
+   "materialized_share": 0.3306,
+   "regret_vs_oracle": 0.0022,
+   "chosen": null
+  },
+  {
+   "workload": "W1_cold_query_driven",
+   "strategy": "ReDD-like",
+   "native_or_proxy": "proxy",
+   "total_cost": 4.104544,
+   "amortized_per_query": 0.102614,
+   "build_rows": 15924,
+   "first_query_cost": 0.106236,
+   "materialized_share": 0.0,
+   "regret_vs_oracle": 1.3874,
+   "chosen": null
+  },
+  {
+   "workload": "W1_cold_query_driven",
+   "strategy": "PLOP-like",
+   "native_or_proxy": "proxy",
+   "total_cost": 1.723036,
+   "amortized_per_query": 0.043076,
+   "build_rows": null,
+   "first_query_cost": null,
+   "materialized_share": null,
+   "regret_vs_oracle": 0.0022,
+   "chosen": "Late-Persistent"
+  },
+  {
+   "workload": "W1_cold_query_driven",
+   "strategy": "DASE-like",
+   "native_or_proxy": "proxy",
+   "total_cost": 2.131291,
+   "amortized_per_query": 0.053282,
+   "build_rows": 7962,
+   "first_query_cost": null,
+   "materialized_share": null,
+   "regret_vs_oracle": 0.23966,
+   "chosen": null
+  },
+  {
+   "workload": "W1_cold_query_driven",
+   "strategy": "Oracle",
+   "native_or_proxy": "native",
+   "total_cost": 1.719252,
+   "amortized_per_query": 0.042981,
+   "build_rows": null,
+   "first_query_cost": null,
+   "materialized_share": null,
+   "regret_vs_oracle": 0.0,
+   "chosen": null
+  },
+  {
+   "workload": "W2_warm_high_reuse",
+   "strategy": "Eager",
+   "native_or_proxy": "native",
+   "total_cost": 5.184216,
+   "amortized_per_query": 0.051842,
+   "build_rows": 20000,
+   "first_query_cost": null,
+   "materialized_share": 1.0,
+   "regret_vs_oracle": 0.2668,
+   "chosen": null
+  },
+  {
+   "workload": "W2_warm_high_reuse",
+   "strategy": "Late-Persistent",
+   "native_or_proxy": "native",
+   "total_cost": 4.672387,
+   "amortized_per_query": 0.046724,
+   "build_rows": 15726,
+   "first_query_cost": 0.038817,
+   "materialized_share": 0.7863,
+   "regret_vs_oracle": 0.14173,
+   "chosen": null
+  },
+  {
+   "workload": "W2_warm_high_reuse",
+   "strategy": "Per-Query",
+   "native_or_proxy": "native",
+   "total_cost": 206.66454,
+   "amortized_per_query": 2.066645,
+   "build_rows": 799744,
+   "first_query_cost": 0.038622,
+   "materialized_share": 0.0,
+   "regret_vs_oracle": 49.49992,
+   "chosen": null
+  },
+  {
+   "workload": "W2_warm_high_reuse",
+   "strategy": "QuWARTS-like",
+   "native_or_proxy": "proxy",
+   "total_cost": 4.672547,
+   "amortized_per_query": 0.046725,
+   "build_rows": 15726,
+   "first_query_cost": 0.000113,
+   "materialized_share": 0.7863,
+   "regret_vs_oracle": 0.14177,
+   "chosen": null
+  },
+  {
+   "workload": "W2_warm_high_reuse",
+   "strategy": "ReDD-like",
+   "native_or_proxy": "proxy",
+   "total_cost": 206.66454,
+   "amortized_per_query": 2.066645,
+   "build_rows": 799744,
+   "first_query_cost": 0.038622,
+   "materialized_share": 0.0,
+   "regret_vs_oracle": 49.49992,
+   "chosen": null
+  },
+  {
+   "workload": "W2_warm_high_reuse",
+   "strategy": "PLOP-like",
+   "native_or_proxy": "proxy",
+   "total_cost": 4.672387,
+   "amortized_per_query": 0.046724,
+   "build_rows": null,
+   "first_query_cost": null,
+   "materialized_share": null,
+   "regret_vs_oracle": 0.14173,
+   "chosen": "Late-Persistent"
+  },
+  {
+   "workload": "W2_warm_high_reuse",
+   "strategy": "DASE-like",
+   "native_or_proxy": "proxy",
+   "total_cost": 4.886404,
+   "amortized_per_query": 0.048864,
+   "build_rows": 16196,
+   "first_query_cost": null,
+   "materialized_share": null,
+   "regret_vs_oracle": 0.19403,
+   "chosen": null
+  },
+  {
+   "workload": "W2_warm_high_reuse",
+   "strategy": "Oracle",
+   "native_or_proxy": "native",
+   "total_cost": 4.092374,
+   "amortized_per_query": 0.040924,
+   "build_rows": null,
+   "first_query_cost": null,
+   "materialized_share": null,
+   "regret_vs_oracle": 0.0,
+   "chosen": null
+  },
+  {
+   "workload": "W3_mixed",
+   "strategy": "Eager",
+   "native_or_proxy": "native",
+   "total_cost": 5.184216,
+   "amortized_per_query": 0.057602,
+   "build_rows": 20000,
+   "first_query_cost": null,
+   "materialized_share": 1.0,
+   "regret_vs_oracle": 0.4476,
+   "chosen": null
+  },
+  {
+   "workload": "W3_mixed",
+   "strategy": "Late-Persistent",
+   "native_or_proxy": "native",
+   "total_cost": 3.769492,
+   "amortized_per_query": 0.041883,
+   "build_rows": 13760,
+   "first_query_cost": 0.164446,
+   "materialized_share": 0.688,
+   "regret_vs_oracle": 0.05256,
+   "chosen": null
+  },
+  {
+   "workload": "W3_mixed",
+   "strategy": "Per-Query",
+   "native_or_proxy": "native",
+   "total_cost": 70.88482,
+   "amortized_per_query": 0.787609,
+   "build_rows": 274352,
+   "first_query_cost": 0.163622,
+   "materialized_share": 0.0,
+   "regret_vs_oracle": 18.79333,
+   "chosen": null
+  },
+  {
+   "workload": "W3_mixed",
+   "strategy": "QuWARTS-like",
+   "native_or_proxy": "proxy",
+   "total_cost": 3.769652,
+   "amortized_per_query": 0.041885,
+   "build_rows": 13760,
+   "first_query_cost": 0.079718,
+   "materialized_share": 0.688,
+   "regret_vs_oracle": 0.05261,
+   "chosen": null
+  },
+  {
+   "workload": "W3_mixed",
+   "strategy": "ReDD-like",
+   "native_or_proxy": "proxy",
+   "total_cost": 70.88482,
+   "amortized_per_query": 0.787609,
+   "build_rows": 274352,
+   "first_query_cost": 0.163622,
+   "materialized_share": 0.0,
+   "regret_vs_oracle": 18.79333,
+   "chosen": null
+  },
+  {
+   "workload": "W3_mixed",
+   "strategy": "PLOP-like",
+   "native_or_proxy": "proxy",
+   "total_cost": 3.769492,
+   "amortized_per_query": 0.041883,
+   "build_rows": null,
+   "first_query_cost": null,
+   "materialized_share": null,
+   "regret_vs_oracle": 0.05256,
+   "chosen": "Late-Persistent"
+  },
+  {
+   "workload": "W3_mixed",
+   "strategy": "DASE-like",
+   "native_or_proxy": "proxy",
+   "total_cost": 4.055275,
+   "amortized_per_query": 0.045059,
+   "build_rows": 14420,
+   "first_query_cost": null,
+   "materialized_share": null,
+   "regret_vs_oracle": 0.13236,
+   "chosen": null
+  },
+  {
+   "workload": "W3_mixed",
+   "strategy": "Oracle",
+   "native_or_proxy": "native",
+   "total_cost": 3.581248,
+   "amortized_per_query": 0.039792,
+   "build_rows": null,
+   "first_query_cost": null,
+   "materialized_share": null,
+   "regret_vs_oracle": 0.0,
+   "chosen": null
+  },
+  {
+   "workload": "W4_unseen_capability",
+   "strategy": "Eager",
+   "native_or_proxy": "native",
+   "total_cost": 5.184216,
+   "amortized_per_query": 0.086404,
+   "build_rows": 20000,
+   "first_query_cost": null,
+   "materialized_share": 1.0,
+   "regret_vs_oracle": 1.64394,
+   "chosen": null
+  },
+  {
+   "workload": "W4_unseen_capability",
+   "strategy": "Late-Persistent",
+   "native_or_proxy": "native",
+   "total_cost": 1.971087,
+   "amortized_per_query": 0.032851,
+   "build_rows": 7534,
+   "first_query_cost": 0.077159,
+   "materialized_share": 0.3767,
+   "regret_vs_oracle": 0.00525,
+   "chosen": null
+  },
+  {
+   "workload": "W4_unseen_capability",
+   "strategy": "Per-Query",
+   "native_or_proxy": "native",
+   "total_cost": 7.137058,
+   "amortized_per_query": 0.118951,
+   "build_rows": 27660,
+   "first_query_cost": 0.076772,
+   "materialized_share": 0.0,
+   "regret_vs_oracle": 2.63989,
+   "chosen": null
+  },
+  {
+   "workload": "W4_unseen_capability",
+   "strategy": "QuWARTS-like",
+   "native_or_proxy": "proxy",
+   "total_cost": 2.02772,
+   "amortized_per_query": 0.033795,
+   "build_rows": 7752,
+   "first_query_cost": 0.035561,
+   "materialized_share": 0.3876,
+   "regret_vs_oracle": 0.03413,
+   "chosen": null
+  },
+  {
+   "workload": "W4_unseen_capability",
+   "strategy": "ReDD-like",
+   "native_or_proxy": "proxy",
+   "total_cost": 5.948029,
+   "amortized_per_query": 0.099134,
+   "build_rows": 27660,
+   "first_query_cost": 0.038386,
+   "materialized_share": 0.0,
+   "regret_vs_oracle": 2.03348,
+   "chosen": null
+  },
+  {
+   "workload": "W4_unseen_capability",
+   "strategy": "PLOP-like",
+   "native_or_proxy": "proxy",
+   "total_cost": 1.971087,
+   "amortized_per_query": 0.032851,
+   "build_rows": null,
+   "first_query_cost": null,
+   "materialized_share": null,
+   "regret_vs_oracle": 0.00525,
+   "chosen": "Late-Persistent"
+  },
+  {
+   "workload": "W4_unseen_capability",
+   "strategy": "DASE-like",
+   "native_or_proxy": "proxy",
+   "total_cost": 2.364027,
+   "amortized_per_query": 0.0394,
+   "build_rows": 8798,
+   "first_query_cost": null,
+   "materialized_share": null,
+   "regret_vs_oracle": 0.20565,
+   "chosen": null
+  },
+  {
+   "workload": "W4_unseen_capability",
+   "strategy": "Oracle",
+   "native_or_proxy": "native",
+   "total_cost": 1.960792,
+   "amortized_per_query": 0.03268,
+   "build_rows": null,
+   "first_query_cost": null,
+   "materialized_share": null,
+   "regret_vs_oracle": 0.0,
+   "chosen": null
+  }
+ ],
+ "source_drift": [
+  {
+   "drift_rate": 0.0,
+   "affected_rows": 0,
+   "affected_in_materialized": 0,
+   "affected_share_of_union": 0.0,
+   "full_rebuild_cost": 5.168216,
+   "affected_row_rebuild_cost": 0.0,
+   "rebuild_ratio": 0.0,
+   "stale_rows_if_no_rebuild": 0,
+   "freshness_full": 1.0,
+   "freshness_incremental": 1.0,
+   "note": "增量重建 = 只重建『受影响 ∧ 已被物化』的行；等价于 IVM。"
+  },
+  {
+   "drift_rate": 0.01,
+   "affected_rows": 79,
+   "affected_in_materialized": 79,
+   "affected_share_of_union": 0.00763,
+   "full_rebuild_cost": 5.168216,
+   "affected_row_rebuild_cost": 0.031196,
+   "rebuild_ratio": 0.00604,
+   "stale_rows_if_no_rebuild": 158,
+   "freshness_full": 1.0,
+   "freshness_incremental": 1.0,
+   "note": "增量重建 = 只重建『受影响 ∧ 已被物化』的行；等价于 IVM。"
+  },
+  {
+   "drift_rate": 0.05,
+   "affected_rows": 393,
+   "affected_in_materialized": 393,
+   "affected_share_of_union": 0.04044,
+   "full_rebuild_cost": 5.168216,
+   "affected_row_rebuild_cost": 0.164328,
+   "rebuild_ratio": 0.0318,
+   "stale_rows_if_no_rebuild": 786,
+   "freshness_full": 1.0,
+   "freshness_incremental": 1.0,
+   "note": "增量重建 = 只重建『受影响 ∧ 已被物化』的行；等价于 IVM。"
+  },
+  {
+   "drift_rate": 0.1,
+   "affected_rows": 786,
+   "affected_in_materialized": 786,
+   "affected_share_of_union": 0.07987,
+   "full_rebuild_cost": 5.168216,
+   "affected_row_rebuild_cost": 0.324244,
+   "rebuild_ratio": 0.06274,
+   "stale_rows_if_no_rebuild": 1572,
+   "freshness_full": 1.0,
+   "freshness_incremental": 1.0,
+   "note": "增量重建 = 只重建『受影响 ∧ 已被物化』的行；等价于 IVM。"
+  },
+  {
+   "drift_rate": 0.25,
+   "affected_rows": 1966,
+   "affected_in_materialized": 1966,
+   "affected_share_of_union": 0.19891,
+   "full_rebuild_cost": 5.168216,
+   "affected_row_rebuild_cost": 0.80852,
+   "rebuild_ratio": 0.15644,
+   "stale_rows_if_no_rebuild": 3932,
+   "freshness_full": 1.0,
+   "freshness_incremental": 1.0,
+   "note": "增量重建 = 只重建『受影响 ∧ 已被物化』的行；等价于 IVM。"
+  }
+ ],
+ "unseen_capability": [
+  {
+   "strategy": "Eager",
+   "total_cost": 5.184216,
+   "amortized_per_query": 0.086404,
+   "first_query_cost": null,
+   "build_rows": 20000,
+   "native_or_proxy": "native",
+   "note": "新能力首次出现时：Eager 需整表重建；Late 只对 survivor 增量补齐。"
+  },
+  {
+   "strategy": "Late-Persistent",
+   "total_cost": 1.971087,
+   "amortized_per_query": 0.032851,
+   "first_query_cost": 0.077159,
+   "build_rows": 7534,
+   "native_or_proxy": "native",
+   "note": "新能力首次出现时：Eager 需整表重建；Late 只对 survivor 增量补齐。"
+  },
+  {
+   "strategy": "QuWARTS-like",
+   "total_cost": 2.02772,
+   "amortized_per_query": 0.033795,
+   "first_query_cost": 0.035561,
+   "build_rows": 7752,
+   "native_or_proxy": "proxy",
+   "note": "新能力首次出现时：Eager 需整表重建；Late 只对 survivor 增量补齐。"
+  },
+  {
+   "strategy": "ReDD-like",
+   "total_cost": 5.948029,
+   "amortized_per_query": 0.099134,
+   "first_query_cost": 0.038386,
+   "build_rows": 27660,
+   "native_or_proxy": "proxy",
+   "note": "新能力首次出现时：Eager 需整表重建；Late 只对 survivor 增量补齐。"
+  }
+ ],
+ "runtime_sec": 14.6
+}

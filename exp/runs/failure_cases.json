@@ -1,0 +1,64 @@
+{
+ "total_failures_B": 360,
+ "examples": [
+  {
+   "query_id": "ECOM-Q0009",
+   "domain": "ecom",
+   "split": "build",
+   "question": "在平台=抖音的记录中，语义类别为「other」的共有多少条？",
+   "capability": "issue_classification",
+   "consumer_op": "SEM_COUNT",
+   "selectivity": 1.0,
+   "survivor_cardinality": 100,
+   "oracle_answer": 28,
+   "answer": 22,
+   "error_class": "CAPABILITY",
+   "quality_score": 0.83534,
+   "operator_correct": 0
+  },
+  {
+   "query_id": "ECOM-Q0042",
+   "domain": "ecom",
+   "split": "dev",
+   "question": "在平台=Shopify的记录中，金额最高的前 3 条是哪些？",
+   "capability": "amount_extraction_ecom",
+   "consumer_op": "SEM_TOPK",
+   "selectivity": 5.0,
+   "survivor_cardinality": 500,
+   "oracle_answer": [
+    "ECOM-00607",
+    "ECOM-02473",
+    "ECOM-02784"
+   ],
+   "answer": [
+    "ECOM-08281",
+    "ECOM-00607",
+    "ECOM-02473"
+   ],
+   "error_class": "CAPABILITY",
+   "quality_score": 0.98271,
+   "operator_correct": 0
+  },
+  {
+   "query_id": "FINPROC-Q0001",
+   "domain": "finproc",
+   "split": "build",
+   "question": "在制度=TRV-001-v2的记录中，语义类别为「条款」的共有多少条？",
+   "capability": "clause_classification",
+   "consumer_op": "SEM_COUNT",
+   "selectivity": 0.97,
+   "survivor_cardinality": 97,
+   "oracle_answer": 36,
+   "answer": 30,
+   "error_class": "CAPABILITY",
+   "quality_score": 0.94949,
+   "operator_correct": 0
+  }
+ ],
+ "by_error_class": {
+  "CAPABILITY": 360,
+  "EXECUTION": 0,
+  "SYNTHESIS": 0,
+  "SOURCE": 0
+ }
+}

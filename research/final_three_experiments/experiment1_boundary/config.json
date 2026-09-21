@@ -1,0 +1,87 @@
+{
+ "experiment_id": "v1.3-final-three-experiments:e1:b3658d1e",
+ "matrix": {
+  "selectivity": [
+   1,
+   5,
+   10,
+   25,
+   50,
+   75,
+   100
+  ],
+  "reuse": [
+   1,
+   10,
+   50,
+   100
+  ],
+  "patterns": [
+   "DISJOINT",
+   "OVERLAP",
+   "NESTED"
+  ],
+  "widths": [
+   1,
+   2,
+   4
+  ],
+  "scopes": [
+   "WORKLOAD",
+   "CAP_10PCT",
+   "CELL"
+  ],
+  "strategies": [
+   "A",
+   "B",
+   "C",
+   "CBO",
+   "D",
+   "O"
+  ],
+  "n_cells": 1512
+ },
+ "fixed_items": {
+  "model_id": "deterministic-mock-semantic",
+  "model_revision": "mock-det-v1",
+  "model_hash": "e96217acdf756b13",
+  "temperature": 0.0,
+  "tokenizer": "char4-bpe-proxy",
+  "batch_size": 1,
+  "capability_impl_revision": "cap-impl-v1.2",
+  "prompt_hashes": {
+   "issue_classification": "d86497291a2ae783",
+   "clause_classification": "2b5f4f299dac7217",
+   "amount_extraction": "1d353b9345ea0e2e"
+  },
+  "schema_hashes": {
+   "issue_classification": "bfc919f20f0101a4",
+   "clause_classification": "bfc919f20f0101a4",
+   "amount_extraction": "bcad0a9f16eed0ec"
+  },
+  "pricing_version": "mock-2026.09",
+  "pricing": {
+   "pricing_version": "mock-2026.09",
+   "input_per_1k": 0.002,
+   "output_per_1k": 0.006,
+   "per_call_overhead": 2e-05,
+   "retrieval_per_row": 5e-07,
+   "validation_per_row": 8e-07,
+   "synthesis_input_per_1k": 0.002,
+   "synthesis_output_per_1k": 0.006
+  }
+ },
+ "scope_defs": {
+  "WORKLOAD": "跨查询无限持久（capability artifact store 无容量限制）",
+  "CAP_10PCT": "跨查询持久但容量 = N×width×10%（LRU 淘汰）",
+  "CELL": "每个 query 重置（等价于旧实验口径，模拟极短生命周期缓存）"
+ },
+ "strategy_defs": {
+  "A": "Eager Persistent：t=0 全表×全部能力构建并持久化",
+  "B": "Late Per Query：过滤后构建 survivor，不持久化",
+  "C": "Late Persistent：过滤后只构建缺失行并持久化",
+  "CBO": "PLOP-like 简单代价规划器（计划空间 {PerQuery, LatePersistent}）",
+  "D": "类 CBO + 覆盖度感知 Eager 分支（用于实验 3 对照）",
+  "O": "Clairvoyant oracle：逐能力可取 {Eager全表, 并集一次, 每查询重建} 的 min"
+ }
+}

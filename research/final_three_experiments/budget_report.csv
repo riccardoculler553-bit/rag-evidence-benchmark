@@ -1,0 +1,5 @@
+experiment,estimated_tokens,actual_tokens,tier,note
+E1_boundary（mock）,0,0,Tier 1,零 token（确定性 mock 仿真）
+E2_specificity（mock matched UDF）,0,0,Tier 1,零 token
+E2_specificity（真实 GLM）,482560,237580,Tier 0,预算估算（§21）与实际消耗
+E3_external（proxy + lifecycle）,0,0,Tier 2 + Tier 1,零 token

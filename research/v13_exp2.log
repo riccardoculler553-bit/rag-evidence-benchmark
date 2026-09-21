@@ -1,0 +1,33 @@
+[e2] bundle ecom done: 64 rows
+[e2] bundle finproc done: 64 rows
+[e2] bundle summary 0.3722
+[e2] length sweep done: 144 records
+{
+ "udf_max_delta": 0.0,
+ "cert_share": 0.019223,
+ "bundle_cost_ratio_ecom": 0.3722,
+ "bundle_cost_ratio_fin": 0.3601,
+ "acc_drop_ecom": -0.0871,
+ "difficulty": {
+  "TypeA_independent_short_classification": {
+   "finproc_clause_kind_bundled": 1
+  },
+  "TypeB_numeric_extraction": {
+   "ecom_amount_bundled": 1
+  },
+  "TypeC_context_dependent": {
+   "finproc_effective_limit_single_call": 0.9844
+  },
+  "TypeD_inter_field_dependency": {
+   "finproc_governing_value_bundled": 0.9844,
+   "finproc_governing_value_separate": 0.9844
+  },
+  "interpretation": "TypeC/TypeD 需要先判定条款类型才能解释金额；若其边际 token 成本显著高于 TypeA/B 而准确率不同，则提示 prompt bundling 存在成本-质量权衡。"
+ },
+ "length_slope": 0.65079,
+ "length_r2": 1.0,
+ "tokens": 237580,
+ "cost": 0.106683,
+ "all_primary": true,
+ "wall": 100.5
+}

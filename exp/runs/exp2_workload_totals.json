@@ -1,0 +1,80 @@
+{
+ "n_queries_total": 312,
+ "per_domain": {
+  "ecom": {
+   "n_queries": 156,
+   "A": {
+    "build_rows": 600.0,
+    "tokens": 71244,
+    "cost_yuan": 0.113436,
+    "cost_per_query": 0.00072715
+   },
+   "B": {
+    "build_rows": 9192,
+    "tokens": 1093064,
+    "cost_yuan": 1.739544,
+    "cost_per_query": 0.01115092
+   },
+   "C": {
+    "build_rows": 2856,
+    "tokens": 339487,
+    "cost_yuan": 0.539224,
+    "cost_per_query": 0.00345656
+   },
+   "C_over_B_total": 0.31,
+   "C_over_A_total": 4.7535,
+   "C_over_B_rows": 0.3107,
+   "C_over_A_rows": 4.76
+  },
+  "finproc": {
+   "n_queries": 156,
+   "A": {
+    "build_rows": 600.0,
+    "tokens": 65921,
+    "cost_yuan": 0.107612,
+    "cost_per_query": 0.00068982
+   },
+   "B": {
+    "build_rows": 8688,
+    "tokens": 953368,
+    "cost_yuan": 1.551202,
+    "cost_per_query": 0.0099436
+   },
+   "C": {
+    "build_rows": 2838,
+    "tokens": 311604,
+    "cost_yuan": 0.506654,
+    "cost_per_query": 0.00324778
+   },
+   "C_over_B_total": 0.3266,
+   "C_over_A_total": 4.7081,
+   "C_over_B_rows": 0.3267,
+   "C_over_A_rows": 4.73
+  }
+ },
+ "total": {
+  "A": {
+   "tokens": 137165,
+   "cost_yuan": 0.221048,
+   "build_rows": 1200.0,
+   "cost_per_query": 0.00070849
+  },
+  "B": {
+   "tokens": 2046432,
+   "cost_yuan": 3.290746,
+   "build_rows": 17880,
+   "cost_per_query": 0.01054726
+  },
+  "C": {
+   "tokens": 651091,
+   "cost_yuan": 1.045878,
+   "build_rows": 5694,
+   "cost_per_query": 0.00335217
+  }
+ },
+ "C_over_B_total": 0.3178,
+ "C_over_A_total": 4.7315,
+ "C_over_B_tokens": 0.3182,
+ "C_over_A_tokens": 4.7468,
+ "note": "统一口径：执行整个矩阵（24 cells / 全部 query）时的总成本。A=每域一次性 eager 构建 + 全量复用；B=逐 query 重建；C=每 cell 首次构建+增量复用。"
+}

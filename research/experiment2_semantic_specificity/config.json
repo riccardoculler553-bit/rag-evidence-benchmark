@@ -1,0 +1,46 @@
+{
+ "fixed_items": {
+  "model_id": "deterministic-mock-semantic",
+  "model_revision": "mock-det-v1",
+  "model_hash": "e96217acdf756b13",
+  "temperature": 0.0,
+  "tokenizer": "char4-bpe-proxy",
+  "batch_size": 1,
+  "capability_impl_revision": "cap-impl-v1.2",
+  "prompt_hashes": {
+   "issue_classification": "d86497291a2ae783",
+   "clause_classification": "2b5f4f299dac7217",
+   "amount_extraction": "1d353b9345ea0e2e"
+  },
+  "schema_hashes": {
+   "issue_classification": "bfc919f20f0101a4",
+   "clause_classification": "bfc919f20f0101a4",
+   "amount_extraction": "bcad0a9f16eed0ec"
+  },
+  "pricing_version": "mock-2026.09",
+  "pricing": {
+   "pricing_version": "mock-2026.09",
+   "input_per_1k": 0.002,
+   "output_per_1k": 0.006,
+   "per_call_overhead": 2e-05,
+   "retrieval_per_row": 5e-07,
+   "validation_per_row": 8e-07,
+   "synthesis_input_per_1k": 0.002,
+   "synthesis_output_per_1k": 0.006
+  }
+ },
+ "blocks": {
+  "A": "cost-matched generic expensive UDF control",
+  "B": "cross-operator reuse (fan-out) + matched UDF control",
+  "C": "capability dependency / partial materialization"
+ },
+ "matched_dimensions": [
+  "N",
+  "selectivity",
+  "reuse",
+  "output size",
+  "per-row build cost",
+  "materialization policy",
+  "query workload"
+ ]
+}

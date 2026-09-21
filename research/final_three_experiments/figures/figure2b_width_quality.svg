@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" font-family="Segoe UI, PingFang SC, sans-serif">
+<rect width="760" height="430" fill="#ffffff"/>
+<text x="78" y="26" font-size="15" font-weight="600" fill="#1f2937">Figure 2b · Capability Width → Field Accuracy（真实 GLM-4.5-Air）</text>
+<line x1="78" y1="374.0" x2="570" y2="374.0" stroke="#eef2f7"/>
+<text x="70" y="378.0" font-size="10" fill="#6b7280" text-anchor="end">0.899</text>
+<line x1="78" y1="308.4" x2="570" y2="308.4" stroke="#eef2f7"/>
+<text x="70" y="312.4" font-size="10" fill="#6b7280" text-anchor="end">0.919</text>
+<line x1="78" y1="242.8" x2="570" y2="242.8" stroke="#eef2f7"/>
+<text x="70" y="246.8" font-size="10" fill="#6b7280" text-anchor="end">0.939</text>
+<line x1="78" y1="177.2" x2="570" y2="177.2" stroke="#eef2f7"/>
+<text x="70" y="181.2" font-size="10" fill="#6b7280" text-anchor="end">0.96</text>
+<line x1="78" y1="111.6" x2="570" y2="111.6" stroke="#eef2f7"/>
+<text x="70" y="115.6" font-size="10" fill="#6b7280" text-anchor="end">0.98</text>
+<line x1="78" y1="46.0" x2="570" y2="46.0" stroke="#eef2f7"/>
+<text x="70" y="50.0" font-size="10" fill="#6b7280" text-anchor="end">1</text>
+<text x="78.0" y="392" font-size="10" fill="#6b7280" text-anchor="middle">1</text>
+<text x="201.0" y="392" font-size="10" fill="#6b7280" text-anchor="middle">2.75</text>
+<text x="324.0" y="392" font-size="10" fill="#6b7280" text-anchor="middle">4.5</text>
+<text x="447.0" y="392" font-size="10" fill="#6b7280" text-anchor="middle">6.25</text>
+<text x="570.0" y="392" font-size="10" fill="#6b7280" text-anchor="middle">8</text>
+<text x="576" y="392" font-size="10" fill="#6b7280">capability width (fields)</text>
+<text x="70" y="32" font-size="10" fill="#6b7280" text-anchor="end">accuracy</text>
+<polyline points="78.0,46.0 148.3,185.3 288.9,274.0 570.0,374.0" fill="none" stroke="#059669" stroke-width="2"/>
+<circle cx="78.0" cy="46.0" r="2.6" fill="#059669"/>
+<circle cx="148.3" cy="185.3" r="2.6" fill="#059669"/>
+<circle cx="288.9" cy="274.0" r="2.6" fill="#059669"/>
+<circle cx="570.0" cy="374.0" r="2.6" fill="#059669"/>
+<line x1="582" y1="46" x2="596" y2="46" stroke="#059669" stroke-width="2.5"/>
+<text x="602" y="50" font-size="11" fill="#374151">mean field accuracy</text>
+</svg>

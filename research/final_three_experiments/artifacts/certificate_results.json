@@ -1,0 +1,282 @@
+{
+ "rule": "UpperCI_(1-δ) ≤ ε，Clopper–Pearson 精确单侧上界",
+ "epsilon": 0.02,
+ "delta": 0.05,
+ "required_n_zero_failure": 149,
+ "summary": {
+  "n_capabilities": 4,
+  "legacy_set": {
+   "n_pass_new": 0,
+   "n_pass_old": 4
+  },
+  "group_stratified_set": {
+   "n_pass_new": 1,
+   "n_pass_old": 4
+  },
+  "required_n_zero_failure": 149,
+  "interpretation": "① 判据修复：PASS 现在唯一定义为 Clopper–Pearson 单侧上界 ≤ ε(=2%)（δ=5%），取代旧的 Wilson 上界 ≤ 20%。② 旧判据过宽（等价于容忍 20% 错误率），不能作为生产门禁；新判据下 mock capability 全部 FAIL —— 这是正确结论：在 n=300 下若要断言总体误差 ≤2%，最多只允许 1 次错误（见 max_errors_allowed_for_pass）。③ 因此 mock 能力只能用于因果实验（同源误差对 A/B 无偏），不可用于生产部署；生产部署需要更高精度 capability 或更大 n。"
+ },
+ "capabilities": {
+  "issue_classification": {
+   "capability_id": "cap.issue_classification",
+   "version": "509066539dce0cfc",
+   "capability_impl_revision": "cap-impl-v1.2",
+   "operator_family": "classification",
+   "source_family": "ecom",
+   "model_hash": "e96217acdf756b13",
+   "prompt_hash": "d86497291a2ae783",
+   "schema_hash": "bfc919f20f0101a4",
+   "metric": "macro_f1",
+   "legacy": {
+    "n": 300,
+    "n_errors": 8,
+    "metric_value": 0.9738,
+    "observed_error": 0.0267,
+    "clopper_pearson_95": [
+     0.0116,
+     0.0519
+    ],
+    "clopper_pearson_upper_onesided_95": 0.0476,
+    "wilson_upper_95_old": 0.0517,
+    "n_independent_source_groups": 153,
+    "group_sizes_top": [
+     5,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4
+    ],
+    "max_errors_allowed_for_pass": 1,
+    "status_new": "FAIL",
+    "status_old": "PASS",
+    "validation_set_hash": "57683319c8e016999584a555ea442868"
+   },
+   "group_stratified": {
+    "n": 300,
+    "n_errors": 0,
+    "metric_value": 1.0,
+    "observed_error": 0.0,
+    "clopper_pearson_95": [
+     0.0,
+     0.0122
+    ],
+    "clopper_pearson_upper_onesided_95": 0.0099,
+    "wilson_upper_95_old": 0.0126,
+    "n_independent_source_groups": 18,
+    "group_sizes_top": [
+     20,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20
+    ],
+    "max_errors_allowed_for_pass": 1,
+    "status_new": "PASS",
+    "status_old": "PASS",
+    "validation_set_hash": "7fa1f5af9abaa81d4080845117938845"
+   }
+  },
+  "amount_extraction_ecom": {
+   "capability_id": "cap.amount_extraction_ecom",
+   "version": "c26b3ec40742374e",
+   "capability_impl_revision": "cap-impl-v1.2",
+   "operator_family": "extraction",
+   "source_family": "ecom",
+   "model_hash": "e96217acdf756b13",
+   "prompt_hash": "1d353b9345ea0e2e",
+   "schema_hash": "bcad0a9f16eed0ec",
+   "metric": "field_f1",
+   "legacy": {
+    "n": 300,
+    "n_errors": 10,
+    "metric_value": 0.9831,
+    "observed_error": 0.0333,
+    "clopper_pearson_95": [
+     0.0161,
+     0.0604
+    ],
+    "clopper_pearson_upper_onesided_95": 0.0559,
+    "wilson_upper_95_old": 0.0603,
+    "n_independent_source_groups": 153,
+    "group_sizes_top": [
+     5,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4,
+     4
+    ],
+    "max_errors_allowed_for_pass": 1,
+    "status_new": "FAIL",
+    "status_old": "PASS",
+    "validation_set_hash": "57683319c8e016999584a555ea442868"
+   },
+   "group_stratified": {
+    "n": 300,
+    "n_errors": 27,
+    "metric_value": 0.9529,
+    "observed_error": 0.09,
+    "clopper_pearson_95": [
+     0.0601,
+     0.1282
+    ],
+    "clopper_pearson_upper_onesided_95": 0.122,
+    "wilson_upper_95_old": 0.1278,
+    "n_independent_source_groups": 18,
+    "group_sizes_top": [
+     20,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20
+    ],
+    "max_errors_allowed_for_pass": 1,
+    "status_new": "FAIL",
+    "status_old": "PASS",
+    "validation_set_hash": "7fa1f5af9abaa81d4080845117938845"
+   }
+  },
+  "clause_classification": {
+   "capability_id": "cap.clause_classification",
+   "version": "198f329f5247f991",
+   "capability_impl_revision": "cap-impl-v1.2",
+   "operator_family": "classification",
+   "source_family": "finproc",
+   "model_hash": "e96217acdf756b13",
+   "prompt_hash": "2b5f4f299dac7217",
+   "schema_hash": "bfc919f20f0101a4",
+   "metric": "macro_f1",
+   "legacy": {
+    "n": 300,
+    "n_errors": 18,
+    "metric_value": 0.9471,
+    "observed_error": 0.06,
+    "clopper_pearson_95": [
+     0.0359,
+     0.0932
+    ],
+    "clopper_pearson_upper_onesided_95": 0.0877,
+    "wilson_upper_95_old": 0.0928,
+    "n_independent_source_groups": 12,
+    "group_sizes_top": [
+     60,
+     60,
+     30,
+     30,
+     30,
+     30,
+     10,
+     10
+    ],
+    "max_errors_allowed_for_pass": 1,
+    "status_new": "FAIL",
+    "status_old": "PASS",
+    "validation_set_hash": "92269c12e76c19264fc2c7a236127032"
+   },
+   "group_stratified": {
+    "n": 240,
+    "n_errors": 6,
+    "metric_value": 0.9623,
+    "observed_error": 0.025,
+    "clopper_pearson_95": [
+     0.0092,
+     0.0536
+    ],
+    "clopper_pearson_upper_onesided_95": 0.0487,
+    "wilson_upper_95_old": 0.0535,
+    "n_independent_source_groups": 12,
+    "group_sizes_top": [
+     20,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20
+    ],
+    "max_errors_allowed_for_pass": 1,
+    "status_new": "FAIL",
+    "status_old": "PASS",
+    "validation_set_hash": "243f4decc50a2ab30d9af901a38b1eb3"
+   }
+  },
+  "amount_extraction_fin": {
+   "capability_id": "cap.amount_extraction_fin",
+   "version": "32b60069094ce65b",
+   "capability_impl_revision": "cap-impl-v1.2",
+   "operator_family": "extraction",
+   "source_family": "finproc",
+   "model_hash": "e96217acdf756b13",
+   "prompt_hash": "1d353b9345ea0e2e",
+   "schema_hash": "bcad0a9f16eed0ec",
+   "metric": "field_f1",
+   "legacy": {
+    "n": 300,
+    "n_errors": 7,
+    "metric_value": 0.9882,
+    "observed_error": 0.0233,
+    "clopper_pearson_95": [
+     0.0094,
+     0.0475
+    ],
+    "clopper_pearson_upper_onesided_95": 0.0434,
+    "wilson_upper_95_old": 0.0474,
+    "n_independent_source_groups": 12,
+    "group_sizes_top": [
+     60,
+     60,
+     30,
+     30,
+     30,
+     30,
+     10,
+     10
+    ],
+    "max_errors_allowed_for_pass": 1,
+    "status_new": "FAIL",
+    "status_old": "PASS",
+    "validation_set_hash": "92269c12e76c19264fc2c7a236127032"
+   },
+   "group_stratified": {
+    "n": 240,
+    "n_errors": 4,
+    "metric_value": 0.9916,
+    "observed_error": 0.0167,
+    "clopper_pearson_95": [
+     0.0046,
+     0.0421
+    ],
+    "clopper_pearson_upper_onesided_95": 0.0377,
+    "wilson_upper_95_old": 0.0421,
+    "n_independent_source_groups": 12,
+    "group_sizes_top": [
+     20,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20,
+     20
+    ],
+    "max_errors_allowed_for_pass": 1,
+    "status_new": "FAIL",
+    "status_old": "PASS",
+    "validation_set_hash": "243f4decc50a2ab30d9af901a38b1eb3"
+   }
+  }
+ },
+ "note": "PASS = Clopper–Pearson 单侧上界 ≤ 2%（δ=5%）；mock capability 未全部通过 → 仅可用于因果机制实验，不可宣称 production-certified。"
+}

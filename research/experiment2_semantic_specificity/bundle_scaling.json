@@ -1,0 +1,3446 @@
+{
+ "probe": "E2b_bundle_scaling_and_length",
+ "model": "glm-4.5-air",
+ "snapshot": "7da34d5f450ee09f0f1cba46c5bd4661",
+ "n_calls": 528,
+ "used_tokens": 78536,
+ "cost_yuan": 0.057331,
+ "wall_clock_sec": 71.0,
+ "all_primary_model_only": true,
+ "usage": {
+  "using_fallback": false,
+  "switches": 0,
+  "rate_limit_events": 0,
+  "fallback_failures": 0,
+  "total_tokens": 78536,
+  "per_backend": {
+   "glm_key0": {
+    "eq": "glm_key0",
+    "calls": 528,
+    "prompt_tokens": 65820,
+    "completion_tokens": 12716,
+    "cached_tokens": 32433,
+    "cost": 0.057330880000000035,
+    "errors": 0,
+    "rate_limits": 0,
+    "latency_ms_sum": 702670.4695224762
+   },
+   "glm_key1": {
+    "eq": "glm_key1",
+    "calls": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cached_tokens": 0,
+    "cost": 0.0,
+    "errors": 0,
+    "rate_limits": 0,
+    "latency_ms_sum": 0.0
+   },
+   "free_fallback": {
+    "eq": "free_fallback",
+    "calls": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "cached_tokens": 0,
+    "cost": 0.0,
+    "errors": 0,
+    "rate_limits": 0,
+    "latency_ms_sum": 0.0,
+    "provider": "siliconflow",
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+   }
+  },
+  "total_cost_yuan": 0.057331,
+  "pricing": {
+   "glm": {
+    "input_per_m": 0.8,
+    "output_short_per_m": 2.0,
+    "output_long_per_m": 6.0,
+    "cache_hit_per_m": 0.16,
+    "output_short_limit": 200,
+    "version": "bigmodel-2026.09"
+   },
+   "fallback": {
+    "input_per_m": 0.35,
+    "output_per_m": 0.35,
+    "cache_hit_per_m": 0.0,
+    "version": "siliconflow-public-approx"
+   }
+  }
+ },
+ "bundling": {
+  "n": 40,
+  "mean_prompt_tokens": {
+   "V1": 103.83,
+   "V2": 117.83,
+   "V4": 157.82,
+   "V8": 218.82,
+   "SEP8": 785.6
+  },
+  "mean_completion_tokens": {
+   "V1": 13,
+   "V2": 20.18,
+   "V4": 33.17,
+   "V8": 110.38,
+   "SEP8": 126.08
+  },
+  "total_cost_units": {
+   "V1": 116.83,
+   "V2": 138.01,
+   "V4": 190.99,
+   "V8": 329.2,
+   "SEP8": 911.6800000000001
+  },
+  "overall_field_accuracy": {
+   "V1": 1,
+   "V2": 1,
+   "V4": 1,
+   "V8": 1,
+   "SEP8": 0.8821
+  },
+  "per_field_accuracy": {
+   "label": {
+    "V1": 1,
+    "V2": 1,
+    "V4": 1,
+    "V8": 1,
+    "SEP8": 1
+   },
+   "amount": {
+    "V1": null,
+    "V2": 1,
+    "V4": 1,
+    "V8": 1,
+    "SEP8": 1
+   },
+   "currency": {
+    "V1": null,
+    "V2": null,
+    "V4": null,
+    "V8": 1,
+    "SEP8": 1
+   },
+   "product": {
+    "V1": null,
+    "V2": null,
+    "V4": null,
+    "V8": 1,
+    "SEP8": 0.85
+   },
+   "order_id": {
+    "V1": null,
+    "V2": null,
+    "V4": null,
+    "V8": 1,
+    "SEP8": 0.325
+   },
+   "has_discount": {
+    "V1": null,
+    "V2": null,
+    "V4": 1,
+    "V8": 1,
+    "SEP8": 1
+   },
+   "has_defect": {
+    "V1": null,
+    "V2": null,
+    "V4": 1,
+    "V8": 1,
+    "SEP8": 1
+   }
+  },
+  "parse_ok_rate": {
+   "V1": 1,
+   "V2": 1,
+   "V4": 1,
+   "V8": 1
+  },
+  "rows": [
+   {
+    "row_id": "ECOM-00001",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 878,
+     "currency": "元",
+     "product": "AeroBuds 充电盒",
+     "order_id": "O-2025-0004",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 104,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 118,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 158,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 219,
+     "ct": 112,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 787,
+     "ct": 116,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 0,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-00051",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 1478,
+     "currency": "元",
+     "product": "AeroBuds Pro X2",
+     "order_id": "O-2025-0043",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 109,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 123,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 163,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 224,
+     "ct": 122,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 827,
+     "ct": 143,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-00101",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 2078,
+     "currency": "元",
+     "product": "车载充电器 CarVolt",
+     "order_id": "O-2025-0082",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 101,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 115,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 155,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 216,
+     "ct": 110,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 763,
+     "ct": 124,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-00151",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 638,
+     "currency": "元",
+     "product": "NebulaPad 8",
+     "order_id": "O-2025-0121",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 102,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 116,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 156,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 217,
+     "ct": 111,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 771,
+     "ct": 114,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 0,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-00201",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 1238,
+     "currency": "元",
+     "product": "AeroBuds 充电盒",
+     "order_id": "O-2025-0160",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 104,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 118,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 158,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 219,
+     "ct": 112,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 787,
+     "ct": 132,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-00251",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 1838,
+     "currency": "元",
+     "product": "AeroBuds Pro X2",
+     "order_id": "O-2026-0199",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 110,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 124,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 164,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 225,
+     "ct": 123,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 835,
+     "ct": 140,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-00301",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 398,
+     "currency": "元",
+     "product": "车载充电器 CarVolt",
+     "order_id": "O-2026-0238",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 101,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 115,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 155,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 216,
+     "ct": 110,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 763,
+     "ct": 131,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-00351",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 998,
+     "currency": "元",
+     "product": "NebulaPad 8",
+     "order_id": "O-2026-0277",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 101,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 115,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 155,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 216,
+     "ct": 111,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 763,
+     "ct": 114,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-00401",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 1497,
+     "currency": "元",
+     "product": "FitOne 智能手环",
+     "order_id": "O-2025-0005",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 102,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 116,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 156,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 217,
+     "ct": 99,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 771,
+     "ct": 106,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-00451",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 2397,
+     "currency": "元",
+     "product": "NebulaBook 14 笔记本",
+     "order_id": "O-2025-0044",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 108,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 122,
+     "ct": 21,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 162,
+     "ct": 34,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 223,
+     "ct": 122,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 819,
+     "ct": 129,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 0,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-00501",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 3297,
+     "currency": "元",
+     "product": "NebulaWatch 3",
+     "order_id": "O-2025-0083",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 104,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 118,
+     "ct": 21,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 158,
+     "ct": 34,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 219,
+     "ct": 111,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 787,
+     "ct": 136,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-00551",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 1137,
+     "currency": "元",
+     "product": "AeroBuds Air",
+     "order_id": "O-2025-0122",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 101,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 115,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 155,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 216,
+     "ct": 99,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 763,
+     "ct": 120,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-00601",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 597,
+     "currency": "元",
+     "product": "云端存储套餐(100GB/年)",
+     "order_id": "O-2025-0161",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 105,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 119,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 159,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 220,
+     "ct": 110,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 795,
+     "ct": 129,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-00651",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 2937,
+     "currency": "元",
+     "product": "NebulaBook 14 笔记本",
+     "order_id": "O-2026-0200",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 107,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 121,
+     "ct": 21,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 161,
+     "ct": 34,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 222,
+     "ct": 116,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 811,
+     "ct": 140,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-00701",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 777,
+     "currency": "元",
+     "product": "NebulaWatch 3",
+     "order_id": "O-2026-0239",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 104,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 118,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 158,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 219,
+     "ct": 120,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 787,
+     "ct": 132,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-00751",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 1677,
+     "currency": "元",
+     "product": "AeroBuds Air",
+     "order_id": "O-2026-0278",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 101,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 115,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 155,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 216,
+     "ct": 111,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 763,
+     "ct": 126,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-00801",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 531,
+     "currency": "元",
+     "product": "AeroBuds Pro X2",
+     "order_id": "O-2025-0006",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 104,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 118,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 158,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 219,
+     "ct": 107,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 787,
+     "ct": 126,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-00851",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 816,
+     "currency": "元",
+     "product": "智能音箱 EchoNeb",
+     "order_id": "O-2025-0045",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 101,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 115,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 155,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 216,
+     "ct": 108,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 763,
+     "ct": 125,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-00901",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 1101,
+     "currency": "元",
+     "product": "NebulaPhone 12",
+     "order_id": "O-2025-0084",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 103,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 117,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 157,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 218,
+     "ct": 113,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 779,
+     "ct": 117,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 0,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-00951",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 417,
+     "currency": "元",
+     "product": "AeroBuds Pro X2",
+     "order_id": "O-2025-0123",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 104,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 118,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 158,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 219,
+     "ct": 115,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 787,
+     "ct": 136,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-01001",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 702,
+     "currency": "元",
+     "product": "AeroBuds Pro X2",
+     "order_id": "O-2025-0162",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 106,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 120,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 160,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 221,
+     "ct": 99,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 803,
+     "ct": 130,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-01051",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 987,
+     "currency": "元",
+     "product": "智能音箱 EchoNeb",
+     "order_id": "O-2026-0201",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 101,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 115,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 155,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 216,
+     "ct": 109,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 763,
+     "ct": 117,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-01101",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 303,
+     "currency": "元",
+     "product": "NebulaPhone 12",
+     "order_id": "O-2026-0240",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 101,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 115,
+     "ct": 19,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 155,
+     "ct": 32,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 216,
+     "ct": 110,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 763,
+     "ct": 127,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-01151",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 588,
+     "currency": "元",
+     "product": "AeroBuds Pro X2",
+     "order_id": "O-2026-0279",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 105,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 119,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 159,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 220,
+     "ct": 114,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 795,
+     "ct": 130,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-01201",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 1238,
+     "currency": "元",
+     "product": "AeroBuds Pro X2",
+     "order_id": "O-2025-0007",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 107,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 121,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 161,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 222,
+     "ct": 110,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 811,
+     "ct": 140,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-01251",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 398,
+     "currency": "元",
+     "product": "智能办公软件激活码(年卡)",
+     "order_id": "O-2025-0046",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 104,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 118,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 158,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 219,
+     "ct": 112,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 787,
+     "ct": 133,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-01301",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 398,
+     "currency": "元",
+     "product": "NebulaPad 8",
+     "order_id": "O-2025-0085",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 102,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 116,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 156,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 217,
+     "ct": 100,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 771,
+     "ct": 127,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-01351",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 998,
+     "currency": "元",
+     "product": "AeroBuds 充电盒",
+     "order_id": "O-2025-0124",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 105,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 119,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 159,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 220,
+     "ct": 114,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 795,
+     "ct": 117,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 0,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-01401",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 1598,
+     "currency": "元",
+     "product": "AeroBuds Pro X2",
+     "order_id": "O-2025-0163",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 109,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 123,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 163,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 224,
+     "ct": 110,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 827,
+     "ct": 133,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-01451",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 2198,
+     "currency": "元",
+     "product": "车载充电器 CarVolt",
+     "order_id": "O-2026-0202",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 102,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 116,
+     "ct": 21,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 156,
+     "ct": 34,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 217,
+     "ct": 111,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 771,
+     "ct": 126,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-01501",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 758,
+     "currency": "元",
+     "product": "NebulaPad 8",
+     "order_id": "O-2026-0241",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 102,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 116,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 156,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 217,
+     "ct": 111,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 771,
+     "ct": 118,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-01551",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 1358,
+     "currency": "元",
+     "product": "AeroBuds 充电盒",
+     "order_id": "O-2026-0280",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 104,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 118,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 158,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 219,
+     "ct": 103,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 787,
+     "ct": 124,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-01601",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 2037,
+     "currency": "元",
+     "product": "NebulaBook 14 笔记本",
+     "order_id": "O-2025-0008",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 106,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 120,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 160,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 221,
+     "ct": 115,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 803,
+     "ct": 138,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-01651",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 2937,
+     "currency": "元",
+     "product": "NebulaWatch 3",
+     "order_id": "O-2025-0047",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 103,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 117,
+     "ct": 21,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 157,
+     "ct": 34,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 218,
+     "ct": 112,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 779,
+     "ct": 124,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-01701",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 777,
+     "currency": "元",
+     "product": "AeroBuds Air",
+     "order_id": "O-2025-0086",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 100,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 114,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 154,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 215,
+     "ct": 109,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 755,
+     "ct": 113,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-01751",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 1677,
+     "currency": "元",
+     "product": "FitOne 智能手环",
+     "order_id": "O-2025-0125",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 103,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 117,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 157,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 218,
+     "ct": 100,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 779,
+     "ct": 108,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-01801",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 2577,
+     "currency": "元",
+     "product": "NebulaBook 14 笔记本",
+     "order_id": "O-2025-0164",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 108,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 122,
+     "ct": 21,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 162,
+     "ct": 34,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 223,
+     "ct": 122,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 819,
+     "ct": 125,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 0,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-01851",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 3477,
+     "currency": "元",
+     "product": "NebulaWatch 3",
+     "order_id": "O-2026-0203",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 104,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 118,
+     "ct": 21,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 158,
+     "ct": 34,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 219,
+     "ct": 111,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 787,
+     "ct": 127,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-01901",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 1317,
+     "currency": "元",
+     "product": "AeroBuds Air",
+     "order_id": "O-2026-0242",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 101,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 115,
+     "ct": 20,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 155,
+     "ct": 33,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 216,
+     "ct": 99,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 763,
+     "ct": 124,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   },
+   {
+    "row_id": "ECOM-01951",
+    "oracle": {
+     "label": "logistics_delay",
+     "amount": 2217,
+     "currency": "元",
+     "product": "FitOne 智能手环",
+     "order_id": "O-2026-0281",
+     "has_discount": false,
+     "has_defect": false
+    },
+    "V1": {
+     "pt": 104,
+     "ct": 13,
+     "parse_ok": 1,
+     "n_keys": 1,
+     "per_field": {
+      "label": 1
+     }
+    },
+    "V2": {
+     "pt": 118,
+     "ct": 21,
+     "parse_ok": 1,
+     "n_keys": 2,
+     "per_field": {
+      "label": 1,
+      "amount": 1
+     }
+    },
+    "V4": {
+     "pt": 158,
+     "ct": 34,
+     "parse_ok": 1,
+     "n_keys": 4,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "has_discount": 1,
+      "has_defect": 1
+     }
+    },
+    "V8": {
+     "pt": 219,
+     "ct": 102,
+     "parse_ok": 1,
+     "n_keys": 8,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 1,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    },
+    "SEP8": {
+     "pt": 787,
+     "ct": 126,
+     "per_field": {
+      "label": 1,
+      "amount": 1,
+      "currency": 1,
+      "product": 1,
+      "order_id": 0,
+      "has_discount": 1,
+      "has_defect": 1,
+      "summary": null
+     }
+    }
+   }
+  ],
+  "cost_ratio_V8_vs_8calls": 0.2785,
+  "accuracy_drop_V8_minus_V1": 0
+ },
+ "input_length": {
+  "per_mult": {
+   "1": {
+    "n": 16,
+    "mean_len": 69.8,
+    "mean_pt": 98,
+    "mean_ct": 12
+   },
+   "4": {
+    "n": 16,
+    "mean_len": 162.8,
+    "mean_pt": 158,
+    "mean_ct": 12.75
+   },
+   "16": {
+    "n": 16,
+    "mean_len": 534.8,
+    "mean_pt": 398,
+    "mean_ct": 13
+   }
+  },
+  "tokens_per_char_slope": 0.6451,
+  "tokens_per_extra_100_chars": 64.51,
+  "note": "成本 = 输入 tokens 的严格函数；survivor 的 payload 规模直接决定单位成本。",
+  "rows": [
+   {
+    "row_id": "ECOM-00001",
+    "mult": 1,
+    "payload_len": 69,
+    "pt": 98,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00001",
+    "mult": 4,
+    "payload_len": 162,
+    "pt": 158,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00001",
+    "mult": 16,
+    "payload_len": 534,
+    "pt": 398,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00051",
+    "mult": 1,
+    "payload_len": 79,
+    "pt": 103,
+    "ct": 9
+   },
+   {
+    "row_id": "ECOM-00051",
+    "mult": 4,
+    "payload_len": 172,
+    "pt": 163,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00051",
+    "mult": 16,
+    "payload_len": 544,
+    "pt": 403,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00101",
+    "mult": 1,
+    "payload_len": 67,
+    "pt": 95,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00101",
+    "mult": 4,
+    "payload_len": 160,
+    "pt": 155,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00101",
+    "mult": 16,
+    "payload_len": 532,
+    "pt": 395,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00151",
+    "mult": 1,
+    "payload_len": 64,
+    "pt": 96,
+    "ct": 9
+   },
+   {
+    "row_id": "ECOM-00151",
+    "mult": 4,
+    "payload_len": 157,
+    "pt": 156,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00151",
+    "mult": 16,
+    "payload_len": 529,
+    "pt": 396,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00201",
+    "mult": 1,
+    "payload_len": 66,
+    "pt": 98,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00201",
+    "mult": 4,
+    "payload_len": 159,
+    "pt": 158,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00201",
+    "mult": 16,
+    "payload_len": 531,
+    "pt": 398,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00251",
+    "mult": 1,
+    "payload_len": 78,
+    "pt": 104,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00251",
+    "mult": 4,
+    "payload_len": 171,
+    "pt": 164,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00251",
+    "mult": 16,
+    "payload_len": 543,
+    "pt": 404,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00301",
+    "mult": 1,
+    "payload_len": 71,
+    "pt": 95,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00301",
+    "mult": 4,
+    "payload_len": 164,
+    "pt": 155,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00301",
+    "mult": 16,
+    "payload_len": 536,
+    "pt": 395,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00351",
+    "mult": 1,
+    "payload_len": 64,
+    "pt": 95,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00351",
+    "mult": 4,
+    "payload_len": 157,
+    "pt": 155,
+    "ct": 9
+   },
+   {
+    "row_id": "ECOM-00351",
+    "mult": 16,
+    "payload_len": 529,
+    "pt": 395,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00401",
+    "mult": 1,
+    "payload_len": 65,
+    "pt": 96,
+    "ct": 9
+   },
+   {
+    "row_id": "ECOM-00401",
+    "mult": 4,
+    "payload_len": 158,
+    "pt": 156,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00401",
+    "mult": 16,
+    "payload_len": 530,
+    "pt": 396,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00451",
+    "mult": 1,
+    "payload_len": 75,
+    "pt": 102,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00451",
+    "mult": 4,
+    "payload_len": 168,
+    "pt": 162,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00451",
+    "mult": 16,
+    "payload_len": 540,
+    "pt": 402,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00501",
+    "mult": 1,
+    "payload_len": 72,
+    "pt": 98,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00501",
+    "mult": 4,
+    "payload_len": 165,
+    "pt": 158,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00501",
+    "mult": 16,
+    "payload_len": 537,
+    "pt": 398,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00551",
+    "mult": 1,
+    "payload_len": 66,
+    "pt": 95,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00551",
+    "mult": 4,
+    "payload_len": 159,
+    "pt": 155,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00551",
+    "mult": 16,
+    "payload_len": 531,
+    "pt": 395,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00601",
+    "mult": 1,
+    "payload_len": 68,
+    "pt": 99,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00601",
+    "mult": 4,
+    "payload_len": 161,
+    "pt": 159,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00601",
+    "mult": 16,
+    "payload_len": 533,
+    "pt": 399,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00651",
+    "mult": 1,
+    "payload_len": 71,
+    "pt": 101,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00651",
+    "mult": 4,
+    "payload_len": 164,
+    "pt": 161,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00651",
+    "mult": 16,
+    "payload_len": 536,
+    "pt": 401,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00701",
+    "mult": 1,
+    "payload_len": 70,
+    "pt": 98,
+    "ct": 9
+   },
+   {
+    "row_id": "ECOM-00701",
+    "mult": 4,
+    "payload_len": 163,
+    "pt": 158,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00701",
+    "mult": 16,
+    "payload_len": 535,
+    "pt": 398,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00751",
+    "mult": 1,
+    "payload_len": 71,
+    "pt": 95,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00751",
+    "mult": 4,
+    "payload_len": 164,
+    "pt": 155,
+    "ct": 13
+   },
+   {
+    "row_id": "ECOM-00751",
+    "mult": 16,
+    "payload_len": 536,
+    "pt": 395,
+    "ct": 13
+   }
+  ]
+ }
+}

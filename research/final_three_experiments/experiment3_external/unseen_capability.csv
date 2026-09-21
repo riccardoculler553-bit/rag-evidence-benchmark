@@ -1,0 +1,5 @@
+strategy,total_cost,amortized_per_query,first_query_cost,build_rows,native_or_proxy,note
+Eager,5.184216,0.086404,,20000,native,新能力首次出现时：Eager 需整表重建；Late 只对 survivor 增量补齐。
+Late-Persistent,1.971087,0.032851,0.077159,7534,native,新能力首次出现时：Eager 需整表重建；Late 只对 survivor 增量补齐。
+QuWARTS-like,2.02772,0.033795,0.035561,7752,proxy,新能力首次出现时：Eager 需整表重建；Late 只对 survivor 增量补齐。
+ReDD-like,5.948029,0.099134,0.038386,27660,proxy,新能力首次出现时：Eager 需整表重建；Late 只对 survivor 增量补齐。

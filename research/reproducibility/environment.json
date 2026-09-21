@@ -1,0 +1,10 @@
+{
+ "os": "Windows-10-10.0.19045-SP0",
+ "python": "3.13.14 (main, Jun 11 2026, 04:04:46) [MSC v.1944 64 bit (AMD64)]",
+ "machine": "AMD64",
+ "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+ "cpu_count": 8,
+ "iteration_policy": "batch_size=1（主实验强制）",
+ "concurrency_real_probe": 8,
+ "runtime": "python-3.13.12 / win32 / single-process"
+}

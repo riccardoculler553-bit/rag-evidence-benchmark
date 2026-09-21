@@ -1,0 +1,26 @@
+{
+ "A": {
+  "n": 80,
+  "max_abs_delta": 0.0,
+  "quality": {
+   "issue_classification": 0.97,
+   "amount_extraction_ecom": 0.9857
+  },
+  "cert_share": 0.059038,
+  "skew": {
+   "mean_regret_conditioned": 2.6749,
+   "mean_regret_global_mean": 2.6749,
+   "mean_len_ratio": 1.021
+  }
+ },
+ "B": {
+  "ratio": 0.3334
+ },
+ "C": {
+  "best": {
+   "FULL": 3,
+   "PARTIAL": 9
+  },
+  "partial_over_full": 0.3733
+ }
+}

@@ -1,0 +1,25 @@
+  cell ecom|s1|r1: B_pt=0 C_pt=0 tot=4756 q=1.00/1.00/1.00
+  cell ecom|s1|r10: B_pt=0 C_pt=0 tot=4756 q=1.00/1.00/1.00
+  cell ecom|s1|r50: B_pt=0 C_pt=0 tot=4756 q=1.00/1.00/1.00
+  cell ecom|s10|r1: B_pt=4240 C_pt=424 tot=10245 q=1.00/1.00/1.00
+  cell ecom|s10|r10: B_pt=4240 C_pt=424 tot=15734 q=1.00/1.00/1.00
+  cell ecom|s10|r50: B_pt=4240 C_pt=424 tot=21223 q=1.00/1.00/1.00
+  cell ecom|s50|r1: B_pt=7392 C_pt=1848 tot=32128 q=0.75/0.50/0.50
+  cell ecom|s50|r10: B_pt=7392 C_pt=1848 tot=43033 q=0.50/0.50/0.50
+  cell ecom|s50|r50: B_pt=7392 C_pt=1848 tot=53938 q=0.75/0.50/0.50
+  cell ecom|s100|r1: B_pt=8056 C_pt=4028 tot=68214 q=1.00/1.00/1.00
+  cell ecom|s100|r10: B_pt=8056 C_pt=4028 tot=82490 q=1.00/1.00/1.00
+  cell ecom|s100|r50: B_pt=8056 C_pt=4028 tot=96762 q=1.00/1.00/1.00
+  cell finproc|s1|r1: B_pt=0 C_pt=0 tot=101150 q=1.00/1.00/1.00
+  cell finproc|s1|r10: B_pt=0 C_pt=0 tot=101150 q=1.00/1.00/1.00
+  cell finproc|s1|r50: B_pt=0 C_pt=0 tot=101150 q=1.00/1.00/1.00
+  cell finproc|s10|r1: B_pt=3580 C_pt=358 tot=105858 q=1.00/1.00/1.00
+  cell finproc|s10|r10: B_pt=3580 C_pt=358 tot=110566 q=1.00/1.00/1.00
+  cell finproc|s10|r50: B_pt=3580 C_pt=358 tot=115274 q=1.00/1.00/1.00
+  cell finproc|s50|r1: B_pt=8824 C_pt=2206 tot=128444 q=1.00/1.00/1.00
+  cell finproc|s50|r10: B_pt=8824 C_pt=2206 tot=141614 q=1.00/1.00/1.00
+  cell finproc|s50|r50: B_pt=8824 C_pt=2206 tot=154784 q=1.00/1.00/1.00
+  cell finproc|s100|r1: B_pt=7360 C_pt=3680 tot=167948 q=1.00/1.00/1.00
+  cell finproc|s100|r10: B_pt=7360 C_pt=3680 tot=181111 q=1.00/1.00/1.00
+  cell finproc|s100|r50: B_pt=7360 C_pt=3680 tot=194275 q=1.00/1.00/1.00
+{"used_tokens": 194275, "switches": 0, "fallback": false, "cost_yuan": 0.088434}

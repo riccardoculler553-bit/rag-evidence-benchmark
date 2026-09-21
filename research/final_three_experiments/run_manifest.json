@@ -1,0 +1,46 @@
+{
+ "experiment_version": "v1.3-final-three-experiments",
+ "git_commit": "no-git-repo",
+ "dataset_snapshot": "7da34d5f450ee09f0f1cba46c5bd4661",
+ "query_snapshot_hash": "9e36a05310c6ea90d4404ec634f9d07c",
+ "model": "glm-4.5-air（Tier 0）/ deterministic-mock-semantic（Tier 1）",
+ "model_revision": "glm-4.5-air@2026 + mock-det-v1",
+ "prompt_hash": {
+  "issue_classification": "d86497291a2ae783",
+  "clause_classification": "2b5f4f299dac7217",
+  "amount_extraction": "1d353b9345ea0e2e"
+ },
+ "schema_hash": {
+  "issue_classification": "bfc919f20f0101a4",
+  "clause_classification": "bfc919f20f0101a4",
+  "amount_extraction": "bcad0a9f16eed0ec"
+ },
+ "tokenizer": "char4-bpe-proxy",
+ "temperature": 0.0,
+ "decoding": "greedy",
+ "batch_size": 1,
+ "random_seed": 20260919,
+ "hardware": "Windows-10-10.0.19045-SP0 / 8 cores",
+ "key_budget": {
+  "total": 64000000,
+  "internal": 60000000,
+  "reserve": 4000000
+ },
+ "key0_tokens": 119782,
+ "key1_tokens": 117798,
+ "fallback_enabled": true,
+ "fallback_model": "Qwen/Qwen2.5-7B-Instruct (siliconflow)",
+ "fallback_used": false,
+ "fallback_requests": 0,
+ "all_primary_model_only": true,
+ "pricing_version": "mock-2026.09",
+ "experiment_start": "2026-09-19T17:34:19",
+ "experiment_end": "2026-09-19T17:34:20",
+ "actual_tokens_used": 237580,
+ "actual_cost_yuan": 0.106683,
+ "experiment_ids": {
+  "e1": "v1.3-final-three-experiments:e1:b3658d1e",
+  "e2": "v1.3-final-three-experiments:e2:76599bcb",
+  "e3": "v1.3-final-three-experiments:e3:98fa60d8"
+ }
+}

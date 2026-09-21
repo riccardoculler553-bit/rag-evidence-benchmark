@@ -1,0 +1,74 @@
+{
+ "sequential": {
+  "concurrency": 1,
+  "calls": 5,
+  "ok": 5,
+  "n429": 0,
+  "other_err": 0,
+  "wall_s": 2.02,
+  "throughput_qps": 2.48,
+  "p50_ms": 382.0,
+  "p95_ms": 420.3,
+  "sample_err": null
+ },
+ "conc2": {
+  "concurrency": 2,
+  "calls": 8,
+  "ok": 8,
+  "n429": 0,
+  "other_err": 0,
+  "wall_s": 1.55,
+  "throughput_qps": 5.16,
+  "p50_ms": 381.1,
+  "p95_ms": 443.1,
+  "sample_err": null
+ },
+ "conc4": {
+  "concurrency": 4,
+  "calls": 16,
+  "ok": 16,
+  "n429": 0,
+  "other_err": 0,
+  "wall_s": 1.61,
+  "throughput_qps": 9.92,
+  "p50_ms": 402.4,
+  "p95_ms": 439.5,
+  "sample_err": null
+ },
+ "conc6": {
+  "concurrency": 6,
+  "calls": 24,
+  "ok": 24,
+  "n429": 0,
+  "other_err": 0,
+  "wall_s": 1.72,
+  "throughput_qps": 13.96,
+  "p50_ms": 414.1,
+  "p95_ms": 457.2,
+  "sample_err": null
+ },
+ "conc8": {
+  "concurrency": 8,
+  "calls": 32,
+  "ok": 32,
+  "n429": 0,
+  "other_err": 0,
+  "wall_s": 1.97,
+  "throughput_qps": 16.28,
+  "p50_ms": 467.7,
+  "p95_ms": 611.1,
+  "sample_err": null
+ },
+ "conc12": {
+  "concurrency": 12,
+  "calls": 48,
+  "ok": 48,
+  "n429": 0,
+  "other_err": 0,
+  "wall_s": 1.71,
+  "throughput_qps": 28.03,
+  "p50_ms": 409.1,
+  "p95_ms": 463.1,
+  "sample_err": null
+ }
+}

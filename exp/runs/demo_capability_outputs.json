@@ -1,0 +1,90 @@
+{
+ "issue_classification": {
+  "ECOM-00001": {
+   "label": "logistics_delay"
+  },
+  "ECOM-00002": {
+   "label": "refund_request"
+  },
+  "ECOM-00003": {
+   "label": "other"
+  },
+  "ECOM-00004": {
+   "label": "product_quality"
+  },
+  "ECOM-00005": {
+   "label": "logistics_delay"
+  }
+ },
+ "amount_extraction_ecom": {
+  "ECOM-00001": {
+   "value": 878.0,
+   "raw": "878",
+   "unit": "元"
+  },
+  "ECOM-00002": {
+   "value": 2577.0,
+   "raw": "2577",
+   "unit": "元"
+  },
+  "ECOM-00003": {
+   "value": 246.0,
+   "raw": "246",
+   "unit": "元"
+  },
+  "ECOM-00004": {
+   "value": 1358.0,
+   "raw": "1358",
+   "unit": "元"
+  },
+  "ECOM-00005": {
+   "value": 3297.0,
+   "raw": "3297",
+   "unit": "元"
+  }
+ },
+ "clause_classification": {
+  "FIN-00001": {
+   "label": "例外"
+  },
+  "FIN-00002": {
+   "label": "附录"
+  },
+  "FIN-00003": {
+   "label": "脚注"
+  },
+  "FIN-00004": {
+   "label": "例外"
+  },
+  "FIN-00005": {
+   "label": "条款"
+  }
+ },
+ "amount_extraction_fin": {
+  "FIN-00001": {
+   "value": 300.0,
+   "raw": "300",
+   "unit": "元"
+  },
+  "FIN-00002": {
+   "value": 350.0,
+   "raw": "350",
+   "unit": "元"
+  },
+  "FIN-00003": {
+   "value": 400.0,
+   "raw": "400",
+   "unit": "元"
+  },
+  "FIN-00004": {
+   "value": 562.0,
+   "raw": "562",
+   "unit": "元"
+  },
+  "FIN-00005": {
+   "value": 500.0,
+   "raw": "500",
+   "unit": "元"
+  }
+ }
+}

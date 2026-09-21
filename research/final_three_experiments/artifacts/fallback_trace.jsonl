@@ -1,0 +1,1 @@
+{"note": "本次正式实验未触发 fallback；两个 GLM key 均可用且未耗尽", "fallback_enabled": true, "fallback_model": "Qwen/Qwen2.5-7B-Instruct (siliconflow)", "all_primary_model_only": true}

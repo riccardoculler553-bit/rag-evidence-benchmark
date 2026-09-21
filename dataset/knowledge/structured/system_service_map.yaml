@@ -1,0 +1,16 @@
+systems:
+  - id: SYS-OMS
+    name: 订单中台(OMS)
+    services: [order-api, refund-api, inventory-api]
+  - id: SYS-PAY
+    name: 支付平台
+    services: [pay-api, settle-api]
+  - id: SYS-WMS
+    name: 仓务系统
+    services: [stock-api, pick-api]
+  - id: SYS-CRM
+    name: 客户关系系统
+    services: [customer-api]
+  - id: SYS-DATA
+    name: 数据仓库
+    services: [etl-job, report-api]

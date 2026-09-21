@@ -1,0 +1,30 @@
+dataset snapshot=7da34d5f450ee09f0f1cba46c5bd4661 queries=600 artifacts=4
+  ... 100/600 queries
+  ... 200/600 queries
+  ... 300/600 queries
+  ... 400/600 queries
+  ... 500/600 queries
+  ... 600/600 queries
+{
+ "checks": {
+  "W1_quality_non_inferior": true,
+  "W1_semantic_work_min30": true,
+  "W1_semantic_work_target50": true,
+  "W1_cost_per_correct_min20": true,
+  "W1_p95_not_worse": true,
+  "W2_quality_non_inferior": true,
+  "W2_semantic_work_min25": true,
+  "W2_cost_per_correct_min10": true,
+  "W3_quality_non_inferior": true,
+  "W3_no_material_regression": true,
+  "replay_control_consistent": true,
+  "two_domains": true,
+  "validation_budget_total": true,
+  "validation_budget_saving": true,
+  "certificates_pass": true,
+  "two_domains_W1W2_reproduced": true
+ },
+ "verdict": "SUPPORTED",
+ "degradations": []
+}
+main stage done

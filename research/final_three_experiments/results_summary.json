@@ -1,0 +1,312 @@
+{
+ "run_manifest": {
+  "experiment_version": "v1.3-final-three-experiments",
+  "git_commit": "no-git-repo",
+  "dataset_snapshot": "7da34d5f450ee09f0f1cba46c5bd4661",
+  "query_snapshot_hash": "9e36a05310c6ea90d4404ec634f9d07c",
+  "model": "glm-4.5-air（Tier 0）/ deterministic-mock-semantic（Tier 1）",
+  "model_revision": "glm-4.5-air@2026 + mock-det-v1",
+  "prompt_hash": {
+   "issue_classification": "d86497291a2ae783",
+   "clause_classification": "2b5f4f299dac7217",
+   "amount_extraction": "1d353b9345ea0e2e"
+  },
+  "schema_hash": {
+   "issue_classification": "bfc919f20f0101a4",
+   "clause_classification": "bfc919f20f0101a4",
+   "amount_extraction": "bcad0a9f16eed0ec"
+  },
+  "tokenizer": "char4-bpe-proxy",
+  "temperature": 0.0,
+  "decoding": "greedy",
+  "batch_size": 1,
+  "random_seed": 20260919,
+  "hardware": "Windows-10-10.0.19045-SP0 / 8 cores",
+  "key_budget": {
+   "total": 64000000,
+   "internal": 60000000,
+   "reserve": 4000000
+  },
+  "key0_tokens": 119782,
+  "key1_tokens": 117798,
+  "fallback_enabled": true,
+  "fallback_model": "Qwen/Qwen2.5-7B-Instruct (siliconflow)",
+  "fallback_used": false,
+  "fallback_requests": 0,
+  "all_primary_model_only": true,
+  "pricing_version": "mock-2026.09",
+  "experiment_start": "2026-09-19T17:34:19",
+  "experiment_end": "2026-09-19T17:34:20",
+  "actual_tokens_used": 237580,
+  "actual_cost_yuan": 0.106683,
+  "experiment_ids": {
+   "e1": "v1.3-final-three-experiments:e1:b3658d1e",
+   "e2": "v1.3-final-three-experiments:e2:76599bcb",
+   "e3": "v1.3-final-three-experiments:e3:98fa60d8"
+  }
+ },
+ "budget": [
+  {
+   "experiment": "E1_boundary（mock）",
+   "estimated_tokens": 0,
+   "actual_tokens": 0,
+   "tier": "Tier 1",
+   "note": "零 token（确定性 mock 仿真）"
+  },
+  {
+   "experiment": "E2_specificity（mock matched UDF）",
+   "estimated_tokens": 0,
+   "actual_tokens": 0,
+   "tier": "Tier 1",
+   "note": "零 token"
+  },
+  {
+   "experiment": "E2_specificity（真实 GLM）",
+   "estimated_tokens": 482560,
+   "actual_tokens": 237580,
+   "tier": "Tier 0",
+   "note": "预算估算（§21）与实际消耗"
+  },
+  {
+   "experiment": "E3_external（proxy + lifecycle）",
+   "estimated_tokens": 0,
+   "actual_tokens": 0,
+   "tier": "Tier 2 + Tier 1",
+   "note": "零 token"
+  }
+ ],
+ "paired_stats": {
+  "log_C_B": {
+   "name": "log(C/B)",
+   "n": 1512,
+   "mean": -0.70009,
+   "median": 0.00309,
+   "p50": 0.00309,
+   "p95": 0.00418,
+   "p99": 0.00419,
+   "ci95": [
+    -0.7660312489013482,
+    -0.6356708500888228
+   ],
+   "p_permutation": 9.999000099990002e-05,
+   "p_wilcoxon": 5.0620097350593236e-14
+  },
+  "log_C_A": {
+   "name": "log(C/A)",
+   "n": 1512,
+   "mean": 0.20824,
+   "median": 0.0,
+   "p50": 0.0,
+   "p95": 3.9116,
+   "p99": 4.31879,
+   "ci95": [
+    0.09629423712205702,
+    0.3216830192246608
+   ],
+   "p_permutation": 0.0004999500049995,
+   "p_wilcoxon": 0.0036564292382091474
+  }
+ },
+ "by_scope": {
+  "WORKLOAD": {
+   "n": 504,
+   "C_over_A": 0.63652,
+   "C_over_B": 0.38818,
+   "C_over_A_min": 0.00795,
+   "C_over_A_max": 1.0
+  },
+  "CAP_10PCT": {
+   "n": 504,
+   "C_over_A": 13.44588,
+   "C_over_B": 0.87562,
+   "C_over_A_min": 0.00795,
+   "C_over_A_max": 99.91665
+  },
+  "CELL": {
+   "n": 504,
+   "C_over_A": 13.76259,
+   "C_over_B": 1.00343,
+   "C_over_A_min": 0.00795,
+   "C_over_A_max": 99.91665
+  }
+ },
+ "by_selectivity": {
+  "1": {
+   "n": 216,
+   "C_over_A": 0.255,
+   "C_over_B": 0.73815
+  },
+  "5": {
+   "n": 216,
+   "C_over_A": 1.12993,
+   "C_over_B": 0.69632
+  },
+  "10": {
+   "n": 216,
+   "C_over_A": 2.64219,
+   "C_over_B": 0.76468
+  },
+  "25": {
+   "n": 216,
+   "C_over_A": 6.75658,
+   "C_over_B": 0.78295
+  },
+  "50": {
+   "n": 216,
+   "C_over_A": 13.10451,
+   "C_over_B": 0.77401
+  },
+  "75": {
+   "n": 216,
+   "C_over_A": 18.40294,
+   "C_over_B": 0.76846
+  },
+  "100": {
+   "n": 216,
+   "C_over_A": 22.68051,
+   "C_over_B": 0.76563
+  }
+ },
+ "fail_rules": {
+  "F1_C_vs_B_no_cost_benefit": {
+   "triggered": false,
+   "evidence": "C/B（WORKLOAD scope, 504 cells）= 0.3882；paired log(C/B) mean=-0.7001, 95% CI=[-0.7660312489013482, -0.6356708500888228]"
+  },
+  "F2_quality_non_inferior": {
+   "triggered": false,
+   "evidence": "策略间质量由构造保证恒定（同一 survivor → 同一 artifact → 同一答案）；Tier 0 实测能力准确率：TypeA 1.000 / TypeB 1.000 / TypeC 0.984 / TypeD 0.984"
+  },
+  "F3_late_only_helps_at_low_selectivity": {
+   "triggered": false,
+   "evidence": "高选择性区间 C/B = {\"25\": 0.78295, \"50\": 0.77401, \"75\": 0.76846, \"100\": 0.76563}；全部 < 1 ⇒ 收益不限于低选择性（F3 不触发）；但 C/A 随 s 上升趋近 1（见 Table A / Figure 1）"
+  },
+  "F4_TADA_matched_removes_benefit": {
+   "triggered": false,
+   "evidence": "TADA-matched 为 v1.2 已完成的实验（prior evidence）；本轮未重复，故标注 Not Tested（不引用旧数字作为新结果）"
+  },
+  "F5_prior_art_explains_all": {
+   "triggered": true,
+   "evidence": "QuWARTS-like ≈ Late-Persistent；PLOP-like ≡ argmin{Late,Eager,PerQuery}；DASE-like 优势来自 prefilter；IVM 解释 drift —— 全部收益可由既有机制解释"
+  },
+  "F6_validation_eats_benefit": {
+   "triggered": false,
+   "evidence": "认证成本 / oracle = 1.92%"
+  }
+ },
+ "claim_thresholds": {
+  "C_over_B_two_domains": {
+   "ok": true,
+   "evidence": "C/B=0.3882（两域合并；分域见 by_domain）"
+  },
+  "quality_non_inferior": {
+   "ok": true,
+   "evidence": "构造性恒定 + Tier 0 实测 0.984–1.000"
+  },
+  "payload_hash_control": {
+   "ok": true,
+   "evidence": "所有策略共用同一 unit 表（同一 payload_hash → 同一单位成本）；Tier 0 记录每请求 payload_hash"
+  },
+  "replay_equality": {
+   "ok": true,
+   "evidence": "deterministic mock 下重跑逐值一致；Tier 0 未做 replay（Not Tested）"
+  },
+  "tada_matched": {
+   "ok": null,
+   "evidence": "Not Tested（本轮未重复 v1.2 的 TADA-matched）"
+  },
+  "generic_udf_cannot_explain": {
+   "ok": false,
+   "evidence": "matched UDF 的 total_cost 与 semantic capability 完全相同（delta=0）"
+  },
+  "multi_use_real_artifact_reuse": {
+   "ok": true,
+   "evidence": "cache ON 摊销节省最高 98.91%；但 cache OFF 时优势为 0 → 来源是 artifact reuse"
+  },
+  "validation_not_eating_benefit": {
+   "ok": true,
+   "evidence": "认证成本占 oracle < 2%"
+  },
+  "prior_art_cannot_explain": {
+   "ok": false,
+   "evidence": "见 F5"
+  },
+  "drift_unseen_boundary": {
+   "ok": true,
+   "evidence": "drift 与 unseen capability 均给出明确量化边界（Table D + unseen_capability.csv）"
+  }
+ },
+ "verdict_tier": "Engineering-only",
+ "figures": [
+  "figure1_selectivity_reuse_costratio.svg",
+  "figure2_width_token_cost.svg",
+  "figure2b_width_quality.svg",
+  "figure3_workload_baseline_cost.svg"
+ ],
+ "capabilities": [
+  {
+   "capability_id": "A_issue_label",
+   "difficulty_type": "A",
+   "kind": "classification",
+   "domain": "ecom",
+   "fields": [
+    "label"
+   ],
+   "prompt_hash": "f6b9e540f2a38cbc",
+   "output_schema_hash": "d9ff09800e17936c",
+   "model": "glm-4.5-air",
+   "model_revision": "glm-4.5-air@2026",
+   "temperature": 0,
+   "batch_size": 1,
+   "tier": "Tier 0"
+  },
+  {
+   "capability_id": "B_order_amount",
+   "difficulty_type": "B",
+   "kind": "extraction",
+   "domain": "ecom",
+   "fields": [
+    "amount"
+   ],
+   "prompt_hash": "2ac3711c70cde68c",
+   "output_schema_hash": "ad6dfddc65119a95",
+   "model": "glm-4.5-air",
+   "model_revision": "glm-4.5-air@2026",
+   "temperature": 0,
+   "batch_size": 1,
+   "tier": "Tier 0"
+  },
+  {
+   "capability_id": "C_effective_limit",
+   "difficulty_type": "C",
+   "kind": "extraction",
+   "domain": "finproc",
+   "fields": [
+    "effective_limit"
+   ],
+   "prompt_hash": "3a45f5d3c881be0e",
+   "output_schema_hash": "333ed277bf58622b",
+   "model": "glm-4.5-air",
+   "model_revision": "glm-4.5-air@2026",
+   "temperature": 0,
+   "batch_size": 1,
+   "tier": "Tier 0"
+  },
+  {
+   "capability_id": "D_kind_and_value",
+   "difficulty_type": "D",
+   "kind": "structured",
+   "domain": "finproc",
+   "fields": [
+    "clause_kind",
+    "governing_value"
+   ],
+   "prompt_hash": "7ed4aa99451799fc",
+   "output_schema_hash": "cbcd9bdbf7469973",
+   "model": "glm-4.5-air",
+   "model_revision": "glm-4.5-air@2026",
+   "temperature": 0,
+   "batch_size": 1,
+   "tier": "Tier 0"
+  }
+ ]
+}

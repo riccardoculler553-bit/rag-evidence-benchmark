@@ -1,0 +1,135 @@
+{
+ "experiment": "v1.2 Build Position Ablation (static plan)",
+ "stage": "main (Phase 0–2)",
+ "git_commit": "no-git-repo",
+ "code_hash": "96b5b8938708ca059c06cff00a986a43",
+ "dataset_snapshot": "7da34d5f450ee09f0f1cba46c5bd4661",
+ "query_snapshot": "bf648f4b90df77bb28ea2983528bea21",
+ "source_registry": {
+  "ecom_orders_2026": {
+   "source_id": "ecom_orders_2026",
+   "path": "dataset/knowledge/structured/orders_2026.csv",
+   "revision_id": "c604c0174cd9c56f",
+   "revision_hash": "c604c0174cd9c56ffc0a620ae58983911ae31368d5e2c71091211a7884bb5604",
+   "exists": true
+  },
+  "ecom_orders_2025": {
+   "source_id": "ecom_orders_2025",
+   "path": "dataset/knowledge/structured/orders_2025.json",
+   "revision_id": "d9004e4bf0530ac6",
+   "revision_hash": "d9004e4bf0530ac6aaa97bf0a402735e465798a22f5e59bb39a238123aba0def",
+   "exists": true
+  },
+  "ecom_sku_registry": {
+   "source_id": "ecom_sku_registry",
+   "path": "dataset/knowledge/structured/sku_registry.csv",
+   "revision_id": "1db413108b89cf32",
+   "revision_hash": "1db413108b89cf32fad66a1257bcab328ce22a8e8a2f89ba51428a022b7f8bff",
+   "exists": true
+  },
+  "fin_supplier_registry": {
+   "source_id": "fin_supplier_registry",
+   "path": "dataset/knowledge/structured/supplier_registry.csv",
+   "revision_id": "b976f6cd84f3182c",
+   "revision_hash": "b976f6cd84f3182ce5cafead400535de4df01bb8a019884ba7e2831a31f95212",
+   "exists": true
+  },
+  "fin_po_records": {
+   "source_id": "fin_po_records",
+   "path": "dataset/knowledge/structured/po_records.csv",
+   "revision_id": "58530a208ca80b9d",
+   "revision_hash": "58530a208ca80b9d08fc58b1adf449abf4a9cd80864202dd20b49530d2984f3d",
+   "exists": true
+  },
+  "policy_trv_v3": {
+   "source_id": "policy_trv_v3",
+   "path": "dataset/knowledge/policies/TRV-001-v3.md",
+   "revision_id": "a6807aa401c2804b",
+   "revision_hash": "a6807aa401c2804bec5f3158b75c92ff928fad2d6e7f7785bfd84c0550a48883",
+   "exists": true
+  },
+  "policy_proc_v3": {
+   "source_id": "policy_proc_v3",
+   "path": "dataset/knowledge/policies/PROC-001-v3.md",
+   "revision_id": "0a2c25cbff48d054",
+   "revision_hash": "0a2c25cbff48d0547c4f00c91ad132e14d08da382a9a24f302bf5edb37368bf0",
+   "exists": true
+  },
+  "policy_rma": {
+   "source_id": "policy_rma",
+   "path": "dataset/knowledge/policies/RMA-001.md",
+   "revision_id": "7742f4407c6d8bdc",
+   "revision_hash": "7742f4407c6d8bdc7922422bf4779d14d71b25b5585217f23928209d33cfa885",
+   "exists": true
+  },
+  "fin_budget": {
+   "source_id": "fin_budget",
+   "path": "dataset/knowledge/finance/FIN-BUDGET-2026.md",
+   "revision_id": "9cc18e27a408bfbb",
+   "revision_hash": "9cc18e27a408bfbb292a626a758a63f99cb7b5ea81d0ecf47c7194cfc4297969",
+   "exists": true
+  }
+ },
+ "model": "deterministic-mock-semantic",
+ "model_revision": "mock-det-v1",
+ "model_hash": "e96217acdf756b13",
+ "prompt_hash": {
+  "issue_classification": "d86497291a2ae783",
+  "amount_extraction_ecom": "1d353b9345ea0e2e",
+  "clause_classification": "2b5f4f299dac7217",
+  "amount_extraction_fin": "1d353b9345ea0e2e"
+ },
+ "schema_hash": {
+  "issue_classification": "bfc919f20f0101a4",
+  "amount_extraction_ecom": "bcad0a9f16eed0ec",
+  "clause_classification": "bfc919f20f0101a4",
+  "amount_extraction_fin": "bcad0a9f16eed0ec"
+ },
+ "capability_versions": {
+  "issue_classification": "509066539dce0cfc",
+  "amount_extraction_ecom": "c26b3ec40742374e",
+  "clause_classification": "198f329f5247f991",
+  "amount_extraction_fin": "32b60069094ce65b"
+ },
+ "synthesis_hash": "0ddafaf59743b6bc",
+ "tokenizer": "char4-bpe-proxy",
+ "temperature": 0.0,
+ "decoding": "greedy",
+ "batch_size": 1,
+ "hardware": {
+  "platform": "Windows-10-10.0.19045-SP0",
+  "processor": "Intel64 Family 6 Model 151 Stepping 5, GenuineIntel",
+  "python": "3.13.14"
+ },
+ "seed": 20260919,
+ "cache_policy": "physical_memoization=True / cost_accounting=logical",
+ "pricing_version": "mock-2026.09",
+ "pricing": {
+  "pricing_version": "mock-2026.09",
+  "input_per_1k": 0.002,
+  "output_per_1k": 0.006,
+  "per_call_overhead": 2e-05,
+  "retrieval_per_row": 5e-07,
+  "validation_per_row": 8e-07,
+  "synthesis_input_per_1k": 0.002,
+  "synthesis_output_per_1k": 0.006
+ },
+ "concurrency": 1,
+ "n_rows_per_domain": 10000,
+ "n_queries": 600,
+ "validation_protocol": {
+  "mode": "V1_CACHED_CERTIFICATE",
+  "sequential_sampling": [
+   30,
+   60,
+   120,
+   240,
+   300
+  ],
+  "epsilon": 0.02,
+  "delta": 0.05,
+  "certificate_ttl_queries": 10000
+ },
+ "model_swappable": "RAGX_MODEL_BACKEND=openai 可用同一 prompt/schema 重跑真实模型",
+ "runtime_sec": 163.43
+}

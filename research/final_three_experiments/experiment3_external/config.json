@@ -1,0 +1,18 @@
+{
+ "experiment_id": "v1.3-final-three-experiments:e3:98fa60d8",
+ "drift_levels": [
+  0.0,
+  0.01,
+  0.05,
+  0.1,
+  0.25
+ ],
+ "prefilter_false_positive_rate": 0.1,
+ "proxy_defs": {
+  "QuWARTS_like": "历史 workload → 离线 eager 物化 → 查询复用",
+  "ReDD_like": "查询专属 schema → 只填充所需字段（不跨查询持久化）",
+  "PLOP_like": "简单代价模型在 {Eager, Late, PerQuery} 中 argmin",
+  "DASE_like": "确定性高召回 prefilter（10% 误召）→ CapabilityBuild"
+ },
+ "disclaimer": "所有 *-like 结果均为结构性 proxy，不代表原系统性能。"
+}

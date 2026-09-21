@@ -1,0 +1,27 @@
+== key 轮换 / 兜底演练 ==
+  drill done
+  cell ecom|s1|r1: B_pt=6040 C_pt=604 tot=79082 q=1.00/1.00/1.00 wall=10.42s rl=0 backends={'glm_key0': 60}
+  cell ecom|s1|r10: B_pt=6040 C_pt=604 tot=86903 q=1.00/1.00/1.00 wall=10.35s rl=0 backends={'glm_key0': 60}
+  cell ecom|s1|r50: B_pt=6040 C_pt=604 tot=94724 q=1.00/1.00/1.00 wall=11.03s rl=0 backends={'glm_key0': 60}
+  cell ecom|s10|r1: B_pt=70600 C_pt=7060 tot=186247 q=1.00/1.00/1.00 wall=35.86s rl=0 backends={'glm_key0': 700}
+  cell ecom|s10|r10: B_pt=70600 C_pt=7060 tot=277762 q=1.00/1.00/1.00 wall=35.89s rl=0 backends={'glm_key0': 700}
+  cell ecom|s10|r50: B_pt=70600 C_pt=7060 tot=369273 q=1.00/1.00/1.00 wall=35.34s rl=0 backends={'glm_key0': 700}
+  cell ecom|s50|r1: B_pt=111480 C_pt=27870 tot=533718 q=1.00/1.00/1.00 wall=57.56s rl=0 backends={'glm_key0': 1104}
+  cell ecom|s50|r10: B_pt=111480 C_pt=27870 tot=698155 q=1.00/1.00/1.00 wall=56.71s rl=0 backends={'glm_key0': 1104}
+  cell ecom|s50|r50: B_pt=111480 C_pt=27870 tot=862596 q=1.00/1.00/1.00 wall=55.97s rl=0 backends={'glm_key0': 1104}
+  cell ecom|s100|r1: B_pt=120780 C_pt=60390 tot=1076340 q=1.00/1.00/1.00 wall=71.52s rl=0 backends={'glm_key0': 1200}
+  cell ecom|s100|r10: B_pt=120780 C_pt=60390 tot=1290076 q=1.00/1.00/1.00 wall=147.43s rl=280 backends={'glm_key0': 1200}
+  cell ecom|s100|r50: B_pt=120780 C_pt=60390 tot=1503812 q=1.00/1.00/1.00 wall=123.41s rl=524 backends={'glm_key0': 1200}
+  cell finproc|s1|r1: B_pt=1920 C_pt=192 tot=1572186 q=1.00/1.00/1.00 wall=8.14s rl=524 backends={'glm_key0': 20}
+  cell finproc|s1|r10: B_pt=1920 C_pt=192 tot=1574639 q=1.00/1.00/1.00 wall=8.07s rl=524 backends={'glm_key0': 20}
+  cell finproc|s1|r50: B_pt=1920 C_pt=192 tot=1577092 q=1.00/1.00/1.00 wall=7.55s rl=524 backends={'glm_key0': 20}
+  cell finproc|s10|r1: B_pt=45740 C_pt=4574 tot=1637012 q=1.00/1.00/1.00 wall=21.51s rl=524 backends={'glm_key0': 500}
+  cell finproc|s10|r10: B_pt=45740 C_pt=4574 tot=1696916 q=1.00/1.00/1.00 wall=22.12s rl=524 backends={'glm_key0': 500}
+  cell finproc|s10|r50: B_pt=45740 C_pt=4574 tot=1756824 q=1.00/1.00/1.00 wall=21.85s rl=524 backends={'glm_key0': 500}
+  cell finproc|s50|r1: B_pt=108848 C_pt=27212 tot=1918549 q=1.00/1.00/1.00 wall=59.09s rl=524 backends={'glm_key0': 1176}
+  cell finproc|s50|r10: B_pt=108848 C_pt=27212 tot=2080289 q=1.00/1.00/1.00 wall=59.11s rl=524 backends={'glm_key0': 1176}
+  cell finproc|s50|r50: B_pt=108848 C_pt=27212 tot=2242030 q=1.00/1.00/1.00 wall=58.96s rl=524 backends={'glm_key0': 1176}
+  cell finproc|s100|r1: B_pt=110736 C_pt=55368 tot=2439589 q=1.00/1.00/1.00 wall=116.35s rl=741 backends={'glm_key0': 1200}
+  cell finproc|s100|r10: B_pt=110736 C_pt=55368 tot=2637135 q=1.00/1.00/1.00 wall=237.53s rl=1349 backends={'glm_key0': 1200}
+  cell finproc|s100|r50: B_pt=110736 C_pt=55368 tot=2834705 q=1.00/1.00/1.00 wall=235.14s rl=1985 backends={'glm_key0': 1200}
+{"used_tokens": 2834705, "switches": 0, "fallback": false, "cost_yuan": 1.312013}

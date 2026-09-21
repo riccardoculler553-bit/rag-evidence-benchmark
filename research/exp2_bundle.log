@@ -1,0 +1,4 @@
+[bundle] pt V1=103.83 V2=117.83 V4=157.82 V8=218.82 SEP8=785.6
+[bundle] acc V1=1 V2=1 V4=1 V8=1 SEP8=0.8929
+[length] slope=0.6451 tokens/char -> +64.5 tokens per 100 chars
+{"tokens": 78569, "cost": 0.040343, "calls": 528, "all_primary": true, "wall_s": 39.5}

@@ -1,0 +1,25 @@
+  cell ecom|s1|r1: B_pt=0 C_pt=0 tot=4748 q=1.00/1.00/1.00 wall=0.0s rl=0 backends={}
+  cell ecom|s1|r10: B_pt=0 C_pt=0 tot=4748 q=1.00/1.00/1.00 wall=0.0s rl=0 backends={}
+  cell ecom|s1|r50: B_pt=0 C_pt=0 tot=4748 q=1.00/1.00/1.00 wall=0.0s rl=0 backends={}
+  cell ecom|s10|r1: B_pt=8000 C_pt=800 tot=15165 q=1.00/1.00/1.00 wall=11.05s rl=0 backends={'glm_key0': 80}
+  cell ecom|s10|r10: B_pt=8000 C_pt=800 tot=25582 q=1.00/1.00/1.00 wall=10.79s rl=0 backends={'glm_key0': 80}
+  cell ecom|s10|r50: B_pt=8000 C_pt=800 tot=35999 q=1.00/1.00/1.00 wall=11.42s rl=0 backends={'glm_key0': 80}
+  cell ecom|s50|r1: B_pt=7096 C_pt=1774 tot=46509 q=1.00/1.00/1.00 wall=5.37s rl=0 backends={'glm_key0': 72}
+  cell ecom|s50|r10: B_pt=7096 C_pt=1774 tot=57011 q=1.00/1.00/1.00 wall=5.1s rl=0 backends={'glm_key0': 72}
+  cell ecom|s50|r50: B_pt=7096 C_pt=1774 tot=67517 q=1.00/1.00/1.00 wall=5.18s rl=0 backends={'glm_key0': 72}
+  cell ecom|s100|r1: B_pt=8056 C_pt=4028 tot=81765 q=1.00/1.00/1.00 wall=5.47s rl=0 backends={'glm_key0': 80}
+  cell ecom|s100|r10: B_pt=8056 C_pt=4028 tot=96017 q=1.00/1.00/1.00 wall=6.02s rl=0 backends={'glm_key0': 80}
+  cell ecom|s100|r50: B_pt=8056 C_pt=4028 tot=110273 q=1.00/1.00/1.00 wall=6.23s rl=0 backends={'glm_key0': 80}
+  cell finproc|s1|r1: B_pt=0 C_pt=0 tot=114657 q=1.00/1.00/1.00 wall=0.0s rl=0 backends={}
+  cell finproc|s1|r10: B_pt=0 C_pt=0 tot=114657 q=1.00/1.00/1.00 wall=0.0s rl=0 backends={}
+  cell finproc|s1|r50: B_pt=0 C_pt=0 tot=114657 q=1.00/1.00/1.00 wall=0.0s rl=0 backends={}
+  cell finproc|s10|r1: B_pt=0 C_pt=0 tot=114657 q=1.00/1.00/1.00 wall=0.0s rl=0 backends={}
+  cell finproc|s10|r10: B_pt=0 C_pt=0 tot=114657 q=1.00/1.00/1.00 wall=0.0s rl=0 backends={}
+  cell finproc|s10|r50: B_pt=0 C_pt=0 tot=114657 q=1.00/1.00/1.00 wall=0.0s rl=0 backends={}
+  cell finproc|s50|r1: B_pt=8096 C_pt=2024 tot=126706 q=1.00/1.00/1.00 wall=5.52s rl=0 backends={'glm_key0': 88}
+  cell finproc|s50|r10: B_pt=8096 C_pt=2024 tot=138747 q=1.00/1.00/1.00 wall=5.17s rl=0 backends={'glm_key0': 88}
+  cell finproc|s50|r50: B_pt=8096 C_pt=2024 tot=150804 q=1.00/1.00/1.00 wall=5.27s rl=0 backends={'glm_key0': 88}
+  cell finproc|s100|r1: B_pt=7360 C_pt=3680 tot=163944 q=1.00/1.00/1.00 wall=5.77s rl=0 backends={'glm_key0': 80}
+  cell finproc|s100|r10: B_pt=7360 C_pt=3680 tot=177088 q=1.00/1.00/1.00 wall=6.07s rl=0 backends={'glm_key0': 80}
+  cell finproc|s100|r50: B_pt=7360 C_pt=3680 tot=190224 q=1.00/1.00/1.00 wall=6.43s rl=0 backends={'glm_key0': 80}
+{"used_tokens": 190224, "switches": 0, "fallback": false, "cost_yuan": 0.089443}

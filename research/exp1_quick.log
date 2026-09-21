@@ -1,0 +1,39 @@
+[exp1] unit table 80000 entries in 0.7s
+[exp1] domain ecom done  rows=60  elapsed=7.8s
+[exp1] domain finproc done  rows=120  elapsed=14.6s
+[exp1] scope ablation done  rows=40
+{
+ "n_cells": 120,
+ "optimal": {
+  "B": 72,
+  "C": 48
+ },
+ "regret_D": {
+  "mean": 0.12666,
+  "min": 0.0,
+  "max": 0.99541
+ },
+ "regret_CBO": {
+  "mean": 0.12666,
+  "min": 0.0,
+  "max": 0.99541
+ },
+ "d_vs_cbo": {
+  "n": 120,
+  "strictly_better": 0,
+  "equal": 120,
+  "strictly_worse": 0,
+  "mean_ratio": 1.0
+ },
+ "C_over_A": {
+  "mean": 0.15798,
+  "min": 0.0082,
+  "max": 1.0
+ },
+ "C_over_B": {
+  "mean": 0.75924,
+  "min": 0.1004,
+  "max": 1.0042
+ },
+ "runtime_s": 16.2
+}
